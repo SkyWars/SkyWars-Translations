@@ -1,0 +1,5 @@
+#!/bin/bash
+if [[ "${TRAVIS_SECURE_ENV_VARS}" == "true" ]]; then
+    mvn deploy;
+    curl "http://ci.aemservers.net/job/Skywars/build?token=${AEM_TOKEN}&cause=SkyWars+Translations+Build" &> /dev/null
+fi
