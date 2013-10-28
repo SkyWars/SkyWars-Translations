@@ -1,0 +1,75 @@
+messages-version: 1
+commands.join.description: 'Вход в очередь на следующею игру'
+commands.join.confirmation: '&3Вы вошли в очередь на игру.'
+commands.join.already-queued: '&4Вы и так стоите в очереди.'
+commands.join.in-game: '&4Вы не можете войти в игру, Вы уже играете!'
+
+commands.leave.description: 'Выход из очереди или игры'
+commands.leave.removed-from-queue: '&3Вы не в очереди.'
+commands.leave.removed-from-game: '&3Вы покинули игру.'
+commands.leave.not-in-any: '&4Вы не были в очереди.'
+
+commands.setlobby.description: 'Установка лобби на текущей позиции'
+commands.setlobby.confirmation: '&3Лобби установлен на текущей позиции.'
+commands.setlobby.in-game: '&4Вы не можете установить лобби во время игры.'
+
+commands.setportal.description: 'Установка портала на текущей позиции'
+commands.setportal.confirmation: '&3Портал установлен на текущей позиции.'
+commands.setportal.in-game: '&4Вы не можете установить портал во время игры.'
+
+commands.delportal.description: 'Удаляет последний установленый портал'
+commands.delportal.confirmation: '&3Удаление портала %s'
+commands.delportal.error-no-portals: '&4Порталы не установлены'
+
+commands.cancel.description: 'Отмена игры с данным ID'
+commands.cancel.argument-not-integer: '&c%s&4 не является целым числом!'
+commands.cancel.no-games-with-id: '&4Игра с индентификатором &c%s&4 не найдена.'
+commands.cancel.confirmation: '&3Отмена игры &2%s&3.'
+
+commands.status.description: 'Показывает статус текущих игр'
+commands.status.header: '&9 -- &2Статус SkyWars&9 --'
+commands.status.in-queue: '&3В ожидании: &2%s'
+commands.status.queue-comma: '&3,&2 '
+commands.status.arena-header: '&9 -- &2Арены&9 --'
+
+commands.version.description: 'Версия плагина'
+commands.version.output: '&3%s версия &2%s &3/ &2%s&3. Автор плагина - &2Dabo Ross.&3 Перевод на русский от &2AlexMerser'
+
+commands.lobby.description: 'Телепорт на лобби'
+commands.lobby.confirmation: '&4Телепортация на лобби...'
+commands.lobby.in-game: '&4Вы не можете войти в лобби, Вы уже играете!'
+
+commands.cancelall.description: 'Отменяет все текущие игры.'
+commands.cancelall.canceling-game: '&3Текущая игра &2%s'
+
+commands.report.description: 'Генерирует репорт и отправляет его в gist.github.com, после дает Вам ссылку.'
+commands.report.start: '&3Сбор данных и отправка...'
+commands.report.output: '&3Репорт: &2%s'
+
+setup-commands.start.description: 'Начало установки новой арены и удаление других несохраненных арен.'
+setup-commands.start.argument-name: 'Имя арены'
+setup-commands.start.confirmation: '&3Начало установки арены &2%s&3.'
+setup-commands.start.one-argument: '&4Используйте только один аргумент.'
+
+setup-commands.setpos1.description: 'Установка первой точки арены на блок, на который Вы смотрите.'
+setup-commands.setpos1.pos2-in-other-world: '&4Невозможно создать вторую точку, потому-что Вы находитесь в другом мире.'
+setup-commands.setpos1.confirmation: '&3Установка первой точки арены на блок, на который Вы смотрите...'
+
+setup-commands.setpos2.description: 'Установка второй точки арены на блок, на который Вы смотрите.'
+setup-commands.setpos2.pos1-in-other-world: '&4Невозможно создать первую точку, потому-что Вы находитесь в другом мире.'
+setup-commands.setpos2.confirmation: '&3Установка второй точки арены на блок, на который Вы смотрите...'
+
+setup-commands.addspawn.description: 'Создание точки спауна на текущей позиции'
+setup-commands.addspawn.confirmation: '&3Создание точки спауна на &2%s&3...'
+
+setup-commands.save.description: 'Сохранение текущей арены в файл'
+setup-commands.save.saving: '&3Сохранение арены...'
+setup-commands.save.saved: '&3Арена сохранена.'
+
+top-commands.main.description: 'Основная команда для SkyWars'
+top-commands.setup.description: 'Установочная команда для SkyWars'
+
+generic-command-message.too-many-parameters: '&4Слишком много аргументов'
+messages.removed-from-queue-because-death: '&3Вы вышли из очереди, потому-что Вы умерли.'
+messages.no-clue-what-command: '&4SkyWars не знает что это: &c%s&4.'
+messages.not-fully-enabled: '&4Нет активных.'
