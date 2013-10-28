@@ -62,7 +62,7 @@ setup-commands.setpos2.confirmation: '&3Установка второй точк
 setup-commands.addspawn.description: 'Создание точки спауна на текущей позиции'
 setup-commands.addspawn.confirmation: '&3Создание точки спауна на &2%s&3...'
 
-setup-commands.save.description: Сохранение текущей арены в файл
+setup-commands.save.description: 'Сохранение текущей арены в файл'
 setup-commands.save.saving: '&3Сохранение арены...'
 setup-commands.save.saved: '&3Арена сохранена.'
 
