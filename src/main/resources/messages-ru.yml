@@ -11,11 +11,11 @@ commands.leave.not-in-any: '&4Вы не были в очереди.'
 
 commands.setlobby.description: 'Установка лобби на текущей позиции'
 commands.setlobby.confirmation: '&3Лобби установлен на текущей позиции.'
-commands.setlobby.in-game: '&4(Untranslated) &4You can''t set the lobby, you are in a game.'
+commands.setlobby.in-game: '&4Вы не можете установить лобби во время игры.'
 
 commands.setportal.description: 'Установка портала на текущей позиции'
 commands.setportal.confirmation: '&3Портал установлен на текущей позиции.'
-commands.setportal.in-game: '&4(Untranslated) &4You can''t set a portal, you are in a game.'
+commands.setportal.in-game: '&4Вы не можете установить портал во время игры.'
 
 commands.delportal.description: 'Удаляет последний установленый портал'
 commands.delportal.confirmation: '&3Удаление портала %s'
