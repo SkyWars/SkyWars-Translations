@@ -1,9 +1,9 @@
 language: java
-env: 
-  global: 
-   - secure: Ebh2I7r3FBz+pDkVkTUkoirgmD4OhgACWeWwaY/h4wBe0Cit/ymuNFyXsVOgeSYw3itqtjd7TX3gkHCuBrnD6oh45h62KW6MXbdb/5sL2yWNinkuySD5BLUq4vfIv0pZMeU7NCK3mBuF51Wgvc99kyV0x87ZIQ0BTdgpPecEGzk=
-   - secure: VzhVIvy9k/YHU0Pt7h83GRquIbyEu32aYpBKTV5BCPvkckwxSUF/f2Bc0fyZ6gwm/cGWh0Si67dHxxqLsox6Hmzd5SbmFUyWajypEldufXMiWCkvAjsfwNgQ2Af2lzXQcFCDcvLXlkStRsi5YVe2JHaBuciACLsSAGoZNjVx1ec=
 script: mvn clean package
 after_success: bash .travis-after
 install: mvn --fail-never clean package
-before_install: bash .travis-before
+env:
+  global:
+  - secure: SB7lHtWhdkgnaI4ilZ9USXTYiPHdlOm4+IpJcuLBmAnVu2W5HnPGyYgAV7iqE+jaoBDEVgUL588l41A8rWAunACTmJD3R3UKNpLgRrk+xWU1nEz6uJ05yzjsFH04aQV5iUzL+cfp9OWxGQWtiwAqcSKjig2ExCWgvzL+T89N+uQ=
+  - secure: hVYjnTffjkYdMESnAQeUPj/Nay/CJlsbYCxgPNaKI2z2XfdeumpwprexKL2v0zvMwLSzS0t3zlW6R2mgFBKWV9fO3w8mkowySPooI9283KX49jmizIAv+k69peF7F1oRb+zA1FmRaaj0Fz6zx9gQo0+WfOTRFlFCV2aKMBXPuMw=
+  - secure: acjY/RA4FmCSa9x3HYHQsdlN9nRnotkaCHb6JNuCdwcWgBOrgfZvuQwaX+JtrwVm8b0KNdkI2v7ynMJx+lmlRzliNU129XMca/VONJIqa8eZUsZvZOkdbFTBn6J48SZ1QoG3hBOFiWNXiJmi+Q3xTiwoVBcjiXyRjaOssNu6K6M=
