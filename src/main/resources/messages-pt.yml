@@ -11,11 +11,13 @@ commands.leave.not-in-any: '&4Nao estas na lista de espera.'
 
 commands.setlobby.description: 'Definir posicao do lobby'
 commands.setlobby.confirmation: '&3Agora o lobby passa a ser onde te encontras.'
-commands.setlobby.in-game: '&4(Untranslated) &4You can''t set the lobby, you are in a game.'
+# This is a comment - commands.setlobby.in-game is untranslated
+commands.setlobby.in-game: '&4You can''t set the lobby, you are in a game.'
 
 commands.setportal.description: 'Coloca um portal na tua localizacao'
 commands.setportal.confirmation: '&3Colocaste um portal na tua localizacao atual.'
-commands.setportal.in-game: '&4(Untranslated) &4You can''t set a portal, you are in a game.'
+# This is a comment - commands.setportal.in-game is untranslated
+commands.setportal.in-game: '&4You can''t set a portal, you are in a game.'
 
 commands.delportal.description: 'Remove o ultimo portal definido'
 commands.delportal.confirmation: '&3Portal removido em %s'
@@ -74,17 +76,18 @@ messages.removed-from-queue-because-death: '&3Foste removido da lista de espera 
 messages.no-clue-what-command: '&4SkyWars nao tem nenhuma ideia do que seja &c%s&4.'
 messages.not-fully-enabled: '&4Nao esta completamente ativado.'
 
-game.death.killed-by-player-and-void: '&4(Untranslated) &2%s&a pushed &2%s&a into the void of doom!'
-game.death.killed-by-void: '&4(Untranslated) &2%s&a jumped into the void of doom!'
-game.death.killed-by-player: '&4(Untranslated) &2%s&a killed &2%s&a!'
-game.death.killed-by-environment: '&4(Untranslated) &2%s&a was killed!'
-game.death.forfeited-while-attacked: '&4(Untranslated) &2%s&a was forced to forfeit by &2%s&a!'
-game.death.forfeited: '&4(Untranslated) &2%s&a forfeited!'
+# This is a comment - all below are untranslated.
+game.death.killed-by-player-and-void: '&2%s&a pushed &2%s&a into the void of doom!'
+game.death.killed-by-void: '&2%s&a jumped into the void of doom!'
+game.death.killed-by-player: '&2%s&a killed &2%s&a!'
+game.death.killed-by-environment: '&2%s&a was killed!'
+game.death.forfeited-while-attacked: '&2%s&a was forced to forfeit by &2%s&a!'
+game.death.forfeited: '&2%s&a forfeited!'
 
-game.winning.single-won: '&4(Untranslated) &2%s&a has won the SkyWars!'
-game.winning.multi-won: '&4(Untranslated) &2%s&a have won the SkyWars!'
+game.winning.single-won: '&2%s&a has won the SkyWars!'
+game.winning.multi-won: '&2%s&a have won the SkyWars!'
 game.winning.multi-won-comma: '&a, &2'
-game.winning.none-won: '&4(Untranslated) &aThe SkyWars ended with no victors.'
+game.winning.none-won: '&aThe SkyWars ended with no victors.'
 
-game.starting.game-starting: '&4(Untranslated) &aGame starting with &2%s&a!'
+game.starting.game-starting: '&aGame starting with &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'

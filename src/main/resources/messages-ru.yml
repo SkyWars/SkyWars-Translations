@@ -74,17 +74,18 @@ messages.removed-from-queue-because-death: '&3Вы вышли из очеред�
 messages.no-clue-what-command: '&4SkyWars не знает что это: &c%s&4.'
 messages.not-fully-enabled: '&4Нет активных.'
 
-game.death.killed-by-player-and-void: '&4(Untranslated) &2%s&a pushed &2%s&a into the void of doom!'
-game.death.killed-by-void: '&4(Untranslated) &2%s&a jumped into the void of doom!'
-game.death.killed-by-player: '&4(Untranslated) &2%s&a killed &2%s&a!'
-game.death.killed-by-environment: '&4(Untranslated) &2%s&a was killed!'
-game.death.forfeited-while-attacked: '&4(Untranslated) &2%s&a was forced to forfeit by &2%s&a!'
-game.death.forfeited: '&4(Untranslated) &2%s&a forfeited!'
+# This is a comment - all below are untranslated.
+game.death.killed-by-player-and-void: '&2%s&a pushed &2%s&a into the void of doom!'
+game.death.killed-by-void: '&2%s&a jumped into the void of doom!'
+game.death.killed-by-player: '&2%s&a killed &2%s&a!'
+game.death.killed-by-environment: '&2%s&a was killed!'
+game.death.forfeited-while-attacked: '&2%s&a was forced to forfeit by &2%s&a!'
+game.death.forfeited: '&2%s&a forfeited!'
 
-game.winning.single-won: '&4(Untranslated) &2%s&a has won the SkyWars!'
-game.winning.multi-won: '&4(Untranslated) &2%s&a have won the SkyWars!'
+game.winning.single-won: '&2%s&a has won the SkyWars!'
+game.winning.multi-won: '&2%s&a have won the SkyWars!'
 game.winning.multi-won-comma: '&a, &2'
-game.winning.none-won: '&4(Untranslated) &aThe SkyWars ended with no victors.'
+game.winning.none-won: '&aThe SkyWars ended with no victors.'
 
-game.starting.game-starting: '&4(Untranslated) &aGame starting with &2%s&a!'
+game.starting.game-starting: '&aGame starting with &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
