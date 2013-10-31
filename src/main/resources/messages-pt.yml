@@ -48,6 +48,10 @@ commands.report.description: 'Cria um report e envia para gist.github.com, depoi
 commands.report.start: '&3Recolhendo dados...'
 commands.report.output: '&3Report: &2%s'
 
+# This is a comment - commands.forcestart is untranslated
+commands.forcestart.description: 'Forces a game to start with the people in the queue'
+commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
+
 setup-commands.start.description: 'Comeca a configurar uma nova arena e apaga alguma antes que nao tenha sido guardada.'
 setup-commands.start.argument-name: 'Nome da arena'
 setup-commands.start.confirmation: '&3Configuracao da arena &2%s&3 comecada.'

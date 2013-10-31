@@ -46,6 +46,9 @@ commands.report.description: 'Generates a report and uploads it to gist.github.c
 commands.report.start: '&3Gathering data and submitting'
 commands.report.output: '&3Report: &2%s'
 
+commands.forcestart.description: 'Forces a game to start with the people in the queue'
+commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
+
 setup-commands.start.description: 'Start a new arena setup and erase any previus unsaved arenas.'
 setup-commands.start.argument-name: 'Arena name'
 setup-commands.start.confirmation: '&3Started setting up an arena called &2%s&3.'

@@ -46,6 +46,10 @@ commands.report.description: 'Генерирует репорт и отправ�
 commands.report.start: '&3Сбор данных и отправка...'
 commands.report.output: '&3Репорт: &2%s'
 
+# This is a comment - commands.forcestart is untranslated
+commands.forcestart.description: 'Forces a game to start with the people in the queue'
+commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
+
 setup-commands.start.description: 'Начало установки новой арены и удаление других несохраненных арен.'
 setup-commands.start.argument-name: 'Имя арены'
 setup-commands.start.confirmation: '&3Начало установки арены &2%s&3.'
