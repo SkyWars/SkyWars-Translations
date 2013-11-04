@@ -79,6 +79,9 @@ messages.no-clue-what-command: '&4SkyWars не знает что это: &c%s&4.
 messages.not-fully-enabled: '&4Нет активных.'
 
 # This is a comment - all below are untranslated.
+messages.economy-reward.win: '&3You have been given &2%s&3 for winning the SkyWars.'
+messages.economy-reward.kill: '&3You have been given &2%s&3 for killing &2%s&3.'
+
 game.death.killed-by-player-and-void: '&2%s&a pushed &2%s&a into the void of doom!'
 game.death.killed-by-void: '&2%s&a jumped into the void of doom!'
 game.death.killed-by-player: '&2%s&a killed &2%s&a!'

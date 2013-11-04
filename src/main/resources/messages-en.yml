@@ -76,6 +76,8 @@ generic-command-message.too-many-parameters: '&4Too many parameters'
 messages.removed-from-queue-because-death: '&3You were removed from the queue because you died.'
 messages.no-clue-what-command: '&4SkyWars has no clue what &c%s&4 is.'
 messages.not-fully-enabled: '&4Not fully enabled.'
+messages.economy-reward.win: '&3You have been given &2%s&3 for winning the SkyWars.'
+messages.economy-reward.kill: '&3You have been given &2%s&3 for killing &2%s&3.'
 
 game.death.killed-by-player-and-void: '&2%s&a pushed &2%s&a into the void of doom!'
 game.death.killed-by-void: '&2%s&a jumped into the void of doom!'
