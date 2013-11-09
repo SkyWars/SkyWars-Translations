@@ -82,6 +82,7 @@ messages.economy-reward.kill: '&3You have been given &2%s&3 for killing &2%s&3.'
 
 messages.kits.kit-list: '&3Kits available: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%s &8(&3cost: &2%s&8)'
 messages.kits.choose-a-kit: '&3Use &2/sw kit &8<&2Name&8>&3 to choose a kit.'
 
 game.death.killed-by-player-and-void: '&2%s&a pushed &2%s&a into the void of doom!'
