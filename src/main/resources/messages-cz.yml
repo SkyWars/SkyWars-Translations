@@ -1,0 +1,101 @@
+messages-version: 1
+commands.join.description: 'Prida te do fronty na dalsi zapas'
+commands.join.confirmation: '&3Byl jsi pridan do fronty.'
+commands.join.already-queued: '&4Jiz jsi ve fronte na SkyWars.'
+commands.join.in-game: '&4Nemuzes se prihlasi, ses jiz ve hre.'
+
+commands.leave.description: 'Opustis frontu a nebo hru'
+commands.leave.removed-from-queue: '&3Jiz nejsi ve fronte.'
+commands.leave.removed-from-game: '&3Zdrhnul jsi ze hry.'
+commands.leave.not-in-any: '&4Nejsi ve fronte.'
+
+commands.setlobby.description: 'Nastavi pozici lobby'
+commands.setlobby.confirmation: '&3Lobby vytvoreno na tve soucasne pozici.'
+commands.setlobby.in-game: '&4Nemuzes vytvaret lobby, jses ve hre.'
+
+commands.setportal.description: 'Nastavi portal na tvou souicasnou pozici'
+commands.setportal.confirmation: '&3Nastavil jsi portal na svoji soucasnou pozici.'
+commands.setportal.in-game: '&4Nemuzes vytvaret portal behem hry.'
+
+commands.delportal.description: 'Odstrani naposledy nastaveny portal'
+commands.delportal.confirmation: '&3Portal % byl uspesne odstranen'
+commands.delportal.error-no-portals: '&4Zadny portal neni nastaven'
+
+commands.cancel.description: 'Zastavi zadanou hru'
+commands.cancel.argument-not-integer: '&c%s&4 neni platne cislo!'
+commands.cancel.no-games-with-id: '&4Zadna hra &c%s&4 neexistuje.'
+commands.cancel.confirmation: '&3Zastavuji &2%s&3.'
+
+commands.status.description: 'Zobrazi stav hry'
+commands.status.header: '&9 -- &2SkyWars Status&9 --'
+commands.status.in-queue: '&3Ve fronte: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Bezici areny&9 --'
+
+commands.version.description: 'Zobrazi verzi pluginu'
+commands.version.output: '&3%s version &2%s &3/ &2%s&3. Created by &2Dabo Ross'
+
+commands.lobby.description: 'Teleportne te do lobby'
+commands.lobby.confirmation: '&4Byl si teleportovan do lobby.'
+commands.lobby.in-game: '&4Nemuzes byt teleportovan do lobby behem hry.'
+
+commands.cancelall.description: 'Zastavi vsechny bezici hry.'
+commands.cancelall.canceling-game: '&3Zastavuji hry &2%s'
+
+commands.report.description: 'Vygeneruje zpravu a odesle ji na gist.github.com, potom zobrazi odkaz.'
+commands.report.start: '&3Shromazduji udaje a odesilam...'
+commands.report.output: '&3Zprava: &2%s'
+
+commands.forcestart.description: 'Spusti hru s lidmi ve fronte'
+commands.forcestart.not-enough-players: 'Musi byt alespon 2 hraci ve fronte pro spusteni hry.'
+
+setup-commands.start.description: 'Zahaji nove nastaveni areny a vymaze vsechny predchozi neulozene areny.'
+setup-commands.start.argument-name: 'Jmeno areny'
+setup-commands.start.confirmation: '&3Nastavovani areny &2%s&3 bylo zahajeno.'
+setup-commands.start.one-argument: '&4Zadejte pouze jeden argument.'
+
+setup-commands.setpos1.description: 'Nastavi primarni bod areny pro zkopirovani na tvoji soucasne pozici oci.'
+setup-commands.setpos1.pos2-in-other-world: '&4Sekundarni bod nebyl nastaven, protoze se nachazis v jinem svete.'
+setup-commands.setpos1.confirmation: '&3Nastavuji primarni bod areny'
+
+setup-commands.setpos2.description: 'Nastavi sekundarni bod areny pro zkopirovani na tvoji soucasne pozici oci.'
+setup-commands.setpos2.pos1-in-other-world: '&4Sekundarni bod nebyl nastaven, protoze se nachazis v jinem svete.'
+setup-commands.setpos2.confirmation: '&3Nastavuji primarni bod areny'
+
+setup-commands.addspawn.description: 'Prida novou spawn bod na tvoji soucasnou pozici'
+setup-commands.addspawn.confirmation: '&3Novy spawn bod &2%s&3 pridan.'
+
+setup-commands.save.description: 'Ulozi soucasne nastaveni areny do configu'
+setup-commands.save.saving: '&3Ukladam arenu...'
+setup-commands.save.saved: '&3Arena byla uspesne ulozena.'
+
+top-commands.main.description: 'Hlavni prikaz pro SkyWars'
+top-commands.setup.description: 'Prikaz pro nastaveni SkyWars'
+
+generic-command-message.too-many-parameters: '&4Zadano priliz mnoho parametru'
+messages.removed-from-queue-because-death: '&3Byl jsi odstranen z fronty, protoze si umrel.'
+messages.no-clue-what-command: '&4SkyWars nema poneti ce je &c%s&4.'
+messages.not-fully-enabled: '&4Neni plne funkcni.'
+
+messages.economy-reward.win: '&3Obdrzel jsi &2%s&3 za vyhru ve SkyWars.'
+messages.economy-reward.kill: '&3Obdrzel jsi &2%s&3 za zabiti &2%s&3.'
+
+messages.kits.kit-list: '&3Kity k dispozici: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%s &8(&3cena: &2%s&8)'
+messages.kits.choose-a-kit: '&3Pouzij &2/sw kit &8<&2jmeno&8>&3 pro vyber kitu.'
+
+game.death.killed-by-player-and-void: '&2%s&a vystrcil &2%s&a do nicoty!'
+game.death.killed-by-void: '&2%s&a skocil do nicoty!'
+game.death.killed-by-player: '&2%s&a zabil &2%s&a!'
+game.death.killed-by-environment: '&2%s&a byl zabit!'
+game.death.forfeited-while-attacked: '&2%s&a se dostal do potizi diky &2%s&a!'
+game.death.forfeited: '&2%s&a se propadl!'
+
+game.winning.single-won: '&2%s&a vyhral SkyWars!'
+game.winning.multi-won: '&2%s&a vyhrali SkyWars!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.none-won: '&aThe SkyWars skoncila bez vitezu.'
+
+game.starting.game-starting: '&aHra startuje s hraci &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
