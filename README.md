@@ -3,4 +3,4 @@ SkyWars Translations - [![Build Status](https://travis-ci.org/SkyWars/SkyWars.pn
 
 This is just translations for SkyWars. See [SkyWars](https://github.com/SkyWars/SkyWars) for the main project repo.
 
-[TeamCity Development Builds](http://ci.nlmc.pw/project.html?guest=1&projectId=SkyWars_SkyWarsTranslations)
+[TeamCity Development Builds - CI Server](http://ci.nlmc.pw/project.html?guest=1&projectId=SkyWarsParent_SkyWarsTranslations)
