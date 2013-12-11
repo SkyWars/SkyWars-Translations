@@ -52,6 +52,9 @@ commands.report.output: '&3Report: &2%s'
 commands.forcestart.description: 'Forces a game to start with the people in the queue'
 commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
 
+# commands.kit translation is unfinished/unfinal.
+commands.kit.description: 'Sets the kit to use for the next game.'
+
 setup-commands.start.description: 'Comeca a configurar uma nova arena e apaga alguma antes que nao tenha sido guardada.'
 setup-commands.start.argument-name: 'Nome da arena'
 setup-commands.start.confirmation: '&3Configuracao da arena &2%s&3 comecada.'

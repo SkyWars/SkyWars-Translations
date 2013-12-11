@@ -49,6 +49,9 @@ commands.report.output: '&3Zprava: &2%s'
 commands.forcestart.description: 'Spusti hru s lidmi ve fronte'
 commands.forcestart.not-enough-players: 'Musi byt alespon 2 hraci ve fronte pro spusteni hry.'
 
+# commands.kit translation is unfinished/unfinal.
+commands.kit.description: 'Sets the kit to use for the next game.'
+
 setup-commands.start.description: 'Zahaji nove nastaveni areny a vymaze vsechny predchozi neulozene areny.'
 setup-commands.start.argument-name: 'Jmeno areny'
 setup-commands.start.confirmation: '&3Nastavovani areny &2%s&3 bylo zahajeno.'

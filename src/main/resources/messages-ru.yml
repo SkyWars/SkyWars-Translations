@@ -50,6 +50,9 @@ commands.report.output: '&3Репорт: &2%s'
 commands.forcestart.description: 'Forces a game to start with the people in the queue'
 commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
 
+# commands.kit translation is unfinished/unfinal.
+commands.kit.description: 'Sets the kit to use for the next game.'
+
 setup-commands.start.description: 'Начало установки новой арены и удаление других несохраненных арен.'
 setup-commands.start.argument-name: 'Имя арены'
 setup-commands.start.confirmation: '&3Начало установки арены &2%s&3.'
