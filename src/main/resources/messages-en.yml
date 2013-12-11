@@ -1,4 +1,4 @@
-messages-version: 1
+messages-version: 2
 commands.join.description: 'Joins the queue for the next game'
 commands.join.confirmation: '&3You have joined the queue.'
 commands.join.already-queued: '&4You were already in the queue.'
@@ -36,7 +36,7 @@ commands.version.description: 'Gives version'
 commands.version.output: '&3%s version &2%s &3/ &2%s&3. Created by &2Dabo Ross'
 
 commands.lobby.description: 'Teleports you to the lobby'
-commands.lobby.confirmation: '&4Teleporting to the lobby.'
+commands.lobby.confirmation: '&3Teleporting to the lobby.'
 commands.lobby.in-game: '&4You can''t teleport to the lobby, you are in a game.'
 
 commands.cancelall.description: 'Cancels all current games.'
@@ -50,7 +50,11 @@ commands.forcestart.description: 'Forces a game to start with the people in the 
 commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
 
 # commands.kit translation is unfinished/unfinal.
-commands.kit.description: 'Sets the kit to use for the next game.'
+commands.kit.description: 'Sets the kit to use for the next game'
+commands.kit.no-kits-available: '&4There are no kits you can use.'
+commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
+commands.kit.unknown-kit: '&4No known kit &c%s&4.'
+commands.kit.not-enough-money: '&4You don't have enough %1$s to buy &c%2$s&4. You need &c%3$s&4 more %1$s.'
 
 setup-commands.start.description: 'Start a new arena setup and erase any previus unsaved arenas.'
 setup-commands.start.argument-name: 'Arena name'

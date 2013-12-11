@@ -1,4 +1,4 @@
-messages-version: 1
+messages-version: 2
 commands.join.description: 'Prida te do fronty na dalsi zapas'
 commands.join.confirmation: '&3Byl jsi pridan do fronty.'
 commands.join.already-queued: '&4Jiz jsi ve fronte na SkyWars.'
@@ -36,7 +36,7 @@ commands.version.description: 'Zobrazi verzi pluginu'
 commands.version.output: '&3%s version &2%s &3/ &2%s&3. Created by &2Dabo Ross'
 
 commands.lobby.description: 'Teleportne te do lobby'
-commands.lobby.confirmation: '&4Byl si teleportovan do lobby.'
+commands.lobby.confirmation: '&3Byl si teleportovan do lobby.'
 commands.lobby.in-game: '&4Nemuzes byt teleportovan do lobby behem hry.'
 
 commands.cancelall.description: 'Zastavi vsechny bezici hry.'
@@ -50,7 +50,11 @@ commands.forcestart.description: 'Spusti hru s lidmi ve fronte'
 commands.forcestart.not-enough-players: 'Musi byt alespon 2 hraci ve fronte pro spusteni hry.'
 
 # commands.kit translation is unfinished/unfinal.
-commands.kit.description: 'Sets the kit to use for the next game.'
+commands.kit.description: 'Sets the kit to use for the next game'
+commands.kit.no-kits-available: '&4There are no kits you can use.'
+commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
+commands.kit.unknown-kit: '&4No known kit &c%s&4.'
+commands.kit.not-enough-money: '&4You don't have enough %1$s to buy &c%2$s&4. You need &c%3$s&4 more %1$s.'
 
 setup-commands.start.description: 'Zahaji nove nastaveni areny a vymaze vsechny predchozi neulozene areny.'
 setup-commands.start.argument-name: 'Jmeno areny'

@@ -1,4 +1,4 @@
-messages-version: 1
+messages-version: 2
 commands.join.description: 'Entrou na lista para o proximo jogo'
 commands.join.confirmation: '&3Acabaste de entrar na lista de espera.'
 commands.join.already-queued: '&4Ja te encontras na lista de espera.'
@@ -38,7 +38,7 @@ commands.version.description: 'A versao do plugin'
 commands.version.output: '&3%s versao &2%s &3/ &2%s&3. feito por &2Dabo Ross'
 
 commands.lobby.description: 'Teleporta-te para o lobby'
-commands.lobby.confirmation: '&4Teleportando para o lobby.'
+commands.lobby.confirmation: '&3Teleportando para o lobby.'
 commands.lobby.in-game: '&4Nao podes ir para o lobby, estas em jogo.'
 
 commands.cancelall.description: 'Cancela todos os jogos a decorrer.'
@@ -53,7 +53,11 @@ commands.forcestart.description: 'Forces a game to start with the people in the 
 commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
 
 # commands.kit translation is unfinished/unfinal.
-commands.kit.description: 'Sets the kit to use for the next game.'
+commands.kit.description: 'Sets the kit to use for the next game'
+commands.kit.no-kits-available: '&4There are no kits you can use.'
+commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
+commands.kit.unknown-kit: '&4No known kit &c%s&4.'
+commands.kit.not-enough-money: '&4You don't have enough %1$s to buy &c%2$s&4. You need &c%3$s&4 more %1$s.'
 
 setup-commands.start.description: 'Comeca a configurar uma nova arena e apaga alguma antes que nao tenha sido guardada.'
 setup-commands.start.argument-name: 'Nome da arena'
