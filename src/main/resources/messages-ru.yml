@@ -46,11 +46,11 @@ commands.report.description: 'Генерирует репорт и отправ�
 commands.report.start: '&3Сбор данных и отправка...'
 commands.report.output: '&3Репорт: &2%s'
 
-# This is a comment - commands.forcestart is untranslated
+# commands.forcestart is untranslated
 commands.forcestart.description: 'Forces a game to start with the people in the queue'
 commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
 
-# commands.kit translation is unfinished/unfinal.
+# commands.kit is untranslated
 commands.kit.description: 'Sets the kit to use for the next game'
 commands.kit.no-kits-available: '&4There are no kits you can use.'
 commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
@@ -85,7 +85,7 @@ messages.removed-from-queue-because-death: '&3Вы вышли из очеред�
 messages.no-clue-what-command: '&4SkyWars не знает что это: &c%s&4.'
 messages.not-fully-enabled: '&4Нет активных.'
 
-# This is a comment - all below are untranslated.
+# all below is untranslated.
 messages.economy-reward.win: '&3You have been given &2%s&3 for winning the SkyWars.'
 messages.economy-reward.kill: '&3You have been given &2%s&3 for killing &2%s&3.'
 

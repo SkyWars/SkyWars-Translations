@@ -49,7 +49,7 @@ commands.report.output: '&3Zprava: &2%s'
 commands.forcestart.description: 'Spusti hru s lidmi ve fronte'
 commands.forcestart.not-enough-players: 'Musi byt alespon 2 hraci ve fronte pro spusteni hry.'
 
-# commands.kit translation is unfinished/unfinal.
+# commands.kit translation is untranslated.
 commands.kit.description: 'Sets the kit to use for the next game'
 commands.kit.no-kits-available: '&4There are no kits you can use.'
 commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
