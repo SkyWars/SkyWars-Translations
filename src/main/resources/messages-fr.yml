@@ -1,0 +1,109 @@
+messages-version: 2
+
+commands.join.description: 'Vous rejoignez la file d''attente'
+commands.join.confirmation: '&3Vous avez rejoint la file.'
+commands.join.already-queued: '&3Vous avez déjà rejoint la file.'
+commands.join.in-game: '&4Impossible, vous êtes déjà dans une partie.'
+
+commands.leave.description: 'Quittez la file ou la partie dans laquelle vous êtes.'
+commands.leave.removed-from-queue: '&3Vous n''êtes plus dans la file.'
+commands.leave.removed-from-game: '&3Vous avez fuit la partie.'
+commands.leave.not-in-any: '&4Tu n''est pas dans la file d''attente !'
+
+commands.setlobby.description: 'Définie la position du lobby sur votre position actuelle.'
+commands.setlobby.confirmation: '&3Le lobby est maintenant sur votre position.'
+commands.setlobby.in-game: '&4Vous ne pouvez pas définir le lobby en partie.'
+
+commands.setportal.description: 'Définie le portail sur votre position actuelle'
+commands.setportal.confirmation: '&3Portail définie sur votre position actuelle.'
+commands.setportal.in-game: '&4Impossible de définir un portail en cours de partie.'
+
+commands.delportal.description: 'Supprime le dernier portail créer'
+commands.delportal.confirmation: '&3Supprime le portail à %s'
+commands.delportal.error-no-portals: '&4Aucun portail définie'
+
+commands.cancel.description: 'Annule une partie en cours pour l''id donner.'
+commands.cancel.argument-not-integer: '&c%s&4 n''est pas un nombre entier.'
+commands.cancel.no-games-with-id: '&4Aucune partie avec l''id &c%s&4.'
+commands.cancel.confirmation: '&3Annulation de la partie: &2%s&3.'
+
+commands.status.description: 'Donne le statut des parties en cours'
+commands.status.header: '&9 -- &2Status du SkyWars&9 --'
+commands.status.in-queue: '&3En file: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Arènes en cours&9 --'
+
+commands.version.description: 'Donne la version'
+commands.version.output: '&3%s version &2%s &3/ &2%s&3. Créer par &2Dabo Ross'
+
+commands.lobby.description: 'Vous teleporte au lobby'
+commands.lobby.confirmation: '&3Téléportation au lobby.'
+commands.lobby.in-game: '&4Impossible de se téléporter au lobby en partie.'
+
+commands.cancelall.description: 'Arrête toutes les parties en cours.'
+commands.cancelall.canceling-game: '&3Arrête de la partie &2%s'
+
+commands.report.description: 'Créer un rapport et l''envoie sur gist.github.com, puis vos donne un lien.'
+commands.report.start: '&3Récupération des données et envoie...'
+commands.report.output: '&3Rapport: &2%s'
+
+commands.forcestart.description: 'Force une partie à démarrer avec les gens de la file.'
+commands.forcestart.not-enough-players: 'Il doit y avoir au moins 2 personnes dans la file pour forcer démarrage.'
+
+# commands.kit translation is unfinished/unfinal.
+commands.kit.description: 'Choisie le kit pour la prochaine partie'
+commands.kit.no-kits-available: '&4Il n''y a aucun kit que vous pouvez utiliser.'
+commands.kit.unavailable-kits: '&3Kits non disponibles: &2%s'
+commands.kit.unknown-kit: '&4Aucun kit connu &c%s&4.'
+commands.kit.not-enough-money: '&4Vous n''avez pas assez de %1$s pour acheter &c%2$s&4. Vous avez besoins de &c%3$s&4 en plus %1$s.'
+
+setup-commands.start.description: 'Démarre la configuration d''une nouvelle arène.'
+setup-commands.start.argument-name: 'Nom de l''arène'
+setup-commands.start.confirmation: '&3Démarrage de la configuration de l''arène: &2%s&3.'
+setup-commands.start.one-argument: '&4Merci de n''écrire qu''un seul et unique argument.'
+
+setup-commands.setpos1.description: 'Définie la première position de l''arène à copier à partir de la position actuelle de vos yeux.'
+setup-commands.setpos1.pos2-in-other-world: '&4Deuxième position supprimer, vous êtes dans un autre monde.'
+setup-commands.setpos1.confirmation: '&3Première position définie à la hauteur de vos yeux'
+
+setup-commands.setpos1.description: 'Définie la deuxième position de l''arène à copier à partir de la position actuelle de vos yeux.'
+setup-commands.setpos1.pos2-in-other-world: '&4Premier position supprimer, vous êtes dans un autre monde.'
+setup-commands.setpos1.confirmation: '&3Deuxième position définie à la hauteur de vos yeux'
+
+setup-commands.addspawn.description: 'Définie un point de spawn à votre position actuelle.'
+setup-commands.addspawn.confirmation: '&3Point de spawn créer: &2%s&3.'
+
+setup-commands.save.description: 'Sauvegarde la configuration de l''arène dans le fichier'
+setup-commands.save.saving: '&3Sauvegar de l''arène.'
+setup-commands.save.saved: '&3Arène sauvé.'
+
+top-commands.main.description: 'Commandes principale du SkyWars'
+top-commands.setup.description: 'Commande de configuration du SkyWars'
+
+generic-command-message.too-many-parameters: '&4Trop de paramètre'
+messages.removed-from-queue-because-death: '&3Vous quittez la file car vous êtes mort.'
+messages.no-clue-what-command: '&4SkyWars ne sait pas ce que "&c%s&4" est.'
+messages.not-fully-enabled: '&4Pas complétement activé.'
+
+messages.economy-reward.win: '&3Vous reçevez &2%s&3 pour avoir gagné le SkyWars.'
+messages.economy-reward.kill: '&3Vous reçevez &2%s&3 pour avoir tué &2%s&3 !'
+
+messages.kits.kit-list: '&3Kits disponibles: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%s &8(&3coûte: &2%s&8)'
+messages.kits.choose-a-kit: '&3Utilise &2/sw kit &8<&2Nom&8>&3 pour choisir un kit.'
+
+game.death.killed-by-player-and-void: '&2%s&a pousse &2%s&a dans le vide !'
+game.death.killed-by-void: '&2%s&a saute dans le vide.'
+game.death.killed-by-player: '&2%s&a tue &2%s&a!'
+game.death.killed-by-environment: '&2%s&a à été tué.'
+game.death.forfeited-while-attacked: '&2%s&a a fuit du combat à cause de &2%s&a!'
+game.death.forfeited: '&2%s&a déclare forfait !'
+
+game.winning.single-won: '&2%s&a gagne le SkyWars !'
+game.winning.multi-won: '&2%s&a gagnent le SkyWars !'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.none-won: '&aLe SkyWars se termine sans gagnant.'
+
+game.starting.game-starting: '&aLa partie démarre: &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
