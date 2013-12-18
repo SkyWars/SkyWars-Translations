@@ -51,6 +51,7 @@ commands.forcestart.description: 'Force une partie à démarrer avec les gens de
 commands.forcestart.not-enough-players: 'Il doit y avoir au moins 2 personnes dans la file pour forcer démarrage.'
 
 # commands.kit translation is unfinished/unfinal.
+commands.kit.list: 'Liste les kits'
 commands.kit.description: 'Choisie le kit pour la prochaine partie'
 commands.kit.no-kits-available: '&4Il n''y a aucun kit que vous pouvez utiliser.'
 commands.kit.unavailable-kits: '&3Kits non disponibles: &2%s'
@@ -66,9 +67,9 @@ setup-commands.setpos1.description: 'Définie la première position de l''arène
 setup-commands.setpos1.pos2-in-other-world: '&4Deuxième position supprimer, vous êtes dans un autre monde.'
 setup-commands.setpos1.confirmation: '&3Première position définie à la hauteur de vos yeux'
 
-setup-commands.setpos1.description: 'Définie la deuxième position de l''arène à copier à partir de la position actuelle de vos yeux.'
-setup-commands.setpos1.pos2-in-other-world: '&4Premier position supprimer, vous êtes dans un autre monde.'
-setup-commands.setpos1.confirmation: '&3Deuxième position définie à la hauteur de vos yeux'
+setup-commands.setpos2.description: 'Définie la deuxième position de l''arène à copier à partir de la position actuelle de vos yeux.'
+setup-commands.setpos2.pos1-in-other-world: '&4Premier position supprimer, vous êtes dans un autre monde.'
+setup-commands.setpos2.confirmation: '&3Deuxième position définie à la hauteur de vos yeux'
 
 setup-commands.addspawn.description: 'Définie un point de spawn à votre position actuelle.'
 setup-commands.addspawn.confirmation: '&3Point de spawn créer: &2%s&3.'
