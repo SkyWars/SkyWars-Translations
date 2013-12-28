@@ -50,7 +50,6 @@ commands.report.output: '&3Rapport: &2%s'
 commands.forcestart.description: 'Force une partie à démarrer avec les gens de la file.'
 commands.forcestart.not-enough-players: 'Il doit y avoir au moins 2 personnes dans la file pour forcer démarrage.'
 
-# commands.kit translation is unfinished/unfinal.
 commands.kit.list: 'Liste les kits'
 commands.kit.description: 'Choisie le kit pour la prochaine partie'
 commands.kit.no-kits-available: '&4Il n''y a aucun kit que vous pouvez utiliser.'

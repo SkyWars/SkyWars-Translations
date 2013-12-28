@@ -89,7 +89,7 @@ messages.not-fully-enabled: '&4Нет активных.'
 messages.economy-reward.win: '&3You have been given &2%s&3 for winning the SkyWars.'
 messages.economy-reward.kill: '&3You have been given &2%s&3 for killing &2%s&3.'
 
-messages.kits.kit-list: '&3Kits available: &2%s'
+messages.kits.kit-list: '&3Available kits: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item: '%s &8(&3cost: &2%s&8)'
 messages.kits.choose-a-kit: '&3Use &2/sw kit &8<&2Name&8>&3 to choose a kit.'
