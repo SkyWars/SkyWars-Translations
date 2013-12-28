@@ -55,9 +55,9 @@ commands.forcestart.not-enough-players: 'There must be at least 2 players in the
 # commands.kit is untranslated.
 commands.kit.description: 'Sets the kit to use for the next game'
 commands.kit.no-kits-available: '&4There are no kits you can use.'
-commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
-commands.kit.unknown-kit: '&4No known kit &c%s&4.'
-commands.kit.not-enough-money: '&4You don't have enough %1$s to buy &c%2$s&4. You need &c%3$s&4 more %1$s.'
+commands.kit.unavailable-kits: '&3Kits unavailable: &2%s'
+commands.kit.unknown-kit: '&4Unknown kit &c%s&4.'
+commands.kit.not-enough-money: '&4You don''t have enough %1$s to buy &c%2$s&4. You need &c%3$s&4 more %1$s.'
 
 setup-commands.start.description: 'Comeca a configurar uma nova arena e apaga alguma antes que nao tenha sido guardada.'
 setup-commands.start.argument-name: 'Nome da arena'

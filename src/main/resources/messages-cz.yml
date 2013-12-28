@@ -54,7 +54,7 @@ commands.kit.description: 'Sets the kit to use for the next game'
 commands.kit.no-kits-available: '&4There are no kits you can use.'
 commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
 commands.kit.unknown-kit: '&4No known kit &c%s&4.'
-commands.kit.not-enough-money: '&4You don't have enough %1$s to buy &c%2$s&4. You need &c%3$s&4 more %1$s.'
+commands.kit.not-enough-money: '&4You don''t have enough %1$s to buy &c%2$s&4. You need &c%3$s&4 more %1$s.'
 
 setup-commands.start.description: 'Zahaji nove nastaveni areny a vymaze vsechny predchozi neulozene areny.'
 setup-commands.start.argument-name: 'Jmeno areny'
