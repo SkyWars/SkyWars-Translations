@@ -56,6 +56,13 @@ commands.kit.no-kits-available: '&4Il n''y a aucun kit que vous pouvez utiliser.
 commands.kit.unavailable-kits: '&3Kits non disponibles: &2%s'
 commands.kit.unknown-kit: '&4Aucun kit connu &c%s&4.'
 commands.kit.not-enough-money: '&4Vous n''avez pas assez de %1$s pour acheter &c%2$s&4. Vous avez besoins de &c%3$s&4 en plus %1$s.'
+# Following commands.kit messages are untranslated.
+commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3You are now using kit &2%1$s&3. This kit will cost you &2%2$s&3 per round.'
+commands.kit.how-to-remove: '&3You can use &2/sw kit cancel&3 to stop using this kit.'
+commands.kit.removed-kit: '&3You are no longer using any kits.'
+commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
+commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
 
 setup-commands.start.description: 'Démarre la configuration d''une nouvelle arène.'
 setup-commands.start.argument-name: 'Nom de l''arène'
@@ -95,6 +102,10 @@ messages.kits.kit-list: '&3Kits disponibles: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3coûte: &2%s&8)'
 messages.kits.choose-a-kit: '&3Utilise &2/sw kit &8<&2Nom&8>&3 pour choisir un kit.'
+# Following messages.kits messages are untranslated.
+messages.kits.applied: '&3Applied kit &2%s&3 in this game.'
+messages.kits.applied-kit-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
+messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
 
 game.death.killed-by-player-and-void: '&2%s&a pousse &2%s&a dans le vide !'
 game.death.killed-by-void: '&2%s&a saute dans le vide.'
