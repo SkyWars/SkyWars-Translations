@@ -1,94 +1,111 @@
-# ### messages.yml ###
-# Note! If you are editing this file, set auto-update to false. 
-# If auto-update is left true, all changed values will be overwritten.
-# 
-# When auto-update is false, new values will be added, but existing ones won't
-# be touched. When there is a new version of existing values available, SkyWars
-# will create a 'messages.new.yml' file containing the updated messages, that
-# you are free to copy from.
-# 
-# The messages-version key is used to keep track of when updated messages are
-# available, no matter what the setting of auto-update is.
-messages-version: 1
-messages-locale: en
-auto-update: false
-commands.forcestart.description: Forzar un juego con la gente en cola
-commands.forcestart.not-enough-players: Tiene que haber por lo menos dos jugadores para empezar.
-messages.economy-reward.win: '&3Te han dado &2%s&3 por ganar SkyWars.'
-messages.economy-reward.kill: '&3Te han dado &2%s&3 por matar a &2%s&3.'
-messages.kits.kit-list: '&3Kits disponibles: &2%s'
-messages.kits.kit-list-comma: '&3, &2'
-messages.kits.kit-list-item-cost: '%s &8(&3costo: &2%s&8)'
-messages.kits.choose-a-kit: '&3Usa &2/sw kit &8<&2Name&8>&3 para escoger un kit.'
+messages-version: 2
 commands.join.description: Se une a la cola para el juego siguiente
 commands.join.confirmation: '&3Te has unido a la cola.'
 commands.join.already-queued: '&4Ya estabas en cola.'
 commands.join.in-game: '&4No te puedes unir ahora, estas en el juego.'
+
 commands.leave.description: Deja la cola o el juego en el que estas
 commands.leave.removed-from-queue: '&3Ya no estas en la cola.'
 commands.leave.removed-from-game: '&3Has salido del juego.'
 commands.leave.not-in-any: '&4No estas en cola.'
-commands.setlobby.description: Establece el lobby
+
+commands.setlobby.description: 'Establece el lobby'
 commands.setlobby.confirmation: '&3Has establecido el lobby en tu ubicacion.'
 commands.setlobby.in-game: '&4No puedes establecer el lobby, estas en juego.'
-commands.setportal.description: Pone un portal en tu ubicacion
+
+commands.setportal.description: 'Pone un portal en tu ubicacion'
 commands.setportal.confirmation: '&3Has puesto un portal en tu ubicacion.'
 commands.setportal.in-game: '&4No puedes establecer un portal, estas en un juego.'
-commands.delportal.description: Remueve el ultimo portal establecido
+
+commands.delportal.description: 'Remueve el ultimo portal establecido'
 commands.delportal.confirmation: '&3Portal removido en %s'
 commands.delportal.error-no-portals: '&4No hay portales establecidos'
-commands.cancel.description: Cancela los juegos actuales con la ID dada
+
+commands.cancel.description: 'Cancela los juegos actuales con la ID dada'
 commands.cancel.argument-not-integer: '&c%s&4 no es un integrante!'
 commands.cancel.no-games-with-id: '&4No hay ningun juego con el ID &c%s&4.'
 commands.cancel.confirmation: '&3Cancelando juego &2%s&3.'
+
 commands.status.description: Da el estado de los juegos actuales
 commands.status.header: '&9 -- &2SkyWars Estado&9 --'
 commands.status.in-queue: '&3En cola: &2%s'
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Arenas Actuales&9 --'
+
 commands.version.description: Da la version
 commands.version.output: '&3%s version &2%s &3/ &2%s&3. Creado por &2Dabo Ross'
+
 commands.lobby.description: Te telestransporta al lobby
 commands.lobby.confirmation: '&4Telestransportandose al Lobby.'
 commands.lobby.in-game: '&4No puedes telestransportarte al lobby, estas en juego.'
+
 commands.cancelall.description: Cancelando los juegos actuales.
 commands.cancelall.canceling-game: '&3Cancelando juego &2%s'
+
 commands.report.description: Generates a report and uploads it to gist.github.com, then gives you a link.
 commands.report.start: '&3Gathering data and submitting'
 commands.report.output: '&3Report: &2%s'
+
+commands.forcestart.description: 'Forzar un juego con la gente en cola'
+commands.forcestart.not-enough-players: 'Tiene que haber por lo menos dos jugadores para empezar.'
+
+## commands.kit is untranslated
+commands.kit.description: 'Sets the kit to use for the next game'
+commands.kit.no-kits-available: '&4There are no kits you can use.'
+commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
+commands.kit.unknown-kit: '&4Unknown kit &c%s&4.'
+commands.kit.not-enough-money: '&4You don''t have enough %1$s to buy &c%2$s&4. You need &c%3$s&4 more %1$s.'
+
 setup-commands.start.description: Start a new arena setup and erase any previus unsaved arenas.
 setup-commands.start.argument-name: Nombre de la Arena
 setup-commands.start.confirmation: '&3Empezo a establecer una arena llamada &2%s&3.'
 setup-commands.start.one-argument: '&4Porfavor de uno solo, argumento valido.'
-setup-commands.setpos1.description: Establece la primera posición para la arena, para copiar en la ubicación actual de los ojos.
-setup-commands.setpos1.pos2-in-other-world: '&4Quitando tu primera posicion debido
-  a tu ubicacion en otro mundo.'
-setup-commands.setpos1.confirmation: '&Pon una primera posicion segun tu actual mirada.'
-setup-commands.setpos2.description: Establece la segunda posición para la arena, para copiar en la ubicación actual de los ojos.
-setup-commands.setpos2.pos1-in-other-world: '&4Quitando tu primera posicion debido
-  a tu ubicacion en otro mundo.'
+
+setup-commands.setpos1.description: 'Establece la primera posición para la arena, para copiar en la ubicación actual de los ojos.'
+setup-commands.setpos1.pos2-in-other-world: '&4Quitando tu primera posicion debido a tu ubicacion en otro mundo.'
+setup-commands.setpos1.confirmation: '&3Pon una primera posicion segun tu actual mirada.'
+
+setup-commands.setpos2.description: 'Establece la segunda posición para la arena, para copiar en la ubicación actual de los ojos.'
+setup-commands.setpos2.pos1-in-other-world: '&4Quitando tu primera posicion debido a tu ubicacion en otro mundo.'
 setup-commands.setpos2.confirmation: '&3Pon una segunda posicion segun tu actual mirada.'
-setup-commands.addspawn.description: Agrega una nueva localizacion de spawn
+
+setup-commands.addspawn.description: 'Agrega una nueva localizacion de spawn'
 setup-commands.addspawn.confirmation: '&3Agregando nuevo lugar de spawn &2%s&3.'
-setup-commands.save.description: Guardar las actuales configuraciones de la arena en el archivo
+
+setup-commands.save.description: 'Guardar las actuales configuraciones de la arena en el archivo'
 setup-commands.save.saving: '&3SGuardando arena.'
 setup-commands.save.saved: '&3Arena guardada.'
-top-commands.main.description: Comando principal para skywars
-top-commands.setup.description: Comando para establecer skywars
+
+top-commands.main.description: 'Comando principal para skywars'
+top-commands.setup.description: 'Comando para establecer skywars'
+
 generic-command-message.too-many-parameters: '&4Demasiados parametros'
-messages.removed-from-queue-because-death: '&3Has sido removido de la cola porque
-  moriste.'
+## generic-command-message.not-enough-parmaters is untranslated
+generic-command-message.not-enough-parameters: '&4Not enough arguments.'
+
+messages.removed-from-queue-because-death: '&3Has sido removido de la cola porque moriste.'
 messages.no-clue-what-command: '&4Skywars no tiene idea de que &c%s&4 es.'
 messages.not-fully-enabled: '&4No habilitado completamente.'
+
+messages.economy-reward.win: '&3Te han dado &2%s&3 por ganar SkyWars.'
+messages.economy-reward.kill: '&3Te han dado &2%s&3 por matar a &2%s&3.'
+
+messages.kits.kit-list: '&3Kits disponibles: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%s &8(&3costo: &2%s&8)'
+messages.kits.choose-a-kit: '&3Usa &2/sw kit &8<&2Name&8>&3 para escoger un kit.'
+
 game.death.killed-by-player-and-void: '&2%s&a empujo a &2%s&a a la zona oscura!'
 game.death.killed-by-void: '&2%s&a ha saltado a la zona oscura!'
 game.death.killed-by-player: '&2%s&a mato a &2%s&a!'
 game.death.killed-by-environment: '&2%s&a was killed!'
 game.death.forfeited-while-attacked: '&2%s&a ha sido forzado a perder por &2%s&a!'
 game.death.forfeited: '&2%s&a perdio!'
+
 game.winning.single-won: '&2%s&a ha ha ganado SkyWars!'
 game.winning.multi-won: '&2%s&a ha ganado SkyWars!'
 game.winning.multi-won-comma: '&a, &2'
 game.winning.none-won: '&aSkywars termino sin ninguna victoria.'
+
 game.starting.game-starting: '&aEl juego esta empezando con &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
