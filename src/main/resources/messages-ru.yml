@@ -1,4 +1,4 @@
-messages-version: 2
+messages-version: 3
 commands.join.description: 'Вход в очередь на следующею игру'
 commands.join.confirmation: '&3Вы вошли в очередь на игру.'
 commands.join.already-queued: '&4Вы и так стоите в очереди.'
@@ -46,16 +46,14 @@ commands.report.description: 'Генерирует репорт и отправ�
 commands.report.start: '&3Сбор данных и отправка...'
 commands.report.output: '&3Репорт: &2%s'
 
-# commands.forcestart is untranslated
-commands.forcestart.description: 'Forces a game to start with the people in the queue'
-commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
+commands.forcestart.description: 'Принудительно начать игру с игроками в ожидании'
+commands.forcestart.not-enough-players: 'Должно быть как минимум 2 игрока в ожидании для старта игры.'
 
-# commands.kit is untranslated
-commands.kit.description: 'Sets the kit to use for the next game'
-commands.kit.no-kits-available: '&4There are no kits you can use.'
-commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
-commands.kit.unknown-kit: '&4No known kit &c%s&4.'
-commands.kit.not-enough-money: '&4You don''t have enough %1$s to buy &c%2$s&4. You need &c%3$s&4 more %1$s.'
+commands.kit.description: 'Установить наборы для использования в следующей игре.'
+commands.kit.no-kits-available: '&4Доступных наборов нет.'
+commands.kit.unavailable-kits: '&3Поврежденные наборы: &2%s'
+commands.kit.unknown-kit: '&4Неизвестный набор &c%s&4.'
+commands.kit.not-enough-money: '&4У Вас нехватает %1$s для покупки &c%2$s&4. Вам требуется &c%3$s&4 более %1$s.'
 
 setup-commands.start.description: 'Начало установки новой арены и удаление других несохраненных арен.'
 setup-commands.start.argument-name: 'Имя арены'
@@ -81,32 +79,30 @@ top-commands.main.description: 'Основная команда для SkyWars'
 top-commands.setup.description: 'Установочная команда для SkyWars'
 
 generic-command-message.too-many-parameters: '&4Слишком много аргументов.'
-# not-enough-parameters is untranslated
-generic-command-message.not-enough-parameters: '&4Not enough arguments.'
+generic-command-message.not-enough-parameters: '&4Не достаточно аргументов.'
 messages.removed-from-queue-because-death: '&3Вы вышли из очереди, потому-что Вы умерли.'
 messages.no-clue-what-command: '&4SkyWars не знает что это: &c%s&4.'
 messages.not-fully-enabled: '&4Нет активных.'
 
-# all below is untranslated.
-messages.economy-reward.win: '&3You have been given &2%s&3 for winning the SkyWars.'
-messages.economy-reward.kill: '&3You have been given &2%s&3 for killing &2%s&3.'
+messages.economy-reward.win: '&3Вы получили &2%s&3 за победу на SkyWars.'
+messages.economy-reward.kill: '&3Вы получили &2%s&3 за убийство &2%s&3.'
 
-messages.kits.kit-list: '&3Available kits: &2%s'
+messages.kits.kit-list: '&3Доступные наборы: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
-messages.kits.kit-list-item: '%s &8(&3cost: &2%s&8)'
-messages.kits.choose-a-kit: '&3Use &2/sw kit &8<&2Name&8>&3 to choose a kit.'
+messages.kits.kit-list-item: '%s &8(&3цена: &2%s&8)'
+messages.kits.choose-a-kit: '&3Используйте &2/sw kit &8<&2ИМЯ&8>&3 для получения набора.'
 
-game.death.killed-by-player-and-void: '&2%s&a pushed &2%s&a into the void of doom!'
-game.death.killed-by-void: '&2%s&a jumped into the void of doom!'
-game.death.killed-by-player: '&2%s&a killed &2%s&a!'
-game.death.killed-by-environment: '&2%s&a was killed!'
-game.death.forfeited-while-attacked: '&2%s&a was forced to forfeit by &2%s&a!'
-game.death.forfeited: '&2%s&a forfeited!'
+game.death.killed-by-player-and-void: '&2%s&a скинул &2%s&a за карту!'
+game.death.killed-by-void: '&2%s&a выпал за карту!'
+game.death.killed-by-player: '&2%s&a убил &2%s&a!'
+game.death.killed-by-environment: '&2%s&a был убит!'
+game.death.forfeited-while-attacked: '&2%s&a был вынужден лишиться от &2%s&a!'
+game.death.forfeited: '&2%s&a лишился!'
 
-game.winning.single-won: '&2%s&a has won the SkyWars!'
-game.winning.multi-won: '&2%s&a have won the SkyWars!'
+game.winning.single-won: '&2%s&a выиграл на SkyWars!'
+game.winning.multi-won: '&2%s&a выиграли на SkyWars!'
 game.winning.multi-won-comma: '&a, &2'
-game.winning.none-won: '&aThe SkyWars ended with no victors.'
+game.winning.none-won: '&aИгра на SkyWars закончилась без победителей.'
 
-game.starting.game-starting: '&aGame starting with &2%s&a!'
+game.starting.game-starting: '&aИгра начнется через &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
