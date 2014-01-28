@@ -80,6 +80,7 @@ top-commands.setup.description: 'Setup command for SkyWars'
 
 generic-command-message.too-many-parameters: '&4Too many arguments.'
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'
+
 messages.removed-from-queue-because-death: '&3You were removed from the queue because you died.'
 messages.no-clue-what-command: '&4SkyWars has no clue what &c%s&4 is.'
 messages.not-fully-enabled: '&4Not fully enabled.'

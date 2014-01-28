@@ -80,6 +80,7 @@ top-commands.setup.description: 'Установочная команда для 
 
 generic-command-message.too-many-parameters: '&4Слишком много аргументов.'
 generic-command-message.not-enough-parameters: '&4Не достаточно аргументов.'
+
 messages.removed-from-queue-because-death: '&3Вы вышли из очереди, потому-что Вы умерли.'
 messages.no-clue-what-command: '&4SkyWars не знает что это: &c%s&4.'
 messages.not-fully-enabled: '&4Нет активных.'

@@ -83,6 +83,7 @@ top-commands.setup.description: 'Commande de configuration du SkyWars'
 generic-command-message.too-many-parameters: '&4Trop de paramètre.'
 # not-enough-parameters is untranslated
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'
+
 messages.removed-from-queue-because-death: '&3Vous quittez la file car vous êtes mort.'
 messages.no-clue-what-command: '&4SkyWars ne sait pas ce que "&c%s&4" est.'
 messages.not-fully-enabled: '&4Pas complétement activé.'
