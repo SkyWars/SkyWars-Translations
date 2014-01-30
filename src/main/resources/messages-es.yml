@@ -49,7 +49,6 @@ commands.report.output: '&3Report: &2%s'
 commands.forcestart.description: 'Forzar un juego con la gente en cola'
 commands.forcestart.not-enough-players: 'Tiene que haber por lo menos dos jugadores para empezar.'
 
-## commands.kit is untranslated
 commands.kit.description: 'Define el kit the uso para el siguiente juego.'
 commands.kit.no-kits-available: '&4No hay kits que puedas usar.'
 commands.kit.unavailable-kits: '&3Kits indisponibles: &2%s'
@@ -57,8 +56,10 @@ commands.kit.unknown-kit: '&4Kit desconocido &c%s&4.'
 commands.kit.not-enough-money: '&4No tienes suficiente %1$s para comprar &c%2$s&4. Necesitas &c%3$s&4 mas %1$s.'
 commands.kit.chose-kit: '&3Ahora estas usando el kit &2%s&3.'
 commands.kit.chose-kit-with-cost: '&3Estas usando el kit &2%1$s&3. Este kit te va a costar &2%2$s&3 por round.'
-commands.kit.how-to-remove: '&3Puedes &2/sw kit cancel&3 para parar de usar este kit.'
+commands.kit.how-to-remove: '&3Puedes &2/sw kit remove&3 para parar de usar este kit.'
 commands.kit.removed-kit: '&3Ya no estas usando kits.'
+# commands.kit.no-kit-removed is untranslated.
+commands.kit.no-kit-removed: '&3You weren't using a kit, no kit removed.'
 commands.kit.current-kit: '&3Actualmente estas usando el kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Actualmente estas usando el kit &2%1$s&3. Este kit cuesta &2%2$s&3 por round.'
 
@@ -86,7 +87,6 @@ top-commands.main.description: 'Comando principal para skywars'
 top-commands.setup.description: 'Comando para establecer skywars'
 
 generic-command-message.too-many-parameters: '&4Demasiados parametros'
-## generic-command-message.not-enough-parmaters is untranslated
 generic-command-message.not-enough-parameters: '&4No hay suficientes argumentos.'
 
 messages.removed-from-queue-because-death: '&3Has sido removido de la cola porque moriste.'
@@ -100,7 +100,6 @@ messages.kits.kit-list: '&3Kits disponibles: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3costo: &2%s&8)'
 messages.kits.choose-a-kit: '&3Usa &2/sw kit &8<&2Name&8>&3 para escoger un kit.'
-# Following messages.kits messages are untranslated.
 messages.kits.applied: '&3Kit aplicado &2%s&3 en este juego.'
 messages.kits.applied-kit-cost: '&3Kit aplicado &2%1$s&3 en este juego, costandote &3%2$s&2.'
 messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el kit &2%s&3, dejando de seleccionar.'
