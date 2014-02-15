@@ -78,19 +78,16 @@
                 </configuration>
             </plugin>
         </plugins>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ssh</artifactId>
-                <version>2.4</version>
-            </extension>
-        </extensions>
     </build>
 
     <issueManagement>
-        <url>https://github.com/SkyWars/SkyWars/issues</url>
         <system>Github Issues</system>
+        <url>https://github.com/SkyWars/SkyWars/issues</url>
     </issueManagement>
+    <ciManagement>
+        <system>teamcity</system>
+        <url>http://dabo.guru/ci-p/SkyWarsParent_SkyWarsTranslations</url>
+    </ciManagement>
     <distributionManagement>
         <repository>
             <id>dabo.guru</id>
