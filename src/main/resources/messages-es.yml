@@ -59,7 +59,7 @@ commands.kit.chose-kit-with-cost: '&3Estas usando el kit &2%1$s&3. Este kit te v
 commands.kit.how-to-remove: '&3Puedes &2/sw kit remove&3 para parar de usar este kit.'
 commands.kit.removed-kit: '&3Ya no estas usando kits.'
 # commands.kit.no-kit-removed is untranslated.
-commands.kit.no-kit-removed: '&3You weren't using a kit, no kit removed.'
+commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3Actualmente estas usando el kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Actualmente estas usando el kit &2%1$s&3. Este kit cuesta &2%2$s&3 por round.'
 
