@@ -1,6 +1,6 @@
 SkyWars Translations
 ---
 
-This is just translations for SkyWars. See [SkyWars](https://github.com/SkyWars/SkyWars) for the main project repo.
+This is the translations project for SkyWars. See [SkyWars](https://github.com/SkyWars/SkyWars) for the main project repo.
 
-[TeamCity Development Builds - CI Server](http://d.nlmc.pw/SkyWarsParent_SkyWarsTranslations)
+[TeamCity Development Builds - CI Server](http://ci.dabo.guru/p/SkyWarsParent_SkyWarsTranslations)
