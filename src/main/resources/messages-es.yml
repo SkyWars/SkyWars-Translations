@@ -101,7 +101,7 @@ messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3costo: &2%s&8)'
 messages.kits.choose-a-kit: '&3Usa &2/sw kit &8<&2Name&8>&3 para escoger un kit.'
 messages.kits.applied-kit: '&3Kit aplicado &2%s&3 en este juego.'
-messages.kits.applied-kit-cost: '&3Kit aplicado &2%1$s&3 en este juego, costandote &3%2$s&2.'
+messages.kits.applied-kit-with-cost: '&3Kit aplicado &2%1$s&3 en este juego, costandote &3%2$s&2.'
 messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el kit &2%s&3, dejando de seleccionar.'
 
 game.death.killed-by-player-and-void: '&2%s&a empujo a &2%s&a a la zona oscura!'
