@@ -104,6 +104,8 @@ messages.kits.applied-kit: '&3Kit aplicado &2%s&3 en este juego.'
 messages.kits.applied-kit-with-cost: '&3Kit aplicado &2%1$s&3 en este juego, costandote &3%2$s&2.'
 messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el kit &2%s&3, dejando de seleccionar.'
 
+messages.in-game: '&4You can''t do that, you are in a game.'
+
 game.death.killed-by-player-and-void: '&2%s&a empujo a &2%s&a a la zona oscura!'
 game.death.killed-by-void: '&2%s&a ha saltado a la zona oscura!'
 game.death.killed-by-player: '&2%s&a mato a &2%s&a!'

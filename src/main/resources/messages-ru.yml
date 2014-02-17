@@ -105,6 +105,8 @@ messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
 messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
 messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
 
+messages.in-game: '&4You can''t do that, you are in a game.'
+
 game.death.killed-by-player-and-void: '&2%s&a скинул &2%s&a за карту!'
 game.death.killed-by-void: '&2%s&a выпал за карту!'
 game.death.killed-by-player: '&2%s&a убил &2%s&a!'

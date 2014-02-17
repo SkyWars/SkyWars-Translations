@@ -108,6 +108,8 @@ messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
 messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
 messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
 
+messages.in-game: '&4You can''t do that, you are in a game.'
+
 game.death.killed-by-player-and-void: '&2%s&a pousse &2%s&a dans le vide !'
 game.death.killed-by-void: '&2%s&a saute dans le vide.'
 game.death.killed-by-player: '&2%s&a tue &2%s&a!'
