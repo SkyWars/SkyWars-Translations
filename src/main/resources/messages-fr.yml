@@ -104,7 +104,7 @@ messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3coûte: &2%s&8)'
 messages.kits.choose-a-kit: '&3Utilise &2/sw kit &8<&2Nom&8>&3 pour choisir un kit.'
 # Following messages.kits messages are untranslated.
-messages.kits.applied: '&3Applied kit &2%s&3 in this game.'
+messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
 messages.kits.applied-kit-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
 messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
 
