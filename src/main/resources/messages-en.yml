@@ -58,7 +58,7 @@ commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
 commands.kit.chose-kit-with-cost: '&3You are now using kit &2%1$s&3. This kit will cost you &2%2$s&3 per round.'
 commands.kit.how-to-remove: '&3You can use &2/sw kit remove&3 to stop using this kit.'
 commands.kit.removed-kit: '&3You are no longer using any kits.'
-commands.kit.no-kit-removed: '&3You weren't using a kit, no kit removed.'
+commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
 
