@@ -1,10 +1,10 @@
 messages-version: 2
-commands.join.description: Se une a la cola para el juego siguiente
+commands.join.description: 'Se une a la cola para el juego siguiente'
 commands.join.confirmation: '&3Te has unido a la cola.'
 commands.join.already-queued: '&4Ya estabas en cola.'
 commands.join.in-game: '&4No te puedes unir ahora, estas en el juego.'
 
-commands.leave.description: Deja la cola o el juego en el que estas
+commands.leave.description: 'Deja la cola o el juego en el que estas'
 commands.leave.removed-from-queue: '&3Ya no estas en la cola.'
 commands.leave.removed-from-game: '&3Has salido del juego.'
 commands.leave.not-in-any: '&4No estas en cola.'
@@ -26,23 +26,23 @@ commands.cancel.argument-not-integer: '&c%s&4 no es un integrante!'
 commands.cancel.no-games-with-id: '&4No hay ningun juego con el ID &c%s&4.'
 commands.cancel.confirmation: '&3Cancelando juego &2%s&3.'
 
-commands.status.description: Da el estado de los juegos actuales
+commands.status.description: 'Da el estado de los juegos actuales'
 commands.status.header: '&9 -- &2SkyWars Estado&9 --'
 commands.status.in-queue: '&3En cola: &2%s'
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Arenas Actuales&9 --'
 
-commands.version.description: Da la version
+commands.version.description: 'Da la version'
 commands.version.output: '&3%s version &2%s &3/ &2%s&3. Creado por &2Dabo Ross'
 
-commands.lobby.description: Te telestransporta al lobby
+commands.lobby.description: 'Te telestransporta al lobby'
 commands.lobby.confirmation: '&4Telestransportandose al Lobby.'
 commands.lobby.in-game: '&4No puedes telestransportarte al lobby, estas en juego.'
 
-commands.cancelall.description: Cancelando los juegos actuales.
+commands.cancelall.description: 'Cancelando los juegos actuales.'
 commands.cancelall.canceling-game: '&3Cancelando juego &2%s'
 
-commands.report.description: Generates a report and uploads it to gist.github.com, then gives you a link.
+commands.report.description: 'Generates a report and uploads it to gist.github.com, then gives you a link.'
 commands.report.start: '&3Gathering data and submitting'
 commands.report.output: '&3Report: &2%s'
 
@@ -63,8 +63,8 @@ commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3Actualmente estas usando el kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Actualmente estas usando el kit &2%1$s&3. Este kit cuesta &2%2$s&3 por round.'
 
-setup-commands.start.description: Empieza una nueva arena y guarda cualquier arena.
-setup-commands.start.argument-name: Nombre de la Arena
+setup-commands.start.description: 'Empieza una nueva arena y guarda cualquier arena.'
+setup-commands.start.argument-name: 'Nombre de la Arena'
 setup-commands.start.confirmation: '&3Empezo a establecer una arena llamada &2%s&3.'
 setup-commands.start.one-argument: '&4Porfavor de uno solo, argumento valido.'
 
