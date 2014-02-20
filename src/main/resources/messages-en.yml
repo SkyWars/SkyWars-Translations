@@ -1,4 +1,5 @@
-messages-version: 2
+messages-version: 3
+
 commands.join.description: 'Joins the queue for the next game'
 commands.join.confirmation: '&3You have joined the queue.'
 commands.join.already-queued: '&4You were already in the queue.'
@@ -104,6 +105,8 @@ messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costi
 messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
 
 messages.in-game: '&4You can''t do that, you are in a game.'
+
+messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 
 game.death.killed-by-player-and-void: '&2%s&a pushed &2%s&a into the void of doom!'
 game.death.killed-by-void: '&2%s&a jumped into the void of doom!'

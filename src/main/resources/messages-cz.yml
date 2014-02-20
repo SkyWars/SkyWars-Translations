@@ -1,4 +1,5 @@
-messages-version: 2
+messages-version: 3
+
 commands.join.description: 'Prida te do fronty na dalsi zapas'
 commands.join.confirmation: '&3Byl jsi pridan do fronty.'
 commands.join.already-queued: '&4Jiz jsi ve fronte na SkyWars.'
@@ -107,6 +108,8 @@ messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costi
 messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
 
 messages.in-game: '&4You can''t do that, you are in a game.'
+
+messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 
 game.death.killed-by-player-and-void: '&2%s&a vystrcil &2%s&a do nicoty!'
 game.death.killed-by-void: '&2%s&a skocil do nicoty!'

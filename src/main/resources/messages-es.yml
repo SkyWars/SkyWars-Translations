@@ -1,4 +1,5 @@
-messages-version: 2
+messages-version: 3
+
 commands.join.description: 'Se une a la cola para el juego siguiente'
 commands.join.confirmation: '&3Te has unido a la cola.'
 commands.join.already-queued: '&4Ya estabas en cola.'
@@ -105,6 +106,8 @@ messages.kits.applied-kit-with-cost: '&3Kit aplicado &2%1$s&3 en este juego, cos
 messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el kit &2%s&3, dejando de seleccionar.'
 
 messages.in-game: '&4You can''t do that, you are in a game.'
+
+messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 
 game.death.killed-by-player-and-void: '&2%s&a empujo a &2%s&a a la zona oscura!'
 game.death.killed-by-void: '&2%s&a ha saltado a la zona oscura!'

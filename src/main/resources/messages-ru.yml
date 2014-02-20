@@ -107,6 +107,8 @@ messages.kits.not-enough-money: '&3You no longer have enough money to apply kit 
 
 messages.in-game: '&4You can''t do that, you are in a game.'
 
+messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
+
 game.death.killed-by-player-and-void: '&2%s&a скинул &2%s&a за карту!'
 game.death.killed-by-void: '&2%s&a выпал за карту!'
 game.death.killed-by-player: '&2%s&a убил &2%s&a!'
