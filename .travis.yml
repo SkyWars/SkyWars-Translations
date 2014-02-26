@@ -1,9 +1,0 @@
-language: java
-script: mvn clean package
-after_success: bash .travis-after
-install: mvn --fail-never clean package
-env:
-  global:
-  - secure: SB7lHtWhdkgnaI4ilZ9USXTYiPHdlOm4+IpJcuLBmAnVu2W5HnPGyYgAV7iqE+jaoBDEVgUL588l41A8rWAunACTmJD3R3UKNpLgRrk+xWU1nEz6uJ05yzjsFH04aQV5iUzL+cfp9OWxGQWtiwAqcSKjig2ExCWgvzL+T89N+uQ=
-  - secure: hVYjnTffjkYdMESnAQeUPj/Nay/CJlsbYCxgPNaKI2z2XfdeumpwprexKL2v0zvMwLSzS0t3zlW6R2mgFBKWV9fO3w8mkowySPooI9283KX49jmizIAv+k69peF7F1oRb+zA1FmRaaj0Fz6zx9gQo0+WfOTRFlFCV2aKMBXPuMw=
-  - secure: acjY/RA4FmCSa9x3HYHQsdlN9nRnotkaCHb6JNuCdwcWgBOrgfZvuQwaX+JtrwVm8b0KNdkI2v7ynMJx+lmlRzliNU129XMca/VONJIqa8eZUsZvZOkdbFTBn6J48SZ1QoG3hBOFiWNXiJmi+Q3xTiwoVBcjiXyRjaOssNu6K6M=
