@@ -94,11 +94,11 @@ messages.no-clue-what-command: '&4SkyWars has no clue what &c%s&4 is.'
 messages.not-fully-enabled: '&4Not fully enabled.'
 
 messages.economy-reward.win: '&3You have been given &2%s&3 for winning the SkyWars.'
-messages.economy-reward.kill: '&3You have been given &2%s&3 for killing &2%s&3.'
+messages.economy-reward.kill: '&3You have been given &2%1$s&3 for killing &2%2$s&3.'
 
 messages.kits.kit-list: '&3Available kits: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
-messages.kits.kit-list-item-cost: '%s &8(&3cost: &2%s&8)'
+messages.kits.kit-list-item-cost: '%1$s &8(&3cost: &2%2$s&8)'
 messages.kits.choose-a-kit: '&3Use &2/sw kit &8<&2Name&8>&3 to choose a kit.'
 messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
 messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
