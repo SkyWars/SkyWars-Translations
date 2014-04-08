@@ -62,6 +62,8 @@ commands.kit.removed-kit: '&3Du benutzt nun kein Kit mehr.'
 commands.kit.no-kit-removed: '&3Du nutzt momentan kein Kit, das man entfernen koennte.'
 commands.kit.current-kit: '&3Du nutzt momentan das Kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Momentan benutzt du das Kit &2%1$s&3. Es kostet dich jede Runde &2%2$s&3.'
+# commands.kit.no-access is untranslated
+commands.kit.no-access: '&4 You don''t have access to kit $c%s&4.'
 
 setup-commands.start.description: 'Starte ein neues Arena setup und loesche vorherige ungespeicherte Arenen.'
 setup-commands.start.argument-name: 'Arena Name'
