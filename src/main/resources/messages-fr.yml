@@ -57,7 +57,7 @@ commands.kit.unavailable-kits: '&3Kits non disponibles: &2%s'
 commands.kit.unknown-kit: '&4Aucun kit connu &c%s&4.'
 commands.kit.not-enough-money: '&4Vous n''avez pas assez de %1$s pour acheter &c%2$s&4. Vous avez besoins de &c%3$s&4 en plus %1$s.'
 # Following commands.kit messages are untranslated.
-commands.kit.no-access: '&4 You don''t have access to kit $c%s&4.'
+commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
 commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
 commands.kit.chose-kit-with-cost: '&3You are now using kit &2%1$s&3. This kit will cost you &2%2$s&3 per round.'
 commands.kit.how-to-remove: '&3You can use &2/sw kit remove&3 to stop using this kit.'
