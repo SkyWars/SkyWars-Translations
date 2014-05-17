@@ -19,7 +19,7 @@
 
     <groupId>net.daboross.bukkitdev</groupId>
     <artifactId>skywars-translations</artifactId>
-    <version>1.4.3-SNAPSHOT</version>
+    <version>1.4.3</version>
     <packaging>jar</packaging>
 
     <name>SkyWars-Translations</name>
@@ -46,7 +46,7 @@
         <url>https://github.com/SkyWars/SkyWars-Translations.git</url>
         <connection>scm:git:https://github.com/SkyWars/SkyWars-Translations.git</connection>
         <developerConnection>scm:git:git@github.com:SkyWars/SkyWars-Translations.git</developerConnection>
-        <tag>skywars-translations-1.3.2</tag>
+        <tag>skywars-translations-1.4.3</tag>
     </scm>
     <properties>
         <netbeans.hint.license>gpl30</netbeans.hint.license>
