@@ -1,4 +1,4 @@
-messages-version: 3
+messages-version: 4
 commands.join.description: 'Вход в очередь на следующею игру'
 commands.join.confirmation: '&3Вы вошли в очередь на игру.'
 commands.join.already-queued: '&4Вы и так стоите в очереди.'

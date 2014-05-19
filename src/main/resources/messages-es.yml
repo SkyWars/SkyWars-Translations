@@ -1,4 +1,4 @@
-messages-version: 3
+messages-version: 4
 
 commands.join.description: 'Se une a la cola para el juego siguiente'
 commands.join.confirmation: '&3Te has unido a la cola.'
