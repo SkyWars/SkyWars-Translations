@@ -48,7 +48,7 @@ commands.report.start: '&3Récupération des données et envoie...'
 commands.report.output: '&3Rapport: &2%s'
 
 commands.forcestart.description: 'Force une partie à démarrer avec les gens de la file.'
-commands.forcestart.not-enough-players: 'Il doit y avoir au moins 2 personnes dans la file pour forcer démarrage.'
+commands.forcestart.not-enough-players: '&4Il doit y avoir au moins 2 personnes dans la file pour forcer démarrage.'
 
 commands.kit.list: 'Liste les kits'
 commands.kit.description: 'Choisie le kit pour la prochaine partie'

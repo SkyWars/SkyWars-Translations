@@ -48,7 +48,7 @@ commands.report.start: '&3Shromazduji udaje a odesilam...'
 commands.report.output: '&3Zprava: &2%s'
 
 commands.forcestart.description: 'Spusti hru s lidmi ve fronte'
-commands.forcestart.not-enough-players: 'Musi byt alespon 2 hraci ve fronte pro spusteni hry.'
+commands.forcestart.not-enough-players: '&4Musi byt alespon 2 hraci ve fronte pro spusteni hry.'
 
 # commands.kit translation is untranslated.
 commands.kit.description: 'Sets the kit to use for the next game'

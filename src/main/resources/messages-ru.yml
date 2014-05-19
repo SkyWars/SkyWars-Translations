@@ -47,7 +47,7 @@ commands.report.start: '&3Сбор данных и отправка...'
 commands.report.output: '&3Репорт: &2%s'
 
 commands.forcestart.description: 'Принудительно начать игру с игроками в ожидании'
-commands.forcestart.not-enough-players: 'Должно быть как минимум 2 игрока в ожидании для старта игры.'
+commands.forcestart.not-enough-players: '&4Должно быть как минимум 2 игрока в ожидании для старта игры.'
 
 commands.kit.description: 'Установить наборы для использования в следующей игре.'
 commands.kit.no-kits-available: '&4Доступных наборов нет.'

@@ -48,7 +48,7 @@ commands.report.start: '&3Gathering data and submitting'
 commands.report.output: '&3Report: &2%s'
 
 commands.forcestart.description: 'Forzar un juego con la gente en cola'
-commands.forcestart.not-enough-players: 'Tiene que haber por lo menos dos jugadores para empezar.'
+commands.forcestart.not-enough-players: '&4Tiene que haber por lo menos dos jugadores para empezar.'
 
 commands.kit.description: 'Define el kit the uso para el siguiente juego.'
 commands.kit.no-kits-available: '&4No hay kits que puedas usar.'

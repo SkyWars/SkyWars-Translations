@@ -48,7 +48,7 @@ commands.report.start: '&3Sammle Daten und lade sie hoch'
 commands.report.output: '&3Report: &2%s'
 
 commands.forcestart.description: 'Startet ein Spiel mit den Spielern in der Warteschlange'
-commands.forcestart.not-enough-players: 'Es muessen mindestens 2 Spieler in der Warteschlange sein, um ein Spiel zu starten.'
+commands.forcestart.not-enough-players: '&4Es muessen mindestens 2 Spieler in der Warteschlange sein, um ein Spiel zu starten.'
 
 commands.kit.description: 'Waehle dein Kit fuer dein nächstes Spiel aus.'
 commands.kit.no-kits-available: '&4Es gibt keine Kits, die du nutzen kannst.'

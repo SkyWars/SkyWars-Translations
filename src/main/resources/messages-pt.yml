@@ -50,7 +50,7 @@ commands.report.output: '&3Report: &2%s'
 
 # commands.forcestart is untranslated
 commands.forcestart.description: 'Forces a game to start with the people in the queue'
-commands.forcestart.not-enough-players: 'There must be at least 2 players in the queue to force start a game.'
+commands.forcestart.not-enough-players: '&4There must be at least 2 players in the queue to force start a game.'
 
 # commands.kit is untranslated.
 commands.kit.description: 'Sets the kit to use for the next game'
