@@ -105,6 +105,8 @@ messages.kits.choose-a-kit: '&3Usa &2/sw kit &8<&2Name&8>&3 para escoger un kit.
 messages.kits.applied-kit: '&3Kit aplicado &2%s&3 en este juego.'
 messages.kits.applied-kit-with-cost: '&3Kit aplicado &2%1$s&3 en este juego, costandote &3%2$s&2.'
 messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el kit &2%s&3, dejando de seleccionar.'
+# messages.kits.no-permission is untranslated
+messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&3, deselecting it.'
 
 messages.in-game: '&4You can''t do that, you are in a game.'
 
