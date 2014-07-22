@@ -1,20 +1,20 @@
 messages-version: 4
 
-commands.join.description: 'Se une a la cola para el juego siguiente'
+commands.join.description: 'Se te une a la cola para el juego siguiente'
 commands.join.confirmation: '&3Te has unido a la cola.'
-commands.join.already-queued: '&4Ya estabas en cola.'
-commands.join.in-game: '&4No te puedes unir ahora, estas en el juego.'
+commands.join.already-queued: '&4Ya estabas en otra cola.'
+commands.join.in-game: '&4No te puedes unir ahora, estás en una partida.'
 
-commands.leave.description: 'Deja la cola o el juego en el que estas'
+commands.leave.description: 'Deja la cola o el juego en el que estés esperando.'
 commands.leave.removed-from-queue: '&3Ya no estas en la cola.'
 commands.leave.removed-from-game: '&3Has salido del juego.'
-commands.leave.not-in-any: '&4No estas en cola.'
+commands.leave.not-in-any: '&4No estás en cola.'
 
 commands.setlobby.description: 'Establece el lobby'
-commands.setlobby.confirmation: '&3Has establecido el lobby en tu ubicacion.'
-commands.setlobby.in-game: '&4No puedes establecer el lobby, estas en juego.'
+commands.setlobby.confirmation: '&3Has establecido el lobby en tu ubicación actual.'
+commands.setlobby.in-game: '&4No puedes establecer el lobby, estás en una partida.'
 
-commands.setportal.description: 'Pone un portal en tu ubicacion'
+commands.setportal.description: 'Pone un portal en tu ubicación.'
 commands.setportal.confirmation: '&3Has puesto un portal en tu ubicacion.'
 commands.setportal.in-game: '&4No puedes establecer un portal, estas en un juego.'
 
@@ -108,21 +108,21 @@ messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el k
 # messages.kits.no-permission is untranslated
 messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&3, deselecting it.'
 
-messages.in-game: '&4You can''t do that, you are in a game.'
+messages.in-game: '&4No puedes hacer eso, estás en una partida.'
 
-messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
+messages.report-disabled: '&4Los reportes han sido desactivados en: &cmain-config.yml&4. Quita el &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 
-game.death.killed-by-player-and-void: '&2%s&a empujo a &2%s&a a la zona oscura!'
+game.death.killed-by-player-and-void: '&2%s&a empujó a &2%s&a a la zona oscura!'
 game.death.killed-by-void: '&2%s&a ha saltado a la zona oscura!'
-game.death.killed-by-player: '&2%s&a mato a &2%s&a!'
-game.death.killed-by-environment: '&2%s&a was killed!'
-game.death.forfeited-while-attacked: '&2%s&a ha sido forzado a perder por &2%s&a!'
-game.death.forfeited: '&2%s&a perdio!'
+game.death.killed-by-player: '&2%s&a mató a &2%s&a!'
+game.death.killed-by-environment: '&2%s&a fue matado!'
+game.death.forfeited-while-attacked: '¡&2%s&a ha sido forzado a perder por &2%s&a!'
+game.death.forfeited: '¡&2%s&a perdió!'
 
-game.winning.single-won: '&2%s&a ha ha ganado SkyWars!'
-game.winning.multi-won: '&2%s&a ha ganado SkyWars!'
+game.winning.single-won: '&2%s&a ha ha ganado esta partida de SkyWars!'
+game.winning.multi-won: '&2%s&a ha ganado esta partida de SkyWars!'
 game.winning.multi-won-comma: '&a, &2'
-game.winning.none-won: '&aSkywars termino sin ninguna victoria.'
+game.winning.none-won: '&aEsta partida de Skywars terminó sin ninguna victoria.'
 
-game.starting.game-starting: '&aEl juego esta empezando con &2%s&a!'
+game.starting.game-starting: '&aEl juego está empezando con &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
