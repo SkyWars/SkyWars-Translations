@@ -59,11 +59,12 @@ commands.kit.chose-kit: '&3Ahora estas usando el kit &2%s&3.'
 commands.kit.chose-kit-with-cost: '&3Estas usando el kit &2%1$s&3. Este kit te va a costar &2%2$s&3 por round.'
 commands.kit.how-to-remove: '&3Puedes &2/sw kit remove&3 para parar de usar este kit.'
 commands.kit.removed-kit: '&3Ya no estas usando kits.'
-# commands.kit.no-kit-removed is untranslated.
-commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
-commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3Actualmente estas usando el kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Actualmente estas usando el kit &2%1$s&3. Este kit cuesta &2%2$s&3 por round.'
+
+# *** untranslated ***
+commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
+commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 
 setup-commands.start.description: 'Empieza una nueva arena y guarda cualquier arena.'
 setup-commands.start.argument-name: 'Nombre de la Arena'
@@ -105,6 +106,7 @@ messages.kits.choose-a-kit: '&3Usa &2/sw kit &8<&2Name&8>&3 para escoger un kit.
 messages.kits.applied-kit: '&3Kit aplicado &2%s&3 en este juego.'
 messages.kits.applied-kit-with-cost: '&3Kit aplicado &2%1$s&3 en este juego, costandote &3%2$s&2.'
 messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el kit &2%s&3, dejando de seleccionar.'
+
 # messages.kits.no-permission is untranslated
 messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&3, deselecting it.'
 
