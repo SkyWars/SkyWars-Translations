@@ -126,3 +126,9 @@ game.winning.none-won: '&aDer SkyWars endet ohne Gewinner.'
 
 game.starting.game-starting: '&aSpiel startet mit &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
+# ** untranslated **
+# It's final usage is:
+# {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
+game.starting.team-message: '&aYou are in a team with &2'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a and &2'

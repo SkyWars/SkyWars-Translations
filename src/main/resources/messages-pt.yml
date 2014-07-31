@@ -129,3 +129,8 @@ game.winning.none-won: '&aThe SkyWars ended with no victors.'
 
 game.starting.game-starting: '&aGame starting with &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
+# It's final usage is:
+# {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
+game.starting.team-message: '&aYou are in a team with &2'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a and &2'
