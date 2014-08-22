@@ -100,17 +100,15 @@ messages.economy-reward.kill: '&3Du bekommst &2%1$s&3 fuer das besiegen von &2%2
 messages.kits.kit-list: '&3verfuegbare Kits: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%1$s &8(&3Preis: &2%2$s&8)'
-messages.kits.choose-a-kit: '&3Benutze &2/sw kit &8<&2Name&8>&3 um ein Kit auszuwa.'
+messages.kits.choose-a-kit: '&3Benutze &2/sw kit &8<&2Name&8>&3 um ein Kit auszuwaehlen.'
 messages.kits.applied-kit: '&3In dieser Runde nutzt du das Kit &2%s&3.'
 messages.kits.applied-kit-with-cost: '&3Das ausgewaehlte Kit &2%1$s&3 kostet dich &3%2$s&2.'
-messages.kits.not-enough-money: '&3Du hast nicht genug Geld um das Kit &2%s&3 du nutzen. Kit wird entfernt'
-
-# messages.kits.no-permission is untranslated
-messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&3, deselecting it.'
+messages.kits.not-enough-money: '&3Du hast nicht genug Geld, um das Kit &2%s&3 zu nutzen. Kit wird entfernt.'
+messages.kits.no-permission: '&3Dir fehlt die Berechtigung, um das Kit &2%s&3 zu nutzen. Kit wird entfernt.'
 
 messages.in-game: '&4Das kannst du waehrend eines Spiels nicht tun.'
 
-messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
+messages.report-disabled: '&4Melden wurde in der &cmain-config.yml&4 deaktiviert. Entferne die Zeile &c''disable-report: true''&4, um es zu aktivieren. Beachte, dass wenn aktiviert, SkyWars NUR dann meldet, wenn dieser Befehl ausgeführt wird, niemals von allein.'
 
 game.death.killed-by-player-and-void: '&2%s&a schubste &2%s&a in die Leere!'
 game.death.killed-by-void: '&2%s&a sprang in die Leere!'
@@ -126,6 +124,7 @@ game.winning.none-won: '&aDer SkyWars endet ohne Gewinner.'
 
 game.starting.game-starting: '&aSpiel startet mit &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
+
 # ** untranslated **
 # It's final usage is:
 # {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
