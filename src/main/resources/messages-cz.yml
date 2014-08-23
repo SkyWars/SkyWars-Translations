@@ -89,6 +89,7 @@ top-commands.main.description: 'Hlavni prikaz pro SkyWars'
 top-commands.setup.description: 'Prikaz pro nastaveni SkyWars'
 
 generic-command-message.too-many-parameters: '&4Zadano priliz mnoho parametru.'
+
 # not-enough-parameters is untranslated
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'
 
@@ -103,6 +104,7 @@ messages.kits.kit-list: '&3Kity k dispozici: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3cena: &2%s&8)'
 messages.kits.choose-a-kit: '&3Pouzij &2/sw kit &8<&2jmeno&8>&3 pro vyber kitu.'
+
 # Following messages.kits messages are untranslated.
 messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
 messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'

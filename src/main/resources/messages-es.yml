@@ -59,7 +59,6 @@ commands.kit.chose-kit: '&3Ahora estás usando el kit &2%s&3.'
 commands.kit.chose-kit-with-cost: '&3Estás usando el kit &2%1$s&3. Este kit te va a costar &2%2$s&3 por ronda.'
 commands.kit.how-to-remove: '&3Puedes usar &2/sw kit remove&3 para parar de usar este kit.'
 commands.kit.removed-kit: '&3Ya no estás usando ningún kit.'
-# commands.kit.no-kit-removed is untranslated.
 commands.kit.no-access: '&4 No tienes acceso para el kit &c%s&4.'
 commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3Actualmente estás usando el kit &2%s&3.'
@@ -105,6 +104,7 @@ messages.kits.choose-a-kit: '&3Usa &2/sw kit &8<&2Name&8>&3 para escoger un kit.
 messages.kits.applied-kit: '&3Kit aplicado &2%s&3 en este juego.'
 messages.kits.applied-kit-with-cost: '&3Kit aplicado &2%1$s&3 en este juego, costandote &3%2$s&2.'
 messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el kit &2%s&3, dejando de seleccionar.'
+
 # messages.kits.no-permission is untranslated
 messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&3, deselecting it.'
 

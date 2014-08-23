@@ -108,7 +108,6 @@ messages.kits.no-permission: '&3Dir fehlt die Berechtigung, um das Kit &2%s&3 zu
 
 messages.in-game: '&4Das kannst du waehrend eines Spiels nicht tun.'
 
-messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 messages.report-disabled: '&4Melden wurde in der &cmain-config.yml&4 deaktiviert. Entferne die Zeile &c''disable-report: true''&4, um es zu aktivieren. Beachte, dass wenn aktiviert, SkyWars NUR dann meldet, wenn dieser Befehl ausgeführt wird, niemals von allein.'
 
 game.death.killed-by-player-and-void: '&2%s&a schubste &2%s&a in die Leere!'

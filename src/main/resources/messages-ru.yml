@@ -54,6 +54,7 @@ commands.kit.no-kits-available: '&4Доступных наборов нет.'
 commands.kit.unavailable-kits: '&3Поврежденные наборы: &2%s'
 commands.kit.unknown-kit: '&4Неизвестный набор &c%s&4.'
 commands.kit.not-enough-money: '&4У Вас нехватает %1$s для покупки &c%2$s&4. Вам требуется &c%3$s&4 более %1$s.'
+
 # Following commands.kit messages are untranslated.
 commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
 commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
@@ -101,6 +102,7 @@ messages.kits.kit-list: '&3Доступные наборы: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3цена: &2%s&8)'
 messages.kits.choose-a-kit: '&3Используйте &2/sw kit &8<&2ИМЯ&8>&3 для получения набора.'
+
 # Following messages.kits messages are untranslated.
 messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
 messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'

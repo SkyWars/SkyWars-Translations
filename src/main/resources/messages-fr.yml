@@ -56,6 +56,7 @@ commands.kit.no-kits-available: '&4Il n''y a aucun kit que vous pouvez utiliser.
 commands.kit.unavailable-kits: '&3Kits non disponibles: &2%s'
 commands.kit.unknown-kit: '&4Aucun kit connu &c%s&4.'
 commands.kit.not-enough-money: '&4Vous n''avez pas assez de %1$s pour acheter &c%2$s&4. Vous avez besoins de &c%3$s&4 en plus %1$s.'
+
 # Following commands.kit messages are untranslated.
 commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
 commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
@@ -90,6 +91,7 @@ top-commands.main.description: 'Commandes principale du SkyWars'
 top-commands.setup.description: 'Commande de configuration du SkyWars'
 
 generic-command-message.too-many-parameters: '&4Trop de paramètre.'
+
 # not-enough-parameters is untranslated
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'
 
@@ -104,6 +106,7 @@ messages.kits.kit-list: '&3Kits disponibles: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3coûte: &2%s&8)'
 messages.kits.choose-a-kit: '&3Utilise &2/sw kit &8<&2Nom&8>&3 pour choisir un kit.'
+
 # Following messages.kits messages are untranslated.
 messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
 messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
