@@ -50,7 +50,7 @@ commands.report.output: '&3Zprava: &2%s'
 commands.forcestart.description: 'Spusti hru s lidmi ve fronte'
 commands.forcestart.not-enough-players: '&4Musi byt alespon 2 hraci ve fronte pro spusteni hry.'
 
-# commands.kit translation is untranslated.
+# Untranslated start
 commands.kit.description: 'Sets the kit to use for the next game'
 commands.kit.no-kits-available: '&4There are no kits you can use.'
 commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
@@ -64,6 +64,7 @@ commands.kit.removed-kit: '&3You are no longer using any kits.'
 commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
+# Untranslated end
 
 setup-commands.start.description: 'Zahaji nove nastaveni areny a vymaze vsechny predchozi neulozene areny.'
 setup-commands.start.argument-name: 'Jmeno areny'
@@ -90,7 +91,7 @@ top-commands.setup.description: 'Prikaz pro nastaveni SkyWars'
 
 generic-command-message.too-many-parameters: '&4Zadano priliz mnoho parametru.'
 
-# not-enough-parameters is untranslated
+# Untranslated: generic-command-message.not-enough-parameters
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'
 
 messages.removed-from-queue-because-death: '&3Byl jsi odstranen z fronty, protoze si umrel.'
@@ -105,7 +106,7 @@ messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3cena: &2%s&8)'
 messages.kits.choose-a-kit: '&3Pouzij &2/sw kit &8<&2jmeno&8>&3 pro vyber kitu.'
 
-# Following messages.kits messages are untranslated.
+# Untranslated start
 messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
 messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
 messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
@@ -114,6 +115,7 @@ messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&
 messages.in-game: '&4You can''t do that, you are in a game.'
 
 messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
+# Untranslated end
 
 game.death.killed-by-player-and-void: '&2%s&a vystrcil &2%s&a do nicoty!'
 game.death.killed-by-void: '&2%s&a skocil do nicoty!'
@@ -130,9 +132,9 @@ game.winning.none-won: '&aThe SkyWars skoncila bez vitezu.'
 game.starting.game-starting: '&aHra startuje s hraci &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
 
-# ** untranslated **
-# It's final usage is:
-# {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
+# Untranslated start
+# game.starting.team-message is compiled as: {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
 game.starting.team-message: '&aYou are in team %1$s with &2 %2$s'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
+# Untranslated end

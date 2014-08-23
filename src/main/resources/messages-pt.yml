@@ -1,4 +1,5 @@
 messages-version: 4
+
 commands.join.description: 'Entrou na lista para o proximo jogo'
 commands.join.confirmation: '&3Acabaste de entrar na lista de espera.'
 commands.join.already-queued: '&4Ja te encontras na lista de espera.'
@@ -11,12 +12,14 @@ commands.leave.not-in-any: '&4Nao estas na lista de espera.'
 
 commands.setlobby.description: 'Definir posicao do lobby'
 commands.setlobby.confirmation: '&3Agora o lobby passa a ser onde te encontras.'
-# This is a comment - commands.setlobby.in-game is untranslated
+
+# Untranslated: commands.setlobby.in-game
 commands.setlobby.in-game: '&4You can''t set the lobby, you are in a game.'
 
 commands.setportal.description: 'Coloca um portal na tua localizacao'
 commands.setportal.confirmation: '&3Colocaste um portal na tua localizacao atual.'
-# This is a comment - commands.setportal.in-game is untranslated
+
+# Untranslated: commands.setportal.in-game
 commands.setportal.in-game: '&4You can''t set a portal, you are in a game.'
 
 commands.delportal.description: 'Remove o ultimo portal definido'
@@ -48,11 +51,10 @@ commands.report.description: 'Cria um report e envia para gist.github.com, depoi
 commands.report.start: '&3Recolhendo dados...'
 commands.report.output: '&3Report: &2%s'
 
-# commands.forcestart is untranslated
+# Untranslated start
 commands.forcestart.description: 'Forces a game to start with the people in the queue'
 commands.forcestart.not-enough-players: '&4There must be at least 2 players in the queue to force start a game.'
 
-# commands.kit is untranslated.
 commands.kit.description: 'Sets the kit to use for the next game'
 commands.kit.no-kits-available: '&4There are no kits you can use.'
 commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
@@ -66,6 +68,7 @@ commands.kit.removed-kit: '&3You are no longer using any kits.'
 commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
+# Untranslated end
 
 setup-commands.start.description: 'Comeca a configurar uma nova arena e apaga alguma antes que nao tenha sido guardada.'
 setup-commands.start.argument-name: 'Nome da arena'
@@ -91,14 +94,15 @@ top-commands.main.description: 'Comando principal para o SkyWars'
 top-commands.setup.description: 'Comando de configuracao para o SkyWars'
 
 generic-command-message.too-many-parameters: '&4Demasiados parametros.'
-# not-enough-parameters is untranslated
+
+# Untranslated: generic-command-message.not-enough-parameters
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'
 
 messages.removed-from-queue-because-death: '&3Foste removido da lista de espera porque morreste.'
 messages.no-clue-what-command: '&4SkyWars nao tem nenhuma ideia do que seja &c%s&4.'
 messages.not-fully-enabled: '&4Nao esta completamente ativado.'
 
-# all below is untranslated.
+# Untranslated start
 messages.economy-reward.win: '&3You have been given &2%s&3 for winning the SkyWars.'
 messages.economy-reward.kill: '&3You have been given &2%s&3 for killing &2%s&3.'
 
@@ -134,3 +138,4 @@ game.starting.game-starting-comma: '&a, &2'
 game.starting.team-message: '&aYou are in team %1$s with &2 %2$s'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
+# Untranslated end

@@ -1,4 +1,5 @@
 messages-version: 4
+
 commands.join.description: 'Вход в очередь на следующею игру'
 commands.join.confirmation: '&3Вы вошли в очередь на игру.'
 commands.join.already-queued: '&4Вы и так стоите в очереди.'
@@ -55,7 +56,7 @@ commands.kit.unavailable-kits: '&3Поврежденные наборы: &2%s'
 commands.kit.unknown-kit: '&4Неизвестный набор &c%s&4.'
 commands.kit.not-enough-money: '&4У Вас нехватает %1$s для покупки &c%2$s&4. Вам требуется &c%3$s&4 более %1$s.'
 
-# Following commands.kit messages are untranslated.
+# Untranslated start
 commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
 commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
 commands.kit.chose-kit-with-cost: '&3You are now using kit &2%1$s&3. This kit will cost you &2%2$s&3 per round.'
@@ -64,6 +65,7 @@ commands.kit.removed-kit: '&3You are no longer using any kits.'
 commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
+# Untranslated end
 
 setup-commands.start.description: 'Начало установки новой арены и удаление других несохраненных арен.'
 setup-commands.start.argument-name: 'Имя арены'
@@ -103,7 +105,7 @@ messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3цена: &2%s&8)'
 messages.kits.choose-a-kit: '&3Используйте &2/sw kit &8<&2ИМЯ&8>&3 для получения набора.'
 
-# Following messages.kits messages are untranslated.
+# Untranslated start
 messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
 messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
 messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
@@ -112,6 +114,7 @@ messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&
 messages.in-game: '&4You can''t do that, you are in a game.'
 
 messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
+# Untranslated end
 
 game.death.killed-by-player-and-void: '&2%s&a скинул &2%s&a за карту!'
 game.death.killed-by-void: '&2%s&a выпал за карту!'
@@ -128,8 +131,9 @@ game.winning.none-won: '&aИгра на SkyWars закончилась без п
 game.starting.game-starting: '&aИгра начнется через &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
 
-# ** untranslated **
+# Untranslated start
 # game.starting.team-message is compiled as: {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
 game.starting.team-message: '&aYou are in team %1$s with &2 %2$s'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
+# Untranslated end

@@ -105,11 +105,12 @@ messages.kits.applied-kit: '&3Kit aplicado &2%s&3 en este juego.'
 messages.kits.applied-kit-with-cost: '&3Kit aplicado &2%1$s&3 en este juego, costandote &3%2$s&2.'
 messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el kit &2%s&3, dejando de seleccionar.'
 
-# messages.kits.no-permission is untranslated
+# Untranslated: messages.kits.no-permission
 messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&3, deselecting it.'
 
 messages.in-game: '&4No puedes hacer eso, estás en una partida.'
 
+# Partially untranslated: messages.report-disabled
 messages.report-disabled: '&4Los reportes han sido desactivados en: &cmain-config.yml&4. Quita el &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 
 game.death.killed-by-player-and-void: '&2%s&a empujó a &2%s&a a la zona oscura!'
@@ -127,8 +128,9 @@ game.winning.none-won: '&aEsta partida de Skywars terminó sin ninguna victoria.
 game.starting.game-starting: '&aEl juego está empezando con &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
 
-# ** untranslated **
+# Untranslated start
 # game.starting.team-message is compiled as: {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
 game.starting.team-message: '&aYou are in team %1$s with &2 %2$s'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
+# Untranslated end
