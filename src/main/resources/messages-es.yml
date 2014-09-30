@@ -106,7 +106,7 @@ messages.kits.applied-kit-with-cost: '&3Kit aplicado &2%1$s&3 en este juego, cos
 messages.kits.not-enough-money: '&3No tienes suficiente dinero para aplicar el kit &2%s&3, dejando de seleccionar.'
 
 # Untranslated: messages.kits.no-permission
-messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&3, deselecting it.'
+messages.kits.no-permission: '&3No tienes permiso para usar el kit de &2%s&3.'
 
 messages.in-game: '&4No puedes hacer eso, estás en una partida.'
 
@@ -130,7 +130,7 @@ game.starting.game-starting-comma: '&a, &2'
 
 # Untranslated start
 # game.starting.team-message is compiled as: {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
-game.starting.team-message: '&aYou are in team %1$s with &2 %2$s'
+game.starting.team-message: '&aEstás en el equipo %1$s con &2 %2$s'
 game.starting.team-message-comma: '&a, &2'
-game.starting.team-message-final-comma: '&a and &2'
+game.starting.team-message-final-comma: '&a y &2'
 # Untranslated end
