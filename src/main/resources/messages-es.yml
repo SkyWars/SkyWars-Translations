@@ -60,7 +60,7 @@ commands.kit.chose-kit-with-cost: '&3Estás usando el kit &2%1$s&3. Este kit te 
 commands.kit.how-to-remove: '&3Puedes usar &2/sw kit remove&3 para parar de usar este kit.'
 commands.kit.removed-kit: '&3Ya no estás usando ningún kit.'
 commands.kit.no-access: '&4 No tienes acceso para el kit &c%s&4.'
-commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
+commands.kit.no-kit-removed: '&3No estabas utilizando un kit, no se elimina el kit.'
 commands.kit.current-kit: '&3Actualmente estás usando el kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Actualmente estás usando el kit &2%1$s&3. Este kit cuesta &2%2$s&3 por ronda.'
 
