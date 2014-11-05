@@ -56,16 +56,14 @@ commands.kit.unavailable-kits: '&3Поврежденные наборы: &2%s'
 commands.kit.unknown-kit: '&4Неизвестный набор &c%s&4.'
 commands.kit.not-enough-money: '&4У Вас нехватает %1$s для покупки &c%2$s&4. Вам требуется &c%3$s&4 более %1$s.'
 
-# Untranslated start
-commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
-commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
-commands.kit.chose-kit-with-cost: '&3You are now using kit &2%1$s&3. This kit will cost you &2%2$s&3 per round.'
-commands.kit.how-to-remove: '&3You can use &2/sw kit remove&3 to stop using this kit.'
-commands.kit.removed-kit: '&3You are no longer using any kits.'
-commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
-commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
-commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
-# Untranslated end
+commands.kit.no-access: '&4 У Вас нет доступа к набору &c%s&4.'
+commands.kit.chose-kit: '&3Вы выбрали набор &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3Вы выбрали набор &2%1$s&3. Этот набор будет отнимать у Вас &2%2$s&3 каждую игру.'
+commands.kit.how-to-remove: '&3Вы можете прекратить использовать набор при помощи команды &2/sw kit remove'
+commands.kit.removed-kit: '&3Вы больше не используете наборы.'
+commands.kit.no-kit-removed: '&3Вы не можете отказаться от набора, не выбрав его.'
+commands.kit.current-kit: '&3Сейчас Вы используете набор &2%s&3.'
+commands.kit.current-kit-with-cost: '&3Сейчас Вы используете набор &2%1$s&3. Этот набор стоит Вам &2%2$s&3 за игру.'
 
 setup-commands.start.description: 'Начало установки новой арены и удаление других несохраненных арен.'
 setup-commands.start.argument-name: 'Имя арены'
@@ -105,14 +103,15 @@ messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%s &8(&3цена: &2%s&8)'
 messages.kits.choose-a-kit: '&3Используйте &2/sw kit &8<&2ИМЯ&8>&3 для получения набора.'
 
+
+messages.kits.applied-kit: '&3Вы получили набор &2%s&3 на эту игру.'
+messages.kits.applied-kit-with-cost: '&3Вы получили набор &2%1$s&3 на эту игру, который обошёлся Вам в &3%2$s&2.'
+messages.kits.not-enough-money: '&3У Вас больше не хватает денег, чтобы использовать набор &2%s&3, набор отключён.'
+messages.kits.no-permission: '&3У Вас больше не хватает прав, чтобы использовать набор &2%s&3, набор отключён.'
+
+messages.in-game: '&4Вы не можете этого сделать, Вы в игре.'
+
 # Untranslated start
-messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
-messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
-messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
-messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&3, deselecting it.'
-
-messages.in-game: '&4You can''t do that, you are in a game.'
-
 messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 # Untranslated end
 
