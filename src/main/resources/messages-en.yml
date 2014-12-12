@@ -83,6 +83,7 @@ setup-commands.addspawn.confirmation: '&3Adding a new spawn location at &2%s&3.'
 setup-commands.save.description: 'Saves the current arena setup to file'
 setup-commands.save.saving: '&3Ssaving arena.'
 setup-commands.save.saved: '&3Arena saved.'
+setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
 
 top-commands.main.description: 'Main command for SkyWars'
 top-commands.setup.description: 'Setup command for SkyWars'

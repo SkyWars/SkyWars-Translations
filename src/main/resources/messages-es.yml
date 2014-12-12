@@ -84,6 +84,10 @@ setup-commands.save.description: 'Guardar las actuales configuraciones de la are
 setup-commands.save.saving: '&3SGuardando arena.'
 setup-commands.save.saved: '&3Arena guardada.'
 
+# Untranslated start
+setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
+# Untranslated end
+
 top-commands.main.description: 'Comando principal para SkyWars'
 top-commands.setup.description: 'Comando para establecer SkyWars'
 
