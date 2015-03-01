@@ -1,0 +1,132 @@
+messages-version: 4
+
+commands.join.description: 'Dolacza do kolejki do nastepnej gry.'
+commands.join.confirmation: '&3Dolaczyles do kolejki do nastepnej gry.'
+commands.join.already-queued: '&4Jus jestes w kolejce!'
+commands.join.in-game: '&4Nie mozesz dolaczyc do kolejki, poniewaz juz grasz!'
+
+commands.leave.description: 'Opuszcza kolejke/gre, w ktorej aktualnie jestes.'
+commands.leave.removed-from-queue: '&3Nie jestes juz w kolejce do nastepnej gry.'
+commands.leave.removed-from-game: '&3Opusciles gre.'
+commands.leave.not-in-any: '&4Nie byles w kolejce do nastepnej gry.'
+
+commands.setlobby.description: 'Ustawia punkt lobby.'
+commands.setlobby.confirmation: '&3Lobby zostalo ustawione w Twojej aktualnej pozycji.'
+commands.setlobby.in-game: '&4Nie mozesz ustawic lobby, poniewaz jestes w trakcie gry.'
+
+commands.setportal.description: 'Ustawia portal.'
+commands.setportal.confirmation: '&3Portal zostal ustawiony w Twojej aktualnej pozycji.'
+commands.setportal.in-game: '&4Nie mozesz ustawic portala, poniewaz jestes w trakcie gry.'
+
+commands.delportal.description: 'Usuwa ostatnio stworzony portal.'
+commands.delportal.confirmation: '&3Usunieto portal: %s'
+commands.delportal.error-no-portals: '&4Nie ustawiono zadnych portali, wiec nie ma co usuwac.'
+
+commands.cancel.description: 'Zatrzymuje gre o podanym ID.'
+commands.cancel.argument-not-integer: '&c%s&4 nie jest liczba calkowita!'
+commands.cancel.no-games-with-id: '&4Nie istnieje gra: &c%s&4.'
+commands.cancel.confirmation: '&3Zatrzymano gre: &2%s&3.'
+
+commands.status.description: 'Pokazuje status aren, liczbe osob w kolejce.'
+commands.status.header: '&9 -- &2Status SkyWarsow&9 --'
+commands.status.in-queue: '&3W kolejce: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Obecne Areny&9 --'
+
+commands.version.description: 'Pokazuje wersje pluginu.'
+commands.version.output: '&3%s wersja &2%s &3/ &2%s&3. Stworzone przez &2Dabo Ross&3.'
+
+commands.lobby.description: 'Teleportuje Cie do lobby SkyWarsow.'
+commands.lobby.confirmation: '&3Teleportacja do lobby SkyWarsow...'
+commands.lobby.in-game: '&4Nie mozesz sie teleportowac do lobby SkyWarsow, poniewaz jestes w trakcie gry.'
+
+commands.cancelall.description: 'Zatrzymuje wszystkie trwajace gry.'
+commands.cancelall.canceling-game: '&3Zatrzymano gry: &2%s'
+
+commands.report.description: 'Generuje raport, wysyla go na gist.github.com, i przekazuje Ci link do niego.'
+commands.report.start: '&3Generowanie raportu i wysylanie go...'
+commands.report.output: '&3Raport: &2%s'
+
+commands.forcestart.description: 'Rozpoczyna gre z graczami w kolejce'
+commands.forcestart.not-enough-players: '&4W kolejce musi byc przynajmniej 2 graczy, by rozpoczac gre.'
+
+commands.kit.description: 'Ustawia zestaw, ktorego bedziesz uzywal przy nastepnej potyczce.'
+commands.kit.no-kits-available: '&4Nie ma dostepnych zadnych zestawow.'
+commands.kit.unavailable-kits: '&3Niedostepne zestawy: &2%s'
+commands.kit.unknown-kit: '&4Nie odnaleziono zestawu: &c%s&4.'
+commands.kit.not-enough-money: '&4Nie posiadasz %1$s, aby kupic &c%2$s&4. Potrzebujesz &c%3$s&4 wiecej %1$s.'
+commands.kit.no-access: '&4Nie masz uprawnien do zestawu: &c%s&4.'
+commands.kit.chose-kit: '&3Od teraz bedziesz uzywal zestawu: &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3Od teraz bedziesz uzywal zestawu: &2%1$s&3. Ten zestaw bedzie Cie kosztowal &2%2$s&3 za runde.'
+commands.kit.how-to-remove: '&3Mozesz uzyc &2/sw kit remove&3 aby przestac uzywac tego zestawu.'
+commands.kit.removed-kit: '&3Nie uzywasz zadnych zestawow.'
+commands.kit.no-kit-removed: '&3Nie uzywales zadnego zestawu.'
+commands.kit.current-kit: '&3Uzywasz obecnie zestawu: &2%s&3.'
+commands.kit.current-kit-with-cost: '&3Uzywasz obecnie zestawu: &2%1$s&3. Kosztuje Cie on &2%2$s&3 za runde.'
+
+setup-commands.start.description: 'Startuje tworzenie areny i usuwa wszysktie inne.'
+setup-commands.start.argument-name: 'Nazwa areny'
+setup-commands.start.confirmation: '&3Rozpoczeto tworzenie areny: &2%s&3.'
+setup-commands.start.one-argument: '&4Prosze uzyc tylko jednego argumentu.'
+
+setup-commands.setpos1.description: 'Ustawia pierwszy rog areny w miejscu, na ktore sie patrzysz.'
+setup-commands.setpos1.pos2-in-other-world: '&4Drugi rog zostal ustawiony w innym swiecie, odznaczono go.'
+setup-commands.setpos1.confirmation: '&3Ustawiono pierwszy rog areny w miejscu, na ktore sie patrzysz.'
+
+setup-commands.setpos2.description: 'Ustawia drugi rog areny w miejscu, na ktore sie patrzysz.'
+setup-commands.setpos2.pos1-in-other-world: '&4Pierwszy rog zostal ustawiony w innym swiecie, odznaczono go.'
+setup-commands.setpos2.confirmation: '&3Ustawiono drugi rog areny w miejscu, na ktore sie patrzysz.'
+
+setup-commands.addspawn.description: 'Dodaje nowy punkt spawnu graczy.'
+setup-commands.addspawn.confirmation: '&3Dodano punkt spawnu: &2%s&3.'
+
+setup-commands.save.description: 'Zapisuje arene i jej config do pliku.'
+setup-commands.save.saving: '&3Zapisywanie areny...'
+setup-commands.save.saved: '&3Arena zapisana.'
+setup-commands.save.failed: '&4Config areny zaladowany, lecz nie powiodlo sie odczytywanie samej areny z pliku.'
+
+top-commands.main.description: 'Glowna komenda grania w SkyWars.'
+top-commands.setup.description: 'Glowna komenda do tworzenia SkyWarsow.'
+
+generic-command-message.too-many-parameters: '&4Za duzo argumentow.'
+generic-command-message.not-enough-parameters: '&4Za malo argumentow.'
+
+messages.removed-from-queue-because-death: '&3Zostales wyrzucony z kolejki, poniewaz zginales.'
+messages.no-clue-what-command: '&4SkyWars nie wie co to &c%s&4.'
+messages.not-fully-enabled: '&4Nie uruchomione do konca.'
+
+messages.economy-reward.win: '&3Otrzymales &2%s&3 za wygrana na SkyWars.'
+messages.economy-reward.kill: '&3Otrzymales &2%1$s&3 za zabicie &2%2$s&3.'
+
+messages.kits.kit-list: '&3Dostepne zestawy: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%1$s &8(&3koszt: &2%2$s&8)'
+messages.kits.choose-a-kit: '&3Uzyj &2/sw kit &8<&2Name&8>&3 aby wybrac zestaw.'
+messages.kits.applied-kit: '&3Zestaw &2%s&3 zostanie uzyty w nastepnej grze.'
+messages.kits.applied-kit-with-cost: '&3Zestaw &2%1$s&3 zostanie uzyty w nastepnej grze, pobrane zostanie z konta &3%2$s&2.'
+messages.kits.not-enough-money: '&3Nie posiadasz tyle pieniedzy, aby uzyc &2%s&3, odznaczanie tego.'
+messages.kits.no-permission: '&3Nie masz uprawnien do uzywania zestawu &2%s&3, odznaczanie tego.'
+
+messages.in-game: '&4Nie mozesz tego zrobic, jestes w trakcie gry.'
+
+messages.report-disabled: '&4Raportowanie wylaczone w pliku &cmain-config.yml&4. Zmien nastepujaca linijke &c''disable-report: true''&4 aby wlaczyc raportowanie. SkyWars raportuje TYLKO, gdy komenda zostanie uzyta, nigdy w tle.'
+
+game.death.killed-by-player-and-void: '&aGracz &2%s&a zrzucil gracza &2%s&a do prozni!'
+game.death.killed-by-void: '&aGracz &2%s&a skoczyl do prozni!'
+game.death.killed-by-player: '&aGracz &2%s&a zabil gracza &2%s&a!'
+game.death.killed-by-environment: '&aGracz &2%s&a zostal zabity!'
+game.death.forfeited-while-attacked: '&aGracz &2%s&a opuscil gre, lecz zostal uprzenio zraniony przez gracza &2%s&a!'
+game.death.forfeited: '&aGracz &2%s&a opuscil gre!'
+
+game.winning.single-won: '&aGracz &2%s&a wygral na SkyWarsach!'
+game.winning.multi-won: '&aGracze &2%s&a wygrali na SkyWarsach!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.none-won: '&aSkyWars zakonczone bez zwyciezcow.'
+
+game.starting.game-starting: '&aRozpoczynanie gry z: &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
+
+# game.starting.team-message is compiled as: {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
+game.starting.team-message: '&aJestes w druzynie %1$s z &2 %2$s'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a i &2'
