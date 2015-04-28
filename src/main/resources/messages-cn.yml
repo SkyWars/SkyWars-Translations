@@ -1,0 +1,128 @@
+#【汉化Apple_Sa】【Github-id：GGapple】【GameID：Apple_Sa】【优质插件站:http://plugins.915mc.com 】
+
+messages-version: 4
+
+commands.join.description: '加入队列，等待下一场的开始。'
+commands.join.confirmation: '&3您已经加入了队列。'
+commands.join.already-queued: '&4您已经在队列中了。'
+commands.join.in-game: '&4您现在不能加入，您已经在另一个游戏中了！'
+
+commands.leave.description: '离开队列或者正在进行的游戏。'
+commands.leave.removed-from-queue: '&3您已经退出队列。'
+commands.leave.removed-from-game: '&3您已经离开游戏。'
+commands.leave.not-in-any: '&4您不在队列中。'
+
+commands.setlobby.description: '设置大厅位置。'
+commands.setlobby.confirmation: '&3大厅的位置已经设置为您的位置。'
+commands.setlobby.in-game: '&4您目前不能设置大厅，您正在一个游戏里！'
+
+commands.setportal.description: '在您当前的位置设置门'
+commands.setportal.confirmation: '&3您设置了一个门在您的位置'
+commands.setportal.in-game: '&4您目前不能设置门，您正在一个游戏里！'
+
+commands.delportal.description: '删除最后设置的门'
+commands.delportal.confirmation: '&3在 %s 删除了一个门。'
+commands.delportal.error-no-portals: '&4还没有门被设置！'
+
+commands.cancel.description: '取消指定ID的游戏'
+commands.cancel.argument-not-integer: '&c%s&4 必须为整数！'
+commands.cancel.no-games-with-id: '&4游戏ID：&c%s&4 不存在！'
+commands.cancel.confirmation: '&3取消了 &2%s&3 的游戏'
+
+commands.status.description: '当前游戏状态'
+commands.status.header: '&9 -- &2SkyWars 记分板&9 --'
+commands.status.in-queue: '&3队列中: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2当前游戏&9 --'
+
+commands.version.description: '获得版本'
+commands.version.output: '&3%s 版本 &2%s &3/ &2%s&3. 制作： &2Dabo Ross 汉化：&1Apple_Sa'
+
+commands.lobby.description: '传送你到大厅'
+commands.lobby.confirmation: '&3传送到大厅。'
+commands.lobby.in-game: '&4你目前无法传送到大厅，你正在一个游戏中！'
+
+commands.cancelall.description: '取消目前所有的游戏。'
+commands.cancelall.canceling-game: '&3游戏 &2%s 已经取消'
+
+commands.report.description: '生成一个报告，并上传到gist.github.com，然后给你一个链接。'
+commands.report.start: '&3收集数据并提交'
+commands.report.output: '&3报告: &2%s'
+
+commands.forcestart.description: '强制和队列里的玩家开始游戏'
+commands.forcestart.not-enough-players: '&4必须有至少 2 个玩家在队列才能强制启动游戏。'
+
+commands.kit.description: '设置用于接下来游戏使用的工具包'
+commands.kit.no-kits-available: '&4没有工具包可以使用。'
+commands.kit.unavailable-kits: '&3可用工具包： &2%s'
+commands.kit.unknown-kit: '&4未知工具包 &c%s&4.'
+commands.kit.not-enough-money: '&4你没有足够的 %1$s 购买 &c%2$s&4. 你需要 &c%3$s&4 多于 %1$s.'
+commands.kit.no-access: '&4 你无法使用工具包 &c%s&4.'
+commands.kit.chose-kit: '&3您现在正在使用工具包 &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3您现在正在使用工具包 &2%1$s&3. 该工具包将花费您 &2%2$s&3 每回合。'
+commands.kit.how-to-remove: '&3你可以使用 &2/sw kit remove&3 停止使用这个工具包。'
+commands.kit.removed-kit: '&3您不再使用任何工具包。'
+commands.kit.no-kit-removed: '&3你未使用工具包，没有工具包被停止使用'
+commands.kit.current-kit: '&3你正在使用工具包： &2%s&3.'
+commands.kit.current-kit-with-cost: '&3你现在正在使用工具包 &2%1$s&3。该工具包将花费您 &2%2$s&3 每回合。'
+
+setup-commands.start.description: '开始设置一个新游戏(竞技场)，删除所有未保存的游戏(竞技场)'
+setup-commands.start.argument-name: '游戏(竞技场)名称'
+setup-commands.start.confirmation: '&3开始设置名称为 &2%s&3 的游戏(竞技场)。'
+setup-commands.start.one-argument: '&4请使用未被使用过的名称。'
+
+setup-commands.setpos1.description: '设置竞技场的第一个位置为你的目光所看的地方'
+setup-commands.setpos1.pos2-in-other-world: '&4复位：第二个位置与之前不再同一个世界'
+setup-commands.setpos1.confirmation: '&3设置第一个位置为你当前的眼睛的位置。'
+
+setup-commands.setpos2.description: '设置竞技场的第二个位置为你的目光所看的地方'
+setup-commands.setpos2.pos1-in-other-world: '&4复位：第一个位置与之前不再同一个世界'
+setup-commands.setpos2.confirmation: '&3设置第二个位置为你当前的眼睛的位置。'
+
+setup-commands.addspawn.description: '在当前位置添加一个复活点'
+setup-commands.addspawn.confirmation: '&3添加了新的复活点 &2%s&3.'
+
+setup-commands.save.description: '保存当前竞技场的设置到文件'
+setup-commands.save.saving: '&3正在保存竞技场'
+setup-commands.save.saved: '&3竞技场保存完成'
+
+top-commands.main.description: '主命令 SkyWars'
+top-commands.setup.description: '安装命令 SkyWars'
+
+generic-command-message.too-many-parameters: '&4参数过多。'
+generic-command-message.not-enough-parameters: '&4未知参数。'
+
+messages.removed-from-queue-because-death: '&3你死了，你已从队列中被移出！'
+messages.no-clue-what-command: '&4SkyWars 没有任何线索 &c%s&4 is.'
+messages.not-fully-enabled: '&4没有完全启用。'
+
+messages.economy-reward.win: '&3你已经 &2%s&3 获得SkyWars的胜利'
+messages.economy-reward.kill: '&3你已经 &2%1$s&3 击杀 &2%2$s&3.'
+
+messages.kits.kit-list: '&3可用的工具包： &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%1$s &8(&3cost: &2%2$s&8)'
+messages.kits.choose-a-kit: '&3使用 &2/sw kit &8<&2Name&8>&3 选择工具包'
+messages.kits.applied-kit: '&3启用工具包 &2%s&3 在游戏内。'
+messages.kits.applied-kit-with-cost: '&3启用工具包 &2%1$s&3 在游戏内。 花费了你 &3%2$s&2.'
+messages.kits.not-enough-money: '&3你没有足够的钱使用工具包 &2%s&3, 取消使用。'
+messages.kits.no-permission: '&3你没有权限使用该工具包 &2%s&3, 取消使用。'
+
+messages.in-game: '&4你不能这样做，你在一个游戏里。'
+
+messages.report-disabled: '&4报告已被禁用在 &cmain-config.yml&4. 移除 &c''disable-report: true''&4 使报告启用。 注意，启用时 SkyWars 只有当使用命令时才能提交, 不会后台运行。'
+
+game.death.killed-by-player-and-void: '&2%s&a 推 &2%s&a 进入末日的空虚！'
+game.death.killed-by-void: '&2%s&a 跳到毁灭的虚空！'
+game.death.killed-by-player: '&2%s&a 击杀 &2%s&a！'
+game.death.killed-by-environment: '&2%s&a 被击杀！'
+game.death.forfeited-while-attacked: '&2%s&a 强制没收 by &2%s&a!'
+game.death.forfeited: '&2%s&a 没收！'
+
+game.winning.single-won: '&2%s&a赢得了 SkyWars！'
+game.winning.multi-won: '&2%s&a 赢得了 SkyWars！'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.none-won: '&a本场 SkyWars 结束，没有胜利者！'
+
+game.starting.game-starting: '&a游戏开始 &2%s&a'
+game.starting.game-starting-comma: '&a, &2'
