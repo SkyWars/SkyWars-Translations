@@ -1,0 +1,132 @@
+messages-version: 4
+
+commands.join.description: 'Joiner kø for næste spil.'
+commands.join.confirmation: '&3Du har joinet køen.'
+commands.join.already-queued: '&4Du er allerede i en kø.'
+commands.join.in-game: '&4Du kan ikke joine nu, du er allerede i et spil.'
+
+commands.leave.description: 'Forlad køen eller det spil du er i.'
+commands.leave.removed-from-queue: '&3Du er ikke længere i køen.'
+commands.leave.removed-from-game: '&3Du har forladt spillet.'
+commands.leave.not-in-any: '&4Du er ikke i køen.'
+
+commands.setlobby.description: 'Sætter lobbyens position.'
+commands.setlobby.confirmation: '&3The lobby is now at your current location.'
+commands.setlobby.in-game: '&4Du kan ikke sætte lobbyen, du er i et spil.'
+
+commands.setportal.description: 'Sætter en portal der hvor du er.'
+commands.setportal.confirmation: '&3Du har sat en portal der hvor du er.'
+commands.setportal.in-game: '&4Du kan ikke sætte en portal, du er i et spil.'
+
+commands.delportal.description: 'Fjærner den sidst satte portal.'
+commands.delportal.confirmation: '&3Fjærnede portal ved %s'
+commands.delportal.error-no-portals: '&4Ingen portaler er sat.'
+
+commands.cancel.description: 'Annullere spillet med det givende id.'
+commands.cancel.argument-not-integer: '&c%s&4 Er ikke et tal'
+commands.cancel.no-games-with-id: '&4Der er ikke noget spil med idet &c%s&4.'
+commands.cancel.confirmation: '&3Annullere spil &2%s&3.'
+
+commands.status.description: 'Giver status om det nuværende spil.'
+commands.status.header: '&9 -- &2SkyWars Status&9 --'
+commands.status.in-queue: '&3I kø: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Nuværende Arenaer&9 --'
+
+commands.version.description: 'Viser version'
+commands.version.output: '&3%s version &2%s &3/ &2%s&3. Lavet af &2Dabo Ross'
+
+commands.lobby.description: 'Teleportere dig til lobbyen.'
+commands.lobby.confirmation: '&3Teleportere til lobbyen.'
+commands.lobby.in-game: '&4You can''t teleport to the lobby, you are in a game.'
+
+commands.cancelall.description: 'Afslutter alle nuværende spil.'
+commands.cancelall.canceling-game: '&3Afslutter spil &2%s'
+
+commands.report.description: 'Generære en rapport og uploader den til gist.github.com, og derefter giver dig et link.'
+commands.report.start: '&3Samler data og indsender'
+commands.report.output: '&3Rapport: &2%s'
+
+commands.forcestart.description: 'Tvinger et spil til at starte med spillerne i køen.'
+commands.forcestart.not-enough-players: '&4Der skal mindst være 2 spillere i køen for at starte spillet.'
+
+commands.kit.description: 'sætter kit''et for næste spil.'
+commands.kit.no-kits-available: '&4Der er ingen kits som du kan bruge.'
+commands.kit.unavailable-kits: '&3Utilgængelige kits: &2%s'
+commands.kit.unknown-kit: '&Ukendt kit &c%s&4.'
+commands.kit.not-enough-money: '&4Du har ikke nok %1$s for at købe &c%2$s&4. Du skal bruge &c%3$s&4 %1$s mere.'
+commands.kit.no-access: '&4 Du har ikke adgang til kit &c%s&4.'
+commands.kit.chose-kit: '&3Du bruger nu kit &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3Du bruger nu kit &2%1$s&3. Dette kit vil koste dig &2%2$s&3 pr runde.'
+commands.kit.how-to-remove: '&3Du kan skrive &2/sw kit remove&3 for at holde op med at bruge det kit.'
+commands.kit.removed-kit: '&3Du bruger ikke længere nogle kits.'
+commands.kit.no-kit-removed: '&3Du brugte ikke noget kit, intet kit blev fjærnet.'
+commands.kit.current-kit: '&3Du bruger lige nu kit &2%s&3.'
+commands.kit.current-kit-with-cost: '&3Du bruger lige nu kit &2%1$s&3. Dette kit koster dig &2%2$s&3 pr runde.'
+
+setup-commands.start.description: 'Start en ny arena setup og slet alle forige ikke gemte arenaer.'
+setup-commands.start.argument-name: 'Arena navn'
+setup-commands.start.confirmation: '&3Startede med at sætte en arena op kaldet &2%s&3.'
+setup-commands.start.one-argument: '&4Skriv kun et argument og kun et.'
+
+setup-commands.setpos1.description: 'Sætter den første position for arenaen til at kopiere fra ved din nuværende øjeposition.'
+setup-commands.setpos1.pos2-in-other-world: '&4Fjærner den anden position fordi den er i en anden værden.'
+setup-commands.setpos1.confirmation: '&3Sætter den første position til dit øjes nuværende position.'
+
+setup-commands.setpos2.description: 'Sætter den anden position for arenaen til at kopiere fra ved din nuværende øjeposition.'
+setup-commands.setpos2.pos1-in-other-world: '&4Fjærner den første position fordi den er i en anden værden.'
+setup-commands.setpos2.confirmation: '&3Sætter den anden position til dit øjes nuværende position.'
+
+setup-commands.addspawn.description: 'Tilføjer en ny spawnposition ved din position'
+setup-commands.addspawn.confirmation: '&3Tilføjer et nyt spawn ved &2%s&3.'
+
+setup-commands.save.description: 'Gemmer den nuværende areanas setup til fil.'
+setup-commands.save.saving: '&3Gemmer arena.'
+setup-commands.save.saved: '&3Arena gemt.'
+setup-commands.save.failed: '&4Arena konfiguration gemt, men loadning af cache fejlede. Se konsollen for mere information.'
+
+top-commands.main.description: 'Hovede komandoer for SkyWars'
+top-commands.setup.description: 'Setup komandoer for SkyWars'
+
+generic-command-message.too-many-parameters: '&4For mange argumenter.'
+generic-command-message.not-enough-parameters: '&4Ikke nok argumenter.'
+
+messages.removed-from-queue-because-death: '&3Du er blever fjærnet fra køen fordi du døede.'
+messages.no-clue-what-command: '&4SkyWars ved ikke hvad &c%s&4 er.'
+messages.not-fully-enabled: '&4Ikke fuldt aktiveret.'
+
+messages.economy-reward.win: '&3Du har fået &2%s&3 for at vinde SkyWars.'
+messages.economy-reward.kill: '&3Du har fået &2%1$s&3 for at dræbe &2%2$s&3.'
+
+messages.kits.kit-list: '&3Tilgængelige kits: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%1$s &8(&koster: &2%2$s&8)'
+messages.kits.choose-a-kit: '&3Brug &2/sw kit &8<&2Name&8>&3 for at vælge kit.'
+messages.kits.applied-kit: '&3Valgte kit &2%s&3 i dette spil.'
+messages.kits.applied-kit-with-cost: '&3Valgte kit &2%1$s&3 i dette spil, som koster dig &3%2$s&2.'
+messages.kits.not-enough-money: '&3Du har ikke længere råd til at bruge det kit &2%s&3, afvælger det.'
+messages.kits.no-permission: '&3Du har ikke længere rettigheder til &2%s&3, afvælger det.'
+
+messages.in-game: '&4Det kan du ikke gøre, du er i et spil.'
+
+messages.report-disabled: '&4Rapportering er blever slået fra i &cmain-config.yml&4. Fjærn &c''disable-report: true''&4 for at slå rapportering til. Husk når slået til, SkyWars rapportere KUN når denne komando er brugt, aldrig i baggrunden.'
+
+game.death.killed-by-player-and-void: '&2%s&a skubbede &2%s&a ud i endetheden!'
+game.death.killed-by-void: '&2%s&a hoppede i endetheden!'
+game.death.killed-by-player: '&2%s&a dræbte &2%s&a!'
+game.death.killed-by-environment: '&2%s&a blev dræbt!'
+game.death.forfeited-while-attacked: '&2%s&a blev tvunget til at overgive sig af &2%s&a!'
+game.death.forfeited: '&2%s&a overgav sig!'
+
+game.winning.single-won: '&2%s&a har vundet SkyWars!'
+game.winning.multi-won: '&2%s&a har vundet SkyWars!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.none-won: '&aSkyWars sluttede med ingen vindere.'
+
+game.starting.game-starting: '&aSpil startede med &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
+
+# game.starting.team-message is compiled as: {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
+game.starting.team-message: '&aDu er på team %1$s med &2 %2$s'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a og &2'
