@@ -101,6 +101,8 @@ messages.kits.kit-list: '&3Beschikbare kits: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%1$s &8(&3prijs: &2%2$s&8)'
 messages.kits.choose-a-kit: '&3Gebruik &2/sw kit &8<&2Naam&8>&3 om een kit te kiezen.'
+# Untranslated: messages.kits.remove-a-kit
+messages.kits.remove-a-kit: '&3Use &2/sw kit remove&3 to stop using &2%s&3.'
 messages.kits.applied-kit: '&3Kit &2%s&3 geselecteerd in dit spel.'
 messages.kits.applied-kit-with-cost: '&3Kit &2%1$s&3 geselecteerd in dit spel, dat kostte je &3%2$s&2.'
 messages.kits.not-enough-money: '&3Je hebt niet langer genoeg geld voor de kit &2%s&3 te gebruiken, kit gedeselecteerd.'

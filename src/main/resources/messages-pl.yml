@@ -102,6 +102,8 @@ messages.kits.kit-list: '&3Dostepne zestawy: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%1$s &8(&3koszt: &2%2$s&8)'
 messages.kits.choose-a-kit: '&3Uzyj &2/sw kit &8<&2Name&8>&3 aby wybrac zestaw.'
+# Untranslated: messages.kits.remove-a-kit
+messages.kits.remove-a-kit: '&3Use &2/sw kit remove&3 to stop using &2%s&3.'
 messages.kits.applied-kit: '&3Zestaw &2%s&3 zostanie uzyty w nastepnej grze.'
 messages.kits.applied-kit-with-cost: '&3Zestaw &2%1$s&3 zostanie uzyty w nastepnej grze, pobrane zostanie z konta &3%2$s&2.'
 messages.kits.not-enough-money: '&3Nie posiadasz tyle pieniedzy, aby uzyc &2%s&3, odznaczanie tego.'
