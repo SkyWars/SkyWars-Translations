@@ -84,9 +84,8 @@ setup-commands.save.description: 'Guardar las actuales configuraciones de la are
 setup-commands.save.saving: '&3SGuardando arena.'
 setup-commands.save.saved: '&3Arena guardada.'
 
-# Untranslated start
+# Untranslated: setup-commands.save.failed
 setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
-# Untranslated end
 
 top-commands.main.description: 'Comando principal para SkyWars'
 top-commands.setup.description: 'Comando para establecer SkyWars'
@@ -134,7 +133,7 @@ game.starting.game-starting: '&aEl juego está empezando con &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
 
 # Untranslated start
-# game.starting.team-message is compiled as: {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
+# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
 game.starting.team-message: '&aEstás en el equipo %1$s con &2 %2$s'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a y &2'

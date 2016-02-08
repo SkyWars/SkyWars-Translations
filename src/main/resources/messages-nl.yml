@@ -84,6 +84,9 @@ setup-commands.save.description: 'Slaat de net gemaakte arena op naar een bestan
 setup-commands.save.saving: '&3Arena opslaan.'
 setup-commands.save.saved: '&3Arena opgeslaan.'
 
+# Untranslated: setup-commands.save.failed
+setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
+
 top-commands.main.description: 'Basiscommando voor Skywars'
 top-commands.setup.description: 'Setupcommando voor Skywars'
 
@@ -126,3 +129,10 @@ game.winning.none-won: '&aSkyWars eindigde zonder winnaars.'
 
 game.starting.game-starting: '&aSpel aan het beginnen met &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
+
+# Untranslated start
+# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
+game.starting.team-message: '&aYou are in team %1$s with &2 %2$s'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a and &2'
+# Untranslated end

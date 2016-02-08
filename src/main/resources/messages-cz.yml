@@ -86,6 +86,10 @@ setup-commands.save.description: 'Ulozi soucasne nastaveni areny do configu'
 setup-commands.save.saving: '&3Ukladam arenu...'
 setup-commands.save.saved: '&3Arena byla uspesne ulozena.'
 
+# Untranslated: setup-commands.save.failed
+setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
+
+
 top-commands.main.description: 'Hlavni prikaz pro SkyWars'
 top-commands.setup.description: 'Prikaz pro nastaveni SkyWars'
 
@@ -134,7 +138,7 @@ game.starting.game-starting: '&aHra startuje s hraci &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
 
 # Untranslated start
-# game.starting.team-message is compiled as: {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
+# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
 game.starting.team-message: '&aYou are in team %1$s with &2 %2$s'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'

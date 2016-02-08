@@ -102,6 +102,10 @@ messages.kits.kit-list: '&3Tilgængelige kits: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%1$s &8(&koster: &2%2$s&8)'
 messages.kits.choose-a-kit: '&3Brug &2/sw kit &8<&2Name&8>&3 for at vælge kit.'
+
+# Untranslated: messages.kits.remove-a-kit
+messages.kits.remove-a-kit: '&3Use &2/sw kit remove&3 to stop using &2%s&3.'
+
 messages.kits.applied-kit: '&3Valgte kit &2%s&3 i dette spil.'
 messages.kits.applied-kit-with-cost: '&3Valgte kit &2%1$s&3 i dette spil, som koster dig &3%2$s&2.'
 messages.kits.not-enough-money: '&3Du har ikke længere råd til at bruge det kit &2%s&3, afvælger det.'
@@ -126,7 +130,7 @@ game.winning.none-won: '&aSkyWars sluttede med ingen vindere.'
 game.starting.game-starting: '&aSpil startede med &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
 
-# game.starting.team-message is compiled as: {team-message}{teammate's name}{team-message-comma}{teammate's name}{team-message-final-comma}{teammate's name}
+# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
 game.starting.team-message: '&aDu er på team %1$s med &2 %2$s'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a og &2'
