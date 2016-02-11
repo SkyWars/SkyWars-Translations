@@ -32,6 +32,12 @@ commands.status.header: '&9 -- &2SkyWars Status&9 --'
 commands.status.in-queue: '&3In Warteschlange: &2%s'
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Arenen&9 --'
+# Untranslated start
+commands.status.no-teams-arena-list-prefix: '&3Game &2#%s&3: &2'
+commands.status.arena-teams-left: '&3Game &2#%1$s&3: &2%2$s&3/&2%3$s&3 teams left:'
+commands.status.arena-team-prefix: '  &3Team &2%s&3: &2'
+commands.status.arena-team-dead: '  &4Team &c%s&4: &c✗'
+# Untranslated end
 
 commands.version.description: 'Gives version'
 commands.version.output: '&3%s version &2%s &3/ &2%s&3. Created by &2Dabo Ross'
@@ -87,11 +93,37 @@ setup-commands.save.saved: '&3Arena gespeichert.'
 # Untranslated: setup-commands.save.failed
 setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
 
+# Untranslated start
+setup-commands.generic.no-first-position: "&4You haven't set a first position yet."
+setup-commands.generic.not-enough-spawns: '&4You need at least two spawn points to continue.'
+setup-commands.generic.too-late-spawns-set: "&4You can't edit the boundaries after setting spawn locations."
+setup-commands.generic.no-arena-started: "&4You haven't started creating an arena yet."
+setup-commands.generic.already-started-arena: '&4You already started creating an arena.'
+# Untranslated end
+
 top-commands.main.description: 'Hauptbefehle SkyWars'
 top-commands.setup.description: 'Setup Befehle SkyWars'
 
 generic-command-message.too-many-parameters: '&4Zu viele Argumente.'
 generic-command-message.not-enough-parameters: '&4Zu wenig Argumente.'
+
+# Untranslated start
+generic-command-message.no-permission: "&4You don't have permission to use %s&4."
+generic-command-message.not-a-player: "&4The command %s&4 must be run by a player."
+generic-command-message.invalid-sub-command: "&3The subcommand &9%2$s&3 does not exist for the command &a/%1$s&3."
+# Untranslated end
+
+# This is used in the no-permission message for sub commands, as well as the help message.
+# "&a/sw &9join"
+message-colors.sub-command-colors: "&a/%s &9%s"
+# "&a/sw"
+message-colors.base-command-colors: "&a/%s"
+# &3<&bArgument Name&3>
+message-colors.command-argument-listing: " &3<&b%s&3>"
+message-colors.help-message-colors: " &f%s"
+
+# Untranslated: messages.help-message-header
+messages.help-message-header: '&9 -- &2Help&9 --'
 
 messages.removed-from-queue-because-death: '&3Du wurdest aus der Warteschlange entfernt, da du gestorben bist.'
 messages.no-clue-what-command: '&4SkyWars hat keine Ahnung, was &c%s&4 bedeutet.'
@@ -125,10 +157,14 @@ game.death.forfeited: '&2%s&a gab auf!'
 game.winning.single-won: '&2%s&a gewinnt den SkyWars!'
 game.winning.multi-won: '&2%s&a haben den SkyWars gewonnen!'
 game.winning.multi-won-comma: '&a, &2'
+# Untranslated: game.winning.multi-won-final-comma
+game.winning.multi-won-final-comma: '&a and &2'
 game.winning.none-won: '&aDer SkyWars endet ohne Gewinner.'
 
 game.starting.game-starting: '&aSpiel startet mit &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
+# Untranslated: game.starting.game-starting-final-comma
+game.starting.game-starting-final-comma: '&a and &2'
 
 # Untranslated start
 # game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
