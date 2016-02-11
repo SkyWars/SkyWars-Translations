@@ -172,7 +172,7 @@ game.starting.game-starting-final-comma: '&a and &2'
 
 # Untranslated start
 # game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
-game.starting.team-message: '&aYou are in team %1$s with &2 %2$s'
+game.starting.team-message: '&aYou are in team %1$s with &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
 # Untranslated end

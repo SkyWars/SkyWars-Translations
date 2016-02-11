@@ -165,6 +165,6 @@ game.starting.game-starting-comma: '&a, &2'
 game.starting.game-starting-final-comma: '&a and &2'
 
 # game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
-game.starting.team-message: '&aJestes w druzynie %1$s z &2 %2$s'
+game.starting.team-message: '&aJestes w druzynie %1$s z &2%2$s'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a i &2'
