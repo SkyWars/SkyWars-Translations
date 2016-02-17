@@ -23,6 +23,7 @@ commands.delportal.confirmation: '&3Removed portal at %s'
 commands.delportal.error-no-portals: '&4No portals are set'
 
 commands.cancel.description: 'Cancels a current game with the given id'
+commands.cancel.argument: 'ID'
 commands.cancel.argument-not-integer: '&c%s&4 isn''t an integer!'
 commands.cancel.no-games-with-id: '&4There aren''t any games with the id &c%s&4.'
 commands.cancel.confirmation: '&3Canceling game &2%s&3.'
@@ -55,6 +56,7 @@ commands.forcestart.description: 'Forces a game to start with the people in the 
 commands.forcestart.not-enough-players: '&4There must be at least 2 players in the queue to force start a game.'
 
 commands.kit.description: 'Sets the kit to use for the next game'
+commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4There are no kits you can use.'
 commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
 commands.kit.unknown-kit: '&4Unknown kit &c%s&4.'
@@ -67,6 +69,10 @@ commands.kit.removed-kit: '&3You are no longer using any kits.'
 commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
+
+commands.testkit.description: 'Test a kit. WARNING: this will clear your inventory, and fill it with a kit immedietly.'
+commands.testkit.unknown: '&4Unknown kit &c%s&4.'
+commands.testkit.applied: '&3Applied kit &2%s&3.'
 
 setup-commands.start.description: 'Start a new arena setup and erase any previus unsaved arenas.'
 setup-commands.start.argument-name: 'Arena name'
@@ -94,6 +100,15 @@ setup-commands.generic.not-enough-spawns: '&4You need at least two spawn points 
 setup-commands.generic.too-late-spawns-set: "&4You can't edit the boundaries after setting spawn locations."
 setup-commands.generic.no-arena-started: "&4You haven't started creating an arena yet."
 setup-commands.generic.already-started-arena: '&4You already started creating an arena.'
+
+setup-commands.createkit.description: "Creates a kit from your current inventory."
+setup-commands.createkit.argument-name: "Name"
+setup-commands.createkit.argument-cost: "Cost"
+setup-commands.createkit.argument-permission: "Permission"
+setup-commands.createkit.saved-no-permission: "&3Saved kit &3%1$&2. Anyone can now apply the kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.saved-with-permission: "&3Saved kit &3%1$&2. Anyone with the &2%2$s&3 permission can now apply the kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.cost-to-use: " &3The kit will cost &2%s&3 to use each game."
+setup-commands.createkit.kit-exists: "&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&3 saved."
 
 top-commands.main.description: 'Main command for SkyWars'
 top-commands.setup.description: 'Setup command for SkyWars'
