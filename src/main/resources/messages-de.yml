@@ -1,6 +1,6 @@
 messages-version: 4
 
-commands.join.description: 'Tritt der Warteschlange fuer das naechste Spiel bei'
+commands.join.description: 'Tritt der Warteschlange für das nächste Spiel bei'
 commands.join.confirmation: '&3Du bist der Warteschlange beigetreten.'
 commands.join.already-queued: '&4Du bist schon in der Warteschlange.'
 commands.join.in-game: '&4Du kannst nicht beitreten, du bist bereits in einem Spiel.'
@@ -22,98 +22,91 @@ commands.delportal.description: 'Entfernt das zuletzt gesetzte Portal'
 commands.delportal.confirmation: '&3Portal von %s entfernt'
 commands.delportal.error-no-portals: '&4Es wurden noch keine Portale gesetzt'
 
-commands.cancel.description: 'Beendet ein Spiel mit der gegebenen ID'
-commands.cancel.argument-not-integer: '&c%s&4 ist keine ganze Zahl!'
+commands.cancel.description: 'Beendet das Spiel mit der angegebenen ID'
+commands.cancel.argument-not-integer: '&c%s&4 ist keine gültige Zahl!'
 commands.cancel.no-games-with-id: '&4Es gibt kein Spiel mit der ID &c%s&4.'
 commands.cancel.confirmation: '&3Beendet Spiel mit der ID &2%s&3.'
 
-commands.status.description: 'Zeige den Status der laufenden Spiele an'
+commands.status.description: 'Zeigt den Status der laufenden Spiele an'
 commands.status.header: '&9 -- &2SkyWars Status&9 --'
 commands.status.in-queue: '&3In Warteschlange: &2%s'
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Arenen&9 --'
-# Untranslated start
-commands.status.no-teams-arena-list-prefix: '&3Game &2#%s&3: &2'
-commands.status.arena-teams-left: '&3Game &2#%1$s&3: &2%2$s&3/&2%3$s&3 teams left:'
+commands.status.no-teams-arena-list-prefix: '&3Spiel &2#%s&3: &2'
+commands.status.arena-teams-left: '&3Spiel &2#%1$s&3: &2%2$s&3/&2%3$s&3 Teams übrig:'
 commands.status.arena-team-prefix: '  &3Team &2%s&3: &2'
 commands.status.arena-team-dead: '  &4Team &c%s&4: &c✗'
-# Untranslated end
 
-commands.version.description: 'Gives version'
-commands.version.output: '&3%s version &2%s &3/ &2%s&3. Created by &2Dabo Ross'
+commands.version.description: 'Zeigt die Plugin-Version'
+commands.version.output: '&3%s Version &2%s &3/ &2%s&3. Erstellt von &2Dabo Ross'
 
 commands.lobby.description: 'Bringt dich zur Lobby'
 commands.lobby.confirmation: '&3Teleportiere zur Lobby.'
-commands.lobby.in-game: '&4Du kannst dich waehrend du in einem Spiel bist nicht zur Lobby porten.'
+commands.lobby.in-game: '&4Du kannst dich, während du in einem Spiel bist, nicht zur Lobby porten.'
 
 commands.cancelall.description: 'Beendet alle laufenden Spiele.'
 commands.cancelall.canceling-game: '&3Beende Spiel &2%s'
 
-commands.report.description: 'Generiert einen Report und laedt ihn zu gist.github.com hoch. Ein Link wird ausgegeben.'
+commands.report.description: 'Generiert einen Report und lädt ihn zu gist.github.com hoch. Ein Link wird ausgegeben.'
 commands.report.start: '&3Sammle Daten und lade sie hoch'
 commands.report.output: '&3Report: &2%s'
 
 commands.forcestart.description: 'Startet ein Spiel mit den Spielern in der Warteschlange'
-commands.forcestart.not-enough-players: '&4Es muessen mindestens 2 Spieler in der Warteschlange sein, um ein Spiel zu starten.'
+commands.forcestart.not-enough-players: '&4Es müssen mindestens 2 Spieler in der Warteschlange sein, um ein Spiel zu starten.'
 
-commands.kit.description: 'Waehle dein Kit fuer dein nächstes Spiel aus.'
+commands.kit.description: 'Wähle ein Kit für dein nächstes Spiel aus.'
 commands.kit.no-kits-available: '&4Es gibt keine Kits, die du nutzen kannst.'
-commands.kit.unavailable-kits: '&3Nicht verfuegbare Kits: &2%s'
+commands.kit.unavailable-kits: '&3Nicht verfügbare Kits: &2%s'
 commands.kit.unknown-kit: '&4Unbekanntes Kit &c%s&4.'
-commands.kit.not-enough-money: '&4Du hast nicht genug %1$s um &c%2$s&4 zu kaufen. Du brauchst &c%3$s&4 mehr %1$s.'
+commands.kit.not-enough-money: '&4Du hast nicht genug %1$s, um &c%2$s&4 zu kaufen. Du brauchst &c%3$s&4 mehr %1$s.'
 commands.kit.chose-kit: '&3Du nutzt nun das Kit &2%s&3.'
 commands.kit.chose-kit-with-cost: '&3Du nutzt nun das Kit &2%1$s&3. Dieses Kit kostet dich jede Runde &2%2$s&3.'
-commands.kit.how-to-remove: '&3Du kannst &2/sw kit remove&3 nutzen, um deine Kitauswahl zurueckzusetzen.'
+commands.kit.how-to-remove: '&3Du kannst &2/sw kit remove&3 nutzen, um deine Kit-Auswahl zurückzusetzen.'
 commands.kit.removed-kit: '&3Du benutzt nun kein Kit mehr.'
-commands.kit.no-kit-removed: '&3Du nutzt momentan kein Kit, das man entfernen koennte.'
+commands.kit.no-kit-removed: '&3Du nutzt momentan kein Kit, das man entfernen könnte.'
 commands.kit.current-kit: '&3Du nutzt momentan das Kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Momentan benutzt du das Kit &2%1$s&3. Es kostet dich jede Runde &2%2$s&3.'
-commands.kit.no-access: '&4 Du hast keinen Zugriff zu dem Kit &c%s&4.'
+commands.kit.no-access: '&4Du hast keinen Zugriff auf das Kit &c%s&4.'
 
-setup-commands.start.description: 'Starte ein neues Arena setup und loesche vorherige ungespeicherte Arenen.'
-setup-commands.start.argument-name: 'Arena Name'
-setup-commands.start.confirmation: '&3Erstellen einer Arene mit dem Namen &2%s&3 gestartet.'
+setup-commands.start.description: 'Startet ein neues Arena-Setup und löscht vorherige ungespeicherte Arenen.'
+setup-commands.start.argument-name: 'Arena-Name'
+setup-commands.start.confirmation: '&3Erstellen einer Arena mit dem Namen &2%s&3 gestartet.'
 setup-commands.start.one-argument: '&4Bitte nutze nur ein einziges Argument.'
 
-setup-commands.setpos1.description: 'Setzt die erste Position fuer die zu kopierende Arena an der Stelle deines Fadenkreuzes.'
-setup-commands.setpos1.pos2-in-other-world: '&4Loesche die zweite Position, da du in einer anderen Welt bist.'
-setup-commands.setpos1.confirmation: '&3Setze die erste Position an der Stelle deines Fadenkreuzes.'
+setup-commands.setpos1.description: 'Setzt die erste Position für die zu kopierende Arena an die Position deines Fadenkreuzes.'
+setup-commands.setpos1.pos2-in-other-world: '&4Zweite Position wurde gelöscht, da du in einer anderen Welt bist.'
+setup-commands.setpos1.confirmation: '&3Erste Position wurde an die Stelle deines Fadenkreuzes gesetzt.'
 
-setup-commands.setpos2.description: 'Setzt die zweite Position fuer die zu kopierende Arena an der Stelle deines Fadenkreuzes.'
-setup-commands.setpos2.pos1-in-other-world: '&4Loesche die erste Position, da du in einer anderen Welt bist.'
-setup-commands.setpos2.confirmation: '&3Setze die zweite Position an der Stelle deines Fadenkreuzes.'
+setup-commands.setpos2.description: 'Setzt die zweite Position für die zu kopierende Arena an die Position deines Fadenkreuzes.'
+setup-commands.setpos2.pos1-in-other-world: '&4Erste Position wurde gelöscht, da du in einer anderen Welt bist.'
+setup-commands.setpos2.confirmation: '&3Zweite Position wurde an die Stelle deines Fadenkreuzes gesetzt.'
 
-setup-commands.addspawn.description: 'Fuegt ein neues Spawnareal an deiner Position hinzu'
-setup-commands.addspawn.confirmation: '&3Neues Spawnareal wurde an Position &2%s&3 hinzugefuegt.'
+setup-commands.addspawn.description: 'Fügt ein neues Spawnareal an deiner Position hinzu'
+setup-commands.addspawn.confirmation: '&3Neues Spawnareal wurde an Position &2%s&3 hinzugefügt.'
 
-setup-commands.save.description: 'Speichert das derzeitige Arena setup'
-setup-commands.save.saving: '&3speichere Arena...'
-setup-commands.save.saved: '&3Arena gespeichert.'
+setup-commands.save.description: 'Speichert das derzeitige Arena-Setup'
+setup-commands.save.saving: '&3Speichere Arena...'
+setup-commands.save.saved: '&3Arena wurde gespeichert.'
 
-# Untranslated: setup-commands.save.failed
-setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
+setup-commands.save.failed: '&4Arena-Konfiguration wurde gespeichert aber Laden des Arena-Cache schlug fehl. Bitte wirf einen Blick in die Konsole für weitere Informationen.'
 
-# Untranslated start
-setup-commands.generic.no-first-position: "&4You haven't set a first position yet."
-setup-commands.generic.not-enough-spawns: '&4You need at least two spawn points to continue.'
-setup-commands.generic.too-late-spawns-set: "&4You can't edit the boundaries after setting spawn locations."
-setup-commands.generic.no-arena-started: "&4You haven't started creating an arena yet."
-setup-commands.generic.already-started-arena: '&4You already started creating an arena.'
-# Untranslated end
+setup-commands.generic.no-first-position: "&4Du hast noch keine erste Position gesetzt."
+setup-commands.generic.not-enough-spawns: '&4Du brauchst wenigstens 2 Spawnpunkte, um fortzufahren.'
+setup-commands.generic.too-late-spawns-set: "&4Du kannst die Grenzen nicht verändern, nachdem du Spawnpunkte gesetzt hast."
+setup-commands.generic.no-arena-started: "&4Du hast bisher noch nicht damit begonnen, eine Arena zu erstellen."
+setup-commands.generic.already-started-arena: '&4Du hast bereits damit begonnen, eine Arena zu erstellen.'
 
 top-commands.main.description: 'Hauptbefehle SkyWars'
-top-commands.setup.description: 'Setup Befehle SkyWars'
+top-commands.setup.description: 'Einrichtungsbefehle SkyWars'
 
-generic-command-message.too-many-parameters: '&4Zu viele Argumente.'
-generic-command-message.not-enough-parameters: '&4Zu wenig Argumente.'
+generic-command-message.too-many-parameters: '&4Zu viele Argumente!'
+generic-command-message.not-enough-parameters: '&4Zu wenig Argumente!'
 
-# Untranslated start
-generic-command-message.no-permission: "&4You don't have permission to use %s&4."
-generic-command-message.not-a-player: "&4The command %s&4 must be run by a player."
-generic-command-message.invalid-sub-command: "&3The subcommand &9%2$s&3 does not exist for the command &a/%1$s&3."
-# Untranslated end
+generic-command-message.no-permission: "&4Du hast keine Berechtigung, %s&4 zu nutzen."
+generic-command-message.not-a-player: "&4Der Befehl %s&4 muss von einem Spieler ausgeführt werden."
+generic-command-message.invalid-sub-command: "&3Der Unterbefehl &9%2$s&3 existiert nicht für den Befehl &a/%1$s&3."
 
-# This is used in the no-permission message for sub commands, as well as the help message.
+# Dies wird in den keine-Berechtigung-Meldungen für Unterbefehle und den Hilfe-Nachrichten genutzt.
 # "&a/sw &9join"
 message-colors.sub-command-colors: "&a/%s &9%s"
 # "&a/sw"
@@ -122,28 +115,26 @@ message-colors.base-command-colors: "&a/%s"
 message-colors.command-argument-listing: " &3<&b%s&3>"
 message-colors.help-message-colors: " &f%s"
 
-# Untranslated: messages.help-message-header
-messages.help-message-header: '&9 -- &2Help&9 --'
+messages.help-message-header: '&9 -- &2Hilfe&9 --'
 
 messages.removed-from-queue-because-death: '&3Du wurdest aus der Warteschlange entfernt, da du gestorben bist.'
 messages.no-clue-what-command: '&4SkyWars hat keine Ahnung, was &c%s&4 bedeutet.'
-messages.not-fully-enabled: '&4Nicht ganz ermöglicht.'
+messages.not-fully-enabled: '&4Nicht vollständig aktiviert.'
 
 messages.economy-reward.win: '&3Du hast den SkyWars gewonnen und gewinnst &2%s&3.'
-messages.economy-reward.kill: '&3Du bekommst &2%1$s&3 fuer das besiegen von &2%2$s&3.'
+messages.economy-reward.kill: '&3Du bekommst &2%1$s&3 für das Besiegen von &2%2$s&3.'
 
-messages.kits.kit-list: '&3verfuegbare Kits: &2%s'
+messages.kits.kit-list: '&3verfügbare Kits: &2%s'
 messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%1$s &8(&3Preis: &2%2$s&8)'
-messages.kits.choose-a-kit: '&3Benutze &2/sw kit &8<&2Name&8>&3 um ein Kit auszuwaehlen.'
-# Untranslated: messages.kits.remove-a-kit
-messages.kits.remove-a-kit: '&3Use &2/sw kit remove&3 to stop using &2%s&3.'
-messages.kits.applied-kit: '&3In dieser Runde nutzt du das Kit &2%s&3.'
-messages.kits.applied-kit-with-cost: '&3Das ausgewaehlte Kit &2%1$s&3 kostet dich &3%2$s&2.'
+messages.kits.choose-a-kit: '&3Benutze &2/sw kit &8<&2Name&8>&3, um ein Kit auszuwählen.'
+messages.kits.remove-a-kit: '&3Nutze &2/sw kit remove&3, um die Nutzung von &2%s&3 zu stoppen.'
+messages.kits.applied-kit: '&3In dieser Runde benutzt du das Kit &2%s&3.'
+messages.kits.applied-kit-with-cost: '&3Das ausgewählte Kit &2%1$s&3 kostet dich &3%2$s&2.'
 messages.kits.not-enough-money: '&3Du hast nicht genug Geld, um das Kit &2%s&3 zu nutzen. Kit wird entfernt.'
 messages.kits.no-permission: '&3Dir fehlt die Berechtigung, um das Kit &2%s&3 zu nutzen. Kit wird entfernt.'
 
-messages.in-game: '&4Das kannst du waehrend eines Spiels nicht tun.'
+messages.in-game: '&4Das kannst du während eines Spiels nicht tun.'
 
 messages.report-disabled: '&4Melden wurde in der &cmain-config.yml&4 deaktiviert. Entferne die Zeile &c''disable-report: true''&4, um es zu aktivieren. Beachte, dass wenn aktiviert, SkyWars NUR dann meldet, wenn dieser Befehl ausgeführt wird, niemals von allein.'
 
@@ -157,18 +148,14 @@ game.death.forfeited: '&2%s&a gab auf!'
 game.winning.single-won: '&2%s&a gewinnt den SkyWars!'
 game.winning.multi-won: '&2%s&a haben den SkyWars gewonnen!'
 game.winning.multi-won-comma: '&a, &2'
-# Untranslated: game.winning.multi-won-final-comma
-game.winning.multi-won-final-comma: '&a and &2'
+game.winning.multi-won-final-comma: '&a und &2'
 game.winning.none-won: '&aDer SkyWars endet ohne Gewinner.'
 
 game.starting.game-starting: '&aSpiel startet mit &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
-# Untranslated: game.starting.game-starting-final-comma
-game.starting.game-starting-final-comma: '&a and &2'
+game.starting.game-starting-final-comma: '&a und &2'
 
-# Untranslated start
-# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
-game.starting.team-message: '&aYou are in team %1$s with &2%2$s.'
+# game.starting.team-message ist compiliert als: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
+game.starting.team-message: '&aDu bist in Team %1$s mit &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
-game.starting.team-message-final-comma: '&a and &2'
-# Untranslated end
+game.starting.team-message-final-comma: '&a und &2'
