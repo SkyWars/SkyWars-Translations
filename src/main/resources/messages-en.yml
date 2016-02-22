@@ -24,7 +24,6 @@ commands.delportal.error-no-portals: '&4No portals are set'
 
 commands.cancel.description: 'Cancels a current game with the given id'
 commands.cancel.argument: 'ID'
-commands.cancel.argument-not-integer: '&c%s&4 isn''t an integer!'
 commands.cancel.no-games-with-id: '&4There aren''t any games with the id &c%s&4.'
 commands.cancel.confirmation: '&3Canceling game &2%s&3.'
 
@@ -103,12 +102,13 @@ setup-commands.generic.already-started-arena: '&4You already started creating an
 
 setup-commands.createkit.description: "Creates a kit from your current inventory."
 setup-commands.createkit.argument-name: "Name"
-setup-commands.createkit.argument-cost: "Cost"
-setup-commands.createkit.argument-permission: "Permission"
-setup-commands.createkit.saved-no-permission: "&3Saved kit &3%1$&2. Anyone can now apply the kit with &a/sw &9kit &2%1$s&3."
-setup-commands.createkit.saved-with-permission: "&3Saved kit &3%1$&2. Anyone with the &2%2$s&3 permission can now apply the kit with &a/sw &9kit &2%1$s&3."
-setup-commands.createkit.cost-to-use: " &3The kit will cost &2%s&3 to use each game."
-setup-commands.createkit.kit-exists: "&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&3 saved."
+setup-commands.createkit.argument-cost: "Cost (optional)"
+setup-commands.createkit.argument-permission: "Permission (optional)"
+setup-commands.createkit.saved-no-permission: "&3Saved kit &2%1$s&3. Anyone can now apply this kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.saved-with-permission: "&3Saved kit &2%1$s&3. Anyone with the &2%2$s&3 permission can now apply this kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.cost-to-use: " &3This kit will cost &2%s&3 to use each game."
+setup-commands.createkit.kit-exists: "&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&4 saved."
+setup-commands.createkit.save-failed: "&4Saving kits file to disk failed. See console for more information. &4Kit &cNOT&4 saved."
 
 top-commands.main.description: 'Main command for SkyWars'
 top-commands.setup.description: 'Setup command for SkyWars'
@@ -116,6 +116,7 @@ top-commands.setup.description: 'Setup command for SkyWars'
 generic-command-message.too-many-parameters: '&4Too many arguments.'
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'
 
+generic-command-message.argument-not-integer: '&c%s&4 isn''t an integer!'
 generic-command-message.no-permission: "&4You don't have permission to use %s&4."
 generic-command-message.not-a-player: "&4The command %s&4 must be run by a player."
 generic-command-message.invalid-sub-command: "&3The subcommand &9%2$s&3 does not exist for the command &a/%1$s&3."
