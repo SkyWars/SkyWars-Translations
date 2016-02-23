@@ -27,7 +27,7 @@ commands.delportal.confirmation: '&3Portal removido em %s'
 commands.delportal.error-no-portals: '&4nao existem portais definidos'
 
 commands.cancel.description: 'Cancela um jogo com o ID a ser definido'
-commands.cancel.argument-not-integer: '&c%s&4 Nao e um numero inteiro'
+commands.cancel.argument: 'ID'
 commands.cancel.no-games-with-id: '&4Nao existem jogos com o ID &c%s&4.'
 commands.cancel.confirmation: '&3A cancelar o jogo &2%s&3.'
 
@@ -62,6 +62,7 @@ commands.forcestart.description: 'Forces a game to start with the people in the 
 commands.forcestart.not-enough-players: '&4There must be at least 2 players in the queue to force start a game.'
 
 commands.kit.description: 'Sets the kit to use for the next game'
+commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4There are no kits you can use.'
 commands.kit.unavailable-kits: '&3Unavailable kits: &2%s'
 commands.kit.unknown-kit: '&4Unknown kit &c%s&4.'
@@ -111,6 +112,7 @@ top-commands.main.description: 'Comando principal para o SkyWars'
 top-commands.setup.description: 'Comando de configuracao para o SkyWars'
 
 generic-command-message.too-many-parameters: '&4Demasiados parametros.'
+generic-command-message.argument-not-integer: '&c%s&4 Nao e um numero inteiro'
 
 # Untranslated start
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'

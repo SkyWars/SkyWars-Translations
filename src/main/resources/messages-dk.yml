@@ -23,7 +23,8 @@ commands.delportal.confirmation: '&3Fjærnede portal ved %s'
 commands.delportal.error-no-portals: '&4Ingen portaler er sat.'
 
 commands.cancel.description: 'Annullere spillet med det givende id.'
-commands.cancel.argument-not-integer: '&c%s&4 er ikke et tal'
+# Untranslated: commands.cancel.argument
+commands.cancel.argument: 'ID'
 commands.cancel.no-games-with-id: '&4Der er ikke noget spil med id''et &c%s&4.'
 commands.cancel.confirmation: '&3Annullere spil &2%s&3.'
 
@@ -57,6 +58,8 @@ commands.forcestart.description: 'Tvinger et spil til at starte med spillerne i 
 commands.forcestart.not-enough-players: '&4Der skal mindst være 2 spillere i køen for at starte spillet.'
 
 commands.kit.description: 'sætter kit''et for næste spil.'
+# Untranslated: commands.kit.argument
+commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4Der er ingen kits som du kan bruge.'
 commands.kit.unavailable-kits: '&3Utilgængelige kits: &2%s'
 commands.kit.unknown-kit: '&Ukendt kit &c%s&4.'
@@ -104,6 +107,7 @@ top-commands.setup.description: 'Setup komandoer for SkyWars'
 
 generic-command-message.too-many-parameters: '&4For mange argumenter.'
 generic-command-message.not-enough-parameters: '&4Ikke nok argumenter.'
+generic-command-message.argument-not-integer: '&c%s&4 er ikke et tal'
 
 # Untranslated start
 generic-command-message.no-permission: "&4You don't have permission to use %s&4."

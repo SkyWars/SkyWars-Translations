@@ -23,7 +23,7 @@ commands.delportal.confirmation: '&3Удаление портала %s'
 commands.delportal.error-no-portals: '&4Порталы не установлены'
 
 commands.cancel.description: 'Отмена игры с данным ID'
-commands.cancel.argument-not-integer: '&c%s&4 не является целым числом!'
+commands.cancel.argument: 'ID'
 commands.cancel.no-games-with-id: '&4Игра с индентификатором &c%s&4 не найдена.'
 commands.cancel.confirmation: '&3Отмена игры &2%s&3.'
 
@@ -57,6 +57,8 @@ commands.forcestart.description: 'Принудительно начать игр
 commands.forcestart.not-enough-players: '&4Должно быть как минимум 2 игрока в ожидании для старта игры.'
 
 commands.kit.description: 'Установить наборы для использования в следующей игре.'
+# Untranslated: commands.kit.argument
+commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4Доступных наборов нет.'
 commands.kit.unavailable-kits: '&3Поврежденные наборы: &2%s'
 commands.kit.unknown-kit: '&4Неизвестный набор &c%s&4.'
@@ -107,6 +109,7 @@ top-commands.setup.description: 'Установочная команда для 
 
 generic-command-message.too-many-parameters: '&4Слишком много аргументов.'
 generic-command-message.not-enough-parameters: '&4Не достаточно аргументов.'
+generic-command-message.argument-not-integer: '&c%s&4 не является целым числом!'
 
 # Untranslated start
 generic-command-message.no-permission: "&4You don't have permission to use %s&4."

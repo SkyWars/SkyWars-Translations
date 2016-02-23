@@ -23,7 +23,7 @@ commands.delportal.confirmation: '&3Usunieto portal: %s'
 commands.delportal.error-no-portals: '&4Nie ustawiono zadnych portali, wiec nie ma co usuwac.'
 
 commands.cancel.description: 'Zatrzymuje gre o podanym ID.'
-commands.cancel.argument-not-integer: '&c%s&4 nie jest liczba calkowita!'
+commands.cancel.argument: 'ID'
 commands.cancel.no-games-with-id: '&4Nie istnieje gra: &c%s&4.'
 commands.cancel.confirmation: '&3Zatrzymano gre: &2%s&3.'
 
@@ -57,6 +57,8 @@ commands.forcestart.description: 'Rozpoczyna gre z graczami w kolejce'
 commands.forcestart.not-enough-players: '&4W kolejce musi byc przynajmniej 2 graczy, by rozpoczac gre.'
 
 commands.kit.description: 'Ustawia zestaw, ktorego bedziesz uzywal przy nastepnej potyczce.'
+# Untranslated: commands.kit.argument
+commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4Nie ma dostepnych zadnych zestawow.'
 commands.kit.unavailable-kits: '&3Niedostepne zestawy: &2%s'
 commands.kit.unknown-kit: '&4Nie odnaleziono zestawu: &c%s&4.'
@@ -104,6 +106,7 @@ top-commands.setup.description: 'Glowna komenda do tworzenia SkyWarsow.'
 
 generic-command-message.too-many-parameters: '&4Za duzo argumentow.'
 generic-command-message.not-enough-parameters: '&4Za malo argumentow.'
+generic-command-message.argument-not-integer: '&c%s&4 nie jest liczba calkowita!'
 
 # Untranslated start
 generic-command-message.no-permission: "&4You don't have permission to use %s&4."

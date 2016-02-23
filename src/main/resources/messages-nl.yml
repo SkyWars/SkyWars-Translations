@@ -23,7 +23,7 @@ commands.delportal.confirmation: '&3Portal op %s verwijderd.'
 commands.delportal.error-no-portals: '&4Er zijn geen portals bepaald.'
 
 commands.cancel.description: 'Annuleer een spel met het gegeven id.'
-commands.cancel.argument-not-integer: '&c%s&4 is geen geheel getal!'
+commands.cancel.argument: 'id'
 commands.cancel.no-games-with-id: '&4Er zijn geen spellen met het id &c%s&4.'
 commands.cancel.confirmation: '&3Spel &2%s&3 aan het annuleren.'
 
@@ -57,6 +57,8 @@ commands.forcestart.description: 'Dwingt een game te starten met de spelers in d
 commands.forcestart.not-enough-players: '&4Er moeten minstens 2 spelers zijn om de game gedwongen te starten.'
 
 commands.kit.description: 'Bepaalt je kit voor de volgende ronde'
+# Untranslated: commands.kit.argument
+commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4Er zijn geen kits die je kunt gebruiken.'
 commands.kit.unavailable-kits: '&3Niet beschikbare kits: &2%s'
 commands.kit.unknown-kit: '&4De kit &c%s&4 kennen wij niet.'
@@ -106,6 +108,7 @@ top-commands.setup.description: 'Setupcommando voor Skywars'
 
 generic-command-message.too-many-parameters: '&4Teveel argumenten.'
 generic-command-message.not-enough-parameters: '&4Niet genoeg argumenten.'
+generic-command-message.argument-not-integer: '&c%s&4 is geen geheel getal!'
 
 # Untranslated start
 generic-command-message.no-permission: "&4You don't have permission to use %s&4."

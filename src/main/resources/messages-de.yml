@@ -23,7 +23,7 @@ commands.delportal.confirmation: '&3Portal von %s entfernt'
 commands.delportal.error-no-portals: '&4Es wurden noch keine Portale gesetzt'
 
 commands.cancel.description: 'Beendet das Spiel mit der angegebenen ID'
-commands.cancel.argument-not-integer: '&c%s&4 ist keine gültige Zahl!'
+commands.cancel.argument: 'ID'
 commands.cancel.no-games-with-id: '&4Es gibt kein Spiel mit der ID &c%s&4.'
 commands.cancel.confirmation: '&3Beendet Spiel mit der ID &2%s&3.'
 
@@ -55,6 +55,7 @@ commands.forcestart.description: 'Startet ein Spiel mit den Spielern in der Wart
 commands.forcestart.not-enough-players: '&4Es müssen mindestens 2 Spieler in der Warteschlange sein, um ein Spiel zu starten.'
 
 commands.kit.description: 'Wähle ein Kit für dein nächstes Spiel aus.'
+commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4Es gibt keine Kits, die du nutzen kannst.'
 commands.kit.unavailable-kits: '&3Nicht verfügbare Kits: &2%s'
 commands.kit.unknown-kit: '&4Unbekanntes Kit &c%s&4.'
@@ -102,6 +103,7 @@ top-commands.setup.description: 'Einrichtungsbefehle SkyWars'
 generic-command-message.too-many-parameters: '&4Zu viele Argumente!'
 generic-command-message.not-enough-parameters: '&4Zu wenig Argumente!'
 
+generic-command-message.argument-not-integer: '&c%s&4 ist keine gültige Zahl!'
 generic-command-message.no-permission: "&4Du hast keine Berechtigung, %s&4 zu nutzen."
 generic-command-message.not-a-player: "&4Der Befehl %s&4 muss von einem Spieler ausgeführt werden."
 generic-command-message.invalid-sub-command: "&3Der Unterbefehl &9%2$s&3 existiert nicht für den Befehl &a/%1$s&3."

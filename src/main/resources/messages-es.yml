@@ -23,7 +23,7 @@ commands.delportal.confirmation: '&3Portal eliminado en %s'
 commands.delportal.error-no-portals: '&4No hay portales establecidos'
 
 commands.cancel.description: 'Cancela los juegos actuales con la ID dada'
-commands.cancel.argument-not-integer: '&c%s&4 no es un integrante!'
+commands.cancel.argument: 'ID'
 commands.cancel.no-games-with-id: '&4No hay ningún juego con el ID &c%s&4.'
 commands.cancel.confirmation: '&3Cancelando juego &2%s&3.'
 
@@ -57,6 +57,8 @@ commands.forcestart.description: 'Forzar un juego con la gente en cola'
 commands.forcestart.not-enough-players: '&4Tiene que haber por lo menos dos jugadores para poder empezar.'
 
 commands.kit.description: 'Define el kit que se usará para el siguiente juego.'
+# Untranslated: commands.kit.argument
+commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4No hay kits que puedas usar.'
 commands.kit.unavailable-kits: '&3Kits indisponibles: &2%s'
 commands.kit.unknown-kit: '&4Kit desconocido: &c%s&4.'
@@ -106,6 +108,7 @@ top-commands.setup.description: 'Comando para establecer SkyWars'
 
 generic-command-message.too-many-parameters: '&4Demasiados parámetros'
 generic-command-message.not-enough-parameters: '&4No hay suficientes argumentos.'
+generic-command-message.argument-not-integer: '&c%s&4 no es un integrante!'
 
 # Untranslated start
 generic-command-message.no-permission: "&4You don't have permission to use %s&4."
