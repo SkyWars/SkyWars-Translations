@@ -57,7 +57,7 @@ commands.report.output: '&3Zprava: &2%s'
 commands.forcestart.description: 'Spusti hru s lidmi ve fronte'
 commands.forcestart.not-enough-players: '&4Musi byt alespon 2 hraci ve fronte pro spusteni hry.'
 
-# Untranslated start
+# Untranslated start: commands.kit, commands.testkit and setup-commands.createkit
 commands.kit.description: 'Sets the kit to use for the next game'
 commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4There are no kits you can use.'
@@ -72,6 +72,20 @@ commands.kit.removed-kit: '&3You are no longer using any kits.'
 commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
+
+commands.testkit.description: 'Test a kit. WARNING: this will clear your inventory.'
+commands.testkit.unknown: '&4Unknown kit &c%s&4.'
+commands.testkit.applied: '&3Applied kit &2%s&3.'
+
+setup-commands.createkit.description: "Creates a kit from your current inventory."
+setup-commands.createkit.argument-name: "Name"
+setup-commands.createkit.argument-cost: "Cost (optional)"
+setup-commands.createkit.argument-permission: "Permission (optional)"
+setup-commands.createkit.saved-no-permission: "&3Saved kit &2%1$s&3. Anyone can now apply this kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.saved-with-permission: "&3Saved kit &2%1$s&3. Anyone with the &2%2$s&3 permission can now apply this kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.cost-to-use: " &3This kit will cost &2%s&3 to use each game."
+setup-commands.createkit.kit-exists: "&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&4 saved."
+setup-commands.createkit.save-failed: "&4Saving kits file to disk failed. See console for more information. &4Kit &cNOT&4 saved."
 # Untranslated end
 
 setup-commands.start.description: 'Zahaji nove nastaveni areny a vymaze vsechny predchozi neulozene areny.'

@@ -64,7 +64,7 @@ commands.kit.unavailable-kits: '&3Kits non disponibles: &2%s'
 commands.kit.unknown-kit: '&4Aucun kit connu &c%s&4.'
 commands.kit.not-enough-money: '&4Vous n''avez pas assez de %1$s pour acheter &c%2$s&4. Vous avez besoins de &c%3$s&4 en plus %1$s.'
 
-# Untranslated start
+# Untranslated start: comamnds.kit, commands.testkit and setup-commands.createkit
 commands.kit.argument: 'Kit'
 commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
 commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
@@ -74,6 +74,20 @@ commands.kit.removed-kit: '&3You are no longer using any kits.'
 commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
+
+commands.testkit.description: 'Test a kit. WARNING: this will clear your inventory.'
+commands.testkit.unknown: '&4Unknown kit &c%s&4.'
+commands.testkit.applied: '&3Applied kit &2%s&3.'
+
+setup-commands.createkit.description: "Creates a kit from your current inventory."
+setup-commands.createkit.argument-name: "Name"
+setup-commands.createkit.argument-cost: "Cost (optional)"
+setup-commands.createkit.argument-permission: "Permission (optional)"
+setup-commands.createkit.saved-no-permission: "&3Saved kit &2%1$s&3. Anyone can now apply this kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.saved-with-permission: "&3Saved kit &2%1$s&3. Anyone with the &2%2$s&3 permission can now apply this kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.cost-to-use: " &3This kit will cost &2%s&3 to use each game."
+setup-commands.createkit.kit-exists: "&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&4 saved."
+setup-commands.createkit.save-failed: "&4Saving kits file to disk failed. See console for more information. &4Kit &cNOT&4 saved."
 # Untranslated end
 
 setup-commands.start.description: 'Démarre la configuration d''une nouvelle arène.'

@@ -69,9 +69,19 @@ commands.kit.no-kit-removed: '&3You weren''t using a kit, no kit removed.'
 commands.kit.current-kit: '&3You are currently using kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. This kit costs you &2%2$s&3 per round.'
 
-commands.testkit.description: 'Test a kit. WARNING: this will clear your inventory, and fill it with a kit immedietly.'
+commands.testkit.description: 'Test a kit. WARNING: this will clear your inventory.'
 commands.testkit.unknown: '&4Unknown kit &c%s&4.'
 commands.testkit.applied: '&3Applied kit &2%s&3.'
+
+setup-commands.createkit.description: "Creates a kit from your current inventory."
+setup-commands.createkit.argument-name: "Name"
+setup-commands.createkit.argument-cost: "Cost (optional)"
+setup-commands.createkit.argument-permission: "Permission (optional)"
+setup-commands.createkit.saved-no-permission: "&3Saved kit &2%1$s&3. Anyone can now apply this kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.saved-with-permission: "&3Saved kit &2%1$s&3. Anyone with the &2%2$s&3 permission can now apply this kit with &a/sw &9kit &2%1$s&3."
+setup-commands.createkit.cost-to-use: " &3This kit will cost &2%s&3 to use each game."
+setup-commands.createkit.kit-exists: "&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&4 saved."
+setup-commands.createkit.save-failed: "&4Saving kits file to disk failed. See console for more information. &4Kit &cNOT&4 saved."
 
 setup-commands.start.description: 'Start a new arena setup and erase any previus unsaved arenas.'
 setup-commands.start.argument-name: 'Arena name'
@@ -99,16 +109,6 @@ setup-commands.generic.not-enough-spawns: '&4You need at least two spawn points 
 setup-commands.generic.too-late-spawns-set: "&4You can't edit the boundaries after setting spawn locations."
 setup-commands.generic.no-arena-started: "&4You haven't started creating an arena yet."
 setup-commands.generic.already-started-arena: '&4You already started creating an arena.'
-
-setup-commands.createkit.description: "Creates a kit from your current inventory."
-setup-commands.createkit.argument-name: "Name"
-setup-commands.createkit.argument-cost: "Cost (optional)"
-setup-commands.createkit.argument-permission: "Permission (optional)"
-setup-commands.createkit.saved-no-permission: "&3Saved kit &2%1$s&3. Anyone can now apply this kit with &a/sw &9kit &2%1$s&3."
-setup-commands.createkit.saved-with-permission: "&3Saved kit &2%1$s&3. Anyone with the &2%2$s&3 permission can now apply this kit with &a/sw &9kit &2%1$s&3."
-setup-commands.createkit.cost-to-use: " &3This kit will cost &2%s&3 to use each game."
-setup-commands.createkit.kit-exists: "&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&4 saved."
-setup-commands.createkit.save-failed: "&4Saving kits file to disk failed. See console for more information. &4Kit &cNOT&4 saved."
 
 top-commands.main.description: 'Main command for SkyWars'
 top-commands.setup.description: 'Setup command for SkyWars'
