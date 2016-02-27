@@ -164,11 +164,11 @@ messages.in-game: '&4Nie mozesz tego zrobic, jestes w trakcie gry.'
 
 messages.report-disabled: '&4Raportowanie wylaczone w pliku &cmain-config.yml&4. Zmien nastepujaca linijke &c''disable-report: true''&4 aby wlaczyc raportowanie. SkyWars raportuje TYLKO, gdy komenda zostanie uzyta, nigdy w tle.'
 
-game.death.killed-by-player-and-void: '&aGracz &2%s&a zrzucil gracza &2%s&a do prozni!'
+game.death.killed-by-player-and-void: '&aGracz &2%1$s&a zrzucil gracza &2%2$s&a do prozni!'
 game.death.killed-by-void: '&aGracz &2%s&a skoczyl do prozni!'
-game.death.killed-by-player: '&aGracz &2%s&a zabil gracza &2%s&a!'
+game.death.killed-by-player: '&aGracz &2%1$s&a zabil gracza &2%2$s&a!'
 game.death.killed-by-environment: '&aGracz &2%s&a zostal zabity!'
-game.death.forfeited-while-attacked: '&aGracz &2%s&a opuscil gre, lecz zostal uprzenio zraniony przez gracza &2%s&a!'
+game.death.forfeited-while-attacked: '&aGracz &2%2$s&a opuscil gre, lecz zostal uprzenio zraniony przez gracza &2%1$s&a!'
 game.death.forfeited: '&aGracz &2%s&a opuscil gre!'
 
 game.winning.single-won: '&aGracz &2%s&a wygral na SkyWarsach!'

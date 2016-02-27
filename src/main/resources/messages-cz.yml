@@ -168,11 +168,11 @@ messages.in-game: '&4You can''t do that, you are in a game.'
 messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 # Untranslated end
 
-game.death.killed-by-player-and-void: '&2%s&a vystrcil &2%s&a do nicoty!'
+game.death.killed-by-player-and-void: '&2%1$s&a vystrcil &2%2$s&a do nicoty!'
 game.death.killed-by-void: '&2%s&a skocil do nicoty!'
-game.death.killed-by-player: '&2%s&a zabil &2%s&a!'
+game.death.killed-by-player: '&2%1$s&a zabil &2%2$s&a!'
 game.death.killed-by-environment: '&2%s&a byl zabit!'
-game.death.forfeited-while-attacked: '&2%s&a se dostal do potizi diky &2%s&a!'
+game.death.forfeited-while-attacked: '&2%2$s&a se dostal do potizi diky &2%1$s&a!'
 game.death.forfeited: '&2%s&a se propadl!'
 
 game.winning.single-won: '&2%s&a vyhral SkyWars!'

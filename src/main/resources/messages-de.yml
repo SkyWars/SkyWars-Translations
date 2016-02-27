@@ -154,11 +154,11 @@ messages.in-game: '&4Das kannst du während eines Spiels nicht tun.'
 
 messages.report-disabled: '&4Melden wurde in der &cmain-config.yml&4 deaktiviert. Entferne die Zeile &c''disable-report: true''&4, um es zu aktivieren. Beachte, dass wenn aktiviert, SkyWars NUR dann meldet, wenn dieser Befehl ausgeführt wird, niemals von allein.'
 
-game.death.killed-by-player-and-void: '&2%s&a schubste &2%s&a in die Leere!'
+game.death.killed-by-player-and-void: '&2%1$s&a schubste &2%2$s&a in die Leere!'
 game.death.killed-by-void: '&2%s&a sprang in die Leere!'
-game.death.killed-by-player: '&2%s&a besiegte &2%s&a!'
+game.death.killed-by-player: '&2%1$s&a besiegte &2%2$s&a!'
 game.death.killed-by-environment: '&2%s&a wurde besiegt!'
-game.death.forfeited-while-attacked: '&2%s&a wurde durch &2%s&a zum Aufgeben gezwungen!'
+game.death.forfeited-while-attacked: '&2%2$s&a wurde durch &2%1$s&a zum Aufgeben gezwungen!'
 game.death.forfeited: '&2%s&a gab auf!'
 
 game.winning.single-won: '&2%s&a gewinnt den SkyWars!'

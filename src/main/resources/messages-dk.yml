@@ -167,11 +167,11 @@ messages.in-game: '&4Det kan du ikke gøre, du er i et spil.'
 
 messages.report-disabled: '&4Rapportering er blever slået fra i &cmain-config.yml&4. Fjærn &c''disable-report: true''&4 for at slå rapportering til. Husk når slået til, SkyWars rapportere KUN når denne komando er brugt, aldrig i baggrunden.'
 
-game.death.killed-by-player-and-void: '&2%s&a skubbede &2%s&a ud i endetheden!'
+game.death.killed-by-player-and-void: '&2%1$s&a skubbede &2%2$s&a ud i endetheden!'
 game.death.killed-by-void: '&2%s&a hoppede i endetheden!'
-game.death.killed-by-player: '&2%s&a dræbte &2%s&a!'
+game.death.killed-by-player: '&2%1$s&a dræbte &2%2$s&a!'
 game.death.killed-by-environment: '&2%s&a blev dræbt!'
-game.death.forfeited-while-attacked: '&2%s&a blev tvunget til at overgive sig af &2%s&a!'
+game.death.forfeited-while-attacked: '&2%s&a blev tvunget til at overgive sig af &2%1$s&a!'
 game.death.forfeited: '&2%s&a overgav sig!'
 
 game.winning.single-won: '&2%s&a har vundet SkyWars!'
