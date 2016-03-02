@@ -1,4 +1,4 @@
-messages-version: 4
+messages-version: 5
 
 commands.join.description: 'Joins the queue for the next game'
 commands.join.confirmation: '&3You have joined the queue.'

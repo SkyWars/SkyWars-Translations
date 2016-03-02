@@ -1,4 +1,4 @@
-messages-version: 4
+messages-version: 5
 
 commands.join.description: 'Tritt der Warteschlange für das nächste Spiel bei'
 commands.join.confirmation: '&3Du bist der Warteschlange beigetreten.'

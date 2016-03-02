@@ -1,4 +1,4 @@
-messages-version: 4
+messages-version: 5
 
 commands.join.description: 'Ga in de wachtrij voor het volgende spel.'
 commands.join.confirmation: '&3Je bent nu in de wachtrij'

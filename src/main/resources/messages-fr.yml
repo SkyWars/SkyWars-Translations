@@ -1,4 +1,4 @@
-messages-version: 4
+messages-version: 5
 
 commands.join.description: 'Vous rejoignez la file d''attente'
 commands.join.confirmation: '&3Vous avez rejoint la file.'

@@ -1,4 +1,4 @@
-messages-version: 4
+messages-version: 5
 
 commands.join.description: 'Entrou na lista para o proximo jogo'
 commands.join.confirmation: '&3Acabaste de entrar na lista de espera.'

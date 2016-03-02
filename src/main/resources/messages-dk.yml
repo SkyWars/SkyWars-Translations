@@ -1,4 +1,4 @@
-messages-version: 4
+messages-version: 5
 
 commands.join.description: 'Joiner kø for næste spil.'
 commands.join.confirmation: '&3Du har joinet køen.'

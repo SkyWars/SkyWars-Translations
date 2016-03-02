@@ -1,4 +1,4 @@
-messages-version: 4
+messages-version: 5
 
 commands.join.description: 'Dolacza do kolejki do nastepnej gry.'
 commands.join.confirmation: '&3Dolaczyles do kolejki do nastepnej gry.'
