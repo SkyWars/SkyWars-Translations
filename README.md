@@ -3,14 +3,13 @@ SkyWars Translations
 
 ### Contributing translations
 
-There are missing translations! Since the last time language files were all updated, SkyWars added more messages!
+All player messages are currently fully translated to English and German.
 
-If you want to help translate the missing messages, or create a translation for an entirely new language, check out [Wiki/Translating](https://github.com/SkyWars/SkyWars-Translations/wiki/Translating)!
+Partially translations exist for Spanish, French, Czech, Danish, Dutch, Polish, Portuguese and Russian.
 
-To see all currently untranslated messages in all currently existing language files, click on [Search/Untranslated](https://github.com/SkyWars/SkyWars-Translations/search?utf8=%E2%9C%93&q=Untranslated).
+If you want to translate the missing messages in a language, or add a translation for a new language, check out
+[Wiki/Translating](https://github.com/SkyWars/SkyWars-Translations/wiki/Translating)!
 
-### No longer updated
+When translating, you can also always test out your messages by copying them into the `messages.yml` file for SkyWars.
 
-SkyWars is no longer receiving updates and support. The project was fun while it lasted, but it is no longer. If you wish to take over SkyWars, please contact me at daboross@daboross.net. The translation project can continue to exist, but there will no longer be regular updates to the original SkyWars project.
-
-This is the translations project for SkyWars. See [SkyWars](https://github.com/SkyWars/SkyWars) for the main project repo.
+To see all currently untranslated messages in all currently existing language files, go to [Search/Untranslated](https://github.com/SkyWars/SkyWars-Translations/search?utf8=%E2%9C%93&q=Untranslated).
