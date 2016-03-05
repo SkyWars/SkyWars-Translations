@@ -1,4 +1,4 @@
-messages-version: 5
+messages-version: 6
 
 commands.join.description: 'Ga in de wachtrij voor het volgende spel.'
 commands.join.confirmation: '&3Je bent nu in de wachtrij'
@@ -32,12 +32,10 @@ commands.status.header: '&9 -- &2SkyWars Status&9 --'
 commands.status.in-queue: '&3In wachtrij: &2%s'
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Huidige Arena''s&9 --'
-# Untranslated start
 commands.status.no-teams-arena-list-prefix: '&3Game &2#%s&3: &2'
 commands.status.arena-teams-left: '&3Game &2#%1$s&3: &2%2$s&3/&2%3$s&3 teams over:'
 commands.status.arena-team-prefix: '  &3Team &2%s&3: &2'
 commands.status.arena-team-dead: '  &4Team &c%s&4: &c✗'
-# Untranslated end
 
 commands.version.description: 'Geeft de versie'
 commands.version.output: '&3%s versie &2%s &3/ &2%s&3. Gemaakt door &2Dabo Ross'
@@ -57,7 +55,6 @@ commands.forcestart.description: 'Dwingt een game te starten met de spelers in d
 commands.forcestart.not-enough-players: '&4Er moeten minstens 2 spelers zijn om de game gedwongen te starten.'
 
 commands.kit.description: 'Bepaalt je kit voor de volgende ronde'
-# Untranslated: commands.kit.argument
 commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4Er zijn geen kits die je kunt gebruiken.'
 commands.kit.unavailable-kits: '&3Niet beschikbare kits: &2%s'
@@ -72,7 +69,6 @@ commands.kit.no-kit-removed: '&3Je gebruikte geen kit, geen kit weggehaald.'
 commands.kit.current-kit: '&3Momenteel gebruik je de kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Momenteel gebruik je de kit &2%1$s&3. Deze kit kost je &2%2$s&3 per ronde.'
 
-# Untranslated start: commands.testkit and setup-commands.createkit
 commands.testkit.description: 'Test een kit. WAARSCHUWING: dit leegt je inventaris!'
 commands.testkit.unknown: '&4Onbekende kit &c%s&4.'
 commands.testkit.applied: '&3Kit &2%s&3 toegepast.'
@@ -86,7 +82,6 @@ setup-commands.createkit.saved-with-permission: "&3Kit &2%1$s&3 opgeslaan.Iedere
 setup-commands.createkit.cost-to-use: " &3Deze kit zal je &2%s&3 kosten om elke game te gebruiken."
 setup-commands.createkit.kit-exists: "&4Een kit met de naam &c%s&4 bestaat al. &4Kit &cNIET&4 opgeslaan."
 setup-commands.createkit.save-failed: "&4Kits opslaan naar schijf gefaald. Bekijk de console voor meer informatie. &4Kit &cNIET&4 opgeslaan."
-# Untranslated end
 
 setup-commands.start.description: 'Start een nieuwe arena en verwijder vorige, onopgeslagen arena''s'
 setup-commands.start.argument-name: 'Arenanaam'
@@ -108,16 +103,13 @@ setup-commands.save.description: 'Slaat de net gemaakte arena op naar een bestan
 setup-commands.save.saving: '&3Arena opslaan.'
 setup-commands.save.saved: '&3Arena opgeslaan.'
 
-# Untranslated: setup-commands.save.failed
 setup-commands.save.failed: '&4Arena configuratie opgeslaan, maar het laden van het arena cache bestaand is gefaald. Bekijk alstublieft de console voor meer informatie.'
 
-# Untranslated start
 setup-commands.generic.no-first-position: "&4Je hebt nog geen eerste positie gezet."
 setup-commands.generic.not-enough-spawns: '&4Je moet op zijn minst 2 spawnpunten hebben om verder te gaan.'
 setup-commands.generic.too-late-spawns-set: "&4Je kan de grenzen niet bewerken na het zetten van de spawnpunten."
 setup-commands.generic.no-arena-started: "&4Je bent nog niet begonnen met het maken van een arena."
 setup-commands.generic.already-started-arena: '&4Je bent al begonnen met het maken van een arena.'
-# Untranslated end
 
 top-commands.main.description: 'Basiscommando voor Skywars'
 top-commands.setup.description: 'Setupcommando voor Skywars'
@@ -126,11 +118,9 @@ generic-command-message.too-many-parameters: '&4Teveel argumenten.'
 generic-command-message.not-enough-parameters: '&4Niet genoeg argumenten.'
 generic-command-message.argument-not-integer: '&c%s&4 is geen geheel getal!'
 
-# Untranslated start
 generic-command-message.no-permission: "&4Je hebt geen permissie om %s&4 te gebruiken."
 generic-command-message.not-a-player: "&4Het commando %s&4 moet uitgevoerd worden door een speler."
 generic-command-message.invalid-sub-command: "&3Het subcommando &9%2$s&3 bestaat niet voor het commando &a/%1$s&3."
-# Untranslated end
 
 # This is used in the no-permission message for sub commands, as well as the help message.
 # "&a/sw &9join"
@@ -176,18 +166,14 @@ game.death.forfeited: '&2%s&a heeft opgegeven!'
 game.winning.single-won: '&2%s&a heeft SkyWars gewonnen!'
 game.winning.multi-won: '&2%s&a hebben SkyWars gewonnen!'
 game.winning.multi-won-comma: '&a, &2'
-# Untranslated: game.winning.multi-won-final-comma
 game.winning.multi-won-final-comma: '&a and &2'
 game.winning.none-won: '&aSkyWars eindigde zonder winnaars.'
 
 game.starting.game-starting: '&aSpel aan het beginnen met &2%s&a!'
 game.starting.game-starting-comma: '&a, &2'
-# Untranslated: game.starting.game-starting-final-comma
 game.starting.game-starting-final-comma: '&a and &2'
 
-# Untranslated start
 # game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
 game.starting.team-message: '&aJe bent in team %1$s met &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
-# Untranslated end
