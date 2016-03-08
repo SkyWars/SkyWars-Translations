@@ -86,6 +86,13 @@ setup-commands.createkit.saved-with-permission: "&3Saved kit &2%1$s&3. Anyone wi
 setup-commands.createkit.cost-to-use: " &3This kit will cost &2%s&3 to use each game."
 setup-commands.createkit.kit-exists: "&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&4 saved."
 setup-commands.createkit.save-failed: "&4Saving kits file to disk failed. See console for more information. &4Kit &cNOT&4 saved."
+
+setup-commands.update-arena.description: "Updates all blocks of an arena to changes made to the original template"
+setup-commands.update-arena.argument-arena: "Arena Name"
+setup-commands.update-arena.completed: "&3Finished updating arena &2%s&3!"
+setup-commands.update-arena.unknown-arena: "&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled."
+setup-commands.update-arena.failed:  "&4Error saving block cache for &c%s&4! Please check console!"
+setup-commands.update-arena.failed-built-in: "&c%s&4 doesn't have an origin area set. Is it a built in arena?"
 # Untranslated end
 
 setup-commands.start.description: 'Zahaji nove nastaveni areny a vymaze vsechny predchozi neulozene areny.'

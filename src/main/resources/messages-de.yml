@@ -83,6 +83,15 @@ setup-commands.createkit.cost-to-use: " &3Dieses Kit zu verwenden kostet jede Ru
 setup-commands.createkit.kit-exists: "&4Ein Kit mit dem Namen &c%s&4 existiert bereits. &4Kit wurde &cNICHT&4 gespeichert."
 setup-commands.createkit.save-failed: "&4Speichern des Kits auf die Festplatte ist fehlgeschlagen. Wirf einen Blick in die Konsole für weitere Informationen. &4Kit wurde &cNICHT&4 gespeichert."
 
+# Untranslated start
+setup-commands.update-arena.description: "Updates all blocks of an arena to changes made to the original template"
+setup-commands.update-arena.argument-arena: "Arena Name"
+setup-commands.update-arena.completed: "&3Finished updating arena &2%s&3!"
+setup-commands.update-arena.unknown-arena: "&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled."
+setup-commands.update-arena.failed:  "&4Error saving block cache for &c%s&4! Please check console!"
+setup-commands.update-arena.failed-built-in: "&c%s&4 doesn't have an origin area set. Is it a built in arena?"
+# Untranslated end
+
 setup-commands.start.description: 'Startet ein neues Arena-Setup und löscht vorherige ungespeicherte Arenen.'
 setup-commands.start.argument-name: 'Arena-Name'
 setup-commands.start.confirmation: '&3Erstellen einer Arena mit dem Namen &2%s&3 gestartet.'
