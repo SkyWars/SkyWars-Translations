@@ -73,6 +73,14 @@ commands.testkit.description: 'Test een kit. WAARSCHUWING: dit leegt je inventar
 commands.testkit.unknown: '&4Onbekende kit &c%s&4.'
 commands.testkit.applied: '&3Kit &2%s&3 toegepast.'
 
+# Untranslated start: commands.top
+commands.top.description: 'View top 10 players with the highest score.'
+commands.top.title: '&8 -- &4Top %s&8 --'
+# %1$s = player name, %2$s = player score, %3$s = player rank.
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, with &2%2$s&3 points!'
+commands.top.no-players: '&4No players found!'
+# Untranslated end
+
 setup-commands.createkit.description: "Maakt een kit van je huidige inventaris."
 setup-commands.createkit.argument-name: "Naam"
 setup-commands.createkit.argument-cost: "Prijs (optional)"

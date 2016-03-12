@@ -63,7 +63,7 @@ commands.kit.unavailable-kits: '&3Kits non disponibles: &2%s'
 commands.kit.unknown-kit: '&4Aucun kit connu &c%s&4.'
 commands.kit.not-enough-money: '&4Vous n''avez pas assez de %1$s pour acheter &c%2$s&4. Vous avez besoins de &c%3$s&4 en plus %1$s.'
 
-# Untranslated start: comamnds.kit, commands.testkit and setup-commands.createkit
+# Untranslated start: comamnds.kit, commands.testkit, commands.top and setup-commands.createkit
 commands.kit.argument: 'Kit'
 commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
 commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
@@ -77,6 +77,12 @@ commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. Thi
 commands.testkit.description: 'Test a kit. WARNING: this will clear your inventory.'
 commands.testkit.unknown: '&4Unknown kit &c%s&4.'
 commands.testkit.applied: '&3Applied kit &2%s&3.'
+
+commands.top.description: 'View top 10 players with the highest score.'
+commands.top.title: '&8 -- &4Top %s&8 --'
+# %1$s = player name, %2$s = player score, %3$s = player rank.
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, with &2%2$s&3 points!'
+commands.top.no-players: '&4No players found!'
 
 setup-commands.createkit.description: "Creates a kit from your current inventory."
 setup-commands.createkit.argument-name: "Name"

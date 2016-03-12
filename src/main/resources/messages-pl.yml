@@ -72,10 +72,16 @@ commands.kit.no-kit-removed: '&3Nie uzywales zadnego zestawu.'
 commands.kit.current-kit: '&3Uzywasz obecnie zestawu: &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Uzywasz obecnie zestawu: &2%1$s&3. Kosztuje Cie on &2%2$s&3 za runde.'
 
-# Untranslated start: commands.testkit and setup-commands.createkit
+# Untranslated start: commands.testkit, commands.top and setup-commands.createkit
 commands.testkit.description: 'Test a kit. WARNING: this will clear your inventory.'
 commands.testkit.unknown: '&4Unknown kit &c%s&4.'
 commands.testkit.applied: '&3Applied kit &2%s&3.'
+
+commands.top.description: 'View top 10 players with the highest score.'
+commands.top.title: '&8 -- &4Top %s&8 --'
+# %1$s = player name, %2$s = player score, %3$s = player rank.
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, with &2%2$s&3 points!'
+commands.top.no-players: '&4No players found!'
 
 setup-commands.createkit.description: "Creates a kit from your current inventory."
 setup-commands.createkit.argument-name: "Name"

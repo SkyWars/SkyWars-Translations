@@ -73,6 +73,12 @@ commands.testkit.description: 'Test a kit. WARNING: this will clear your invento
 commands.testkit.unknown: '&4Unknown kit &c%s&4.'
 commands.testkit.applied: '&3Applied kit &2%s&3.'
 
+commands.top.description: 'View top 10 players with the highest score.'
+commands.top.title: '&8 -- &4Top %s&8 --'
+# %1$s = player name, %2$s = player score, %3$s = player rank.
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, with &2%2$s&3 points!'
+commands.top.no-players: '&4No players found!'
+
 setup-commands.createkit.description: "Creates a kit from your current inventory."
 setup-commands.createkit.argument-name: "Name"
 setup-commands.createkit.argument-cost: "Cost (optional)"
@@ -91,7 +97,7 @@ setup-commands.update-arena.unknown-arena: "&4Unknown arena &c%s&4. Please ensur
 setup-commands.update-arena.failed:  "&4Error saving block cache for &c%s&4! Please check console!"
 setup-commands.update-arena.failed-built-in: "&c%s&4 doesn't have an origin area set. Is it a built in arena?"
 
-setup-commands.start.description: 'Start a new arena setup and erase any previus unsaved arenas.'
+setup-commands.start.description: 'Start a new arena setup and erase any previous unsaved arenas.'
 setup-commands.start.argument-name: 'Arena name'
 setup-commands.start.confirmation: '&3Started setting up an arena called &2%s&3.'
 setup-commands.start.one-argument: '&4Please supply one and only one argument.'
