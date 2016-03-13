@@ -84,6 +84,14 @@ commands.top.title: '&8 -- &4Top %s&8 --'
 commands.top.format: '&8#&4%3$s&8: &2%1$s&3, with &2%2$s&3 points!'
 commands.top.no-players: '&4No players found!'
 
+commands.rank.description: 'View player stats for yourself or someone else'
+commands.rank.argument: 'Name'
+commands.rank.title: '&8 -- &4%s&8 -- '
+commands.rank.score: '&3Score: &2%s'
+commands.rank.rank: '&3Rank: &8#&4%s'
+commands.rank.not-found: '&4Player &c%s&4 not found.'
+commands.rank.no-other-permission: "&4You do not have permission to view other players' ranks."
+
 setup-commands.createkit.description: "Creates a kit from your current inventory."
 setup-commands.createkit.argument-name: "Name"
 setup-commands.createkit.argument-cost: "Cost (optional)"
