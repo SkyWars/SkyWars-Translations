@@ -73,21 +73,21 @@ commands.testkit.description: 'Test een kit. WAARSCHUWING: dit leegt je inventar
 commands.testkit.unknown: '&4Onbekende kit &c%s&4.'
 commands.testkit.applied: '&3Kit &2%s&3 toegepast.'
 
-# Untranslated start: commands.top
-commands.top.description: 'View top 10 players with the highest score'
+
+commands.top.description: 'Bekijk de 10 spelers met de hoogste score.'
 commands.top.title: '&8 -- &4Top %s&8 --'
 # %1$s = player name, %2$s = player score, %3$s = player rank.
-commands.top.format: '&8#&4%3$s&8: &2%1$s&3, with &2%2$s&3 points!'
-commands.top.no-players: '&4No players found!'
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, met &2%2$s&3 punten!'
+commands.top.no-players: '&4Geen spelers gevonden!'
 
-commands.rank.description: 'View player stats for yourself or someone else'
-commands.rank.argument: 'Name'
+commands.rank.description: 'Bekijk spelerstatistieken van jezelf of iemand anders.'
+commands.rank.argument: 'Naam'
 commands.rank.title: '&8 -- &4%s&8 -- '
 commands.rank.score: '&3Score: &2%s'
 commands.rank.rank: '&3Rank: &8#&4%s'
-commands.rank.not-found: '&4Player &c%s&4 not found.'
-commands.rank.no-other-permission: "&4You do not have permission to view other players' ranks."
-# Untranslated end
+commands.rank.not-found: '&4Speler &c%s&4 niet gevonden.'
+commands.rank.no-other-permission: "&4Je hebt niet de toestemming om de rank van een andere speler te bekijken."
+
 
 setup-commands.createkit.description: "Maakt een kit van je huidige inventaris."
 setup-commands.createkit.argument-name: "Naam"
