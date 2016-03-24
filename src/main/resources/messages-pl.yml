@@ -114,6 +114,9 @@ setup-commands.start.argument-name: 'Nazwa areny'
 setup-commands.start.confirmation: '&3Rozpoczeto tworzenie areny: &2%s&3.'
 setup-commands.start.one-argument: '&4Prosze uzyc tylko jednego argumentu.'
 
+# Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
+# These translations are probably using "eye location" (the old message) rather than "head location".
+# I don't speak this language, but I have updated the english translation and this might want to be updated as well.
 setup-commands.setpos1.description: 'Ustawia pierwszy rog areny w miejscu, na ktore sie patrzysz.'
 setup-commands.setpos1.pos2-in-other-world: '&4Drugi rog zostal ustawiony w innym swiecie, odznaczono go.'
 setup-commands.setpos1.confirmation: '&3Ustawiono pierwszy rog areny w miejscu, na ktore sie patrzysz.'

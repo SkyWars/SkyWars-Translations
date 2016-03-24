@@ -119,6 +119,9 @@ setup-commands.start.argument-name: 'Nome da arena'
 setup-commands.start.confirmation: '&3Configuracao da arena &2%s&3 comecada.'
 setup-commands.start.one-argument: '&4Apenas preciso de um argumento.'
 
+# Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
+# These translations are probably using "eye location" (the old message) rather than "head location".
+# I don't speak this language, but I have updated the english translation and this might want to be updated as well.
 setup-commands.setpos1.description: 'Coloca a primeira posicao da arena, o que conta e a cabeca.'
 setup-commands.setpos1.pos2-in-other-world: '&4Removendo a posicao 2 porque estas em outro mundo.'
 setup-commands.setpos1.confirmation: '&3Posicao 1 colocada com sucesso.'

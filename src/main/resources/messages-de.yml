@@ -113,6 +113,9 @@ setup-commands.start.argument-name: 'Arena-Name'
 setup-commands.start.confirmation: '&3Erstellen einer Arena mit dem Namen &2%s&3 gestartet.'
 setup-commands.start.one-argument: '&4Bitte nutze nur ein einziges Argument.'
 
+# Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
+# These translations are probably using "eye location" (the old message) rather than "head location".
+# I don't speak this language, but I have updated the english translation and this might want to be updated as well.
 setup-commands.setpos1.description: 'Setzt die erste Position für die zu kopierende Arena an die Position deines Fadenkreuzes.'
 setup-commands.setpos1.pos2-in-other-world: '&4Zweite Position wurde gelöscht, da du in einer anderen Welt bist.'
 setup-commands.setpos1.confirmation: '&3Erste Position wurde an die Stelle deines Fadenkreuzes gesetzt.'

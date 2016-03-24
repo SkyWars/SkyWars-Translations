@@ -115,6 +115,9 @@ setup-commands.start.argument-name: 'Nom de l''arène'
 setup-commands.start.confirmation: '&3Démarrage de la configuration de l''arène: &2%s&3.'
 setup-commands.start.one-argument: '&4Merci de n''écrire qu''un seul et unique argument.'
 
+# Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
+# These translations are probably using "eye location" (the old message) rather than "head location".
+# I don't speak this language, but I have updated the english translation and this might want to be updated as well.
 setup-commands.setpos1.description: 'Définie la première position de l''arène à copier à partir de la position actuelle de vos yeux.'
 setup-commands.setpos1.pos2-in-other-world: '&4Deuxième position supprimer, vous êtes dans un autre monde.'
 setup-commands.setpos1.confirmation: '&3Première position définie à la hauteur de vos yeux'

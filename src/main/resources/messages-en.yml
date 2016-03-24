@@ -1,4 +1,4 @@
-messages-version: 5
+messages-version: 6
 
 commands.join.description: 'Joins the queue for the next game'
 commands.join.confirmation: '&3You have joined the queue.'
@@ -110,13 +110,13 @@ setup-commands.start.argument-name: 'Arena name'
 setup-commands.start.confirmation: '&3Started setting up an arena called &2%s&3.'
 setup-commands.start.one-argument: '&4Please supply one and only one argument.'
 
-setup-commands.setpos1.description: 'Sets the first position for the arena to copy from at your current eye location.'
+setup-commands.setpos1.description: 'Sets the first position for the arena to copy from at your current head location.'
 setup-commands.setpos1.pos2-in-other-world: '&4Unsetting the second position due to you being in a different world.'
-setup-commands.setpos1.confirmation: '&3Set the first position to your current eye location.'
+setup-commands.setpos1.confirmation: '&3Set the first position to your current head location.'
 
-setup-commands.setpos2.description: 'Sets the second position for the arena to copy from at your current eye location.'
+setup-commands.setpos2.description: 'Sets the second position for the arena to copy from at your current head location.'
 setup-commands.setpos2.pos1-in-other-world: '&4Unsetting the first position due to you being in a different world.'
-setup-commands.setpos2.confirmation: '&3Set the second position to your current eye location.'
+setup-commands.setpos2.confirmation: '&3Set the second position to your current head location.'
 
 setup-commands.addspawn.description: 'Adds a new spawn location at your current location'
 setup-commands.addspawn.confirmation: '&3Adding a new spawn location at &2%s&3.'

@@ -114,6 +114,9 @@ setup-commands.start.argument-name: 'Jmeno areny'
 setup-commands.start.confirmation: '&3Nastavovani areny &2%s&3 bylo zahajeno.'
 setup-commands.start.one-argument: '&4Zadejte pouze jeden argument.'
 
+# Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
+# These translations are probably using "eye location" (the old message) rather than "head location".
+# I don't speak this language, but I have updated the english translation and this might want to be updated as well.
 setup-commands.setpos1.description: 'Nastavi primarni bod areny pro zkopirovani na tvoji soucasne pozici oci.'
 setup-commands.setpos1.pos2-in-other-world: '&4Sekundarni bod nebyl nastaven, protoze se nachazis v jinem svete.'
 setup-commands.setpos1.confirmation: '&3Nastavuji primarni bod areny'

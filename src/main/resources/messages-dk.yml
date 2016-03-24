@@ -115,6 +115,9 @@ setup-commands.start.argument-name: 'Arena navn'
 setup-commands.start.confirmation: '&3Startede på at sætte en arena op kaldet &2%s&3.'
 setup-commands.start.one-argument: '&4Skriv kun et argument.'
 
+# Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
+# These translations are probably using "eye location" (the old message) rather than "head location".
+# I don't speak this language, but I have updated the english translation and this might want to be updated as well.
 setup-commands.setpos1.description: 'Sætter den første position for arenaen til at kopiere fra ved din nuværende øjeposition.'
 setup-commands.setpos1.pos2-in-other-world: '&4Fjærner den anden position fordi den er i en anden værden.'
 setup-commands.setpos1.confirmation: '&3Sætter den første position til dit øjes nuværende position.'
