@@ -48,6 +48,8 @@ commands.lobby.in-game: '&4No puedes telestransportarte al lobby, estás en jueg
 
 commands.cancelall.description: 'Cancelando todos los juegos actuales.'
 commands.cancelall.canceling-game: '&3Cancelando juego &2%s'
+# Untranslated: commands.cancelall.no-games
+commands.cancelall.no-games: '&4No games started.'
 
 commands.report.description: 'Genera un reporte que envía posteriormente a gist.github.com, luego te envía un Link.'
 commands.report.start: '&3Reuniéndo y mandando reporte.'

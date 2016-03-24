@@ -48,6 +48,8 @@ commands.lobby.in-game: '&4Вы не можете войти в лобби, Вы
 
 commands.cancelall.description: 'Отменяет все текущие игры.'
 commands.cancelall.canceling-game: '&3Текущая игра &2%s'
+# Untranslated: commands.cancelall.no-games
+commands.cancelall.no-games: '&4No games started.'
 
 commands.report.description: 'Генерирует репорт и отправляет его в gist.github.com, после дает Вам ссылку.'
 commands.report.start: '&3Сбор данных и отправка...'

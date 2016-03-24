@@ -49,6 +49,8 @@ commands.lobby.in-game: '&4Du kan ikke teleportere til lobbyen du er i et spil.'
 
 commands.cancelall.description: 'Afslutter alle nuværende spil.'
 commands.cancelall.canceling-game: '&3Afslutter spil &2%s'
+# Untranslated: commands.cancelall.no-games
+commands.cancelall.no-games: '&4No games started.'
 
 commands.report.description: 'Generere en rapport og uploader den til gist.github.com, og derefter giver dig et link.'
 commands.report.start: '&3Samler data og indsender'

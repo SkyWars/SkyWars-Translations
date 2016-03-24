@@ -48,6 +48,8 @@ commands.lobby.in-game: '&4Nie mozesz sie teleportowac do lobby SkyWarsow, ponie
 
 commands.cancelall.description: 'Zatrzymuje wszystkie trwajace gry.'
 commands.cancelall.canceling-game: '&3Zatrzymano gry: &2%s'
+# Untranslated: commands.cancelall.no-games
+commands.cancelall.no-games: '&4No games started.'
 
 commands.report.description: 'Generuje raport, wysyla go na gist.github.com, i przekazuje Ci link do niego.'
 commands.report.start: '&3Generowanie raportu i wysylanie go...'

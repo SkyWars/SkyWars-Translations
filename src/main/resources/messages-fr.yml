@@ -49,6 +49,8 @@ commands.lobby.in-game: '&4Impossible de se téléporter au lobby en partie.'
 
 commands.cancelall.description: 'Arrête toutes les parties en cours.'
 commands.cancelall.canceling-game: '&3Arrête de la partie &2%s'
+# Untranslated: commands.cancelall.no-games
+commands.cancelall.no-games: '&4No games started.'
 
 commands.report.description: 'Créer un rapport et l''envoie sur gist.github.com, puis vos donne un lien.'
 commands.report.start: '&3Récupération des données et envoie...'

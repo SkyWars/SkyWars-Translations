@@ -46,6 +46,8 @@ commands.lobby.in-game: '&4Je kan niet naar de lobby, je zit nog in een game!'
 
 commands.cancelall.description: 'Annuleer alle huidige spellen'
 commands.cancelall.canceling-game: '&3Spel &2%s aan het annuleren'
+# Untranslated: commands.cancelall.no-games
+commands.cancelall.no-games: '&4No games started.'
 
 commands.report.description: 'Maakt een report op gist.github.com en geeft je daarna een link.'
 commands.report.start: '&3Data aan het verzamelen en doorsturen'
