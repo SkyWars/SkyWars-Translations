@@ -136,6 +136,9 @@ setup-commands.save.saving: '&3Gemmer arena.'
 setup-commands.save.saved: '&3Arena gemt.'
 setup-commands.save.failed: '&4Arena konfiguration gemt, men loadning af cache fejlede. Se konsollen for mere information.'
 
+# Untranslated: setup-commands.save.saved-line-2
+setup-commands.save.saved-line-2: '&3To enable the arena, add &2%s&3 to &2enabled-arenas&3 in &2main-config.yml&3.'
+
 # Untranslated start
 setup-commands.generic.no-first-position: "&4You haven't set a first position yet."
 setup-commands.generic.not-enough-spawns: '&4You need at least two spawn points to continue.'

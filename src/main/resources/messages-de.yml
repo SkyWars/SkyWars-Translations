@@ -132,6 +132,8 @@ setup-commands.addspawn.confirmation: '&3Neues Spawnareal wurde an Position &2%s
 setup-commands.save.description: 'Speichert das derzeitige Arena-Setup'
 setup-commands.save.saving: '&3Speichere Arena...'
 setup-commands.save.saved: '&3Arena wurde gespeichert.'
+# Untranslated: setup-commands.save.saved-line-2
+setup-commands.save.saved-line-2: '&3To enable the arena, add &2%s&3 to &2enabled-arenas&3 in &2main-config.yml&3.'
 
 setup-commands.save.failed: '&4Arena-Konfiguration wurde gespeichert aber Laden des Arena-Cache schlug fehl. Bitte wirf einen Blick in die Konsole für weitere Informationen.'
 

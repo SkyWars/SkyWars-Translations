@@ -135,6 +135,8 @@ setup-commands.save.description: 'Sauvegarde la configuration de l''arène dans 
 setup-commands.save.saving: '&3Sauvegar de l''arène.'
 setup-commands.save.saved: '&3Arène sauvé.'
 
+# Untranslated: setup-commands.save.saved-line-2
+setup-commands.save.saved-line-2: '&3To enable the arena, add &2%s&3 to &2enabled-arenas&3 in &2main-config.yml&3.'
 # Untranslated: setup-commands.save.failed
 setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
 

@@ -132,8 +132,10 @@ setup-commands.addspawn.confirmation: '&3Spawn toegevoegd op &2%s&3.'
 setup-commands.save.description: 'Slaat de net gemaakte arena op naar een bestand.'
 setup-commands.save.saving: '&3Arena opslaan.'
 setup-commands.save.saved: '&3Arena opgeslaan.'
-
 setup-commands.save.failed: '&4Arena configuratie opgeslaan, maar het laden van het arena cache bestaand is gefaald. Bekijk alstublieft de console voor meer informatie.'
+
+# Untranslated: setup-commands.save.saved-line-2
+setup-commands.save.saved-line-2: '&3To enable the arena, add &2%s&3 to &2enabled-arenas&3 in &2main-config.yml&3.'
 
 setup-commands.generic.no-first-position: "&4Je hebt nog geen eerste positie gezet."
 setup-commands.generic.not-enough-spawns: '&4Je moet op zijn minst 2 spawnpunten hebben om verder te gaan.'
