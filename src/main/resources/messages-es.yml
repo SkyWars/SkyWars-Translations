@@ -196,6 +196,9 @@ messages.in-game: '&4No puedes hacer eso, estás en una partida.'
 # Partially untranslated: messages.report-disabled
 messages.report-disabled: '&4Los reportes han sido desactivados en: &cmain-config.yml&4. Quita el &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 
+# Untranslated: messages.signs.cannot-place-join-sign
+messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
+
 game.death.killed-by-player-and-void: '&2%1$s&a empujó a &2%2$s&a a la zona oscura!'
 game.death.killed-by-void: '&2%s&a ha saltado a la zona oscura!'
 game.death.killed-by-player: '&2%1$s&a mató a &2%2$s&a!'

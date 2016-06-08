@@ -188,6 +188,9 @@ messages.in-game: '&4Je kunt dat niet doen, je bent in een spel.'
 
 messages.report-disabled: '&4Aangeven is uitgeschakeld in &cmain-config.yml&4. Verwijder de &c''disable-report: true''&4 tekst om aangeven aan te zetten reporting. Let wel op als dat is ingeschakeld dat SkyWars dan alleen aangeeft als dit command wordt gebruikt, nooit in de achtergrond.'
 
+# Untranslated: messages.signs.cannot-place-join-sign
+messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
+
 game.death.killed-by-player-and-void: '&2%1$s&a duwde &2%2$s&a in de oneindigheid!'
 game.death.killed-by-void: '&2%s&a sprong in de oneindigheid!'
 game.death.killed-by-player: '&2%1$s&a vermoordde &2%2$s&a!'

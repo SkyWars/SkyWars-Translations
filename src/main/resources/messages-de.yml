@@ -186,6 +186,9 @@ messages.in-game: '&4Das kannst du während eines Spiels nicht tun.'
 
 messages.report-disabled: '&4Melden wurde in der &cmain-config.yml&4 deaktiviert. Entferne die Zeile &c''disable-report: true''&4, um es zu aktivieren. Beachte, dass wenn aktiviert, SkyWars NUR dann meldet, wenn dieser Befehl ausgeführt wird, niemals von allein.'
 
+# Untranslated: messages.signs.cannot-place-join-sign
+messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
+
 game.death.killed-by-player-and-void: '&2%1$s&a schubste &2%2$s&a in die Leere!'
 game.death.killed-by-void: '&2%s&a sprang in die Leere!'
 game.death.killed-by-player: '&2%1$s&a besiegte &2%2$s&a!'

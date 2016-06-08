@@ -196,6 +196,9 @@ messages.in-game: '&4Det kan du ikke gøre, du er i et spil.'
 
 messages.report-disabled: '&4Rapportering er blever slået fra i &cmain-config.yml&4. Fjærn &c''disable-report: true''&4 for at slå rapportering til. Husk når slået til, SkyWars rapportere KUN når denne komando er brugt, aldrig i baggrunden.'
 
+# Untranslated: messages.signs.cannot-place-join-sign
+messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
+
 game.death.killed-by-player-and-void: '&2%1$s&a skubbede &2%2$s&a ud i endetheden!'
 game.death.killed-by-void: '&2%s&a hoppede i endetheden!'
 game.death.killed-by-player: '&2%1$s&a dræbte &2%2$s&a!'
