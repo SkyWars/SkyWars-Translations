@@ -188,6 +188,8 @@ messages.report-disabled: '&4Melden wurde in der &cmain-config.yml&4 deaktiviert
 
 # Untranslated: messages.signs.cannot-place-join-sign
 messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
+# Untranslated: messages.signs.cannot-use-join-sign
+messages.signs.cannot-use-join-sign: "&4You don't have permission to use join signs."
 
 game.death.killed-by-player-and-void: '&2%1$s&a schubste &2%2$s&a in die Leere!'
 game.death.killed-by-void: '&2%s&a sprang in die Leere!'

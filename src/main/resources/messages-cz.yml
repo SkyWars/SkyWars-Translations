@@ -196,6 +196,7 @@ messages.in-game: '&4You can''t do that, you are in a game.'
 messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 
 messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
+messages.signs.cannot-use-join-sign: "&4You don't have permission to use join signs."
 # Untranslated end
 
 game.death.killed-by-player-and-void: '&2%1$s&a vystrcil &2%2$s&a do nicoty!'

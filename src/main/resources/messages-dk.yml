@@ -198,6 +198,8 @@ messages.report-disabled: '&4Rapportering er blever slået fra i &cmain-config.y
 
 # Untranslated: messages.signs.cannot-place-join-sign
 messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
+# Untranslated: messages.signs.cannot-use-join-sign
+messages.signs.cannot-use-join-sign: "&4You don't have permission to use join signs."
 
 game.death.killed-by-player-and-void: '&2%1$s&a skubbede &2%2$s&a ud i endetheden!'
 game.death.killed-by-void: '&2%s&a hoppede i endetheden!'
