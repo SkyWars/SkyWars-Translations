@@ -65,7 +65,9 @@ commands.kit.unavailable-kits: '&3Kits non disponibles: &2%s'
 commands.kit.unknown-kit: '&4Aucun kit connu &c%s&4.'
 commands.kit.not-enough-money: '&4Vous n''avez pas assez de %1$s pour acheter &c%2$s&4. Vous avez besoins de &c%3$s&4 en plus %1$s.'
 
-# Untranslated start: comamnds.kit, commands.testkit, commands.top and setup-commands.createkit
+# Untranslated start: commands.kitgui, commands.kit, commands.testkit, commands.top and setup-commands.createkit
+commands.kitgui.description: 'Opens up the visual kit menu'
+
 commands.kit.argument: 'Kit'
 commands.kit.no-access: '&4 You don''t have access to kit &c%s&4.'
 commands.kit.chose-kit: '&3You are now using kit &2%s&3.'
@@ -224,4 +226,15 @@ game.starting.game-starting-final-comma: '&a and &2'
 game.starting.team-message: '&aYou are in team %1$s with &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
+
+gui.kit-picker.title: '&8[&cSkyWars Kits&8]'
+gui.kit-picker.totem-title: '&8%s'
+gui.kit-picker.unavailable-totem-title: '&8&m%s'
+gui.kit-picker.lore.cost: '&3Costs &2%s&3 per round.'
+gui.kit-picker.lore.unaffordable-cost: '&8Costs &c%s&8 per round.'
+gui.kit-picker.lore.unaffordable-cost-2: '&c%1$s&8 more needed.'
+gui.kit-picker.lore.no-permission: '&4No access.'
+gui.kit-picker.messages.kit-disappeared: '&4The kit you selected no longer exists.'
+
+configuration.kits.default-kit-description: '&4A kit: &8%s&4.'
 # Untranslated end

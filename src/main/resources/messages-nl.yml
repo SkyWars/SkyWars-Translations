@@ -56,6 +56,9 @@ commands.report.output: '&3Report: &2%s'
 commands.forcestart.description: 'Dwingt een game te starten met de spelers in de wachtrij'
 commands.forcestart.not-enough-players: '&4Er moeten minstens 2 spelers zijn om de game gedwongen te starten.'
 
+# Untranslated: commands.kitgui.description
+commands.kitgui.description: 'Opens up the visual kit menu'
+
 commands.kit.description: 'Bepaalt je kit voor de volgende ronde'
 commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4Er zijn geen kits die je kunt gebruiken.'
@@ -214,3 +217,16 @@ game.starting.game-starting-final-comma: '&a and &2'
 game.starting.team-message: '&aJe bent in team %1$s met &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
+
+# Untranslated start
+gui.kit-picker.title: '&8[&cSkyWars Kits&8]'
+gui.kit-picker.totem-title: '&8%s'
+gui.kit-picker.unavailable-totem-title: '&8&m%s'
+gui.kit-picker.lore.cost: '&3Costs &2%s&3 per round.'
+gui.kit-picker.lore.unaffordable-cost: '&8Costs &c%s&8 per round.'
+gui.kit-picker.lore.unaffordable-cost-2: '&c%1$s&8 more needed.'
+gui.kit-picker.lore.no-permission: '&4No access.'
+gui.kit-picker.messages.kit-disappeared: '&4The kit you selected no longer exists.'
+
+configuration.kits.default-kit-description: '&4A kit: &8%s&4.'
+# Untranslated end

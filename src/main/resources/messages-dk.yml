@@ -75,7 +75,9 @@ commands.kit.no-kit-removed: '&3Du brugte ikke noget kit, intet kit blev fjernet
 commands.kit.current-kit: '&3Du bruger lige nu kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Du bruger lige nu kit &2%1$s&3. Dette kit koster dig &2%2$s&3 pr runde.'
 
-# Untranslated start: commands.testkit, commands.top and setup-commands.createkit
+# Untranslated start: commands.kitgui, commands.testkit, commands.top and setup-commands.createkit
+commands.kitgui.description: 'Opens up the visual kit menu'
+
 commands.testkit.description: 'Test a kit. WARNING: this will clear your inventory.'
 commands.testkit.unknown: '&4Unknown kit &c%s&4.'
 commands.testkit.applied: '&3Applied kit &2%s&3.'
@@ -224,3 +226,16 @@ game.starting.game-starting-final-comma: '&a and &2'
 game.starting.team-message: '&aDu er på team %1$s med &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a og &2'
+
+# Untranslated start
+gui.kit-picker.title: '&8[&cSkyWars Kits&8]'
+gui.kit-picker.totem-title: '&8%s'
+gui.kit-picker.unavailable-totem-title: '&8&m%s'
+gui.kit-picker.lore.cost: '&3Costs &2%s&3 per round.'
+gui.kit-picker.lore.unaffordable-cost: '&8Costs &c%s&8 per round.'
+gui.kit-picker.lore.unaffordable-cost-2: '&c%1$s&8 more needed.'
+gui.kit-picker.lore.no-permission: '&4No access.'
+gui.kit-picker.messages.kit-disappeared: '&4The kit you selected no longer exists.'
+
+configuration.kits.default-kit-description: '&4A kit: &8%s&4.'
+# Untranslated end
