@@ -1,4 +1,4 @@
-messages-version: 5
+messages-version: 6
 
 commands.join.description: 'Entrou na lista para o proximo jogo'
 commands.join.confirmation: '&3Acabaste de entrar na lista de espera.'
@@ -23,8 +23,8 @@ commands.setportal.confirmation: '&3Colocaste um portal na tua localizacao atual
 commands.setportal.in-game: '&4You can''t set a portal, you are in a game.'
 
 commands.delportal.description: 'Remove o ultimo portal definido'
-commands.delportal.confirmation: '&3Portal removido em %s'
-commands.delportal.error-no-portals: '&4nao existem portais definidos'
+commands.delportal.confirmation: '&3Portal removido em &2%s&3.'
+commands.delportal.error-no-portals: '&4Não existem portais definidos.'
 
 commands.cancel.description: 'Cancela um jogo com o ID a ser definido'
 commands.cancel.argument: 'ID'
@@ -44,18 +44,18 @@ commands.status.arena-team-dead: '  &4Team &c%s&4: &c✗'
 # Untranslated end
 
 commands.version.description: 'A versao do plugin'
-commands.version.output: '&3%s versao &2%s &3/ &2%s&3. feito por &2Dabo Ross'
+commands.version.output: '&3%s versao &2%s &3/ &2%s&3. feito por &2Dabo Ross&3.'
 
 commands.lobby.description: 'Teleporta-te para o lobby'
 commands.lobby.confirmation: '&3Teleportando para o lobby.'
 commands.lobby.in-game: '&4Nao podes ir para o lobby, estas em jogo.'
 
-commands.cancelall.description: 'Cancela todos os jogos a decorrer.'
-commands.cancelall.canceling-game: '&3Cancelando jogo &2%s'
+commands.cancelall.description: 'Cancela todos os jogos a decorrer'
+commands.cancelall.canceling-game: '&3Cancelando jogo &2%s&3.'
 # Untranslated: commands.cancelall.no-games
 commands.cancelall.no-games: '&4No games started.'
 
-commands.report.description: 'Cria um report e envia para gist.github.com, depois recebes um link.'
+commands.report.description: 'Cria um report e envia para gist.github.com, depois recebes um link'
 commands.report.start: '&3Recolhendo dados...'
 commands.report.output: '&3Report: &2%s'
 
@@ -82,7 +82,7 @@ commands.kit.current-kit-with-cost: '&3You are currently using kit &2%1$s&3. Thi
 # Untranslated start: commands.kitgui, commands.testkit, commands.top and setup-commands.createkit
 commands.kitgui.description: 'Opens up the visual kit menu'
 
-commands.testkit.description: 'Test a kit. WARNING: this will clear your inventory.'
+commands.testkit.description: 'Test a kit - WARNING: this will clear your inventory'
 commands.testkit.unknown: '&4Unknown kit &c%s&4.'
 commands.testkit.applied: '&3Applied kit &2%s&3.'
 
@@ -98,27 +98,27 @@ commands.rank.title: '&8 -- &4%s&8 -- '
 commands.rank.score: '&3Score: &2%s'
 commands.rank.rank: '&3Rank: &8#&4%s'
 commands.rank.not-found: '&4Player &c%s&4 not found.'
-commands.rank.no-other-permission: "&4You do not have permission to view other players' ranks."
+commands.rank.no-other-permission: '&4You do not have permission to view other players'' ranks.'
 
-setup-commands.createkit.description: "Creates a kit from your current inventory."
-setup-commands.createkit.argument-name: "Name"
-setup-commands.createkit.argument-cost: "Cost (optional)"
-setup-commands.createkit.argument-permission: "Permission (optional)"
-setup-commands.createkit.saved-no-permission: "&3Saved kit &2%1$s&3. Anyone can now apply this kit with &a/sw &9kit &2%1$s&3."
-setup-commands.createkit.saved-with-permission: "&3Saved kit &2%1$s&3. Anyone with the &2%2$s&3 permission can now apply this kit with &a/sw &9kit &2%1$s&3."
-setup-commands.createkit.cost-to-use: " &3This kit will cost &2%s&3 to use each game."
-setup-commands.createkit.kit-exists: "&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&4 saved."
-setup-commands.createkit.save-failed: "&4Saving kits file to disk failed. See console for more information. &4Kit &cNOT&4 saved."
+setup-commands.createkit.description: 'Creates a kit from your current inventory'
+setup-commands.createkit.argument-name: 'Name'
+setup-commands.createkit.argument-cost: 'Cost (optional)'
+setup-commands.createkit.argument-permission: 'Permission (optional)'
+setup-commands.createkit.saved-no-permission: '&3Saved kit &2%1$s&3. Anyone can now apply this kit with &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.saved-with-permission: '&3Saved kit &2%1$s&3. Anyone with the &2%2$s&3 permission can now apply this kit with &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.cost-to-use: '&3This kit will cost &2%s&3 to use each game.'
+setup-commands.createkit.kit-exists: '&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&4 saved.'
+setup-commands.createkit.save-failed: '&4Saving kits file to disk failed. See console for more information. &4Kit &cNOT&4 saved.'
 
-setup-commands.update-arena.description: "Updates all blocks of an arena to changes made to the original template"
-setup-commands.update-arena.argument-arena: "Arena Name"
-setup-commands.update-arena.completed: "&3Finished updating arena &2%s&3!"
-setup-commands.update-arena.unknown-arena: "&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled."
-setup-commands.update-arena.failed:  "&4Error saving block cache for &c%s&4! Please check console!"
-setup-commands.update-arena.failed-built-in: "&c%s&4 doesn't have an origin area set. Is it a built in arena?"
+setup-commands.update-arena.description: 'Updates all blocks of an arena to changes made to the original template'
+setup-commands.update-arena.argument-arena: 'Arena Name'
+setup-commands.update-arena.completed: '&3Finished updating arena &2%s&3!'
+setup-commands.update-arena.unknown-arena: '&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled.'
+setup-commands.update-arena.failed:  '&4Error saving block cache for &c%s&4! Please check console!'
+setup-commands.update-arena.failed-built-in: '&c%s&4 doesn''t have an origin area set. Is it a built in arena?'
 # Untranslated end
 
-setup-commands.start.description: 'Comeca a configurar uma nova arena e apaga alguma antes que nao tenha sido guardada.'
+setup-commands.start.description: 'Comeca a configurar uma nova arena e apaga alguma antes que nao tenha sido guardada'
 setup-commands.start.argument-name: 'Nome da arena'
 setup-commands.start.confirmation: '&3Configuracao da arena &2%s&3 comecada.'
 setup-commands.start.one-argument: '&4Apenas preciso de um argumento.'
@@ -126,11 +126,11 @@ setup-commands.start.one-argument: '&4Apenas preciso de um argumento.'
 # Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
 # These translations are probably using "eye location" (the old message) rather than "head location".
 # I don't speak this language, but I have updated the english translation and this might want to be updated as well.
-setup-commands.setpos1.description: 'Coloca a primeira posicao da arena, o que conta e a cabeca.'
+setup-commands.setpos1.description: 'Coloca a primeira posicao da arena, o que conta e a cabeca'
 setup-commands.setpos1.pos2-in-other-world: '&4Removendo a posicao 2 porque estas em outro mundo.'
 setup-commands.setpos1.confirmation: '&3Posicao 1 colocada com sucesso.'
 
-setup-commands.setpos2.description: 'Coloca a segunda posicao da arena, o que conta e a cabeca.'
+setup-commands.setpos2.description: 'Coloca a segunda posicao da arena, o que conta e a cabeca'
 setup-commands.setpos2.pos1-in-other-world: '&4Removendo a posicao 1 porque estas em um mundo diferente.'
 setup-commands.setpos2.confirmation: '&3Posicao 2 colocada com sucesso.'
 
@@ -147,10 +147,10 @@ setup-commands.save.saved-line-2: '&3To enable the arena, add &2%s&3 to &2enable
 setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
 
 # Untranslated start
-setup-commands.generic.no-first-position: "&4You haven't set a first position yet."
+setup-commands.generic.no-first-position: '&4You haven''t set a first position yet.'
 setup-commands.generic.not-enough-spawns: '&4You need at least two spawn points to continue.'
-setup-commands.generic.too-late-spawns-set: "&4You can't edit the boundaries after setting spawn locations."
-setup-commands.generic.no-arena-started: "&4You haven't started creating an arena yet."
+setup-commands.generic.too-late-spawns-set: '&4You can''t edit the boundaries after setting spawn locations.'
+setup-commands.generic.no-arena-started: '&4You haven''t started creating an arena yet.'
 setup-commands.generic.already-started-arena: '&4You already started creating an arena.'
 # Untranslated end
 
@@ -162,19 +162,19 @@ generic-command-message.argument-not-integer: '&c%s&4 Nao e um numero inteiro'
 
 # Untranslated start
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'
-generic-command-message.no-permission: "&4You don't have permission to use %s&4."
-generic-command-message.not-a-player: "&4The command %s&4 must be run by a player."
-generic-command-message.invalid-sub-command: "&3The subcommand &9%2$s&3 does not exist for the command &a/%1$s&3."
+generic-command-message.no-permission: '&4You don''t have permission to use &c%s&4.'
+generic-command-message.not-a-player: '&4The command &c%s&4 must be run by a player.'
+generic-command-message.invalid-sub-command: '&3The subcommand &9%2$s&3 does not exist for the command &a/%1$s&3.'
 # Untranslated end
 
 # This is used in the no-permission message for sub commands, as well as the help message.
 # "&a/sw &9join"
-message-colors.sub-command-colors: "&a/%s &9%s"
+message-colors.sub-command-colors: '&a/%s &9%s'
 # "&a/sw"
-message-colors.base-command-colors: "&a/%s"
+message-colors.base-command-colors: '&a/%s'
 # &3<&bArgument Name&3>
-message-colors.command-argument-listing: " &3<&b%s&3>"
-message-colors.help-message-colors: " &f%s"
+message-colors.command-argument-listing: ' &3<&b%s&3>'
+message-colors.help-message-colors: ' &f%s'
 
 # Untranslated: messages.help-message-header
 messages.help-message-header: '&9 -- &2Help&9 --'
@@ -201,8 +201,8 @@ messages.in-game: '&4You can''t do that, you are in a game.'
 
 messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
 
-messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
-messages.signs.cannot-use-join-sign: "&4You don't have permission to use join signs."
+messages.signs.cannot-place-join-sign: '&4You don''t have permission to place join signs.'
+messages.signs.cannot-use-join-sign: '&4You don''t have permission to use join signs.'
 
 game.death.killed-by-player-and-void: '&2%1$s&a pushed &2%2$s&a into the void of doom!'
 game.death.killed-by-void: '&2%s&a jumped into the void of doom!'

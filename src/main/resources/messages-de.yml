@@ -1,4 +1,4 @@
-messages-version: 5
+messages-version: 6
 
 commands.join.description: 'Tritt der Warteschlange für das nächste Spiel bei'
 commands.join.confirmation: '&3Du bist der Warteschlange beigetreten.'
@@ -19,8 +19,8 @@ commands.setportal.confirmation: '&3Du hast ein Portal an deine Position gesetzt
 commands.setportal.in-game: '&4Du kannst kein Portal setzen, du bist in einem Spiel.'
 
 commands.delportal.description: 'Entfernt das zuletzt gesetzte Portal'
-commands.delportal.confirmation: '&3Portal von %s entfernt'
-commands.delportal.error-no-portals: '&4Es wurden noch keine Portale gesetzt'
+commands.delportal.confirmation: '&3Portal von &2%s&3 entfernt.'
+commands.delportal.error-no-portals: '&4Es wurden noch keine Portale gesetzt.'
 
 commands.cancel.description: 'Beendet das Spiel mit der angegebenen ID'
 commands.cancel.argument: 'ID'
@@ -38,25 +38,25 @@ commands.status.arena-team-prefix: '  &3Team &2%s&3: &2'
 commands.status.arena-team-dead: '  &4Team &c%s&4: &c✗'
 
 commands.version.description: 'Zeigt die Plugin-Version'
-commands.version.output: '&3%s Version &2%s &3/ &2%s&3. Erstellt von &2Dabo Ross'
+commands.version.output: '&3%s Version &2%s &3/ &2%s&3. Erstellt von &2Dabo Ross&3.'
 
 commands.lobby.description: 'Bringt dich zur Lobby'
 commands.lobby.confirmation: '&3Teleportiere zur Lobby.'
 commands.lobby.in-game: '&4Du kannst dich, während du in einem Spiel bist, nicht zur Lobby porten.'
 
-commands.cancelall.description: 'Beendet alle laufenden Spiele.'
-commands.cancelall.canceling-game: '&3Beende Spiel &2%s'
+commands.cancelall.description: 'Beendet alle laufenden Spiele'
+commands.cancelall.canceling-game: '&3Beende Spiel &2%s&3.'
 # Untranslated: commands.cancelall.no-games
 commands.cancelall.no-games: '&4No games started.'
 
-commands.report.description: 'Generiert einen Report und lädt ihn zu gist.github.com hoch. Ein Link wird ausgegeben.'
-commands.report.start: '&3Sammle Daten und lade sie hoch'
+commands.report.description: 'Generiert einen Report und lädt ihn zu gist.github.com hoch. Ein Link wird ausgegeben'
+commands.report.start: '&3Sammle Daten und lade sie hoch...'
 commands.report.output: '&3Report: &2%s'
 
 commands.forcestart.description: 'Startet ein Spiel mit den Spielern in der Warteschlange'
 commands.forcestart.not-enough-players: '&4Es müssen mindestens 2 Spieler in der Warteschlange sein, um ein Spiel zu starten.'
 
-commands.kit.description: 'Wähle ein Kit für dein nächstes Spiel aus.'
+commands.kit.description: 'Wähle ein Kit für dein nächstes Spiel aus'
 commands.kit.argument: 'Kit'
 commands.kit.no-kits-available: '&4Es gibt keine Kits, die du nutzen kannst.'
 commands.kit.unavailable-kits: '&3Nicht verfügbare Kits: &2%s'
@@ -74,7 +74,7 @@ commands.kit.no-access: '&4Du hast keinen Zugriff auf das Kit &c%s&4.'
 # Untranslated: commands.kitgui.description
 commands.kitgui.description: 'Opens up the visual kit menu'
 
-commands.testkit.description: 'Teste ein Kit. WARNUNG: dies wird dein Inventar leeren!'
+commands.testkit.description: 'Teste ein Kit - WARNUNG: dies wird dein Inventar leeren!'
 commands.testkit.unknown: '&4Unbekanntes Kit &c%s&4.'
 commands.testkit.applied: '&3Verwende Kit &2%s&3.'
 
@@ -91,29 +91,29 @@ commands.rank.title: '&8 -- &4%s&8 -- '
 commands.rank.score: '&3Score: &2%s'
 commands.rank.rank: '&3Rank: &8#&4%s'
 commands.rank.not-found: '&4Player &c%s&4 not found.'
-commands.rank.no-other-permission: "&4You do not have permission to view other players' ranks."
+commands.rank.no-other-permission: '&4You do not have permission to view other players'' ranks.'
 # Untranslated end
 
-setup-commands.createkit.description: "Erstellt aus deinem aktuellen Inventar ein Kit"
-setup-commands.createkit.argument-name: "Name"
-setup-commands.createkit.argument-cost: "Kosten (optional)"
-setup-commands.createkit.argument-permission: "Berechtigung (optional)"
-setup-commands.createkit.saved-no-permission: "&3Kit &2%1$s&3 wurde gespeichert. Jeder kann dieses Kit ab sofort mit &a/sw &9kit &2%1$s&3 verwenden."
-setup-commands.createkit.saved-with-permission: "&3Kit &2%1$s&3 wurde gespeichert. Jeder mit der Berechtigung &2%2$s&3 kann dieses Kit ab sofort mit &a/sw &9kit &2%1$s&3 verwenden."
-setup-commands.createkit.cost-to-use: " &3Dieses Kit zu verwenden kostet jede Runde &2%s&3."
-setup-commands.createkit.kit-exists: "&4Ein Kit mit dem Namen &c%s&4 existiert bereits. &4Kit wurde &cNICHT&4 gespeichert."
-setup-commands.createkit.save-failed: "&4Speichern des Kits auf die Festplatte ist fehlgeschlagen. Wirf einen Blick in die Konsole für weitere Informationen. &4Kit wurde &cNICHT&4 gespeichert."
+setup-commands.createkit.description: 'Erstellt aus deinem aktuellen Inventar ein Kit'
+setup-commands.createkit.argument-name: 'Name'
+setup-commands.createkit.argument-cost: 'Kosten (optional)'
+setup-commands.createkit.argument-permission: 'Berechtigung (optional)'
+setup-commands.createkit.saved-no-permission: '&3Kit &2%1$s&3 wurde gespeichert. Jeder kann dieses Kit ab sofort mit &a/sw &9kit &2%1$s&3 verwenden.'
+setup-commands.createkit.saved-with-permission: '&3Kit &2%1$s&3 wurde gespeichert. Jeder mit der Berechtigung &2%2$s&3 kann dieses Kit ab sofort mit &a/sw &9kit &2%1$s&3 verwenden.'
+setup-commands.createkit.cost-to-use: '&3Dieses Kit zu verwenden kostet jede Runde &2%s&3.'
+setup-commands.createkit.kit-exists: '&4Ein Kit mit dem Namen &c%s&4 existiert bereits. &4Kit wurde &cNICHT&4 gespeichert.'
+setup-commands.createkit.save-failed: '&4Speichern des Kits auf die Festplatte ist fehlgeschlagen. Wirf einen Blick in die Konsole für weitere Informationen. &4Kit wurde &cNICHT&4 gespeichert.'
 
 # Untranslated start
-setup-commands.update-arena.description: "Updates all blocks of an arena to changes made to the original template"
-setup-commands.update-arena.argument-arena: "Arena Name"
-setup-commands.update-arena.completed: "&3Finished updating arena &2%s&3!"
-setup-commands.update-arena.unknown-arena: "&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled."
-setup-commands.update-arena.failed:  "&4Error saving block cache for &c%s&4! Please check console!"
-setup-commands.update-arena.failed-built-in: "&c%s&4 doesn't have an origin area set. Is it a built in arena?"
+setup-commands.update-arena.description: 'Updates all blocks of an arena to changes made to the original template'
+setup-commands.update-arena.argument-arena: 'Arena Name'
+setup-commands.update-arena.completed: '&3Finished updating arena &2%s&3!'
+setup-commands.update-arena.unknown-arena: '&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled.'
+setup-commands.update-arena.failed:  '&4Error saving block cache for &c%s&4! Please check console!'
+setup-commands.update-arena.failed-built-in: '&c%s&4 doesn''t have an origin area set. Is it a built in arena?'
 # Untranslated end
 
-setup-commands.start.description: 'Startet ein neues Arena-Setup und löscht vorherige ungespeicherte Arenen.'
+setup-commands.start.description: 'Startet ein neues Arena-Setup und löscht vorherige ungespeicherte Arenen'
 setup-commands.start.argument-name: 'Arena-Name'
 setup-commands.start.confirmation: '&3Erstellen einer Arena mit dem Namen &2%s&3 gestartet.'
 setup-commands.start.one-argument: '&4Bitte nutze nur ein einziges Argument.'
@@ -121,11 +121,11 @@ setup-commands.start.one-argument: '&4Bitte nutze nur ein einziges Argument.'
 # Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
 # These translations are probably using "eye location" (the old message) rather than "head location".
 # I don't speak this language, but I have updated the english translation and this might want to be updated as well.
-setup-commands.setpos1.description: 'Setzt die erste Position für die zu kopierende Arena an die Position deines Fadenkreuzes.'
+setup-commands.setpos1.description: 'Setzt die erste Position für die zu kopierende Arena an die Position deines Fadenkreuzes'
 setup-commands.setpos1.pos2-in-other-world: '&4Zweite Position wurde gelöscht, da du in einer anderen Welt bist.'
 setup-commands.setpos1.confirmation: '&3Erste Position wurde an die Stelle deines Fadenkreuzes gesetzt.'
 
-setup-commands.setpos2.description: 'Setzt die zweite Position für die zu kopierende Arena an die Position deines Fadenkreuzes.'
+setup-commands.setpos2.description: 'Setzt die zweite Position für die zu kopierende Arena an die Position deines Fadenkreuzes'
 setup-commands.setpos2.pos1-in-other-world: '&4Erste Position wurde gelöscht, da du in einer anderen Welt bist.'
 setup-commands.setpos2.confirmation: '&3Zweite Position wurde an die Stelle deines Fadenkreuzes gesetzt.'
 
@@ -140,10 +140,10 @@ setup-commands.save.saved-line-2: '&3To enable the arena, add &2%s&3 to &2enable
 
 setup-commands.save.failed: '&4Arena-Konfiguration wurde gespeichert aber Laden des Arena-Cache schlug fehl. Bitte wirf einen Blick in die Konsole für weitere Informationen.'
 
-setup-commands.generic.no-first-position: "&4Du hast noch keine erste Position gesetzt."
+setup-commands.generic.no-first-position: '&4Du hast noch keine erste Position gesetzt.'
 setup-commands.generic.not-enough-spawns: '&4Du brauchst wenigstens 2 Spawnpunkte, um fortzufahren.'
-setup-commands.generic.too-late-spawns-set: "&4Du kannst die Grenzen nicht verändern, nachdem du Spawnpunkte gesetzt hast."
-setup-commands.generic.no-arena-started: "&4Du hast bisher noch nicht damit begonnen, eine Arena zu erstellen."
+setup-commands.generic.too-late-spawns-set: '&4Du kannst die Grenzen nicht verändern, nachdem du Spawnpunkte gesetzt hast.'
+setup-commands.generic.no-arena-started: '&4Du hast bisher noch nicht damit begonnen, eine Arena zu erstellen.'
 setup-commands.generic.already-started-arena: '&4Du hast bereits damit begonnen, eine Arena zu erstellen.'
 
 top-commands.main.description: 'Hauptbefehle SkyWars'
@@ -153,18 +153,18 @@ generic-command-message.too-many-parameters: '&4Zu viele Argumente!'
 generic-command-message.not-enough-parameters: '&4Zu wenig Argumente!'
 
 generic-command-message.argument-not-integer: '&c%s&4 ist keine gültige Zahl!'
-generic-command-message.no-permission: "&4Du hast keine Berechtigung, %s&4 zu nutzen."
-generic-command-message.not-a-player: "&4Der Befehl %s&4 muss von einem Spieler ausgeführt werden."
-generic-command-message.invalid-sub-command: "&3Der Unterbefehl &9%2$s&3 existiert nicht für den Befehl &a/%1$s&3."
+generic-command-message.no-permission: '&4Du hast keine Berechtigung, &c%s&4 zu nutzen.'
+generic-command-message.not-a-player: '&4Der Befehl &c%s&4 muss von einem Spieler ausgeführt werden.'
+generic-command-message.invalid-sub-command: '&3Der Unterbefehl &9%2$s&3 existiert nicht für den Befehl &a/%1$s&3.'
 
 # Dies wird in den keine-Berechtigung-Meldungen für Unterbefehle und den Hilfe-Nachrichten genutzt.
 # "&a/sw &9join"
-message-colors.sub-command-colors: "&a/%s &9%s"
+message-colors.sub-command-colors: '&a/%s &9%s'
 # "&a/sw"
-message-colors.base-command-colors: "&a/%s"
+message-colors.base-command-colors: '&a/%s'
 # &3<&bArgument Name&3>
-message-colors.command-argument-listing: " &3<&b%s&3>"
-message-colors.help-message-colors: " &f%s"
+message-colors.command-argument-listing: ' &3<&b%s&3>'
+message-colors.help-message-colors: ' &f%s'
 
 messages.help-message-header: '&9 -- &2Hilfe&9 --'
 
@@ -190,9 +190,9 @@ messages.in-game: '&4Das kannst du während eines Spiels nicht tun.'
 messages.report-disabled: '&4Melden wurde in der &cmain-config.yml&4 deaktiviert. Entferne die Zeile &c''disable-report: true''&4, um es zu aktivieren. Beachte, dass wenn aktiviert, SkyWars NUR dann meldet, wenn dieser Befehl ausgeführt wird, niemals von allein.'
 
 # Untranslated: messages.signs.cannot-place-join-sign
-messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
+messages.signs.cannot-place-join-sign: '&4You don''t have permission to place join signs.'
 # Untranslated: messages.signs.cannot-use-join-sign
-messages.signs.cannot-use-join-sign: "&4You don't have permission to use join signs."
+messages.signs.cannot-use-join-sign: '&4You don''t have permission to use join signs.'
 
 game.death.killed-by-player-and-void: '&2%1$s&a schubste &2%2$s&a in die Leere!'
 game.death.killed-by-void: '&2%s&a sprang in die Leere!'

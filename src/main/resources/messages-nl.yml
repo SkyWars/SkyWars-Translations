@@ -1,11 +1,11 @@
-messages-version: 6
+messages-version: 7
 
-commands.join.description: 'Ga in de wachtrij voor het volgende spel.'
+commands.join.description: 'Ga in de wachtrij voor het volgende spel'
 commands.join.confirmation: '&3Je bent nu in de wachtrij'
 commands.join.already-queued: '&4Je bent al in de wachtrij.'
 commands.join.in-game: '&4Je kan nu niet joinen, je bent al in een game.'
 
-commands.leave.description: 'Verlaat je huidige wachtrij.'
+commands.leave.description: 'Verlaat je huidige wachtrij'
 commands.leave.removed-from-queue: '&3Je bent niet meer in de wachtrij.'
 commands.leave.removed-from-game: '&3Je hebt de game verlaten.'
 commands.leave.not-in-any: '&4Je bent niet in de wachtrij.'
@@ -19,10 +19,10 @@ commands.setportal.confirmation: '&3Je hebt een portal op je huidige locatie gep
 commands.setportal.in-game: '&4Je kan nu geen portal plaatsen, je zit nog in een game!'
 
 commands.delportal.description: 'Verwijder de laatst geplaatste portal'
-commands.delportal.confirmation: '&3Portal op %s verwijderd.'
+commands.delportal.confirmation: '&3Portal op &2%s&3 verwijderd.'
 commands.delportal.error-no-portals: '&4Er zijn geen portals bepaald.'
 
-commands.cancel.description: 'Annuleer een spel met het gegeven id.'
+commands.cancel.description: 'Annuleer een spel met het gegeven id'
 commands.cancel.argument: 'id'
 commands.cancel.no-games-with-id: '&4Er zijn geen spellen met het id &c%s&4.'
 commands.cancel.confirmation: '&3Spel &2%s&3 aan het annuleren.'
@@ -38,19 +38,19 @@ commands.status.arena-team-prefix: '  &3Team &2%s&3: &2'
 commands.status.arena-team-dead: '  &4Team &c%s&4: &c✗'
 
 commands.version.description: 'Geeft de versie'
-commands.version.output: '&3%s versie &2%s &3/ &2%s&3. Gemaakt door &2Dabo Ross'
+commands.version.output: '&3%s versie &2%s &3/ &2%s&3. Gemaakt door &2Dabo Ross&3.'
 
 commands.lobby.description: 'Teleporteert je naar de lobby'
 commands.lobby.confirmation: '&3Naar de lobby aan het gaan.'
 commands.lobby.in-game: '&4Je kan niet naar de lobby, je zit nog in een game!'
 
 commands.cancelall.description: 'Annuleer alle huidige spellen'
-commands.cancelall.canceling-game: '&3Spel &2%s aan het annuleren'
+commands.cancelall.canceling-game: '&3Spel &2%s&3 aan het annuleren.'
 # Untranslated: commands.cancelall.no-games
 commands.cancelall.no-games: '&4No games started.'
 
-commands.report.description: 'Maakt een report op gist.github.com en geeft je daarna een link.'
-commands.report.start: '&3Data aan het verzamelen en doorsturen'
+commands.report.description: 'Maakt een report op gist.github.com en geeft je daarna een link'
+commands.report.start: '&3Data aan het verzamelen en doorsturen...'
 commands.report.output: '&3Report: &2%s'
 
 commands.forcestart.description: 'Dwingt een game te starten met de spelers in de wachtrij'
@@ -74,43 +74,42 @@ commands.kit.no-kit-removed: '&3Je gebruikte geen kit, geen kit weggehaald.'
 commands.kit.current-kit: '&3Momenteel gebruik je de kit &2%s&3.'
 commands.kit.current-kit-with-cost: '&3Momenteel gebruik je de kit &2%1$s&3. Deze kit kost je &2%2$s&3 per ronde.'
 
-commands.testkit.description: 'Test een kit. WAARSCHUWING: dit leegt je inventaris!'
+commands.testkit.description: 'Test een kit - WAARSCHUWING: dit leegt je inventaris!'
 commands.testkit.unknown: '&4Onbekende kit &c%s&4.'
 commands.testkit.applied: '&3Kit &2%s&3 toegepast.'
 
 
-commands.top.description: 'Bekijk de 10 spelers met de hoogste score.'
+commands.top.description: 'Bekijk de 10 spelers met de hoogste score'
 commands.top.title: '&8 -- &4Top %s&8 --'
 # %1$s = player name, %2$s = player score, %3$s = player rank.
 commands.top.format: '&8#&4%3$s&8: &2%1$s&3, met &2%2$s&3 punten!'
 commands.top.no-players: '&4Geen spelers gevonden!'
 
-commands.rank.description: 'Bekijk spelerstatistieken van jezelf of iemand anders.'
+commands.rank.description: 'Bekijk spelerstatistieken van jezelf of iemand anders'
 commands.rank.argument: 'Naam'
 commands.rank.title: '&8 -- &4%s&8 -- '
 commands.rank.score: '&3Score: &2%s'
 commands.rank.rank: '&3Rank: &8#&4%s'
 commands.rank.not-found: '&4Speler &c%s&4 niet gevonden.'
-commands.rank.no-other-permission: "&4Je hebt niet de toestemming om de rank van een andere speler te bekijken."
+commands.rank.no-other-permission: '&4Je hebt niet de toestemming om de rank van een andere speler te bekijken.'
 
-
-setup-commands.createkit.description: "Maakt een kit van je huidige inventaris."
-setup-commands.createkit.argument-name: "Naam"
-setup-commands.createkit.argument-cost: "Prijs (optional)"
-setup-commands.createkit.argument-permission: "Permissie (optional)"
-setup-commands.createkit.saved-no-permission: "&3Kit &2%1$s&3 opgeslaan. Iedereen kan deze kit nu gebruiken met &a/sw &9kit &2%1$s&3."
-setup-commands.createkit.saved-with-permission: "&3Kit &2%1$s&3 opgeslaan.Iedereen met de permissie &2%2$s&3 kan deze kit nu gebruiken met &a/sw &9kit &2%1$s&3."
-setup-commands.createkit.cost-to-use: " &3Deze kit zal je &2%s&3 kosten om elke game te gebruiken."
-setup-commands.createkit.kit-exists: "&4Een kit met de naam &c%s&4 bestaat al. &4Kit &cNIET&4 opgeslaan."
-setup-commands.createkit.save-failed: "&4Kits opslaan naar schijf gefaald. Bekijk de console voor meer informatie. &4Kit &cNIET&4 opgeslaan."
+setup-commands.createkit.description: 'Maakt een kit van je huidige inventaris'
+setup-commands.createkit.argument-name: 'Naam'
+setup-commands.createkit.argument-cost: 'Prijs (optional)'
+setup-commands.createkit.argument-permission: 'Permissie (optional)'
+setup-commands.createkit.saved-no-permission: '&3Kit &2%1$s&3 opgeslaan. Iedereen kan deze kit nu gebruiken met &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.saved-with-permission: '&3Kit &2%1$s&3 opgeslaan.Iedereen met de permissie &2%2$s&3 kan deze kit nu gebruiken met &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.cost-to-use: '&3Deze kit zal je &2%s&3 kosten om elke game te gebruiken.'
+setup-commands.createkit.kit-exists: '&4Een kit met de naam &c%s&4 bestaat al. &4Kit &cNIET&4 opgeslaan.'
+setup-commands.createkit.save-failed: '&4Kits opslaan naar schijf gefaald. Bekijk de console voor meer informatie. &4Kit &cNIET&4 opgeslaan.'
 
 # Untranslated start
-setup-commands.update-arena.description: "Updates all blocks of an arena to changes made to the original template"
-setup-commands.update-arena.argument-arena: "Arena Name"
-setup-commands.update-arena.completed: "&3Finished updating arena &2%s&3!"
-setup-commands.update-arena.unknown-arena: "&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled."
-setup-commands.update-arena.failed:  "&4Error saving block cache for &c%s&4! Please check console!"
-setup-commands.update-arena.failed-built-in: "&c%s&4 doesn't have an origin area set. Is it a built in arena?"
+setup-commands.update-arena.description: 'Updates all blocks of an arena to changes made to the original template'
+setup-commands.update-arena.argument-arena: 'Arena Name'
+setup-commands.update-arena.completed: '&3Finished updating arena &2%s&3!'
+setup-commands.update-arena.unknown-arena: '&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled.'
+setup-commands.update-arena.failed:  '&4Error saving block cache for &c%s&4! Please check console!'
+setup-commands.update-arena.failed-built-in: '&c%s&4 doesn''t have an origin area set. Is it a built in arena?'
 # Untranslated end
 
 setup-commands.start.description: 'Start een nieuwe arena en verwijder vorige, onopgeslagen arena''s'
@@ -121,18 +120,18 @@ setup-commands.start.one-argument: '&4Geef alstublieft meer dan 1 argument op.'
 # Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
 # These translations are probably using "eye location" (the old message) rather than "head location".
 # I don't speak this language, but I have updated the english translation and this might want to be updated as well.
-setup-commands.setpos1.description: 'Bepaalt de eerste positie van de arena om te kopiëren vanaf je momentele ooglocatie.'
+setup-commands.setpos1.description: 'Bepaalt de eerste positie van de arena om te kopiëren vanaf je momentele ooglocatie'
 setup-commands.setpos1.pos2-in-other-world: '&4Tweede positie aan het verwijderen omdat je in een andere wereld bent.'
 setup-commands.setpos1.confirmation: '&3Zet de eerste positie naar je momentele ooglocatie.'
 
-setup-commands.setpos2.description: 'Bepaalt de tweede positie van de arena om te kopiëren vanaf je momentele ooglocatie.'
+setup-commands.setpos2.description: 'Bepaalt de tweede positie van de arena om te kopiëren vanaf je momentele ooglocatie'
 setup-commands.setpos2.pos1-in-other-world: '&4Eerste positie aan het verwijderen omdat je in een andere wereld bent.'
 setup-commands.setpos2.confirmation: '&3Zet de Tweede positie naar je momentele ooglocatie.'
 
 setup-commands.addspawn.description: 'Voegt een spawnplek toe aan je huidige locatie'
 setup-commands.addspawn.confirmation: '&3Spawn toegevoegd op &2%s&3.'
 
-setup-commands.save.description: 'Slaat de net gemaakte arena op naar een bestand.'
+setup-commands.save.description: 'Slaat de net gemaakte arena op naar een bestand'
 setup-commands.save.saving: '&3Arena opslaan.'
 setup-commands.save.saved: '&3Arena opgeslaan.'
 setup-commands.save.failed: '&4Arena configuratie opgeslaan, maar het laden van het arena cache bestaand is gefaald. Bekijk alstublieft de console voor meer informatie.'
@@ -140,10 +139,10 @@ setup-commands.save.failed: '&4Arena configuratie opgeslaan, maar het laden van 
 # Untranslated: setup-commands.save.saved-line-2
 setup-commands.save.saved-line-2: '&3To enable the arena, add &2%s&3 to &2enabled-arenas&3 in &2main-config.yml&3.'
 
-setup-commands.generic.no-first-position: "&4Je hebt nog geen eerste positie gezet."
+setup-commands.generic.no-first-position: '&4Je hebt nog geen eerste positie gezet.'
 setup-commands.generic.not-enough-spawns: '&4Je moet op zijn minst 2 spawnpunten hebben om verder te gaan.'
-setup-commands.generic.too-late-spawns-set: "&4Je kan de grenzen niet bewerken na het zetten van de spawnpunten."
-setup-commands.generic.no-arena-started: "&4Je bent nog niet begonnen met het maken van een arena."
+setup-commands.generic.too-late-spawns-set: '&4Je kan de grenzen niet bewerken na het zetten van de spawnpunten.'
+setup-commands.generic.no-arena-started: '&4Je bent nog niet begonnen met het maken van een arena.'
 setup-commands.generic.already-started-arena: '&4Je bent al begonnen met het maken van een arena.'
 
 top-commands.main.description: 'Basiscommando voor Skywars'
@@ -153,18 +152,18 @@ generic-command-message.too-many-parameters: '&4Teveel argumenten.'
 generic-command-message.not-enough-parameters: '&4Niet genoeg argumenten.'
 generic-command-message.argument-not-integer: '&c%s&4 is geen geheel getal!'
 
-generic-command-message.no-permission: "&4Je hebt geen permissie om %s&4 te gebruiken."
-generic-command-message.not-a-player: "&4Het commando %s&4 moet uitgevoerd worden door een speler."
-generic-command-message.invalid-sub-command: "&3Het subcommando &9%2$s&3 bestaat niet voor het commando &a/%1$s&3."
+generic-command-message.no-permission: '&4Je hebt geen permissie om &c%s&4 te gebruiken.'
+generic-command-message.not-a-player: '&4Het commando &c%s&4 moet uitgevoerd worden door een speler.'
+generic-command-message.invalid-sub-command: '&3Het subcommando &9%2$s&3 bestaat niet voor het commando &a/%1$s&3.'
 
 # This is used in the no-permission message for sub commands, as well as the help message.
 # "&a/sw &9join"
-message-colors.sub-command-colors: "&a/%s &9%s"
+message-colors.sub-command-colors: '&a/%s &9%s'
 # "&a/sw"
-message-colors.base-command-colors: "&a/%s"
+message-colors.base-command-colors: '&a/%s'
 # &3<&bArgument Name&3>
-message-colors.command-argument-listing: " &3<&b%s&3>"
-message-colors.help-message-colors: " &f%s"
+message-colors.command-argument-listing: ' &3<&b%s&3>'
+message-colors.help-message-colors: ' &f%s'
 
 # Untranslated: messages.help-message-header
 messages.help-message-header: '&9 -- &2Help&9 --'
@@ -192,9 +191,9 @@ messages.in-game: '&4Je kunt dat niet doen, je bent in een spel.'
 messages.report-disabled: '&4Aangeven is uitgeschakeld in &cmain-config.yml&4. Verwijder de &c''disable-report: true''&4 tekst om aangeven aan te zetten reporting. Let wel op als dat is ingeschakeld dat SkyWars dan alleen aangeeft als dit command wordt gebruikt, nooit in de achtergrond.'
 
 # Untranslated: messages.signs.cannot-place-join-sign
-messages.signs.cannot-place-join-sign: "&4You don't have permission to place join signs."
+messages.signs.cannot-place-join-sign: '&4You don''t have permission to place join signs.'
 # Untranslated: messages.signs.cannot-use-join-sign
-messages.signs.cannot-use-join-sign: "&4You don't have permission to use join signs."
+messages.signs.cannot-use-join-sign: '&4You don''t have permission to use join signs.'
 
 game.death.killed-by-player-and-void: '&2%1$s&a duwde &2%2$s&a in de oneindigheid!'
 game.death.killed-by-void: '&2%s&a sprong in de oneindigheid!'
