@@ -181,6 +181,12 @@ messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4.
 messages.signs.cannot-place-join-sign: '&4You don''t have permission to place join signs.'
 messages.signs.cannot-use-join-sign: '&4You don''t have permission to use join signs.'
 
+game.timer.starting-in-minutes: '&3Starting in &2%s minutes&3!'
+game.timer.starting-in-minutes-unless: '&3Unless more players join, starting in &2%s minutes&3.'
+game.timer.starting-in-seconds: '&3Starting in &2%s seconds&3!'
+game.timer.starting-in-seconds-unless: '&3Unless more players join, starting in &2%s seconds&3.'
+game.timer.starting-in-seconds-vote-now: '&3Starting in &2%s seconds&3, vote now!'
+
 game.death.killed-by-player-and-void: '&2%1$s&a pushed &2%2$s&a into the void of doom!'
 game.death.killed-by-void: '&2%s&a jumped into the void of doom!'
 game.death.killed-by-player: '&2%1$s&a killed &2%2$s&a!'
@@ -202,6 +208,9 @@ game.starting.game-starting-final-comma: '&a and &2'
 game.starting.team-message: '&aYou are in team %1$s with &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
+
+# Untranslated: game.starting.team-message-alone
+game.starting.team-message-alone: '&aYou are in team %s, alone.'
 
 gui.kit-picker.title: '&8[&cSkyWars Kits&8]'
 gui.kit-picker.totem-title: '&8%s'

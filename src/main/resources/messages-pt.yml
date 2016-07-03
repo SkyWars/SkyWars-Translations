@@ -225,8 +225,8 @@ game.starting.game-starting-final-comma: '&a and &2'
 game.starting.team-message: '&aYou are in team %1$s with &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
+game.starting.team-message-alone: '&aYou are in team %s, alone.'
 
-# Untranslated start
 gui.kit-picker.title: '&8[&cSkyWars Kits&8]'
 gui.kit-picker.totem-title: '&8%s'
 gui.kit-picker.unavailable-totem-title: '&8&m%s'
