@@ -2,11 +2,14 @@ messages-version: 7
 
 commands.join.description: 'Joins the queue for the next game'
 commands.join.confirmation: '&3You have joined the queue.'
+commands.join.joined-secondary-queue: '&3The queue is currently &4full&3. You have joined the secondary queue.'
 commands.join.already-queued: '&4You were already in the queue.'
+commands.join.already-in-secondary-queue: '&3The queue is currently &4full&3. You were already in the secondary queue.'
 commands.join.in-game: '&4You can''t join now, you are already in a game.'
 
 commands.leave.description: 'Leaves the queue or the game you are in'
 commands.leave.removed-from-queue: '&3You are no longer in the queue.'
+commands.leave.removed-from-secondary-queue: '&3You are no longer in the secondary queue.'
 commands.leave.removed-from-game: '&3You have fled the game.'
 commands.leave.not-in-any: '&4You were not in the queue.'
 
@@ -30,6 +33,7 @@ commands.cancel.confirmation: '&3Canceling game &2%s&3.'
 commands.status.description: 'Gives status on current games'
 commands.status.header: '&9 -- &2SkyWars Status&9 --'
 commands.status.in-queue: '&3In Queue: &2%s'
+commands.status.in-secondary-queue: '&3In Secondary Queue: &2%s'
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Current Arenas&9 --'
 commands.status.no-teams-arena-list-prefix: '&3Game &2#%s&3: &2'
@@ -158,8 +162,10 @@ message-colors.help-message-colors: ' &f%s'
 messages.help-message-header: '&9 -- &2Help&9 --'
 
 messages.removed-from-queue-because-death: '&3You were removed from the queue because you died.'
+messages.removed-from-secondary-queue-because-death: '&3You were removed from the secondary queue because you died.'
 messages.no-clue-what-command: '&4SkyWars has no clue what &c%s&4 is.'
 messages.not-fully-enabled: '&4Not fully enabled.'
+messages.secondary-queue-explanation: '&3You''ll be entered into the queue once the next game starts.'
 
 messages.economy-reward.win: '&3You have been given &2%s&3 for winning the SkyWars.'
 messages.economy-reward.kill: '&3You have been given &2%1$s&3 for killing &2%2$s&3.'
