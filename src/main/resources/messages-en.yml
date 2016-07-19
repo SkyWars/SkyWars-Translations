@@ -188,9 +188,7 @@ messages.signs.cannot-place-join-sign: '&4You don''t have permission to place jo
 messages.signs.cannot-use-join-sign: '&4You don''t have permission to use join signs.'
 
 game.timer.starting-in-minutes: '&3Starting in &2%s minutes&3!'
-game.timer.starting-in-minutes-unless: '&3Unless more players join, starting in &2%s minutes&3.'
 game.timer.starting-in-seconds: '&3Starting in &2%s seconds&3!'
-game.timer.starting-in-seconds-unless: '&3Unless more players join, starting in &2%s seconds&3.'
 game.timer.starting-in-seconds-vote-now: '&3Starting in &2%s seconds&3, vote now!'
 
 game.death.killed-by-player-and-void: '&2%1$s&a pushed &2%2$s&a into the void of doom!'
