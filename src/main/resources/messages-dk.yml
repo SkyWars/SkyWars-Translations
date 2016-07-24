@@ -2,11 +2,17 @@ messages-version: 6
 
 commands.join.description: 'Joiner kø for næste spil.'
 commands.join.confirmation: '&3Du har joinet køen.'
+# Untranslated: commands.join.joined-secondary-queue
+commands.join.joined-secondary-queue: '&3The queue is currently &4full&3. You have joined the secondary queue.'
 commands.join.already-queued: '&4Du er allerede i en kø.'
+# Untranslated: commands.join-already-in-secondary-queue
+commands.join.already-in-secondary-queue: '&3The queue is currently &4full&3. You were already in the secondary queue.'
 commands.join.in-game: '&4Du kan ikke joine nu, du er allerede i et spil.'
 
 commands.leave.description: 'Forlader køen eller det spil du er i.'
 commands.leave.removed-from-queue: '&3Du er ikke længere i køen.'
+# Untranslated: commands.leave.removed-from-secondary-queue
+commands.leave.removed-from-secondary-queue: '&3You are no longer in the secondary queue.'
 commands.leave.removed-from-game: '&3Du har forladt spillet.'
 commands.leave.not-in-any: '&4Du er ikke i køen.'
 
@@ -31,6 +37,8 @@ commands.cancel.confirmation: '&3Annullere spil &2%s&3.'
 commands.status.description: 'Giver status om det nuværende spil.'
 commands.status.header: '&9 -- &2SkyWars Status&9 --'
 commands.status.in-queue: '&3I kø: &2%s'
+# Untranslated: commands.status.in-secondary-queue
+commands.status.in-secondary-queue: '&3In Secondary Queue: &2%s'
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Nuværende Arenaer&9 --'
 # Untranslated start
@@ -175,8 +183,12 @@ message-colors.help-message-colors: ' &f%s'
 messages.help-message-header: '&9 -- &2Help&9 --'
 
 messages.removed-from-queue-because-death: '&3Du er blever fjernet fra køen fordi du døede.'
+# Untranslated: messages.removed-from-secondary-queue-because-death
+messages.removed-from-secondary-queue-because-death: '&3You were removed from the secondary queue because you died.'
 messages.no-clue-what-command: '&4SkyWars ved ikke hvad &c%s&4 er.'
 messages.not-fully-enabled: '&4Ikke fuldt aktiveret.'
+# Untranslated: messages.secondary-queue-explanation
+messages.secondary-queue-explanation: '&3You''ll be entered into the queue once the next game starts.'
 
 messages.economy-reward.win: '&3Du har fået &2%s&3 for at vinde SkyWars.'
 messages.economy-reward.kill: '&3Du har fået &2%1$s&3 for at dræbe &2%2$s&3.'
@@ -202,6 +214,12 @@ messages.report-disabled: '&4Rapportering er blever slået fra i &cmain-config.y
 messages.signs.cannot-place-join-sign: '&4You don''t have permission to place join signs.'
 # Untranslated: messages.signs.cannot-use-join-sign
 messages.signs.cannot-use-join-sign: '&4You don''t have permission to use join signs.'
+
+# Untranslated start
+game.timer.starting-in-minutes: '&3Starting in &2%s minutes&3!'
+game.timer.starting-in-seconds: '&3Starting in &2%s seconds&3!'
+game.timer.starting-in-seconds-vote-now: '&3Starting in &2%s seconds&3, vote now!'
+# Untranslated end
 
 game.death.killed-by-player-and-void: '&2%1$s&a skubbede &2%2$s&a ud i endetheden!'
 game.death.killed-by-void: '&2%s&a hoppede i endetheden!'

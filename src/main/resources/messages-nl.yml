@@ -2,11 +2,17 @@ messages-version: 7
 
 commands.join.description: 'Ga in de wachtrij voor het volgende spel'
 commands.join.confirmation: '&3Je bent nu in de wachtrij'
+# Untranslated: commands.join.joined-secondary-queue
+commands.join.joined-secondary-queue: '&3The queue is currently &4full&3. You have joined the secondary queue.'
 commands.join.already-queued: '&4Je bent al in de wachtrij.'
+# Untranslated: commands.join-already-in-secondary-queue
+commands.join.already-in-secondary-queue: '&3The queue is currently &4full&3. You were already in the secondary queue.'
 commands.join.in-game: '&4Je kan nu niet joinen, je bent al in een game.'
 
 commands.leave.description: 'Verlaat je huidige wachtrij'
 commands.leave.removed-from-queue: '&3Je bent niet meer in de wachtrij.'
+# Untranslated: commands.leave.removed-from-secondary-queue
+commands.leave.removed-from-secondary-queue: '&3You are no longer in the secondary queue.'
 commands.leave.removed-from-game: '&3Je hebt de game verlaten.'
 commands.leave.not-in-any: '&4Je bent niet in de wachtrij.'
 
@@ -30,6 +36,8 @@ commands.cancel.confirmation: '&3Spel &2%s&3 aan het annuleren.'
 commands.status.description: 'Geeft status aan de huidige games'
 commands.status.header: '&9 -- &2SkyWars Status&9 --'
 commands.status.in-queue: '&3In wachtrij: &2%s'
+# Untranslated: commands.status.in-secondary-queue
+commands.status.in-secondary-queue: '&3In Secondary Queue: &2%s'
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Huidige Arena''s&9 --'
 commands.status.no-teams-arena-list-prefix: '&3Game &2#%s&3: &2'
@@ -169,8 +177,12 @@ message-colors.help-message-colors: ' &f%s'
 messages.help-message-header: '&9 -- &2Help&9 --'
 
 messages.removed-from-queue-because-death: '&3Je bent van de wachtrij weggehaald omdat je dood ging.'
+# Untranslated: messages.removed-from-secondary-queue-because-death
+messages.removed-from-secondary-queue-because-death: '&3You were removed from the secondary queue because you died.'
 messages.no-clue-what-command: '&4SkyWars weet niet wat &c%s&4 is.'
 messages.not-fully-enabled: '&4Niet volledig ingeschakeld.'
+# Untranslated: messages.secondary-queue-explanation
+messages.secondary-queue-explanation: '&3You''ll be entered into the queue once the next game starts.'
 
 messages.economy-reward.win: '&3Je hebt &2%s&3 gekregen voor het winnen van SkyWars.'
 messages.economy-reward.kill: '&3Je hebtn &2%1$s&3 gekregen voor het vermoorden van &2%2$s&3.'
@@ -194,6 +206,12 @@ messages.report-disabled: '&4Aangeven is uitgeschakeld in &cmain-config.yml&4. V
 messages.signs.cannot-place-join-sign: '&4You don''t have permission to place join signs.'
 # Untranslated: messages.signs.cannot-use-join-sign
 messages.signs.cannot-use-join-sign: '&4You don''t have permission to use join signs.'
+
+# Untranslated start
+game.timer.starting-in-minutes: '&3Starting in &2%s minutes&3!'
+game.timer.starting-in-seconds: '&3Starting in &2%s seconds&3!'
+game.timer.starting-in-seconds-vote-now: '&3Starting in &2%s seconds&3, vote now!'
+# Untranslated end
 
 game.death.killed-by-player-and-void: '&2%1$s&a duwde &2%2$s&a in de oneindigheid!'
 game.death.killed-by-void: '&2%s&a sprong in de oneindigheid!'
