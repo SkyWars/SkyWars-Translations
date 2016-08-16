@@ -1,5 +1,5 @@
 messages-version: 7
-
+#作者 xander，Translator: Xander
 commands.join.description: '加入下一场游戏的等待列队'
 commands.join.confirmation: '&3加入了下一场游戏的等待列队'
 commands.join.joined-secondary-queue: '&3这个等待列队已经满了. 你加入了第二等待列队.'
