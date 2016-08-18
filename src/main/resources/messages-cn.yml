@@ -1,0 +1,228 @@
+messages-version: 7
+#作者 xander，Translator: Xander
+commands.join.description: '加入下一场游戏的等待列队'
+commands.join.confirmation: '&3加入了下一场游戏的等待列队'
+commands.join.joined-secondary-queue: '&3这个等待列队已经满了. 你加入了第二等待列队.'
+commands.join.already-queued: '&4你已经在等待列队里了'
+commands.join.already-in-secondary-queue: '&3这个等待列队经满了. 你已经在第二等待列队了.'
+commands.join.in-game: '&4无法加入，你已经在游戏里了.'
+
+commands.leave.description: '离开你在的游戏或者等待列队'
+commands.leave.removed-from-queue: '&3你离开了等待列队'
+commands.leave.removed-from-secondary-queue: '&3你离开了第二等待列队'
+commands.leave.removed-from-game: '&3你离开了游戏'
+commands.leave.not-in-any: '&4你不在任何等待列队'
+
+commands.setlobby.description: '这是大厅位子'
+commands.setlobby.confirmation: '&3大厅已设置在你目前的位置'
+commands.setlobby.in-game: '&4无法设置大厅，你在游戏中'
+
+commands.setportal.description: '在你目前的维持设置传送点'
+commands.setportal.confirmation: '&3传送点设置在了你目前的位置'
+commands.setportal.in-game: '&4无法设置传送点，你在游戏中'
+
+commands.delportal.description: '删除你最近一次设置传送点'
+commands.delportal.confirmation: '&3删除了在&2%s&3的传送点.'
+commands.delportal.error-no-portals: '&4没有设置任何传送点'
+
+commands.cancel.description: '取消一个你以你给的id命名的游戏'
+commands.cancel.argument: 'ID'
+commands.cancel.no-games-with-id: '&4没有已id &c%s&4命名的游戏.'
+commands.cancel.confirmation: '&3正在取消游戏： &2%s&3.'
+
+commands.status.description: '查看一个游戏的详情'
+commands.status.header: '&9 -- &2SkyWars 详情&9 --'
+commands.status.in-queue: '&3等待队伍: &2%s'
+commands.status.in-secondary-queue: '&3第二等待队伍: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2目前的战场&9 --'
+commands.status.no-teams-arena-list-prefix: '&3游戏 &2#%s&3: &2'
+commands.status.arena-teams-left: '&3游戏 &2#%1$s&3: &2%2$s&3/&2%3$s&3 剩余队伍:'
+commands.status.arena-team-prefix: '  &3队伍 &2%s&3: &2'
+commands.status.arena-team-dead: '  &4队伍 &c%s&4: &c✗'
+
+commands.version.description: '查看版本'
+commands.version.output: '&3%s 版本 &2%s &3/ &2%s&3. 作者： &2Dabo Ross&3.'
+
+commands.lobby.description: '传送到大厅'
+commands.lobby.confirmation: '&3正在传送到大厅'
+commands.lobby.in-game: '&4无法传送到大厅，因为你在游戏里'
+
+commands.cancelall.description: '取消所有正在进行的游戏'
+commands.cancelall.canceling-game: '&3正在取消游戏 &2%s&3.'
+commands.cancelall.no-games: '&4没有开始的游戏'
+
+commands.report.description: '生成一个报告并上传到gist.github.com, 然后会给你一个链接'
+commands.report.start: '&3正在收集和提交数据...'
+commands.report.output: '&3报告: &2%s'
+
+commands.forcestart.description: '强制开始游戏，在等待队伍里的人会加入'
+commands.forcestart.not-enough-players: '&4至少要两名玩家才能开始游戏'
+
+commands.kit.description: '设置下一场游戏的工具包'
+commands.kit.argument: '工具包'
+commands.kit.no-kits-available: '&4没有你能用的工具包'
+commands.kit.unavailable-kits: '&3无法使用的工具包: &2%s'
+commands.kit.unknown-kit: '&4未知的工具包 &c%s&4.'
+commands.kit.not-enough-money: '&4你没有足够的钱 %1$s 去买 &c%2$s&4. 你还需要 &c%3$s&4 %1$s.'
+commands.kit.no-access: '&4 你没有权限去要 &c%s&4.'
+commands.kit.chose-kit: '&3正在使用工具包： &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3使用工具包： &2%1$s&3. 这个工具包每局将花费你 &2%2$s&3.'
+commands.kit.how-to-remove: '&3可以用 &2/sw kit remove&3 来停止使用工具包.'
+commands.kit.removed-kit: '&3你不再使用任何工具包.'
+commands.kit.no-kit-removed: '&3你没有在使用任何工具包，无法删除工具包.'
+commands.kit.current-kit: '&3你正在使用&2%s&3工具包.'
+commands.kit.current-kit-with-cost: '&3你正在使用工具包： &2%1$s&3. 这个工具包每局将花费你 &2%2$s&.'
+
+commands.kitgui.description: '打开工具包界面'
+
+commands.testkit.description: '测试工具包 - 警告: 这将清空你身上的东西'
+commands.testkit.unknown: '&4未知工具包： &c%s&4.'
+commands.testkit.applied: '&3设置的工具包 &2%s&3.'
+
+commands.top.description: '查看分数排行榜前十'
+commands.top.title: '&8 -- &4前%s&8 --'
+# %1$s = player name, %2$s = player score, %3$s = player rank.
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, 有&2%2$s&3分!'
+commands.top.no-players: '&4没有查到玩家!'
+
+commands.rank.description: '查看你自己或者其他人的状态'
+commands.rank.argument: '名字'
+commands.rank.title: '&8 -- &4%s&8 -- '
+commands.rank.score: '&3分数: &2%s'
+commands.rank.rank: '&3排名: &8#&4%s'
+commands.rank.not-found: '&4 没找到玩家：&c%s&4'
+commands.rank.no-other-permission: '&4你没有权限查看其他人的状态'
+
+setup-commands.createkit.description: '用你身上目前的装备物品设置工具包'
+setup-commands.createkit.argument-name: '名称'
+setup-commands.createkit.argument-cost: '费用 (可选)'
+setup-commands.createkit.argument-permission: '权限节点 (可选)'
+setup-commands.createkit.saved-no-permission: '&3保存了工具包 &2%1$s&3. 任何人可以用&a/sw &9kit &2%1$s&3 来获取工具包.'
+setup-commands.createkit.saved-with-permission: '&3保存了工具包 &2%1$s&3. 任何拥有&2%2$s&3权限的人可以用&a/sw &9kit &2%1$s&3 获取工具包.'
+setup-commands.createkit.cost-to-use: '&3这个工具包每局将花费&2%s&3'
+setup-commands.createkit.kit-exists: '&4一个以&c%s&4命名的工具包已经存在. &4工具包&c没有&4保存.'
+setup-commands.createkit.save-failed: '&工具包数据文件保存到硬盘失败了！请查看控制台. &4工具包&c没有&4保存.'
+
+setup-commands.update-arena.description: '更新所有从原模板更改过的块'
+setup-commands.update-arena.argument-arena: '竞技场名称'
+setup-commands.update-arena.completed: '&3完成了竞技场&2%s&3更新!'
+setup-commands.update-arena.unknown-arena: '&4未知竞技场&c%s&4. 请检查大小写，并确定竞技场已经开启.'
+setup-commands.update-arena.failed:  '&4保存 &c%s&4 失败! 请查看控制台!'
+setup-commands.update-arena.failed-built-in: '&c%s&4 没有设置过原本的区域. 这是个自带的竞技场吗?'
+
+setup-commands.start.description: '开始设置一个新的竞技场，并删掉任何没有保存的竞技场'
+setup-commands.start.argument-name: '竞技场名称'
+setup-commands.start.confirmation: '&3开始设置竞技场&2%s&3.'
+setup-commands.start.one-argument: '&4请输入一个参数.'
+
+setup-commands.setpos1.description: '将竞技场第一个角落位置设置成你头部位置'
+setup-commands.setpos1.pos2-in-other-world: '&4正在删除第二个角落位置，因为你来了另一个世界.'
+setup-commands.setpos1.confirmation: '&3竞技场第一个位置设置成了你头部的位置.'
+
+setup-commands.setpos2.description: '将竞技场第二个角落位置设置成你头部位置'
+setup-commands.setpos2.pos1-in-other-world: '&4正在删除第一个角落位置，因为你来了另一个世界.'
+setup-commands.setpos2.confirmation: '&3竞技场第二个位置设置成了你头部的位置.'
+
+setup-commands.addspawn.description: '在你现在位置设置一个出生点'
+setup-commands.addspawn.confirmation: '&3正在在&2%s&3设置出生点.'
+
+setup-commands.save.description: '把目前正在修改的竞技场保存到文件'
+setup-commands.save.saving: '&3正在保存竞技场.'
+setup-commands.save.saved: '&3竞技场保存好了'
+setup-commands.save.saved-line-2: '&3如果要启动竞技场, 在写入 &2main-config.yml&3的&2enabled-arenas&3写入&2%s&3.'
+setup-commands.save.failed: '&4竞技场设置保存了, 但是竞技场cache加载失败. 请查看控制台.'
+
+setup-commands.generic.no-first-position: '&4你没有设置第一个角落位置.'
+setup-commands.generic.not-enough-spawns: '&4至少要有两个出生点才能继续'
+setup-commands.generic.too-late-spawns-set: '&4出生点设置后不能更改边界.'
+setup-commands.generic.no-arena-started: '&4你没有开始设置任何竞技场.'
+setup-commands.generic.already-started-arena: '&4你已经开始设置一个竞技场了.'
+
+top-commands.main.description: 'SkyWars主要命令'
+top-commands.setup.description: 'SkyWars设置/配置命令'
+
+generic-command-message.too-many-parameters: '&4太多参数.'
+generic-command-message.not-enough-parameters: '&4参数不够.'
+
+generic-command-message.argument-not-integer: '&c%s&4不是整数!'
+generic-command-message.no-permission: '&4你没有用&c%s&4的权限.'
+generic-command-message.not-a-player: '&4只有玩家可以执行 &c%s&4.'
+generic-command-message.invalid-sub-command: '&3在&a/%1$s&3 &3里面没有 &9%2$s&3'
+
+# This is used in the no-permission message for sub commands, as well as the help message.
+# "&a/sw &9join"
+message-colors.sub-command-colors: '&a/%s &9%s'
+# "&a/sw"
+message-colors.base-command-colors: '&a/%s'
+# &3<&bArgument Name&3>
+message-colors.command-argument-listing: ' &3<&b%s&3>'
+message-colors.help-message-colors: ' &f%s'
+
+messages.help-message-header: '&9 -- &2帮助&9 --'
+
+messages.removed-from-queue-because-death: '&3你被从等待列队中踢掉，因为你死了.'
+messages.removed-from-secondary-queue-because-death: '&3你被从第二等待列队中踢掉，因为你死了.'
+messages.no-clue-what-command: '&4SkyWars不知道&c%s&4是什么.'
+messages.not-fully-enabled: '&4没有完全启动.'
+messages.secondary-queue-explanation: '&3你将在下一局游戏开始后被加入等待列队.'
+
+messages.economy-reward.win: '&3给予你&2%s&3，因为你赢了这场SkyWars.'
+messages.economy-reward.kill: '&3给予你&2%1$s&3 因为你杀了&2%2$s&3.'
+
+messages.kits.kit-list: '&3可选的工具包: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%1$s &8(&3费用: &2%2$s&8)'
+messages.kits.choose-a-kit: '&3用 &2/sw kit &8<&2Name&8>&3 来选择工具包.'
+messages.kits.remove-a-kit: '&3用 &2/sw kit remove&3 来停止使用 &2%s&3.'
+messages.kits.applied-kit: '&3在这次游戏中加载了工具包&2%s&3'
+messages.kits.applied-kit-with-cost: '&3A在这次游戏中加载了工具包&2%1$s&3, 你花费了&3%2$s&2.'
+messages.kits.not-enough-money: '&3你的钱不够继续用 &2%s&3, 正在取消选择.'
+messages.kits.no-permission: '&3不得权限不够继续用 &2%s&3, 正在取消选择.'
+
+messages.in-game: '&4你不能这么做, 你在游戏里.'
+
+messages.report-disabled: '&4报告生成在 &cmain-config.yml&4被禁止了. 删除 &c''disable-report: true''&4 来启动报告生成. 请注意，在这个功能启动时， SkyWars只会在这个命令执行后生成报告, 不会在后台自动生成.'
+
+messages.signs.cannot-place-join-sign: '&4你没有设置加入牌子的权限.'
+messages.signs.cannot-use-join-sign: '&4你没有使用加入牌子的权限.'
+
+game.timer.starting-in-minutes: '&3将在&2%s分钟&3后开始!'
+game.timer.starting-in-seconds: '&3将在&2%s秒&3后开始!'
+game.timer.starting-in-seconds-vote-now: '&3S将在&2%s秒&3后开始, 快投票!'
+
+game.death.killed-by-player-and-void: '&2%1$s&a 把 &2%2$s&a推进了空虚!'
+game.death.killed-by-void: '&2%s&a 跳进了空虚!'
+game.death.killed-by-player: '&2%1$s&a 杀死了 &2%2$s&a!'
+game.death.killed-by-environment: '&2%s&a 被杀死了!'
+game.death.forfeited-while-attacked: '&2%2$s&a被&2%1$s&a逼死了!'
+game.death.forfeited: '&2%s&a被逼死了!'
+
+game.winning.single-won: '&2%s&a 赢了SkyWars!'
+game.winning.multi-won: '&2%s&a 赢了SkyWars!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.multi-won-final-comma: '&a 和 &2'
+game.winning.none-won: '&aSkyWars结束，没有胜者.'
+
+game.starting.game-starting: '&a游戏开始，和 &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
+game.starting.game-starting-final-comma: '&a 还有 &2'
+
+# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
+game.starting.team-message: '&a你在队伍 %1$s，和 &2%2$s.'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a 还有 &2'
+
+# Untranslated: game.starting.team-message-alone
+game.starting.team-message-alone: '&a你在队伍%s里, 寂寞的一个人.'
+
+gui.kit-picker.title: '&8[&cSkyWars 工具包&8]'
+gui.kit-picker.totem-title: '&8%s'
+gui.kit-picker.unavailable-totem-title: '&8&m%s'
+gui.kit-picker.lore.cost: '&3每局花费&2%s'
+gui.kit-picker.lore.unaffordable-cost: '&8每局话费 &c%s'
+gui.kit-picker.lore.unaffordable-cost-2: '&8还需要&c%1$s&8.'
+gui.kit-picker.lore.no-permission: '&4权限不足.'
+gui.kit-picker.messages.kit-disappeared: '&4你选的工具包不存在.'
+
+configuration.kits.default-kit-description: '&4工具包: &8%s&4.'
