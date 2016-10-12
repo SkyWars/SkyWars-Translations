@@ -1,28 +1,25 @@
 messages-version: 7
 
 commands.join.description: 'Ga in de wachtrij voor het volgende spel'
-commands.join.confirmation: '&3Je bent nu in de wachtrij'
-# Untranslated: commands.join.joined-secondary-queue
-commands.join.joined-secondary-queue: '&3The queue is currently &4full&3. You have joined the secondary queue.'
-commands.join.already-queued: '&4Je bent al in de wachtrij.'
-# Untranslated: commands.join-already-in-secondary-queue
-commands.join.already-in-secondary-queue: '&3The queue is currently &4full&3. You were already in the secondary queue.'
-commands.join.in-game: '&4Je kan nu niet joinen, je bent al in een game.'
+commands.join.confirmation: '&3Je zit nu in de wachtrij'
+commands.join.joined-secondary-queue: '&3De wachtrij is op dit moment &4vol&3. Je zit nu in de tweede wachtrij.'
+commands.join.already-queued: '&4Je zit al in de wachtrij.'
+commands.join.already-in-secondary-queue: '&3De wachtrij is op dit moment &4vol&3. Je zit al in de tweede wachtrij.'
+commands.join.in-game: '&4Je kan nu niet joinen, je zit al in een spel.'
 
 commands.leave.description: 'Verlaat je huidige wachtrij'
-commands.leave.removed-from-queue: '&3Je bent niet meer in de wachtrij.'
-# Untranslated: commands.leave.removed-from-secondary-queue
-commands.leave.removed-from-secondary-queue: '&3You are no longer in the secondary queue.'
-commands.leave.removed-from-game: '&3Je hebt de game verlaten.'
-commands.leave.not-in-any: '&4Je bent niet in de wachtrij.'
+commands.leave.removed-from-queue: '&3Je zit niet meer in de wachtrij.'
+commands.leave.removed-from-secondary-queue: '&3Je zit niet meer in de wachtrij.'
+commands.leave.removed-from-game: '&3Je hebt het spel verlaten.'
+commands.leave.not-in-any: '&4Je zit niet in een wachtrij.'
 
 commands.setlobby.description: 'Bepaal de positie van de lobby'
 commands.setlobby.confirmation: '&3De lobby is nu naar je huidige plaats verzet.'
-commands.setlobby.in-game: '&4Je kan de lobby nu niet bepalen, je zit nog in een game!'
+commands.setlobby.in-game: '&4Je kan de lobby nu niet bepalen, je zit nog in een spel!'
 
 commands.setportal.description: 'Plaats een portal op je huidige locatie'
 commands.setportal.confirmation: '&3Je hebt een portal op je huidige locatie geplaatst.'
-commands.setportal.in-game: '&4Je kan nu geen portal plaatsen, je zit nog in een game!'
+commands.setportal.in-game: '&4Je kan nu geen portal plaatsen, je zit nog in een spel!'
 
 commands.delportal.description: 'Verwijder de laatst geplaatste portal'
 commands.delportal.confirmation: '&3Portal op &2%s&3 verwijderd.'
@@ -33,11 +30,10 @@ commands.cancel.argument: 'id'
 commands.cancel.no-games-with-id: '&4Er zijn geen spellen met het id &c%s&4.'
 commands.cancel.confirmation: '&3Spel &2%s&3 aan het annuleren.'
 
-commands.status.description: 'Geeft status aan de huidige games'
+commands.status.description: 'Geeft status aan de huidige spellen'
 commands.status.header: '&9 -- &2SkyWars Status&9 --'
 commands.status.in-queue: '&3In wachtrij: &2%s'
-# Untranslated: commands.status.in-secondary-queue
-commands.status.in-secondary-queue: '&3In Secondary Queue: &2%s'
+commands.status.in-secondary-queue: '&3In tweede wachtrij: &2%s'
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Huidige Arena''s&9 --'
 commands.status.no-teams-arena-list-prefix: '&3Game &2#%s&3: &2'
@@ -50,22 +46,22 @@ commands.version.output: '&3%s versie &2%s &3/ &2%s&3. Gemaakt door &2Dabo Ross&
 
 commands.lobby.description: 'Teleporteert je naar de lobby'
 commands.lobby.confirmation: '&3Naar de lobby aan het gaan.'
-commands.lobby.in-game: '&4Je kan niet naar de lobby, je zit nog in een game!'
+commands.lobby.in-game: '&4Je kan niet naar de lobby, je zit nog in een spel!'
 
 commands.cancelall.description: 'Annuleer alle huidige spellen'
 commands.cancelall.canceling-game: '&3Spel &2%s&3 aan het annuleren.'
 # Untranslated: commands.cancelall.no-games
-commands.cancelall.no-games: '&4No games started.'
+commands.cancelall.no-games: '&4Geen spellen gestart.'
 
 commands.report.description: 'Maakt een report op gist.github.com en geeft je daarna een link'
 commands.report.start: '&3Data aan het verzamelen en doorsturen...'
 commands.report.output: '&3Report: &2%s'
 
-commands.forcestart.description: 'Dwingt een game te starten met de spelers in de wachtrij'
-commands.forcestart.not-enough-players: '&4Er moeten minstens 2 spelers zijn om de game gedwongen te starten.'
+commands.forcestart.description: 'Dwingt een spel te starten met de spelers in de wachtrij'
+commands.forcestart.not-enough-players: '&4Er moeten minstens 2 spelers zijn om het spel gedwongen te starten.'
 
 # Untranslated: commands.kitgui.description
-commands.kitgui.description: 'Opens up the visual kit menu'
+commands.kitgui.description: 'Opent het visuele kit menu'
 
 commands.kit.description: 'Bepaalt je kit voor de volgende ronde'
 commands.kit.argument: 'Kit'
@@ -73,7 +69,7 @@ commands.kit.no-kits-available: '&4Er zijn geen kits die je kunt gebruiken.'
 commands.kit.unavailable-kits: '&3Niet beschikbare kits: &2%s'
 commands.kit.unknown-kit: '&4De kit &c%s&4 kennen wij niet.'
 commands.kit.not-enough-money: '&4Je hebt niet genoeg %1$s om &c%2$s&4 te kopen. Je &c%3$s&4 meer %1$s nodig.'
-commands.kit.no-access: '&4 Je hebt geen toegang tot kit &c%s&4.'
+commands.kit.no-access: '&4 Je hebt geen toegang tot de kit &c%s&4.'
 commands.kit.chose-kit: '&3Je hebt nu de kit &2%s&3.'
 commands.kit.chose-kit-with-cost: '&3Je gebruikt nu de kit &2%1$s&3. Deze kit kost je &2%2$s&3 per spel.'
 commands.kit.how-to-remove: '&3Typ &2/sw kit remove&3 om de kit niet meer de gebruiken.'
@@ -111,30 +107,25 @@ setup-commands.createkit.cost-to-use: '&3Deze kit zal je &2%s&3 kosten om elke g
 setup-commands.createkit.kit-exists: '&4Een kit met de naam &c%s&4 bestaat al. &4Kit &cNIET&4 opgeslaan.'
 setup-commands.createkit.save-failed: '&4Kits opslaan naar schijf gefaald. Bekijk de console voor meer informatie. &4Kit &cNIET&4 opgeslaan.'
 
-# Untranslated start
-setup-commands.update-arena.description: 'Updates all blocks of an arena to changes made to the original template'
-setup-commands.update-arena.argument-arena: 'Arena Name'
-setup-commands.update-arena.completed: '&3Finished updating arena &2%s&3!'
-setup-commands.update-arena.unknown-arena: '&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled.'
-setup-commands.update-arena.failed:  '&4Error saving block cache for &c%s&4! Please check console!'
-setup-commands.update-arena.failed-built-in: '&c%s&4 doesn''t have an origin area set. Is it a built in arena?'
-# Untranslated end
+setup-commands.update-arena.description: 'Update alle blokken van een arena naar de veranderingen die zijn gemaakt aan het originele model'
+setup-commands.update-arena.argument-arena: 'Arena naam'
+setup-commands.update-arena.completed: '&3Klaar met het updaten van arena &2%s&3!'
+setup-commands.update-arena.unknown-arena: '&4Onbekende arena &c%s&4. Zorg ervoor dat de kapitalisatie correct is en de arena is ingeschakeld.'
+setup-commands.update-arena.failed:  '&4Error bij het opslaan van blok  cache voor &c%s&4! Bekijk de console!'
+setup-commands.update-arena.failed-built-in: '&c%s&4 heeft geen oorsprongsgebied. Is het een ingebouwde arena?'
 
 setup-commands.start.description: 'Start een nieuwe arena en verwijder vorige, onopgeslagen arena''s'
 setup-commands.start.argument-name: 'Arenanaam'
 setup-commands.start.confirmation: '&3Arena aan het opstarten genaamd &2%s&3.'
 setup-commands.start.one-argument: '&4Geef alstublieft meer dan 1 argument op.'
 
-# Untranslated (needs updating): setpos1, setpos2 and addspawn description and confirmation
-# These translations are probably using "eye location" (the old message) rather than "head location".
-# I don't speak this language, but I have updated the english translation and this might want to be updated as well.
-setup-commands.setpos1.description: 'Bepaalt de eerste positie van de arena om te kopiëren vanaf je momentele ooglocatie'
+setup-commands.setpos1.description: 'Bepaalt de eerste positie van de arena om te kopiëren vanaf je momentele hoofdlocatie'
 setup-commands.setpos1.pos2-in-other-world: '&4Tweede positie aan het verwijderen omdat je in een andere wereld bent.'
-setup-commands.setpos1.confirmation: '&3Zet de eerste positie naar je momentele ooglocatie.'
+setup-commands.setpos1.confirmation: '&3Zet de eerste positie naar je momentele hoofdlocatie.'
 
-setup-commands.setpos2.description: 'Bepaalt de tweede positie van de arena om te kopiëren vanaf je momentele ooglocatie'
+setup-commands.setpos2.description: 'Bepaalt de tweede positie van de arena om te kopiëren vanaf je momentele hoofdlocatie'
 setup-commands.setpos2.pos1-in-other-world: '&4Eerste positie aan het verwijderen omdat je in een andere wereld bent.'
-setup-commands.setpos2.confirmation: '&3Zet de Tweede positie naar je momentele ooglocatie.'
+setup-commands.setpos2.confirmation: '&3Zet de Tweede positie naar je momentele hoofdlocatie.'
 
 setup-commands.addspawn.description: 'Voegt een spawnplek toe aan je huidige locatie'
 setup-commands.addspawn.confirmation: '&3Spawn toegevoegd op &2%s&3.'
@@ -142,10 +133,9 @@ setup-commands.addspawn.confirmation: '&3Spawn toegevoegd op &2%s&3.'
 setup-commands.save.description: 'Slaat de net gemaakte arena op naar een bestand'
 setup-commands.save.saving: '&3Arena opslaan.'
 setup-commands.save.saved: '&3Arena opgeslaan.'
-setup-commands.save.failed: '&4Arena configuratie opgeslaan, maar het laden van het arena cache bestaand is gefaald. Bekijk alstublieft de console voor meer informatie.'
+setup-commands.save.failed: '&4Arena configuratie opgeslaan, maar het laden van het arena cache bestaand is gefaald. Bekijk de console voor meer informatie.'
 
-# Untranslated: setup-commands.save.saved-line-2
-setup-commands.save.saved-line-2: '&3To enable the arena, add &2%s&3 to &2enabled-arenas&3 in &2main-config.yml&3.'
+setup-commands.save.saved-line-2: '&3Om de arena in te schakelen, voeg &2%s&3 toe aan &2enabled-arenas&3 in &2main-config.yml&3.'
 
 setup-commands.generic.no-first-position: '&4Je hebt nog geen eerste positie gezet.'
 setup-commands.generic.not-enough-spawns: '&4Je moet op zijn minst 2 spawnpunten hebben om verder te gaan.'
@@ -173,16 +163,13 @@ message-colors.base-command-colors: '&a/%s'
 message-colors.command-argument-listing: ' &3<&b%s&3>'
 message-colors.help-message-colors: ' &f%s'
 
-# Untranslated: messages.help-message-header
-messages.help-message-header: '&9 -- &2Help&9 --'
+messages.help-message-header: '&9 -- &2Hulp&9 --'
 
-messages.removed-from-queue-because-death: '&3Je bent van de wachtrij weggehaald omdat je dood ging.'
-# Untranslated: messages.removed-from-secondary-queue-because-death
-messages.removed-from-secondary-queue-because-death: '&3You were removed from the secondary queue because you died.'
+messages.removed-from-queue-because-death: '&3Je bent uit de wachtrij gehaald omdat je dood bent gegaan.'
+messages.removed-from-secondary-queue-because-death: '&3Je bent uit de tweede wachtrij gehaald omdat je dood bent gegaan.'
 messages.no-clue-what-command: '&4SkyWars weet niet wat &c%s&4 is.'
 messages.not-fully-enabled: '&4Niet volledig ingeschakeld.'
-# Untranslated: messages.secondary-queue-explanation
-messages.secondary-queue-explanation: '&3You''ll be entered into the queue once the next game starts.'
+messages.secondary-queue-explanation: '&Je wordt in de wachtrij gezet zodra het volgende spel begint.'
 
 messages.economy-reward.win: '&3Je hebt &2%s&3 gekregen voor het winnen van SkyWars.'
 messages.economy-reward.kill: '&3Je hebtn &2%1$s&3 gekregen voor het vermoorden van &2%2$s&3.'
@@ -192,31 +179,27 @@ messages.kits.kit-list-comma: '&3, &2'
 messages.kits.kit-list-item-cost: '%1$s &8(&3prijs: &2%2$s&8)'
 messages.kits.choose-a-kit: '&3Gebruik &2/sw kit &8<&2Naam&8>&3 om een kit te kiezen.'
 # Untranslated: messages.kits.remove-a-kit
-messages.kits.remove-a-kit: '&3Use &2/sw kit remove&3 to stop using &2%s&3.'
+messages.kits.remove-a-kit: '&3Gebruik &2/sw kit remove&3 om &2%s&3 niet meer te gebruiken.'
 messages.kits.applied-kit: '&3Kit &2%s&3 geselecteerd in dit spel.'
-messages.kits.applied-kit-with-cost: '&3Kit &2%1$s&3 geselecteerd in dit spel, dat kostte je &3%2$s&2.'
-messages.kits.not-enough-money: '&3Je hebt niet langer genoeg geld voor de kit &2%s&3 te gebruiken, kit gedeselecteerd.'
+messages.kits.applied-kit-with-cost: '&3Kit &2%1$s&3 geselecteerd in dit spel, dit kost je &3%2$s&2.'
+messages.kits.not-enough-money: '&3Je hebt niet langer genoeg geld om de kit &2%s&3 te gebruiken, kit gedeselecteerd.'
 messages.kits.no-permission: '&3Je hebt niet langer permissie voor de kit &2%s&3, kit gedeselecteerd.'
 
 messages.in-game: '&4Je kunt dat niet doen, je bent in een spel.'
 
-messages.report-disabled: '&4Aangeven is uitgeschakeld in &cmain-config.yml&4. Verwijder de &c''disable-report: true''&4 tekst om aangeven aan te zetten reporting. Let wel op als dat is ingeschakeld dat SkyWars dan alleen aangeeft als dit command wordt gebruikt, nooit in de achtergrond.'
+messages.report-disabled: '&4Aangeven is uitgeschakeld in &cmain-config.yml&4. Verwijder de &c''disable-report: true''&4 tekst om aangeven aan te zeten. Let wel op als dit is ingeschakeld dat SkyWars dan alleen aangeeft als dit command wordt gebruikt, nooit in de achtergrond.'
 
-# Untranslated: messages.signs.cannot-place-join-sign
-messages.signs.cannot-place-join-sign: '&4You don''t have permission to place join signs.'
-# Untranslated: messages.signs.cannot-use-join-sign
-messages.signs.cannot-use-join-sign: '&4You don''t have permission to use join signs.'
+messages.signs.cannot-place-join-sign: '&4Je hebt geen toestemming om join borden te plaatsen.'
+messages.signs.cannot-use-join-sign: '&4Je hebt geen toestemming om join borden te gebruiken.'
 
-# Untranslated start
-game.timer.starting-in-minutes: '&3Starting in &2%s minutes&3!'
-game.timer.starting-in-seconds: '&3Starting in &2%s seconds&3!'
-game.timer.starting-in-seconds-vote-now: '&3Starting in &2%s seconds&3, vote now!'
-# Untranslated end
+game.timer.starting-in-minutes: '&3Start over &2%s minuten&3!'
+game.timer.starting-in-seconds: '&3Start over &2%s seconden&3!'
+game.timer.starting-in-seconds-vote-now: '&3Start over &2%s seconden&3, stem nu!'
 
 game.death.killed-by-player-and-void: '&2%1$s&a duwde &2%2$s&a in de oneindigheid!'
 game.death.killed-by-void: '&2%s&a sprong in de oneindigheid!'
 game.death.killed-by-player: '&2%1$s&a vermoordde &2%2$s&a!'
-game.death.killed-by-environment: '&2%s&a was vermoord!'
+game.death.killed-by-environment: '&2%s&a is dood gegaan!'
 game.death.forfeited-while-attacked: '&2%2$s&a was gedwongen op te geven door &2%1$s&a!'
 game.death.forfeited: '&2%s&a heeft opgegeven!'
 
@@ -235,17 +218,15 @@ game.starting.team-message: '&aJe bent in team %1$s met &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a and &2'
 
-# Untranslated start
-game.starting.team-message-alone: '&aYou are in team %s, alone.'
+game.starting.team-message-alone: '&aJe zit in team %s, alleen.'
 
 gui.kit-picker.title: '&8[&cSkyWars Kits&8]'
 gui.kit-picker.totem-title: '&8%s'
 gui.kit-picker.unavailable-totem-title: '&8&m%s'
-gui.kit-picker.lore.cost: '&3Costs &2%s&3 per round.'
-gui.kit-picker.lore.unaffordable-cost: '&8Costs &c%s&8 per round.'
-gui.kit-picker.lore.unaffordable-cost-2: '&c%1$s&8 more needed.'
-gui.kit-picker.lore.no-permission: '&4No access.'
-gui.kit-picker.messages.kit-disappeared: '&4The kit you selected no longer exists.'
+gui.kit-picker.lore.cost: '&3Kost &2%s&3 per ronde.'
+gui.kit-picker.lore.unaffordable-cost: '&8Kost &c%s&8 per ronde.'
+gui.kit-picker.lore.unaffordable-cost-2: '&c%1$s&8 meer nodig.'
+gui.kit-picker.lore.no-permission: '&4Geen toegang.'
+gui.kit-picker.messages.kit-disappeared: '&4De kit die je hebt geselecteerd bestaat niet meer.'
 
 configuration.kits.default-kit-description: '&4A kit: &8%s&4.'
-# Untranslated end
