@@ -50,7 +50,6 @@ commands.lobby.in-game: '&4Je kan niet naar de lobby, je zit nog in een spel!'
 
 commands.cancelall.description: 'Annuleer alle huidige spellen'
 commands.cancelall.canceling-game: '&3Spel &2%s&3 aan het annuleren.'
-# Untranslated: commands.cancelall.no-games
 commands.cancelall.no-games: '&4Geen spellen gestart.'
 
 commands.report.description: 'Maakt een report op gist.github.com en geeft je daarna een link'
@@ -60,7 +59,6 @@ commands.report.output: '&3Report: &2%s'
 commands.forcestart.description: 'Dwingt een spel te starten met de spelers in de wachtrij'
 commands.forcestart.not-enough-players: '&4Er moeten minstens 2 spelers zijn om het spel gedwongen te starten.'
 
-# Untranslated: commands.kitgui.description
 commands.kitgui.description: 'Opent het visuele kit menu'
 
 commands.kit.description: 'Bepaalt je kit voor de volgende ronde'
