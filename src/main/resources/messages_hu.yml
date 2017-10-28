@@ -1,0 +1,228 @@
+messages-version: 7
+
+commands.join.description: 'Csatlakozik a következő játék sorához'
+commands.join.confirmation: '&3Csatlakoztál a sorhoz.'
+commands.join.joined-secondary-queue: '&3A sor jelenleg &4tele van&3. Csatlakoztál a másodlagos sorhoz.'
+commands.join.already-queued: '&4Már a sorban vagy.'
+commands.join.already-in-secondary-queue: '&3A sor jelenleg &4tele van&3. Már a másodlagos sorban voltál.'
+commands.join.in-game: '&4Nem tudsz csatlakozni most, már játékban vagy.'
+
+commands.leave.description: 'Elhadja a sorokat vagy a játékot'
+commands.leave.removed-from-queue: '&3Már nem állsz a sorban.'
+commands.leave.removed-from-secondary-queue: '&3Már nem vagy a másodlagos sorban.'
+commands.leave.removed-from-game: '&3Elmenekültél a játékból.'
+commands.leave.not-in-any: '&4Nem voltál a sorban.'
+
+commands.setlobby.description: 'Beállítja a lobby pozíciót'
+commands.setlobby.confirmation: '&3A lobby jelenleg azon a blokkon van, amelyen állsz.'
+commands.setlobby.in-game: '&4Nem állíthatod be a lobby-t, mert már játékban vagy.'
+
+commands.setportal.description: 'Beállítja a portált az aktuális helyen'
+commands.setportal.confirmation: '&3Beállítottad a portált az aktuális helyre.'
+commands.setportal.in-game: '&4Nem állíthatod be portált, mert már játékban vagy.'
+
+commands.delportal.description: 'Eltávolítja az utolsó beállított portált'
+commands.delportal.confirmation: '&3A portál törölve &2%s&3.'
+commands.delportal.error-no-portals: '&4Nincs portál beállítva.'
+
+commands.cancel.description: 'Az aktuális játékot törli az adott azonosítóval'
+commands.cancel.argument: 'ID'
+commands.cancel.no-games-with-id: '&4Nem léteznek olyan játékok, amelyek az azonosítóval rendelkeznek &c%s&4.'
+commands.cancel.confirmation: '&3A játék visszavonása &2%s&3.'
+
+commands.status.description: 'Állapot ad az aktuális játékoknak'
+commands.status.header: '&9 -- &2SkyWars állapot&9 --'
+commands.status.in-queue: '&3Sorban: &2%s'
+commands.status.in-secondary-queue: '&3A másodlagos sorban: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Jelenlegi arénák&9 --'
+commands.status.no-teams-arena-list-prefix: '&3Játék &2#%s&3: &2'
+commands.status.arena-teams-left: '&3Játék &2#%1$s&3: &2%2$s&3/&2%3$s&3 csapat maradt:'
+commands.status.arena-team-prefix: '  &3Csapat &2%s&3: &2'
+commands.status.arena-team-dead: '  &4Csapat &c%s&4: &c✗'
+
+commands.version.description: 'Verziót ad'
+commands.version.output: '&3%s verzió &2%s &3/ &2%s&3. Készítette &2Dabo Ross&3.'
+
+commands.lobby.description: 'Elteleportál a lobbyba'
+commands.lobby.confirmation: '&3Teleportálás a lobbyba.'
+commands.lobby.in-game: '&4Nem teleportálhatsz a lobbya, mert játékban vagy.'
+
+commands.cancelall.description: 'Törli az összes jelenlegi játékot'
+commands.cancelall.canceling-game: '&3A játék visszavonása &2%s&3.'
+commands.cancelall.no-games: '&4Nincs egy elindult játék sem.'
+
+commands.report.description: 'Jelentést készít, és feltölti a gist.github.com webhelyre, majd megad egy linket'
+commands.report.start: '&3Adatgyűjtés és benyújtás...'
+commands.report.output: '&3Jelentés: &2%s'
+
+commands.forcestart.description: 'Erősíti a játékot a sorban lévő emberek elindításához'
+commands.forcestart.not-enough-players: '&4Legalább 2 játékos kell a sorban, hogy kényszerítsék a játékot.'
+
+commands.kit.description: 'A következő játékhoz használható csomag beállítása'
+commands.kit.argument: 'Kit'
+commands.kit.no-kits-available: '&4Nincsenek csomagok, amiket használhatsz.'
+commands.kit.unavailable-kits: '&3Nem elérhető csomagok: &2%s'
+commands.kit.unknown-kit: '&4Ismeretlen csomag &c%s&4.'
+commands.kit.not-enough-money: '&4Nincs elég %1$s a vásárláshoz &c%2$s&4. Szükséges &c%3$s&4 több %1$s.'
+commands.kit.no-access: '&4 Nincs jogod a csomaghoz &c%s&4.'
+commands.kit.chose-kit: '&3Most csomagot használsz &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3Most csomagot használsz &2%1$s&3. Ez a csomag fog kerülni &2%2$s&3 körönként.'
+commands.kit.how-to-remove: '&3Használd &2/sw kit remove&3, hogy ne használja ezt a csomagot.'
+commands.kit.removed-kit: '&3Már nem használsz semmilyen csomagot.'
+commands.kit.no-kit-removed: '&3Nem volt csomag, így nincs csomag.'
+commands.kit.current-kit: '&3Jelenleg csomagot használsz &2%s&3.'
+commands.kit.current-kit-with-cost: '&3Jelenleg csomagot használsz &2%1$s&3. Ez a csomag ára &2%2$s&3 körönként.'
+
+commands.kitgui.description: 'Megnyitja a vizuális csomag menüt'
+
+commands.testkit.description: 'Tesztelje ki a csomagot - FIGYELMEZTETÉS: ez törli a csomagot'
+commands.testkit.unknown: '&4Ismeretlen csomag &c%s&4.'
+commands.testkit.applied: '&3Alkalmazott csomag &2%s&3.'
+
+commands.top.description: 'A legmagasabb pontszámmal rendelkező 10 legjobb játékos megtekintése'
+commands.top.title: '&8 -- &4Top %s&8 --'
+# %1$s = player name, %2$s = player score, %3$s = player rank.
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, vele &2%2$s&3 pont!'
+commands.top.no-players: '&4Nincsenek játékosok!'
+
+commands.rank.description: 'Megnézi más játékos statisztikáit magadnak vagy valaki másnak'
+commands.rank.argument: 'Name'
+commands.rank.title: '&8 -- &4%s&8 -- '
+commands.rank.score: '&3Pontszám: &2%s'
+commands.rank.rank: '&3Rang: &8#&4%s'
+commands.rank.not-found: '&4A játékos &c%s&4 nem található.'
+commands.rank.no-other-permission: '&4Nincs jogosultságod más játékosok rangsorolására.'
+
+setup-commands.createkit.description: 'Készít egy csomagot a jelenlegi eszköztárból'
+setup-commands.createkit.argument-name: 'Name'
+setup-commands.createkit.argument-cost: 'Cost (választható)'
+setup-commands.createkit.argument-permission: 'Jog (választható)'
+setup-commands.createkit.saved-no-permission: '&3Csomag elmentve &2%1$s&3. Bárki alkalmazhatja ezt a csomagot &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.saved-with-permission: '&3Csomag elmentve &2%1$s&3. Bárki, aki a &2%2$s&3 joga mostantól alkalmazhatja ezt a csomagot &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.cost-to-use: '&3Ez a csomag fog kerülni &2%s&3 minden játékot használni.'
+setup-commands.createkit.kit-exists: '&4Egy csomag a névvel &c%s&4 már létezik. &4A csomag &cNEM&4 mentett.'
+setup-commands.createkit.save-failed: '&4A fájlok lemezre mentése nem sikerült. További információért lásd a konzolt. &4A csomag &cNEM&4 mentett.'
+
+setup-commands.update-arena.description: 'Frissíti az összes aréna blokkját az eredeti sablonhoz végrehajtott változtatásokhoz'
+setup-commands.update-arena.argument-arena: 'Arena Name'
+setup-commands.update-arena.completed: '&3Az aréna frissítése befejezve &2%s&3!'
+setup-commands.update-arena.unknown-arena: '&4Ismeretlen aréna &c%s&4. Kérjük, hogy a kapitalizálás helyes, és az aréna jelenleg engedélyezve van.'
+setup-commands.update-arena.failed:  '&4Hiba a blokk-gyorsítótár mentése miatt &c%s&4! Kérlek, ellenőrizd a konzolt!'
+setup-commands.update-arena.failed-built-in: '&c%s&4 nincs származási területe. Ez egy beépített aréna?'
+
+setup-commands.start.description: 'Elindít egy új aréna beállítást és törli az előző nem mentett arénákat'
+setup-commands.start.argument-name: 'Arena name'
+setup-commands.start.confirmation: '&3Elindult egy aréna létrehozása &2%s&3.'
+setup-commands.start.one-argument: '&4Kérjük, adj meg egy és egyetlen argumentumot.'
+
+setup-commands.setpos1.description: 'Beállítja az aréna első pozícióját a jelenlegi fejhelyre történő másoláshoz'
+setup-commands.setpos1.pos2-in-other-world: '&4A második pozíció megállítása, mivel egy másik világban vagy.'
+setup-commands.setpos1.confirmation: '&3Állítsd be az első pozíciót az aktuális fejhelyére.'
+
+setup-commands.setpos2.description: 'Beállítja az aréna második pozícióját, hogy átmásoljon az aktuális fejjel'
+setup-commands.setpos2.pos1-in-other-world: '&4Az első pozíció letiltása, mivel egy másik világban vagy.'
+setup-commands.setpos2.confirmation: '&3Állítsd be a második pozíciót az aktuális fejhelyére.'
+
+setup-commands.addspawn.description: 'Új spawn helyet ad hozzá az aktuális helyeden'
+setup-commands.addspawn.confirmation: '&3Új spawn hely hozzáadása a következő helyen: &2%s&3.'
+
+setup-commands.save.description: 'Az aktuális aréna beállításait mentheti a fájlba'
+setup-commands.save.saving: '&3Az eréna mentése.'
+setup-commands.save.saved: '&3Aréna elmentve.'
+setup-commands.save.saved-line-2: '&3Az aréna engedélyezéséhez add hozzá &2%s&3 &2enabled-arenas&3 &2main-config.yml&3-ben.'
+setup-commands.save.failed: '&4Az Arena-konfiguráció mentésre került, de az aréna-gyorsítótár betöltése sikertelen. További információért tekintse meg a konzolt.'
+
+setup-commands.generic.no-first-position: '&4Még nem állítottad be az első pozíciót.'
+setup-commands.generic.not-enough-spawns: '&4Legalább két spawn pontra van szükséged a folytatáshoz.'
+setup-commands.generic.too-late-spawns-set: '&4Nem tudod szerkeszteni a határokat az eperhelyek helyének megadása után.'
+setup-commands.generic.no-arena-started: '&4Még nem kezdted létrehozni az arénát.'
+setup-commands.generic.already-started-arena: '&4Már elkezdted létrehozni az arénát.'
+
+top-commands.main.description: 'Fő parancs a következőhöz: SkyWars'
+top-commands.setup.description: 'A parancs beállítása SkyWars'
+
+generic-command-message.too-many-parameters: '&4Túl sok argumentum.'
+generic-command-message.not-enough-parameters: '&4Nincs elég argumentum.'
+
+generic-command-message.argument-not-integer: '&c%s&4 nem egész szám!'
+generic-command-message.no-permission: '&4Nincs jogod a használatára &c%s&4.'
+generic-command-message.not-a-player: '&4A parancsot &c%s&4 csak a játékos használhatja.'
+generic-command-message.invalid-sub-command: '&3A sub-parancsot &9%2$s&3 nem létezik a parancs számára &a/%1$s&3.'
+
+# This is used in the no-permission message for sub commands, as well as the help message.
+# "&a/sw &9join"
+message-colors.sub-command-colors: '&a/%s &9%s'
+# "&a/sw"
+message-colors.base-command-colors: '&a/%s'
+# &3<&bArgument Name&3>
+message-colors.command-argument-listing: ' &3<&b%s&3>'
+message-colors.help-message-colors: ' &f%s'
+
+messages.help-message-header: '&9 -- &2Segítség&9 --'
+
+messages.removed-from-queue-because-death: '&3A várólistából eltávolították, mert meghalt.'
+messages.removed-from-secondary-queue-because-death: '&3A másodlagos sorból eltávolították, mert meghalt.'
+messages.no-clue-what-command: '&4SkyWars nem tud miatta &c%s&4 is.'
+messages.not-fully-enabled: '&4Nem teljesen használható.'
+messages.secondary-queue-explanation: '&3A következő játék elindulása után a sorban leszel.'
+
+messages.economy-reward.win: '&3Adtak neked &2%s&3 a győzelemért SkyWars.'
+messages.economy-reward.kill: '&3Adtak neked &2%1$s&3 az ölésért &2%2$s&3.'
+
+messages.kits.kit-list: '&3Elérhető csomagok: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%1$s &8(&3ára: &2%2$s&8)'
+messages.kits.choose-a-kit: '&3Használd &2/sw kit &8<&2név&8>&3 választani egy csomagot.'
+messages.kits.remove-a-kit: '&3Használd &2/sw kit remove&3 hagyja abba a használatát &2%s&3.'
+messages.kits.applied-kit: '&3Alkalmazott csomag &2%s&3 a játékban.'
+messages.kits.applied-kit-with-cost: '&3Alkalmazott csomag &2%1$s&3 a játékban, ára &3%2$s&2.'
+messages.kits.not-enough-money: '&3Már nincs elegendő pénz a csomag készítéséhez &2%s&3, kiiktatásával.'
+messages.kits.no-permission: '&3Nincs jogod a csomag alkalmazására &2%s&3, kiiktatásával.'
+
+messages.in-game: '&4Ezt nem teheted meg, játékban vagy.'
+
+messages.report-disabled: '&4A jelentések letiltásra kerültek &cmain-config.yml&4. Távolítsd el a &c''disable-report: true''&4 a jelentéskészítés engedélyezéséhez. Ne feledd, hogy ha engedélyezve van, a SkyWars CSAK a parancs használatakor jelentkezik, soha nem a háttérben.'
+
+messages.signs.cannot-place-join-sign: '&4Nincs jogod a tábla lerakására.'
+messages.signs.cannot-use-join-sign: '&4Nincs jogod használni a csatlakozási táblára.'
+
+game.timer.starting-in-minutes: '&3Kezdés &2%s perc múlva&3!'
+game.timer.starting-in-seconds: '&3Kezdés &2%s másodperc múlva&3!'
+game.timer.starting-in-seconds-vote-now: '&3Kezdés &2%s másodperc múlva&3, szavazz most!'
+
+game.death.killed-by-player-and-void: '&2%1$s&a meglökött &2%2$s&a a végzet szentségébe!'
+game.death.killed-by-void: '&2%s&a ugrott a végzet szentségébe!'
+game.death.killed-by-player: '&2%1$s&a megölte &2%2$s&a!'
+game.death.killed-by-environment: '&2%s&a megölve!'
+game.death.forfeited-while-attacked: '&2%2$s&a kénytelen volt elveszíteni &2%1$s&a!'
+game.death.forfeited: '&2%s&a elvész!'
+
+game.winning.single-won: '&2%s&a megnyerte a SkyWars-t!'
+game.winning.multi-won: '&2%s&a megnyerte a SkyWars-t!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.multi-won-final-comma: '&a és &2'
+game.winning.none-won: '&aA SkyWars véget ért győztesek nélkül.'
+
+game.starting.game-starting: '&aA játék kezdete: &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
+game.starting.game-starting-final-comma: '&a és &2'
+
+# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
+game.starting.team-message: '&aCsapatban vagy %1$s vele &2%2$s.'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a és &2'
+
+# Untranslated: game.starting.team-message-alone
+game.starting.team-message-alone: '&aCsapatban vagy %s, egyedül.'
+
+gui.kit-picker.title: '&8[&cSkyWars Csomagok&8]'
+gui.kit-picker.totem-title: '&8%s'
+gui.kit-picker.unavailable-totem-title: '&8&m%s'
+gui.kit-picker.lore.cost: '&3Árak &2%s&3 körönként.'
+gui.kit-picker.lore.unaffordable-cost: '&8Árak &c%s&8 körönként.'
+gui.kit-picker.lore.unaffordable-cost-2: '&c%1$s&8 többre van szükség.'
+gui.kit-picker.lore.no-permission: '&4Nincs hozzáférés.'
+gui.kit-picker.messages.kit-disappeared: '&4A kiválasztott csomag már nem létezik.'
+
+configuration.kits.default-kit-description: '&4A csomag: &8%s&4.'
