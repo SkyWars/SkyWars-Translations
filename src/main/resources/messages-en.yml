@@ -1,10 +1,15 @@
 messages-version: 7
 
 commands.join.description: 'Joins the queue for the next game'
+commands.join.argument: 'Queue Name'
 commands.join.confirmation: '&3You have joined the queue.'
 commands.join.joined-secondary-queue: '&3The queue is currently &4full&3. You have joined the secondary queue.'
 commands.join.already-queued: '&4You were already in the queue.'
 commands.join.already-in-secondary-queue: '&3The queue is currently &4full&3. You were already in the secondary queue.'
+commands.join.confirmation-specific-queue: '&3You have joined the &2%s&3 queue.'
+commands.join.joined-secondary-queue-specific-queue: '&3 The &2%s&3 queue is currently &4full&3. You have joined the secondary queue.'
+commands.join.already-queued-specific-queue: '&4You were already in the &2%s&3 queue.'
+commands.join.already-in-secondary-queue-specific-queue: '&3 The &2%s&3 queue is currently &4full&3. You were already in the secondary queue.'
 commands.join.in-game: '&4You can''t join now, you are already in a game.'
 
 commands.leave.description: 'Leaves the queue or the game you are in'
@@ -18,7 +23,11 @@ commands.setlobby.confirmation: '&3The lobby is now at your current location.'
 commands.setlobby.in-game: '&4You can''t set the lobby, you are in a game.'
 
 commands.setportal.description: 'Sets a portal at your current location'
+commands.setportal.description-with-queues-enabled: 'Sets a portal at your current location for the combined queue, or a specific queue.'
+commands.setportal.argument: 'Queue name'
 commands.setportal.confirmation: '&3You have set a portal at your current location.'
+commands.setportal.confirmation-combined-queue: '&3You have set a portal at your current location for the combined queue.'
+commands.setportal.confirmation-specific-queue: '&3You have set a portal at your current location for the &2%s&3 queue.'
 commands.setportal.in-game: '&4You can''t set a portal, you are in a game.'
 
 commands.delportal.description: 'Removes the last set portal'
@@ -35,6 +44,8 @@ commands.status.header: '&9 -- &2SkyWars Status&9 --'
 commands.status.in-queue: '&3In Queue: &2%s'
 commands.status.in-secondary-queue: '&3In Secondary Queue: &2%s'
 commands.status.queue-comma: '&3, &2'
+commands.status.in-specific-queue: '&2%s&3 Queue: &2%s'
+commands.status.in-specific-secondary-queue: '&2%s&3 Queue: &2%s'
 commands.status.arena-header: '&9 -- &2Current Arenas&9 --'
 commands.status.no-teams-arena-list-prefix: '&3Game &2#%s&3: &2'
 commands.status.arena-teams-left: '&3Game &2#%1$s&3: &2%2$s&3/&2%3$s&3 teams left:'
@@ -142,6 +153,10 @@ setup-commands.generic.already-started-arena: '&4You already started creating an
 top-commands.main.description: 'Main command for SkyWars'
 top-commands.setup.description: 'Setup command for SkyWars'
 
+generic-command-arg.queue-name: 'Queue Name'
+generic-command-message.queue-name-list: '&3All queues: &2%s'
+generic-command-message.queue-name-list-comma: '&3, &2'
+
 generic-command-message.too-many-parameters: '&4Too many arguments.'
 generic-command-message.not-enough-parameters: '&4Not enough arguments.'
 
@@ -149,6 +164,7 @@ generic-command-message.argument-not-integer: '&c%s&4 isn''t an integer!'
 generic-command-message.no-permission: '&4You don''t have permission to use &c%s&4.'
 generic-command-message.not-a-player: '&4The command &c%s&4 must be run by a player.'
 generic-command-message.invalid-sub-command: '&3The subcommand &9%2$s&3 does not exist for the command &a/%1$s&3.'
+generic-command-message.invalid-queue-name: '&4The queue &c%1$s&4 does not exist.'
 
 # This is used in the no-permission message for sub commands, as well as the help message.
 # "&a/sw &9join"
