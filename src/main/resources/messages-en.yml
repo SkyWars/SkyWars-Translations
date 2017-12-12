@@ -1,7 +1,6 @@
 messages-version: 7
 
 commands.join.description: 'Joins the queue for the next game'
-commands.join.argument: 'Queue Name'
 commands.join.confirmation: '&3You have joined the queue.'
 commands.join.joined-secondary-queue: '&3The queue is currently &4full&3. You have joined the secondary queue.'
 commands.join.already-queued: '&4You were already in the queue.'
@@ -15,6 +14,8 @@ commands.join.in-game: '&4You can''t join now, you are already in a game.'
 commands.leave.description: 'Leaves the queue or the game you are in'
 commands.leave.removed-from-queue: '&3You are no longer in the queue.'
 commands.leave.removed-from-secondary-queue: '&3You are no longer in the secondary queue.'
+commands.leave.removed-from-specific-queue: '&3You are no longer in the &2%s&3 queue.'
+commands.leave.removed-from-specific-secondary-queue: '&3You are no longer in the &2%s&3 secondary queue.'
 commands.leave.removed-from-game: '&3You have fled the game.'
 commands.leave.not-in-any: '&4You were not in the queue.'
 
@@ -153,8 +154,8 @@ setup-commands.generic.already-started-arena: '&4You already started creating an
 top-commands.main.description: 'Main command for SkyWars'
 top-commands.setup.description: 'Setup command for SkyWars'
 
-generic-command-arg.queue-name: 'Queue Name'
-generic-command-message.queue-name-list: '&3All queues: &2%s'
+generic-command-arg.queue-name: 'Queue'
+generic-command-message.queue-name-list: '&3Available queues are: &2%s.'
 generic-command-message.queue-name-list-comma: '&3, &2'
 
 generic-command-message.too-many-parameters: '&4Too many arguments.'
