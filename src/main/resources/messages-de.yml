@@ -5,14 +5,22 @@ commands.join.confirmation: '&3Du bist der Warteschlange beigetreten.'
 # Untranslated: commands.join.joined-secondary-queue
 commands.join.joined-secondary-queue: '&3The queue is currently &4full&3. You have joined the secondary queue.'
 commands.join.already-queued: '&4Du bist schon in der Warteschlange.'
-# Untranslated: commands.join-already-in-secondary-queue
+# Untranslated start
 commands.join.already-in-secondary-queue: '&3The queue is currently &4full&3. You were already in the secondary queue.'
+commands.join.confirmation-specific-queue: '&3You have joined the &2%s&3 queue.'
+commands.join.joined-secondary-queue-specific-queue: '&3 The &2%s&3 queue is currently &4full&3. You have joined the secondary queue.'
+commands.join.already-queued-specific-queue: '&4You were already in the &2%s&3 queue.'
+commands.join.already-in-secondary-queue-specific-queue: '&3 The &2%s&3 queue is currently &4full&3. You were already in the secondary queue.'
+# Untranslated end
 commands.join.in-game: '&4Du kannst nicht beitreten, du bist bereits in einem Spiel.'
 
 commands.leave.description: 'Verlasse die Warteschlange'
 commands.leave.removed-from-queue: '&3Du bist nicht mehr in der Warteschlange.'
-# Untranslated: commands.leave.removed-from-secondary-queue
+# Untranslated start
 commands.leave.removed-from-secondary-queue: '&3You are no longer in the secondary queue.'
+commands.leave.removed-from-specific-queue: '&3You are no longer in the &2%s&3 queue.'
+commands.leave.removed-from-specific-secondary-queue: '&3You are no longer in the &2%s&3 secondary queue.'
+# Untranslated end
 commands.leave.removed-from-game: '&3Du hast das Spiel verlassen.'
 commands.leave.not-in-any: '&4Du bist in keiner Warteschlange.'
 
@@ -22,6 +30,11 @@ commands.setlobby.in-game: '&4Du kannst keine Lobby setzen, du bist in einem Spi
 
 commands.setportal.description: 'Setzt ein Portal an deiner derzeitigen Position'
 commands.setportal.confirmation: '&3Du hast ein Portal an deine Position gesetzt.'
+# Untranslated start
+commands.setportal.description-with-queues-enabled: 'Sets a portal at your current location for the combined queue, or a specific queue.'
+commands.setportal.confirmation-combined-queue: '&3You have set a portal at your current location for the combined queue.'
+commands.setportal.confirmation-specific-queue: '&3You have set a portal at your current location for the &2%s&3 queue.'
+# Untranslated end
 commands.setportal.in-game: '&4Du kannst kein Portal setzen, du bist in einem Spiel.'
 
 commands.delportal.description: 'Entfernt das zuletzt gesetzte Portal'
@@ -36,8 +49,11 @@ commands.cancel.confirmation: '&3Das Spiel mit der ID &2%s&3 wurde beendet.'
 commands.status.description: 'Zeigt den Status der laufenden Spiele an'
 commands.status.header: '&9 -- &2SkyWars Status&9 --'
 commands.status.in-queue: '&3In Warteschlange: &2%s'
-# Untranslated: commands.status.in-secondary-queue
+# Untranslated start
 commands.status.in-secondary-queue: '&3In Secondary Queue: &2%s'
+commands.status.in-specific-queue: '&2%s&3 Queue: &2%s'
+commands.status.in-specific-secondary-queue: '&2%s&3 Queue: &2%s'
+# Untranslated end
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Arenen&9 --'
 commands.status.no-teams-arena-list-prefix: '&3Spiel &2#%s&3: &2'
@@ -157,6 +173,12 @@ setup-commands.generic.already-started-arena: '&4Du hast bereits damit begonnen,
 top-commands.main.description: 'Hauptbefehle SkyWars'
 top-commands.setup.description: 'Einrichtungsbefehle SkyWars'
 
+# Untranslated start
+generic-command-arg.queue-name: 'Queue'
+generic-command-message.queue-name-list: '&3Available queues are: &2%s.'
+generic-command-message.queue-name-list-comma: '&3, &2'
+# Untranslated end
+
 generic-command-message.too-many-parameters: '&4Zu viele Argumente!'
 generic-command-message.not-enough-parameters: '&4Zu wenig Argumente!'
 
@@ -164,6 +186,8 @@ generic-command-message.argument-not-integer: '&c%s&4 ist keine gültige Zahl!'
 generic-command-message.no-permission: '&4Du hast keine Berechtigung, &c%s&4 zu nutzen.'
 generic-command-message.not-a-player: '&4Der Befehl &c%s&4 muss von einem Spieler ausgeführt werden.'
 generic-command-message.invalid-sub-command: '&3Der Unterbefehl &9%2$s&3 existiert nicht für den Befehl &a/%1$s&3.'
+# Untranslated:
+generic-command-message.invalid-queue-name: '&4The queue &c%1$s&4 does not exist.'
 
 # Dies wird in den keine-Berechtigung-Meldungen für Unterbefehle und den Hilfe-Nachrichten genutzt.
 # "&a/sw &9join"

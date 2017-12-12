@@ -5,11 +5,21 @@ commands.join.confirmation: '&3加入了下壹場遊戲的等待列隊'
 commands.join.joined-secondary-queue: '&3這個等待列隊已經滿了. 妳加入了第二等待列隊.'
 commands.join.already-queued: '&4妳已經在等待列隊裏了'
 commands.join.already-in-secondary-queue: '&3這個等待列隊經滿了. 妳已經在第二等待列隊了.'
+# Untranslated start
+commands.join.confirmation-specific-queue: '&3You have joined the &2%s&3 queue.'
+commands.join.joined-secondary-queue-specific-queue: '&3 The &2%s&3 queue is currently &4full&3. You have joined the secondary queue.'
+commands.join.already-queued-specific-queue: '&4You were already in the &2%s&3 queue.'
+commands.join.already-in-secondary-queue-specific-queue: '&3 The &2%s&3 queue is currently &4full&3. You were already in the secondary queue.'
+# Untranslated end
 commands.join.in-game: '&4無法加入，妳已經在遊戲裏了.'
 
 commands.leave.description: '離開妳在的遊戲或者等待列隊'
 commands.leave.removed-from-queue: '&3妳離開了等待列隊'
 commands.leave.removed-from-secondary-queue: '&3妳離開了第二等待列隊'
+# Untranslated start
+commands.leave.removed-from-specific-queue: '&3You are no longer in the &2%s&3 queue.'
+commands.leave.removed-from-specific-secondary-queue: '&3You are no longer in the &2%s&3 secondary queue.'
+# Untranslated end
 commands.leave.removed-from-game: '&3妳離開了遊戲'
 commands.leave.not-in-any: '&4妳不在任何等待列隊'
 
@@ -19,6 +29,11 @@ commands.setlobby.in-game: '&4無法設置大廳，妳在遊戲中'
 
 commands.setportal.description: '在妳目前的位置設置傳送點'
 commands.setportal.confirmation: '&3傳送點設置在了妳目前的位置'
+# Untranslated start
+commands.setportal.description-with-queues-enabled: 'Sets a portal at your current location for the combined queue, or a specific queue.'
+commands.setportal.confirmation-combined-queue: '&3You have set a portal at your current location for the combined queue.'
+commands.setportal.confirmation-specific-queue: '&3You have set a portal at your current location for the &2%s&3 queue.'
+# Untranslated end
 commands.setportal.in-game: '&4無法設置傳送點，妳在遊戲中'
 
 commands.delportal.description: '刪除妳最近壹次設置的傳送點'
@@ -34,6 +49,10 @@ commands.status.description: '查看壹個遊戲的詳情'
 commands.status.header: '&9 -- &2SkyWars 詳情&9 --'
 commands.status.in-queue: '&3等待隊伍: &2%s'
 commands.status.in-secondary-queue: '&3第二等待隊伍: &2%s'
+# Untranslated start
+commands.status.in-specific-queue: '&2%s&3 Queue: &2%s'
+commands.status.in-specific-secondary-queue: '&2%s&3 Queue: &2%s'
+# Untranslated end
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2目前的戰場&9 --'
 commands.status.no-teams-arena-list-prefix: '&3遊戲 &2#%s&3: &2'
@@ -142,6 +161,12 @@ setup-commands.generic.already-started-arena: '&4妳已經開始設置壹個競�
 top-commands.main.description: 'SkyWars主要命令'
 top-commands.setup.description: 'SkyWars設置/配置命令'
 
+# Untranslated start
+generic-command-arg.queue-name: 'Queue'
+generic-command-message.queue-name-list: '&3Available queues are: &2%s.'
+generic-command-message.queue-name-list-comma: '&3, &2'
+# Untranslated end
+
 generic-command-message.too-many-parameters: '&4太多參數.'
 generic-command-message.not-enough-parameters: '&4參數不夠.'
 
@@ -149,6 +174,8 @@ generic-command-message.argument-not-integer: '&c%s&4不是整數!'
 generic-command-message.no-permission: '&4妳沒有用&c%s&4的權限.'
 generic-command-message.not-a-player: '&4只有玩家可以執行 &c%s&4.'
 generic-command-message.invalid-sub-command: '&3在&a/%1$s&3 &3裏面沒有 &9%2$s&3'
+# Untranslated:
+generic-command-message.invalid-queue-name: '&4The queue &c%1$s&4 does not exist.'
 
 # This is used in the no-permission message for sub commands, as well as the help message.
 # "&a/sw &9join"

@@ -5,11 +5,21 @@ commands.join.confirmation: '&3Csatlakoztál a sorhoz.'
 commands.join.joined-secondary-queue: '&3A sor jelenleg &4tele van&3. Csatlakoztál a másodlagos sorhoz.'
 commands.join.already-queued: '&4Már a sorban vagy.'
 commands.join.already-in-secondary-queue: '&3A sor jelenleg &4tele van&3. Már a másodlagos sorban voltál.'
+# Untranslated start
+commands.join.confirmation-specific-queue: '&3You have joined the &2%s&3 queue.'
+commands.join.joined-secondary-queue-specific-queue: '&3 The &2%s&3 queue is currently &4full&3. You have joined the secondary queue.'
+commands.join.already-queued-specific-queue: '&4You were already in the &2%s&3 queue.'
+commands.join.already-in-secondary-queue-specific-queue: '&3 The &2%s&3 queue is currently &4full&3. You were already in the secondary queue.'
+# Untranslated end
 commands.join.in-game: '&4Nem tudsz csatlakozni most, már játékban vagy.'
 
 commands.leave.description: 'Elhadja a sorokat vagy a játékot'
 commands.leave.removed-from-queue: '&3Már nem állsz a sorban.'
 commands.leave.removed-from-secondary-queue: '&3Már nem vagy a másodlagos sorban.'
+# Untranslated start
+commands.leave.removed-from-specific-queue: '&3You are no longer in the &2%s&3 queue.'
+commands.leave.removed-from-specific-secondary-queue: '&3You are no longer in the &2%s&3 secondary queue.'
+# Untranslated end
 commands.leave.removed-from-game: '&3Elmenekültél a játékból.'
 commands.leave.not-in-any: '&4Nem voltál a sorban.'
 
@@ -19,6 +29,11 @@ commands.setlobby.in-game: '&4Nem állíthatod be a lobby-t, mert már játékba
 
 commands.setportal.description: 'Beállítja a portált az aktuális helyen'
 commands.setportal.confirmation: '&3Beállítottad a portált az aktuális helyre.'
+# Untranslated start
+commands.setportal.description-with-queues-enabled: 'Sets a portal at your current location for the combined queue, or a specific queue.'
+commands.setportal.confirmation-combined-queue: '&3You have set a portal at your current location for the combined queue.'
+commands.setportal.confirmation-specific-queue: '&3You have set a portal at your current location for the &2%s&3 queue.'
+# Untranslated end
 commands.setportal.in-game: '&4Nem állíthatod be portált, mert már játékban vagy.'
 
 commands.delportal.description: 'Eltávolítja az utolsó beállított portált'
@@ -34,6 +49,10 @@ commands.status.description: 'Állapot ad az aktuális játékoknak'
 commands.status.header: '&9 -- &2SkyWars állapot&9 --'
 commands.status.in-queue: '&3Sorban: &2%s'
 commands.status.in-secondary-queue: '&3A másodlagos sorban: &2%s'
+# Untranslated start
+commands.status.in-specific-queue: '&2%s&3 Queue: &2%s'
+commands.status.in-specific-secondary-queue: '&2%s&3 Queue: &2%s'
+# Untranslated end
 commands.status.queue-comma: '&3, &2'
 commands.status.arena-header: '&9 -- &2Jelenlegi arénák&9 --'
 commands.status.no-teams-arena-list-prefix: '&3Játék &2#%s&3: &2'
@@ -142,6 +161,12 @@ setup-commands.generic.already-started-arena: '&4Már elkezdted létrehozni az a
 top-commands.main.description: 'Fő parancs a következőhöz: SkyWars'
 top-commands.setup.description: 'A parancs beállítása SkyWars'
 
+# Untranslated start
+generic-command-arg.queue-name: 'Queue'
+generic-command-message.queue-name-list: '&3Available queues are: &2%s.'
+generic-command-message.queue-name-list-comma: '&3, &2'
+# Untranslated end
+
 generic-command-message.too-many-parameters: '&4Túl sok argumentum.'
 generic-command-message.not-enough-parameters: '&4Nincs elég argumentum.'
 
@@ -149,6 +174,8 @@ generic-command-message.argument-not-integer: '&c%s&4 nem egész szám!'
 generic-command-message.no-permission: '&4Nincs jogod a használatára &c%s&4.'
 generic-command-message.not-a-player: '&4A parancsot &c%s&4 csak a játékos használhatja.'
 generic-command-message.invalid-sub-command: '&3A sub-parancsot &9%2$s&3 nem létezik a parancs számára &a/%1$s&3.'
+# Untranslated:
+generic-command-message.invalid-queue-name: '&4The queue &c%1$s&4 does not exist.'
 
 # This is used in the no-permission message for sub commands, as well as the help message.
 # "&a/sw &9join"
