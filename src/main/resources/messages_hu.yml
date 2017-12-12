@@ -213,7 +213,6 @@ game.starting.team-message: '&aCsapatban vagy %1$s vele &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a és &2'
 
-# Untranslated: game.starting.team-message-alone
 game.starting.team-message-alone: '&aCsapatban vagy %s, egyedül.'
 
 gui.kit-picker.title: '&8[&cSkyWars Csomagok&8]'

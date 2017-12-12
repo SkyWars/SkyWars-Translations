@@ -213,7 +213,6 @@ game.starting.team-message: '&a你在队伍 %1$s，和 &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a 还有 &2'
 
-# Untranslated: game.starting.team-message-alone
 game.starting.team-message-alone: '&a你在队伍%s里, 寂寞的一个人.'
 
 gui.kit-picker.title: '&8[&cSkyWars 工具包&8]'
