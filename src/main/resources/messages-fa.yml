@@ -1,1 +1,244 @@
+messages-version: 7
 
+commands.join.description: 'Vorood be safe entezar baraye baziye jadid'
+commands.join.confirmation: '&3Shoma varede safe entezar shodid.'
+commands.join.joined-secondary-queue: '&3Zarfiate safe entezar dar hale hazer &4takmil ast&3. Shoma varede safe dovvome entezar shodid.'
+commands.join.already-queued: '&4Shoma dar hale hazer dar safe entezar hastid.'
+commands.join.already-in-secondary-queue: '&3Zarfiate safe entezar dar hale hazer &4takmil ast&3. Shoma dar hale hazer dar safe dovvome entezar hastid.'
+commands.join.confirmation-specific-queue: '&3Shoma varede safe entezar &2%s&3 shodid.'
+commands.join.joined-secondary-queue-specific-queue: '&3 Safe entezare &2%s&3 dar hale hazer &4takmil ast&3. Shoma varede safe dovvome entezar shodid.'
+commands.join.already-queued-specific-queue: '&4Shoma dar hale hazer dar safe entezare &2%s&3 hastid.'
+commands.join.already-in-secondary-queue-specific-queue: '&3 &3Zarfiate safe entezare &2%s&3 dar hale hazer &4takmil ast&3. Shoma dar hale hazer dar safe dovvome entezar hastid.'
+commands.join.in-game: '&4Shoma nemitavanid vared shavid, shoma dar hale hazer dar yek bazi hastid.'
+
+commands.leave.description: 'Khorooj az bazi ya safe entezar'
+commands.leave.removed-from-queue: '&3Shoma digar dar safe entezar nistid.'
+commands.leave.removed-from-secondary-queue: '&3Shoma digar dar safe dovvome entezar nistid.'
+commands.leave.removed-from-specific-queue: '&3Shoma digar dar safe entezare &2%s&3 nistid.'
+commands.leave.removed-from-specific-secondary-queue: '&3Shoma digar dar safe dovvome entezare &2%s&3 nistid.'
+commands.leave.removed-from-game: '&3Shoma az bazi kharej shodid.'
+commands.leave.not-in-any: '&4Shoma dar hich saf ya bazi ii nistid.'
+
+commands.setlobby.description: 'Tayine mogheyiate lobby'
+commands.setlobby.confirmation: '&3Mogheyiate lobby tanzim shod.'
+commands.setlobby.in-game: '&4Shoma nemitavanid mogheyiate lobby ra tanzim konid, shoma dar bazi hastid.'
+
+commands.setportal.description: 'Tayine mogheyiate portal'
+commands.setportal.confirmation: '&3Mogheyiate portal tanzim shod.'
+commands.setportal.description-with-queues-enabled: 'Tayine mogheyiate portal baraye safe entezare tarkibi ya moshakhas.'
+commands.setportal.confirmation-combined-queue: '&3Mogheyiate portal baraye safe entezare tarkibi tanzim shod.'
+commands.setportal.confirmation-specific-queue: '&3Mogheyiate portal baraye safe entezare &2%s&3 tanzim shod.'
+commands.setportal.in-game: '&4Shoma nemitavanid mogheyiate portal ra tanzim konid, shoma dar bazi hastid.'
+
+commands.delportal.description: 'Hazfe akharin mogheyiate sabt shodeye portal'
+commands.delportal.confirmation: '&3Portale &2%s&3 hazf shod.'
+commands.delportal.error-no-portals: '&4Hich portali tanzim nashode ast.'
+
+commands.cancel.description: 'Laghv yek bazi ba IDe moshakhas'
+commands.cancel.argument: 'ID'
+commands.cancel.no-games-with-id: '&4Hich bazi ii ba IDe &c%s&4 dar jariyan nist.'
+commands.cancel.confirmation: '&3Laghve bazie &2%s&3.'
+
+commands.status.description: 'Didane vaziyate konoonie bazi'
+commands.status.header: '&9 -- &2Vaziyate StarWars&9 --'
+commands.status.in-queue: '&3Dar safe entezar: &2%s'
+commands.status.in-secondary-queue: '&3Dar safe dovvome entezar: &2%s'
+commands.status.in-specific-queue: 'Safe &2%s&3: &2%s'
+commands.status.in-specific-secondary-queue: 'Safe &2%s&3: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Arena haye konooni&9 --'
+commands.status.no-teams-arena-list-prefix: '&3Baziye &2#%s&3: &2'
+commands.status.arena-teams-left: '&3Baziye &2#%1$s&3: &2%2$s&3/&2%3$s&3 team haye baghi mande:'
+commands.status.arena-team-prefix: '  &3Teame &2%s&3: &2'
+commands.status.arena-team-dead: '  &4Teame &c%s&4: &c✗'
+
+commands.version.description: 'Didane noskhe'
+commands.version.output: 'Noskheye &3%s - &2%s &3/ &2%s&3. Sakhte shode tavasote &2Dabo Ross&3.'
+
+commands.lobby.description: 'Teleport be lobby'
+commands.lobby.confirmation: '&3Dar hale teleport be lobby.'
+commands.lobby.in-game: '&4Shoma nemitavanid be lobby teleport konid, shoma dar bazi hastid.'
+
+commands.cancelall.description: 'Laghve tamamie bazi ha'
+commands.cancelall.canceling-game: '&3Laghve baziye &2%s&3.'
+commands.cancelall.no-games: '&4Hich bazi ii shoro'' nashode ast.'
+
+commands.report.description: 'Sakhte yek gozaresh dar gist.github.com, va sepas daryafte link'
+commands.report.start: '&3Jamavariye etela''at va ersal...'
+commands.report.output: '&3Gozaresh: &2%s'
+
+commands.forcestart.description: 'Shoro''e ejbariye yek bazi ba afrade dar safe entezar'
+commands.forcestart.not-enough-players: '&4Tedade bazikonane dar safe entezar bayad hadeaqal 2 nafar bashad.'
+
+commands.kit.description: 'Tayine kit baraye estefade dar baziye ba''di'
+commands.kit.argument: 'Kit'
+commands.kit.no-kits-available: '&4Hich kit ii baraye estefade mojood nist.'
+commands.kit.unavailable-kits: '&3Kit haye namojood: &2%s'
+commands.kit.unknown-kit: '&4Kite nashenakhte &c%s&4.'
+commands.kit.not-enough-money: '&4Shoma %1$s kafi baraye kharide &c%2$s&4 ra nadarid. Shoma be &c%3$s&4 bishtar %1$s niyaz darid.'
+commands.kit.no-access: '&4 Shoma be kite &c%s&4 dastresi nadarid.'
+commands.kit.chose-kit: '&3Shoma ham aknoon az kite &2%s&3 estefade mikonid.'
+commands.kit.chose-kit-with-cost: '&3Shoma ham aknoon az kite &2%1$s&3 estefade mikonid. In kit baraye shoma dar har round &2%2$s&3 hazine dar pey khahad dasht.'
+commands.kit.how-to-remove: '&3Jahate a''dame estefade az in kit mitavanid az &2/sw kit remove&3 estefade konid.'
+commands.kit.removed-kit: '&3Shoma digar az hich kit ii estefade nemikonid.'
+commands.kit.no-kit-removed: '&3Shoma dar hale hazer hich kit ii nadarid.'
+commands.kit.current-kit: '&3Shoma dar hale hazer dar hale estefade az kite &2%s&3 hastid.'
+commands.kit.current-kit-with-cost: '&3Shoma dar hale hazer dar hale estefade az kite &2%1$s&3 hastid. In kit baraye shoma dar har round &2%2$s&3 hazine dar pey khahad dasht.'
+
+commands.kitgui.description: 'Baz kardane menuye kit'
+
+commands.testkit.description: 'Azmayeshe Kit - EKHTAR: In amal baese pak shodane inventorye shoma khahad shod'
+commands.testkit.unknown: '&4Kite nashenakhte &c%s&4.'
+commands.testkit.applied: '&3Kite &2%s&3 e''mal shod.'
+
+commands.top.description: 'Didane 10 bazikone bartar bar asase emtiyazat'
+commands.top.title: '&8 -- &4%s Bazikone bartar&8 --'
+# %1$s = player name, %2$s = player score, %3$s = player rank.
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, ba &2%2$s&3 emtiyaz!'
+commands.top.no-players: '&4Hich bazikoni yaft nashod!'
+
+commands.rank.description: 'Didane vaziyate khod ya digaran'
+commands.rank.argument: 'Name'
+commands.rank.title: '&8 -- &4%s&8 -- '
+commands.rank.score: '&3Emtiyaz: &2%s'
+commands.rank.rank: '&3Rank: &8#&4%s'
+commands.rank.not-found: '&4Bazikone &c%s&4 yaft nashod.'
+commands.rank.no-other-permission: '&4Shoma dastresiye lazem baraye didane vaziyate digaran ra nadarid.'
+
+setup-commands.createkit.description: 'Sakhte yek kit az inventorye konooniye shoma'
+setup-commands.createkit.argument-name: 'Name'
+setup-commands.createkit.argument-cost: 'Mablagh (delkhah)'
+setup-commands.createkit.argument-permission: 'Dastresi (delkhah)'
+setup-commands.createkit.saved-no-permission: '&3Saved kit &2%1$s&3. Anyone can now apply this kit with &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.saved-with-permission: '&3Saved kit &2%1$s&3. Anyone with the &2%2$s&3 permission can now apply this kit with &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.cost-to-use: '&3This kit will cost &2%s&3 to use each game.'
+setup-commands.createkit.kit-exists: '&4A kit with the name &c%s&4 already exists. &4Kit &cNOT&4 saved.'
+setup-commands.createkit.save-failed: '&4Saving kits file to disk failed. See console for more information. &4Kit &cNOT&4 saved.'
+
+setup-commands.update-arena.description: 'Updates all blocks of an arena to changes made to the original template'
+setup-commands.update-arena.argument-arena: 'Arena Name'
+setup-commands.update-arena.completed: '&3Finished updating arena &2%s&3!'
+setup-commands.update-arena.unknown-arena: '&4Unknown arena &c%s&4. Please ensure capitalization is correct, and the arena is currently enabled.'
+setup-commands.update-arena.failed:  '&4Error saving block cache for &c%s&4! Please check console!'
+setup-commands.update-arena.failed-built-in: '&c%s&4 doesn''t have an origin area set. Is it a built in arena?'
+
+setup-commands.start.description: 'Start a new arena setup and erase any previous unsaved arenas'
+setup-commands.start.argument-name: 'Arena name'
+setup-commands.start.confirmation: '&3Started setting up an arena called &2%s&3.'
+setup-commands.start.one-argument: '&4Please supply one and only one argument.'
+
+setup-commands.setpos1.description: 'Sets the first position for the arena to copy from at your current head location'
+setup-commands.setpos1.pos2-in-other-world: '&4Unsetting the second position due to you being in a different world.'
+setup-commands.setpos1.confirmation: '&3Set the first position to your current head location.'
+
+setup-commands.setpos2.description: 'Sets the second position for the arena to copy from at your current head location'
+setup-commands.setpos2.pos1-in-other-world: '&4Unsetting the first position due to you being in a different world.'
+setup-commands.setpos2.confirmation: '&3Set the second position to your current head location.'
+
+setup-commands.addspawn.description: 'Adds a new spawn location at your current location'
+setup-commands.addspawn.confirmation: '&3Adding a new spawn location at &2%s&3.'
+
+setup-commands.save.description: 'Saves the current arena setup to file'
+setup-commands.save.saving: '&3Ssaving arena.'
+setup-commands.save.saved: '&3Arena saved.'
+setup-commands.save.saved-line-2: '&3To enable the arena, add &2%s&3 to &2enabled-arenas&3 in &2main-config.yml&3.'
+setup-commands.save.failed: '&4Arena config saved, but loading arena cache failed. Please see console for more information.'
+
+setup-commands.generic.no-first-position: '&4You haven''t set a first position yet.'
+setup-commands.generic.not-enough-spawns: '&4You need at least two spawn points to continue.'
+setup-commands.generic.too-late-spawns-set: '&4You can''t edit the boundaries after setting spawn locations.'
+setup-commands.generic.no-arena-started: '&4You haven''t started creating an arena yet.'
+setup-commands.generic.already-started-arena: '&4You already started creating an arena.'
+
+top-commands.main.description: 'Main command for SkyWars'
+top-commands.setup.description: 'Setup command for SkyWars'
+
+generic-command-arg.queue-name: 'Queue'
+generic-command-message.queue-name-list: '&3Available queues are: &2%s.'
+generic-command-message.queue-name-list-comma: '&3, &2'
+
+generic-command-message.too-many-parameters: '&4Too many arguments.'
+generic-command-message.not-enough-parameters: '&4Not enough arguments.'
+
+generic-command-message.argument-not-integer: '&c%s&4 isn''t an integer!'
+generic-command-message.no-permission: '&4You don''t have permission to use &c%s&4.'
+generic-command-message.not-a-player: '&4The command &c%s&4 must be run by a player.'
+generic-command-message.invalid-sub-command: '&3The subcommand &9%2$s&3 does not exist for the command &a/%1$s&3.'
+generic-command-message.invalid-queue-name: '&4The queue &c%1$s&4 does not exist.'
+
+# This is used in the no-permission message for sub commands, as well as the help message.
+# "&a/sw &9join"
+message-colors.sub-command-colors: '&a/%s &9%s'
+# "&a/sw"
+message-colors.base-command-colors: '&a/%s'
+# &3<&bArgument Name&3>
+message-colors.command-argument-listing: ' &3<&b%s&3>'
+message-colors.help-message-colors: ' &f%s'
+
+messages.help-message-header: '&9 -- &2Help&9 --'
+
+messages.removed-from-queue-because-death: '&3You were removed from the queue because you died.'
+messages.removed-from-secondary-queue-because-death: '&3You were removed from the secondary queue because you died.'
+messages.no-clue-what-command: '&4SkyWars has no clue what &c%s&4 is.'
+messages.not-fully-enabled: '&4Not fully enabled.'
+messages.secondary-queue-explanation: '&3You''ll be entered into the queue once the next game starts.'
+
+messages.economy-reward.win: '&3You have been given &2%s&3 for winning the SkyWars.'
+messages.economy-reward.kill: '&3You have been given &2%1$s&3 for killing &2%2$s&3.'
+
+messages.kits.kit-list: '&3Available kits: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%1$s &8(&3cost: &2%2$s&8)'
+messages.kits.choose-a-kit: '&3Use &2/sw kit &8<&2Name&8>&3 to choose a kit.'
+messages.kits.remove-a-kit: '&3Use &2/sw kit remove&3 to stop using &2%s&3.'
+messages.kits.applied-kit: '&3Applied kit &2%s&3 in this game.'
+messages.kits.applied-kit-with-cost: '&3Applied kit &2%1$s&3 in this game, costing you &3%2$s&2.'
+messages.kits.not-enough-money: '&3You no longer have enough money to apply kit &2%s&3, deselecting it.'
+messages.kits.no-permission: '&3You no longer have permission to apply kit &2%s&3, deselecting it.'
+
+messages.in-game: '&4You can''t do that, you are in a game.'
+
+messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove the &c''disable-report: true''&4 line to enable reporting. Note that when enabled, SkyWars reports ONLY when this command is used, never in the background.'
+
+messages.signs.cannot-place-join-sign: '&4You don''t have permission to place join signs.'
+messages.signs.cannot-use-join-sign: '&4You don''t have permission to use join signs.'
+
+game.timer.starting-in-minutes: '&3Starting in &2%s minutes&3!'
+game.timer.starting-in-seconds: '&3Starting in &2%s seconds&3!'
+game.timer.starting-in-seconds-vote-now: '&3Starting in &2%s seconds&3, vote now!'
+
+game.death.killed-by-player-and-void: '&2%1$s&a pushed &2%2$s&a into the void of doom!'
+game.death.killed-by-void: '&2%s&a jumped into the void of doom!'
+game.death.killed-by-player: '&2%1$s&a killed &2%2$s&a!'
+game.death.killed-by-environment: '&2%s&a was killed!'
+game.death.forfeited-while-attacked: '&2%2$s&a was forced to forfeit by &2%1$s&a!'
+game.death.forfeited: '&2%s&a forfeited!'
+
+game.winning.single-won: '&2%s&a has won the SkyWars!'
+game.winning.multi-won: '&2%s&a have won the SkyWars!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.multi-won-final-comma: '&a and &2'
+game.winning.none-won: '&aThe SkyWars ended with no victors.'
+
+game.starting.game-starting: '&aGame starting with &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
+game.starting.game-starting-final-comma: '&a and &2'
+
+# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
+game.starting.team-message: '&aYou are in team %1$s with &2%2$s.'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a and &2'
+
+# Untranslated: game.starting.team-message-alone
+game.starting.team-message-alone: '&aYou are in team %s, alone.'
+
+gui.kit-picker.title: '&8[&cSkyWars Kits&8]'
+gui.kit-picker.totem-title: '&8%s'
+gui.kit-picker.unavailable-totem-title: '&8&m%s'
+gui.kit-picker.lore.cost: '&3Costs &2%s&3 per round.'
+gui.kit-picker.lore.unaffordable-cost: '&8Costs &c%s&8 per round.'
+gui.kit-picker.lore.unaffordable-cost-2: '&c%1$s&8 more needed.'
+gui.kit-picker.lore.no-permission: '&4No access.'
+gui.kit-picker.messages.kit-disappeared: '&4The kit you selected no longer exists.'
+
+configuration.kits.default-kit-description: '&4A kit: &8%s&4.'
