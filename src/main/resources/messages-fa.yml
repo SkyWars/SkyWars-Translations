@@ -1,0 +1,244 @@
+messages-version: 7
+
+commands.join.description: 'Vorood be safe entezar baraye baziye jadid'
+commands.join.confirmation: '&3Shoma varede safe entezar shodid.'
+commands.join.joined-secondary-queue: '&3Zarfiate safe entezar dar hale hazer &4takmil ast&3. Shoma varede safe dovvome entezar shodid.'
+commands.join.already-queued: '&4Shoma dar hale hazer dar safe entezar hastid.'
+commands.join.already-in-secondary-queue: '&3Zarfiate safe entezar dar hale hazer &4takmil ast&3. Shoma dar hale hazer dar safe dovvome entezar hastid.'
+commands.join.confirmation-specific-queue: '&3Shoma varede safe entezar &2%s&3 shodid.'
+commands.join.joined-secondary-queue-specific-queue: '&3 Safe entezare &2%s&3 dar hale hazer &4takmil ast&3. Shoma varede safe dovvome entezar shodid.'
+commands.join.already-queued-specific-queue: '&4Shoma dar hale hazer dar safe entezare &2%s&3 hastid.'
+commands.join.already-in-secondary-queue-specific-queue: '&3 &3Zarfiate safe entezare &2%s&3 dar hale hazer &4takmil ast&3. Shoma dar hale hazer dar safe dovvome entezar hastid.'
+commands.join.in-game: '&4Shoma nemitavanid vared shavid, shoma dar hale hazer dar yek bazi hastid.'
+
+commands.leave.description: 'Khorooj az bazi ya safe entezar'
+commands.leave.removed-from-queue: '&3Shoma digar dar safe entezar nistid.'
+commands.leave.removed-from-secondary-queue: '&3Shoma digar dar safe dovvome entezar nistid.'
+commands.leave.removed-from-specific-queue: '&3Shoma digar dar safe entezare &2%s&3 nistid.'
+commands.leave.removed-from-specific-secondary-queue: '&3Shoma digar dar safe dovvome entezare &2%s&3 nistid.'
+commands.leave.removed-from-game: '&3Shoma az bazi kharej shodid.'
+commands.leave.not-in-any: '&4Shoma dar hich saf ya bazi ii nistid.'
+
+commands.setlobby.description: 'Tayine mogheyiate lobby'
+commands.setlobby.confirmation: '&3Mogheyiate lobby tanzim shod.'
+commands.setlobby.in-game: '&4Shoma nemitavanid mogheyiate lobby ra tanzim konid, shoma dar bazi hastid.'
+
+commands.setportal.description: 'Tayine mogheyiate portal'
+commands.setportal.confirmation: '&3Mogheyiate portal tanzim shod.'
+commands.setportal.description-with-queues-enabled: 'Tayine mogheyiate portal baraye safe entezare tarkibi ya moshakhas.'
+commands.setportal.confirmation-combined-queue: '&3Mogheyiate portal baraye safe entezare tarkibi tanzim shod.'
+commands.setportal.confirmation-specific-queue: '&3Mogheyiate portal baraye safe entezare &2%s&3 tanzim shod.'
+commands.setportal.in-game: '&4Shoma nemitavanid mogheyiate portal ra tanzim konid, shoma dar bazi hastid.'
+
+commands.delportal.description: 'Hazfe akharin mogheyiate sabt shodeye portal'
+commands.delportal.confirmation: '&3Portale &2%s&3 hazf shod.'
+commands.delportal.error-no-portals: '&4Hich portali tanzim nashode ast.'
+
+commands.cancel.description: 'Laghv yek bazi ba IDe moshakhas'
+commands.cancel.argument: 'ID'
+commands.cancel.no-games-with-id: '&4Hich bazi ii ba IDe &c%s&4 dar jariyan nist.'
+commands.cancel.confirmation: '&3Laghve bazie &2%s&3.'
+
+commands.status.description: 'Didane vaziyate konoonie bazi'
+commands.status.header: '&9 -- &2Vaziyate StarWars&9 --'
+commands.status.in-queue: '&3Dar safe entezar: &2%s'
+commands.status.in-secondary-queue: '&3Dar safe dovvome entezar: &2%s'
+commands.status.in-specific-queue: 'Safe &2%s&3: &2%s'
+commands.status.in-specific-secondary-queue: 'Safe &2%s&3: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Arena haye konooni&9 --'
+commands.status.no-teams-arena-list-prefix: '&3Baziye &2#%s&3: &2'
+commands.status.arena-teams-left: '&3Baziye &2#%1$s&3: &2%2$s&3/&2%3$s&3 team haye baghi mande:'
+commands.status.arena-team-prefix: '  &3Teame &2%s&3: &2'
+commands.status.arena-team-dead: '  &4Teame &c%s&4: &c✗'
+
+commands.version.description: 'Didane noskhe'
+commands.version.output: 'Noskheye &3%s - &2%s &3/ &2%s&3. Sakhte shode tavasote &2Dabo Ross&3.'
+
+commands.lobby.description: 'Teleport be lobby'
+commands.lobby.confirmation: '&3Dar hale teleport be lobby.'
+commands.lobby.in-game: '&4Shoma nemitavanid be lobby teleport konid, shoma dar bazi hastid.'
+
+commands.cancelall.description: 'Laghve tamamie bazi ha'
+commands.cancelall.canceling-game: '&3Laghve baziye &2%s&3.'
+commands.cancelall.no-games: '&4Hich bazi ii shoro'' nashode ast.'
+
+commands.report.description: 'Sakhte yek gozaresh dar gist.github.com, va sepas daryafte link'
+commands.report.start: '&3Jamavariye etela''at va ersal...'
+commands.report.output: '&3Gozaresh: &2%s'
+
+commands.forcestart.description: 'Shoro''e ejbariye yek bazi ba afrade dar safe entezar'
+commands.forcestart.not-enough-players: '&4Tedade bazikonane dar safe entezar bayad hadeaqal 2 nafar bashad.'
+
+commands.kit.description: 'Tayine kit baraye estefade dar baziye ba''di'
+commands.kit.argument: 'Kit'
+commands.kit.no-kits-available: '&4Hich kit ii baraye estefade mojood nist.'
+commands.kit.unavailable-kits: '&3Kit haye namojood: &2%s'
+commands.kit.unknown-kit: '&4Kite nashenakhte &c%s&4.'
+commands.kit.not-enough-money: '&4Shoma %1$s kafi baraye kharide &c%2$s&4 ra nadarid. Shoma be &c%3$s&4 bishtar %1$s niyaz darid.'
+commands.kit.no-access: '&4 Shoma be kite &c%s&4 dastresi nadarid.'
+commands.kit.chose-kit: '&3Shoma ham aknoon az kite &2%s&3 estefade mikonid.'
+commands.kit.chose-kit-with-cost: '&3Shoma ham aknoon az kite &2%1$s&3 estefade mikonid. In kit baraye shoma dar har round &2%2$s&3 hazine dar pey khahad dasht.'
+commands.kit.how-to-remove: '&3Jahate a''dame estefade az in kit mitavanid az &2/sw kit remove&3 estefade konid.'
+commands.kit.removed-kit: '&3Shoma digar az hich kit ii estefade nemikonid.'
+commands.kit.no-kit-removed: '&3Shoma dar hale hazer hich kit ii nadarid.'
+commands.kit.current-kit: '&3Shoma dar hale hazer dar hale estefade az kite &2%s&3 hastid.'
+commands.kit.current-kit-with-cost: '&3Shoma dar hale hazer dar hale estefade az kite &2%1$s&3 hastid. In kit baraye shoma dar har round &2%2$s&3 hazine dar pey khahad dasht.'
+
+commands.kitgui.description: 'Baz kardane menuye kit'
+
+commands.testkit.description: 'Azmayeshe Kit - EKHTAR: In amal baese pak shodane inventorye shoma khahad shod'
+commands.testkit.unknown: '&4Kite nashenakhte &c%s&4.'
+commands.testkit.applied: '&3Kite &2%s&3 e''mal shod.'
+
+commands.top.description: 'Didane 10 bazikone bartar bar asase emtiyazat'
+commands.top.title: '&8 -- &4%s Bazikone bartar&8 --'
+# %1$s = player name, %2$s = player score, %3$s = player rank.
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, ba &2%2$s&3 emtiyaz!'
+commands.top.no-players: '&4Hich bazikoni yaft nashod!'
+
+commands.rank.description: 'Didane vaziyate khod ya digaran'
+commands.rank.argument: 'Esm'
+commands.rank.title: '&8 -- &4%s&8 -- '
+commands.rank.score: '&3Emtiyaz: &2%s'
+commands.rank.rank: '&3Rank: &8#&4%s'
+commands.rank.not-found: '&4Bazikone &c%s&4 yaft nashod.'
+commands.rank.no-other-permission: '&4Shoma dastresiye lazem baraye didane vaziyate digaran ra nadarid.'
+
+setup-commands.createkit.description: 'Sakhte yek kit az inventorye konooniye shoma'
+setup-commands.createkit.argument-name: 'Esm'
+setup-commands.createkit.argument-cost: 'Mablagh (delkhah)'
+setup-commands.createkit.argument-permission: 'Dastresi (delkhah)'
+setup-commands.createkit.saved-no-permission: '&3Kite &2%1$s&3 zakhire shod. Hamaknoon hame ba estefade az dastoore &a/sw &9kit &2%1$s&3 mitavanand az an estefade konand.'
+setup-commands.createkit.saved-with-permission: '&3Kite &2%1$s&3 zakhire shod. Hamaknoon hame ba dastresiye &2%2$s&3 mitavanand az in kit ba estefade az &a/sw &9kit &2%1$s&3 estefade konand.'
+setup-commands.createkit.cost-to-use: '&3In kit dar har bazi &2%s&3 hazine dar pey khahad dasht.'
+setup-commands.createkit.kit-exists: '&4Yek kit be esme &c%s&4 dar hale hazer vojood darad. &4Kit zakhire &cnashod&4.'
+setup-commands.createkit.save-failed: '&4Khata dar zakhireye kit. Jahate didane e''telaate bishtar console ra check konid. &4Kit zakhire &cnashod&4.'
+
+setup-commands.update-arena.description: 'Beroozresaniye tamamiye block haye yek arena jahate e''male taghirat dar ghalebe asli'
+setup-commands.update-arena.argument-arena: 'Arena Name'
+setup-commands.update-arena.completed: '&3Etmame beroozresaniye &2%s&3!'
+setup-commands.update-arena.unknown-arena: '&4Arenaye nashenakhte &c%s&4. Lotfan az voroode sahihe esm va fa''al boodane an dar tanzimat etminan hasel konid.'
+setup-commands.update-arena.failed:  '&4Khata hengame zakhireye block cache baraye &c%s&4! Lotfan console ra barresi konid!'
+setup-commands.update-arena.failed-built-in: 'Mantagheye mansha''e &c%s&4 tanzim nashode ast. Aya dar arena sakhte shode?'
+
+setup-commands.start.description: 'Shoro''e yek arenaye jadid va hazfe arenaye zakhire nashodeye ghabli'
+setup-commands.start.argument-name: 'Esme arena'
+setup-commands.start.confirmation: '&3Shoro''e sakhte yek arenaye jadid be esme &2%s&3.'
+setup-commands.start.one-argument: '&4Lotfan faghat va faghat yek argument vared konid.'
+
+setup-commands.setpos1.description: 'Tanzime mogheyiate avval baraye arena jahate copy az mogheyiate fe''liye sare khod'
+setup-commands.setpos1.pos2-in-other-world: '&4Bazneshaniye mogheyiate dovvom be dalile tafavote world.'
+setup-commands.setpos1.confirmation: '&3Tanzime mogheyiate avval be mogheyiate fe''liye sare khod'
+
+setup-commands.setpos2.description: 'Tanzime mogheyiate dovvom baraye arena jahate copy az mogheyiate fe''liye sare khod'
+setup-commands.setpos2.pos1-in-other-world: '&4Bazneshaniye mogheyiate avval be dalile tafavote world.'
+setup-commands.setpos2.confirmation: '&3Tanzime mogheyiate dovvom be mogheyiate fe''liye sare khod'
+
+setup-commands.addspawn.description: 'Sakhte yek noghteye spawn'
+setup-commands.addspawn.confirmation: '&3Afzoodane yek noghteye spawn dar &2%s&3.'
+
+setup-commands.save.description: 'Zakhireye tanzimate arena'
+setup-commands.save.saving: '&3Zakhireye arena.'
+setup-commands.save.saved: '&3Arena zakhire shod.'
+setup-commands.save.saved-line-2: '&3Baraye fa''al kardane in arena, &2%s&3 ra be &2enabled-arenas&3 dar &2main-config.yml&3 ezafe konid.'
+setup-commands.save.failed: '&4Tanzimate arena zakhire shod, vali bargozariye cache arena namovafagh bood. Baraye etela''ate bishtar console ra barresi namayid.'
+
+setup-commands.generic.no-first-position: '&4Shoma hich mogheyiate avvaliye ii moshakhas nakardid.'
+setup-commands.generic.not-enough-spawns: '&4Shoma hadeaqal niyaz be tayine 2 mogheyiate spawn darid.'
+setup-commands.generic.too-late-spawns-set: '&4Shoma emkane taghire marz ha bad az entekhabe mogheyiate spawn ra nadarid.'
+setup-commands.generic.no-arena-started: '&4Shoma hanoz eghdam be shoro''e sakhte yek arena nakardid.'
+setup-commands.generic.already-started-arena: '&4Shoma dar hale hazer dar hale sakhte yek arena hastid.'
+
+top-commands.main.description: 'Dastoorate asliye SkyWars'
+top-commands.setup.description: 'Dastoorate tanzimate SkyWars'
+
+generic-command-arg.queue-name: 'Queue'
+generic-command-message.queue-name-list: '&3Saf haye entezare mojood: &2%s.'
+generic-command-message.queue-name-list-comma: '&3, &2'
+
+generic-command-message.too-many-parameters: '&4Argument haye voroodi bish az hade morede niyaz ast.'
+generic-command-message.not-enough-parameters: '&4Argument haye voroodi kafi nist.'
+
+generic-command-message.argument-not-integer: '&c%s&4 yek adad nist!'
+generic-command-message.no-permission: '&4Shoma dastresiye lazem baraye estefade az &c%s&4 ra nadarid.'
+generic-command-message.not-a-player: '&4Dastoore &c%s&4 bayad tavasote yek bazikon ejra shavad.'
+generic-command-message.invalid-sub-command: '&3Zirdastoore &9%2$s&3 baraye dastoore &a/%1$s&3 vojood nadarad.'
+generic-command-message.invalid-queue-name: '&4Safe entezare &c%1$s&4 vojood nadarad.'
+
+# This is used in the no-permission message for sub commands, as well as the help message.
+# "&a/sw &9join"
+message-colors.sub-command-colors: '&a/%s &9%s'
+# "&a/sw"
+message-colors.base-command-colors: '&a/%s'
+# &3<&bArgument Name&3>
+message-colors.command-argument-listing: ' &3<&b%s&3>'
+message-colors.help-message-colors: ' &f%s'
+
+messages.help-message-header: '&9 -- &2Rahnemayi&9 --'
+
+messages.removed-from-queue-because-death: '&3Shoma az safe entezar be dalile mordan kharej shodid.'
+messages.removed-from-secondary-queue-because-death: '&3Shoma az safe dovvome entezar be dalile mordan kharej shodid.'
+messages.no-clue-what-command: '&4SkyWars dar morede chistiye dastoore &c%s&4 nemidanad.'
+messages.not-fully-enabled: '&4Hanooz be tore kamel fa''al nashode ast.'
+messages.secondary-queue-explanation: '&3Shoma bad az shoro''e baziye badi varede safe entezare asli khahid shod.'
+
+messages.economy-reward.win: '&3Shoma &2%s&3 be dalile bordane SkyWars daryaft kardid.'
+messages.economy-reward.kill: '&3Shoma &2%1$s&3 be dalile koshtane &2%2$s&3 daryaft kardid.'
+
+messages.kits.kit-list: '&3Kit haye mojood: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%1$s &8(&3hazine: &2%2$s&8)'
+messages.kits.choose-a-kit: '&3Baraye estefade az yek kit az &2/sw kit &8<&2Name&8>&3 estefade konid.'
+messages.kits.remove-a-kit: '&3Az &2/sw kit remove&3 baraye a''dame estefade az kite &2%s&3 estefade konid.'
+messages.kits.applied-kit: '&3Kite &2%s&3 dar in bazi e''mal shod.'
+messages.kits.applied-kit-with-cost: '&3Kite &2%1$s&3 dar in bazi e''mal shod, baraye shoma &3%2$s&2 hazine dar pey khahad dasht.'
+messages.kits.not-enough-money: '&3Shoma poole kafi baraye estefade az kite &2%s&3 ra nadarid.'
+messages.kits.no-permission: '&3Shoma dastresiye lazem baraye estefade az kite &2%s&3 ra nadarid.'
+
+messages.in-game: '&4Shoma nemitavanid in amal ra anjam dahid, shoma dar bazi hastid.'
+
+messages.report-disabled: '&4Gozaresh ha dar &cmain-config.yml&4 gheyre fa''al shode ast. Khate &c''disable-report: true''&4 ra baraye fa''al shodane gozareshat pak konid. Vaghti az in emkan estefade shavad, SkyWars faghat dar hengame estefade az dastoor gozaresh khahad dad.'
+
+messages.signs.cannot-place-join-sign: '&4Shoma dastresiye lazem baraye in kar ra nadarid.'
+messages.signs.cannot-use-join-sign: '&4Shoma dastresiye lazem baraye in kar ra nadarid.'
+
+game.timer.starting-in-minutes: '&3Shoro'' dar &2%s daghigheye digar&3!'
+game.timer.starting-in-seconds: '&3Shoro'' dar &2%s saniyeye digar&3!'
+game.timer.starting-in-seconds-vote-now: '&3Shoro'' dar &2%s saniyeye digar&3, ham aknoon vote dahid!'
+
+game.death.killed-by-player-and-void: '&2%1$s&a, &2%2$s&a ra be samte mahshar partab kard va kosht!'
+game.death.killed-by-void: '&2%s&a dakhele mavade mahshar parid va mord!'
+game.death.killed-by-player: '&2%1$s&a, &2%2$s&a ra kosht!'
+game.death.killed-by-environment: '&2%s&a koshte shod!'
+game.death.forfeited-while-attacked: '&2%2$s&a tavasote &2%1$s&a majboor be jarime shod!'
+game.death.forfeited: '&2%s&a jarime shod!'
+
+game.winning.single-won: '&2%s&a barandeye SkyWars shod!'
+game.winning.multi-won: '&2%s&a barandeye SkyWars shodand!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.multi-won-final-comma: '&a va &2'
+game.winning.none-won: '&aSkyWars bedone hich barande ii payan yaft.'
+
+game.starting.game-starting: '&aBazi ba &2%s&a shoro'' shod!'
+game.starting.game-starting-comma: '&a, &2'
+game.starting.game-starting-final-comma: '&a va &2'
+
+# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
+game.starting.team-message: '&aShoma be hamraye &2%2$s dar teame %1$s hastid.'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a va &2'
+
+# Untranslated: game.starting.team-message-alone
+game.starting.team-message-alone: '&aShoma tanha dar teame %s hastid.'
+
+gui.kit-picker.title: '&8[&cKit haye SkyWars&8]'
+gui.kit-picker.totem-title: '&8%s'
+gui.kit-picker.unavailable-totem-title: '&8&m%s'
+gui.kit-picker.lore.cost: '&3Hazine: &2%s&3 dar har round.'
+gui.kit-picker.lore.unaffordable-cost: '&8Hazine: &c%s&8 dar har round.'
+gui.kit-picker.lore.unaffordable-cost-2: '&c%1$s&8 bishtar morede niyaz ast.'
+gui.kit-picker.lore.no-permission: '&4Dastresi nadarid.'
+gui.kit-picker.messages.kit-disappeared: '&4Kite entekhabi digar vojood nadarad.'
+
+configuration.kits.default-kit-description: '&4A kit: &8%s&4.'
