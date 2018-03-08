@@ -52,23 +52,23 @@ commands.status.arena-teams-left: '&3Baziye &2#%1$s&3: &2%2$s&3/&2%3$s&3 team ha
 commands.status.arena-team-prefix: '  &3Teame &2%s&3: &2'
 commands.status.arena-team-dead: '  &4Teame &c%s&4: &c✗'
 
-commands.version.description: 'Didane noskhe'
+commands.version.description: 'Didane noskheye afzoone'
 commands.version.output: 'Noskheye &3%s - &2%s &3/ &2%s&3. Sakhte shode tavasote &2Dabo Ross&3.'
 
-commands.lobby.description: 'Teleport be lobby'
-commands.lobby.confirmation: '&3Dar hale teleport be lobby.'
-commands.lobby.in-game: '&4Shoma nemitavanid be lobby teleport konid, shoma dar bazi hastid.'
+commands.lobby.description: 'Enteghal be lobby'
+commands.lobby.confirmation: '&3Dar hale enteghal be lobby.'
+commands.lobby.in-game: '&4Shoma nemitavanid be lobby enteqal peyda konid, shoma dar bazi hastid.'
 
 commands.cancelall.description: 'Laghve tamamie bazi ha'
 commands.cancelall.canceling-game: '&3Laghve baziye &2%s&3.'
 commands.cancelall.no-games: '&4Hich bazi ii shoro'' nashode ast.'
 
-commands.report.description: 'Sakhte yek gozaresh dar gist.github.com, va sepas daryafte link'
+commands.report.description: 'Sakhte yek gozaresh bar rooye gist.github.com, va sepas daryafte link'
 commands.report.start: '&3Jamavariye etela''at va ersal...'
 commands.report.output: '&3Gozaresh: &2%s'
 
 commands.forcestart.description: 'Shoro''e ejbariye yek bazi ba afrade dar safe entezar'
-commands.forcestart.not-enough-players: '&4Tedade bazikonane dar safe entezar bayad hadeaqal 2 nafar bashad.'
+commands.forcestart.not-enough-players: '&4T''edade bazikonane dar safe entezar bayad hadeaqal 2 nafar bashad.'
 
 commands.kit.description: 'Tayine kit baraye estefade dar baziye ba''di'
 commands.kit.argument: 'Kit'
