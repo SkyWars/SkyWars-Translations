@@ -229,7 +229,6 @@ game.starting.team-message: '&aSei nel team %1$s insieme a &2%2$s.'
 game.starting.team-message-comma: '&a, &2'
 game.starting.team-message-final-comma: '&a e &2'
 
-# Untranslated: game.starting.team-message-alone
 game.starting.team-message-alone: '&aSei nel team %s, in solitaria.'
 
 gui.kit-picker.title: '&8[&cSkyWars Kit&8]'
