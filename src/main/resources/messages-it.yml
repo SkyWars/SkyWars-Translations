@@ -1,0 +1,243 @@
+messages-version: 7
+
+commands.join.description: 'Entri in coda per la prossima partita'
+commands.join.confirmation: '&3Sei entrato nella coda.'
+commands.join.joined-secondary-queue: '&3La coda è attualmente &4piena&3. Sei entrato in una coda secondaria.'
+commands.join.already-queued: '&4Sei già nella coda.'
+commands.join.already-in-secondary-queue: '&3La coda è attualmente &4piena&3. Sei già nella coda secondaria.'
+commands.join.confirmation-specific-queue: '&3Sei entrato nella coda &2%s&3.'
+commands.join.joined-secondary-queue-specific-queue: '&3 La coda &2%s&3 è &4piena&3. Sei entrato nella coda secondaria.'
+commands.join.already-queued-specific-queue: '&4Sei già nella coda &2%s&3.'
+commands.join.already-in-secondary-queue-specific-queue: '&3 La coda &2%s&3 è &4piena&3. Sei già nella coda secondaria.'
+commands.join.in-game: '&4Non puoi entrare in coda ora, sei già in partita.'
+
+commands.leave.description: 'Abbandoni la coda o la partita in cui sei'
+commands.leave.removed-from-queue: '&3Non sei più in coda.'
+commands.leave.removed-from-secondary-queue: '&3Non sei più nella coda secondaria.'
+commands.leave.removed-from-specific-queue: '&3Non sei più nella coda &2%s&3.'
+commands.leave.removed-from-specific-secondary-queue: '&3Non sei più nella coda secondaria &2%s&3.'
+commands.leave.removed-from-game: '&3Hai abbandonato la partita.'
+commands.leave.not-in-any: '&4Non sei in coda.'
+
+commands.setlobby.description: 'Imposta la posizione della lobby'
+commands.setlobby.confirmation: '&3La lobby è ora alla tua posizione attuale.'
+commands.setlobby.in-game: '&4Non puoi impostare la lobby, sei in partita.'
+
+commands.setportal.description: 'Imposta un portale alla tua posizione attuale'
+commands.setportal.confirmation: '&3Hai impostato un portale alla tua posizione.'
+commands.setportal.description-with-queues-enabled: 'Imposta un portale alla tua posizione per la coda combinata, o una coda specifica.'
+commands.setportal.confirmation-combined-queue: '&3Hai impostato il portale per la coda combinata alla tua posizione.'
+commands.setportal.confirmation-specific-queue: '&3Hai impostato il portale per la coda &2%s&3 alla tua posizione.'
+commands.setportal.in-game: '&4Non puoi impostare un portale, sei in partita.'
+
+commands.delportal.description: 'Rimuove l''ultimo portale impostato'
+commands.delportal.confirmation: '&3Portale rimosso a &2%s&3.'
+commands.delportal.error-no-portals: '&4Nessun portale impostato.'
+
+commands.cancel.description: 'Cancella la partita in corso con l''ID assegnato'
+commands.cancel.argument: 'ID'
+commands.cancel.no-games-with-id: '&4Non ci sono partite con l''ID &c%s&4.'
+commands.cancel.confirmation: '&3Annullo la partita &2%s&3.'
+
+commands.status.description: 'Restituisce lo stato delle partite in corso'
+commands.status.header: '&9 -- &2SkyWars Status&9 --'
+commands.status.in-queue: '&3In coda: &2%s'
+commands.status.in-secondary-queue: '&3Nella coda secondaria: &2%s'
+commands.status.in-specific-queue: '&2%s&3 Coda: &2%s'
+commands.status.in-specific-secondary-queue: '&2%s&3 Coda: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Arene attuali&9 --'
+commands.status.no-teams-arena-list-prefix: '&3Partita &2#%s&3: &2'
+commands.status.arena-teams-left: '&3Partita &2#%1$s&3: &2%2$s&3/&2%3$s&3 team rimanenti:'
+commands.status.arena-team-prefix: '  &3Team &2%s&3: &2'
+commands.status.arena-team-dead: '  &4Team &c%s&4: &c✗'
+
+commands.version.description: 'Restituisce la versione del Plugin'
+commands.version.output: '&3%s versione &2%s &3/ &2%s&3. Creato da &2Dabo Ross&3.'
+
+commands.lobby.description: 'Ti teletrasporta alla lobby'
+commands.lobby.confirmation: '&3Teletrasporto alla lobby in corso...'
+commands.lobby.in-game: '&4Non puoi teletrasportarti alla lobby, sei già in partita'
+
+commands.cancelall.description: 'Annulla tutte le partite in corso'
+commands.cancelall.canceling-game: '&3Annullo la partita &2%s&3.'
+commands.cancelall.no-games: '&4Nessuna partita avviata.'
+
+commands.report.description: 'Genera un rapporto e lo carica su gist.github.com, e poi ti restituisce il link'
+commands.report.start: '&3Acquisisco e invio le informazioni...'
+commands.report.output: '&3Rapporto: &2%s'
+
+commands.forcestart.description: 'Forza la partita a iniziare con le persone già in coda'
+commands.forcestart.not-enough-players: '&4Devono esserci almeno 2 giocatori in coda per forzare l''inizio della partita'
+  
+commands.kit.description: 'Imposta il kit da usare nella prossima partita'
+commands.kit.argument: 'Kit'
+commands.kit.no-kits-available: '&4Non ci sono kit che pui usare.'
+commands.kit.unavailable-kits: '&3Kits non disponibili: &2%s'
+commands.kit.unknown-kit: '&4Kit Sconosciuto &c%s&4.'
+commands.kit.not-enough-money: '&4Non hai abbastanza soldi per comprare &c%2$s&4. Ti servono ancora &c%3$s&4 %1$s.'
+commands.kit.chose-kit: '&3Stai usando il kit &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3Stai usando il kit &2%1$s&3. Questo kit ti costerà &2%2$s&3 per round.'
+commands.kit.how-to-remove: '&3Puoi usare &2/sw kit remove&3 per smettere di usare questo kit.'
+commands.kit.removed-kit: '&3Non stai più usando alcun kit.'
+commands.kit.no-kit-removed: '&3Non stavi usando kit, nessun kit rimosso.'
+commands.kit.current-kit: '&3Stai usando il kit &2%s&3.'
+commands.kit.current-kit-with-cost: '&3Stai usando il kit &2%1$s&3. Questo kit ti costa &2%2$s&3 ogni round.'
+commands.kit.no-access: '&4 Non hai accesso al kit &c%s&4.'
+
+commands.kitgui.description: 'Apre il menu visivo dei kit'
+
+commands.testkit.description: 'Testa un kit - ATTENZIONE: questo svuoterà il tuo inventario'
+commands.testkit.unknown: '&4Kit &c%s&4 sconosciuto.'
+commands.testkit.applied: '&3Usato il kit &2%s&3.'
+
+commands.top.description: 'Visualizza i 10 giocatori col punteggio più alto.'
+commands.top.title: '&8 -- &4Top %s&8 --'
+# %1$s = player name, %2$s = player score, %3$s = player rank.
+commands.top.format: '&8#&4%3$s&8: &2%1$s&3, con &2%2$s&3 punti!'
+commands.top.no-players: '&4Nessun giocatore trovato!'
+
+commands.rank.description: 'Visualizza le tue stats o quelle di qualcun altro'
+commands.rank.argument: 'Nome'
+commands.rank.title: '&8 -- &4%s&8 -- '
+commands.rank.score: '&3Punteggio: &2%s'
+commands.rank.rank: '&3Rank: &8#&4%s'
+commands.rank.not-found: '&4Giocatore &c%s&4 non trovato.'
+commands.rank.no-other-permission: '&4Non hai il permesso di vedere il rank degli altri.'
+
+setup-commands.createkit.description: 'Crea un kit dal tuo inventario attuale'
+setup-commands.createkit.argument-name: 'Nome'
+setup-commands.createkit.argument-cost: 'Costo (optionale)'
+setup-commands.createkit.argument-permission: 'Permesso (optionale)'
+setup-commands.createkit.saved-no-permission: '&3Kit &2%1$s&3 salvato. Chiunque ora può usare questo kit con &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.saved-with-permission: '&3Kit &2%1$s&3 salvato. Chiunque con il permesso &2%2$s&3 può ora usare questo kit con &a/sw &9kit &2%1$s&3.'
+setup-commands.createkit.cost-to-use: '&3Questo kit costa &2%s&3 ad ogni partita.'
+setup-commands.createkit.kit-exists: '&4A Il kit col nome &c%s&4 esiste già. &4Kit &cNON&4 salvato.'
+setup-commands.createkit.save-failed: '&4Errore nel salvare i kit. Controlla la console per maggiori informazioni. &4Kit &cNON&4 salvato.'
+
+setup-commands.update-arena.description: 'Aggiorna tutti i blocchi dell''arena alle modifiche fatte al template originale.'
+setup-commands.update-arena.argument-arena: 'Nome dell''arena'
+setup-commands.update-arena.completed: '&Arena &2%s&3 aggiornata con successo!'
+setup-commands.update-arena.unknown-arena: '&4L''arena &c%s&4 non esiste. Controlla maiuscole e minuscole, e se l''arena è abilitata.'
+setup-commands.update-arena.failed: '&4Errore nel salvare la cache del blocco per &c%s&4! Controlla la console!'
+setup-commands.update-arena.failed-built-in: '&c%s&4 non ha un''area di origine impostata. E'' un''arena predefinita?'
+
+setup-commands.start.description: 'Inizia la creazione di un''arena (quelle non salvate vengono eliminate)'
+setup-commands.start.argument-name: 'Nome dell''arena'
+setup-commands.start.confirmation: '&3Inizio a creare l''arena &2%s&3.'
+setup-commands.start.one-argument: '&4Dai un parametro soltanto.'
+
+setup-commands.setpos1.description: 'Imposta la prima posizione dell''arena da dove copiarsi alla tua posizione'
+setup-commands.setpos1.pos2-in-other-world: '&4Eliminata posizione 2, sei in un''altra dimensione.'
+setup-commands.setpos1.confirmation: '&3Imposto la prima posizione alla tua posizione.'
+
+setup-commands.setpos2.description: 'Imposta la seconda posizione dell''arena da dove copiarsi alla tua posizione.'
+setup-commands.setpos2.pos1-in-other-world: '&4Eliminata posizione 1, sei in un''altra dimensione.'
+setup-commands.setpos2.confirmation: '&3Imposta il secondo spawn alla tua posizione.'
+
+setup-commands.addspawn.description: 'Aggiunge una nuova posizione di spawn alla tua posizione'
+setup-commands.addspawn.confirmation: '&3Aggiunta posizione di spawn a &2%s&3.'
+
+setup-commands.save.description: 'Salva l''arena nei file di setup'
+setup-commands.save.saving: '&3Salvataggio arena.'
+setup-commands.save.saved: '&3Arena savlvata.'
+setup-commands.save.saved-line-2: '&3Per abilitare l''arena, aggiungi &2%s&3 a &2enabled-arenas&3 in &2main-config.yml&3.'
+setup-commands.save.failed: '&4La configurazione dell''arena è stata salvata, ma è fallito il caricamento della cache dell''arena. Controlla la console per maggiori info.'
+
+setup-commands.generic.no-first-position: '&4Non hai ancora impostato il primo punto.'
+setup-commands.generic.not-enough-spawns: '&4Ti servono almeno due spawnpoint per continuare.'
+setup-commands.generic.too-late-spawns-set: '&4Non puoi modificare i bordi ora che gli spawn sono già impostati.'
+setup-commands.generic.no-arena-started: '&4Non hai ancora iniziato la creazione dell''arena.'
+setup-commands.generic.already-started-arena: '&4Hai già iniziato la creazione di un''arena.'
+
+top-commands.main.description: 'Comando principale per le SkyWars'
+top-commands.setup.description: 'Comando di setup per le SkyWars'
+
+generic-command-arg.queue-name: 'Coda'
+generic-command-message.queue-name-list: '&3Le code disponibili sono: &2%s.'
+generic-command-message.queue-name-list-comma: '&3, &2'
+
+generic-command-message.too-many-parameters: '&4Troppi parametri.'
+generic-command-message.not-enough-parameters: '&4Parametri insufficienti.'
+
+generic-command-message.argument-not-integer: '&c%s&4 non è un numero intero!'
+generic-command-message.no-permission: '&4Non hai il permesso di usare &c%s&4.'
+generic-command-message.not-a-player: '&4Il comando &c%s&4 deve essere eseguito da un giocatore.'
+generic-command-message.invalid-sub-command: '&3Il sottocomando &9%2$s&3 non esiste per il comando &a/%1$s&3.'
+generic-command-message.invalid-queue-name: '&4La coda &c%1$s&4 è inesistente.'
+
+# This is used in the no-permission message for sub commands, as well as the help message.
+# "&a/sw &9join"
+message-colors.sub-command-colors: '&a/%s &9%s'
+# "&a/sw"
+message-colors.base-command-colors: '&a/%s'
+# &3<&bArgument Name&3>
+message-colors.command-argument-listing: ' &3<&b%s&3>'
+message-colors.help-message-colors: ' &f%s'
+
+messages.help-message-header: '&9 -- &2Aiuto&9 --'
+
+messages.removed-from-queue-because-death: '&3Sei stato rimosso dalla coda perchè sei morto.'
+messages.removed-from-secondary-queue-because-death: '&3Sei stato rimosso dalla coda secondaria perchè sei morto.'
+messages.no-clue-what-command: '&4SkyWars non sa cosa sia &c%s&4.'
+messages.not-fully-enabled: '&4Non è completamente implementato.'
+messages.secondary-queue-explanation: '&3Entrerai nella coda principale quando verrà avviata la partita.'
+
+messages.economy-reward.win: '&3Hai ricevuto &2%s&3 per aver vinto le SkyWars.'
+messages.economy-reward.kill: '&3Hai ricevuto &2%1$s&3 per aver ucciso &2%2$s&3.'
+
+messages.kits.kit-list: '&3Kit disponibili: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%1$s &8(&3costo: &2%2$s&8)'
+messages.kits.choose-a-kit: '&3Usa &2/sw kit &8<&2Name&8>&3 per sceglere un kit.'
+messages.kits.remove-a-kit: '&3Usa &2/sw kit remove&3 per smettere di usare il kit &2%s&3.'
+messages.kits.applied-kit: '&3Applicato il kit &2%s&3 in questa partita.'
+messages.kits.applied-kit-with-cost: '&3Acquistato il kit &2%1$s&3 per questa partita, ti è costato &3%2$s&2.'
+messages.kits.not-enough-money: '&3Non hai abbastanza soldi per acquistare il kit &2%s&3, lo deseleziono.'
+messages.kits.no-permission: '&3Non hai più il permesso di usare il kit &2%s&3, lo deseleziono.'
+
+messages.in-game: '&4Non puoi farlo, sei in partita.'
+
+messages.report-disabled: '&4La segnalazione è stata disattivata in &cmain-config.yml&4. Elimina la riga &c''disable-report: true''&4 per attivare la segnalazione. Tieni conto che SkyWars segnala SOLO quando questo comando viene utilizzato, mai in background.'
+  
+messages.signs.cannot-place-join-sign: '&4Non hai il permesso di piazzare i cartelli di accesso.'
+messages.signs.cannot-use-join-sign: '&4Non hai il permesso di usare i cartelli di accesso.'
+
+game.timer.starting-in-minutes: '&3Inizio in &2%s minuti&3!'
+game.timer.starting-in-seconds: '&3Inizio in &2%s secondi&3!'
+game.timer.starting-in-seconds-vote-now: '&3Inizio in &2%s secondi&3, vota adesso!'
+
+game.death.killed-by-player-and-void: '&2%1$s&a ha spinto &2%2$s&a nel vuoto!'
+game.death.killed-by-void: '&2%s&a è saltato nel vuoto!'
+game.death.killed-by-player: '&2%1$s&a ha ucciso &2%2$s&a!'
+game.death.killed-by-environment: '&2%s&a è stato ucciso!'
+game.death.forfeited-while-attacked: '&2%2$s&a è morto a causa di &2%1$s&a!'
+game.death.forfeited: '&2%s&a ha perso!'
+
+game.winning.single-won: '&2%s&a ha vinto le SkyWars!'
+game.winning.multi-won: '&2%s&a hanno vinto le SkyWars!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.multi-won-final-comma: '&a e &2'
+game.winning.none-won: '&aLe SkyWars si sono concluse senza vincitori.'
+
+game.starting.game-starting: '&aLa partita inizia insieme a &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
+game.starting.game-starting-final-comma: '&a e &2'
+
+# game.starting.team-message is compiled as: {team-message}NAME{team-message-comma}NAME{team-message-final-comma}NAME
+game.starting.team-message: '&aSei nel team %1$s insieme a &2%2$s.'
+game.starting.team-message-comma: '&a, &2'
+game.starting.team-message-final-comma: '&a e &2'
+
+game.starting.team-message-alone: '&aSei nel team %s, in solitaria.'
+
+gui.kit-picker.title: '&8[&cSkyWars Kit&8]'
+gui.kit-picker.totem-title: '&8%s'
+gui.kit-picker.unavailable-totem-title: '&8&m%s'
+gui.kit-picker.lore.cost: '&3Costa &2%s&3 per round.'
+gui.kit-picker.lore.unaffordable-cost: '&8Costa &c%s&8 per round.'
+gui.kit-picker.lore.unaffordable-cost-2: 'Mancano &c%1$s&8.'
+gui.kit-picker.lore.no-permission: '&4Non puoi accedere.'
+gui.kit-picker.messages.kit-disappeared: '&4Il kit selezionato non esiste più.'
+
+configuration.kits.default-kit-description: '&4Un kit: &8%s&4.'
